@@ -1,2 +1,2 @@
 # Cubitron
-Cubitron Project
+Balancing cube!
