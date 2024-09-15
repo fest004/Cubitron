@@ -1,4 +1,5 @@
 import {themes as prismThemes} from 'prism-react-renderer';
+import Autumn from './src/codetheme/autumn';
 import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 import remarkMath from 'remark-math';
@@ -71,6 +72,10 @@ const config: Config = {
     },
     {
         href: 'https://fonts.googleapis.com/css?family=Inter',
+        type: 'text/css',
+    },
+    {
+        href: 'https://fonts.googleapis.com/css?family=Source Serif 4',
         type: 'text/css',
     },
     {
@@ -152,10 +157,9 @@ const config: Config = {
       ],
       copyright: `Version 0.0.1 Copyright © ${new Date().getFullYear()} roboboys. Built with Docusaurus.`,
     },
-    prism: {
-      theme: prismThemes.github,
-      darkTheme: prismThemes.materialDark,
-    },
+    prism:{
+      theme: Autumn,
+    }
   } satisfies Preset.ThemeConfig,
 };
 

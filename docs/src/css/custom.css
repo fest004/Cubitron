@@ -13,20 +13,32 @@
   --ifm-color-primary-light: #33925d;
   --ifm-color-primary-lighter: #359962;
   --ifm-color-primary-lightest: #3cad6e;
-  --ifm-code-font-size: 95%;
+  --ifm-code-font-size: 80%;
   --ifm-font-family-monospace: 'Roboto Mono', monospace;
   --ifm-code-font-weight: 600;
-  --ifm-font-family-base: 'Inter', sans-serif;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --ifm-font-size-base : 110%;
+  /* --ifm-font-weigth-base: 400; */
+  --ifm-font-family-base: 'Source Serif 4', sans-serif;
+  background-color : #fafafa;
+}
+
+.codeBlockContainer {
+  --ifm-code-background : #202020;
+  --ifm-pre-background : #202020;
 }
 
 
+.ascii-art {
+    font-family: monospace;
+    white-space: pre;
+}
+
 h2, h3, h4, h5, h6 {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Source Serif 4', sans-serif;
   font-style: italic;
 }
 h1 {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Source Serif 4', sans-serif;
   font-weight: 700;
 }
 
@@ -35,6 +47,14 @@ a {
 }
 
 
+.footer {
+  --ifm-footer-background-color: #202020;
+}
+
+
+.footer-dark {
+  --ifm-footer-background-color: #202020;
+}
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
   --ifm-color-primary: #25c2a0;
@@ -44,5 +64,5 @@ a {
   --ifm-color-primary-light: #29d5b0;
   --ifm-color-primary-lighter: #32d8b4;
   --ifm-color-primary-lightest: #4fddbf;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  background-color : #151515;
 }
