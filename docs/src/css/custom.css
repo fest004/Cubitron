@@ -15,10 +15,11 @@
   --ifm-color-primary-lightest: #3cad6e;
   --ifm-code-font-size: 80%;
   --ifm-font-family-monospace: 'Roboto Mono', monospace;
-  --ifm-code-font-weight: 600;
-  --ifm-font-size-base : 110%;
-  /* --ifm-font-weigth-base: 400; */
+  --ifm-code-font-weight: 500;
+  --ifm-font-size-base : 100%;
+  /* --ifm-font-weigth-base: 700; */
   --ifm-font-family-base: 'Source Serif 4', sans-serif;
+  font-weight:600;
   background-color : #fafafa;
 }
 
