@@ -112,46 +112,15 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'Read the Docs',
           items: [
-            {
-              label: 'Guide',
-              to: '/docs/category/guide',
-            },
-            {
-                label: 'API Reference',
-                to: '/docs/category/reference',
-            },
-          ],
-        },
-        {
-          title: 'Community',
-          items: [
-            {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
-            },
-          ],
-        },
-        {
-          title: 'More',
-          items: [
-            {
-              label: 'Blog',
-              to: '/blog',
-            },
             {
               label: 'GitHub',
               href: 'https://github.com/fest004/Cubitron',
             },
+            {
+              label: 'YouTube',
+              href: 'https://youtube.com'
+            }
           ],
         },
       ],
