@@ -9,4 +9,4 @@
 ████████▀  ████████▀  ▄█████████▀  █▀      ▄████▀     ███    ██▀  ▀██████▀   ▀█   █▀  
                                                       ███    █▀                     
  ```
-[read about it here](https://fest004.github.io/Cubitron/)
+[READ ABOUT IT HERE](https://fest004.github.io/Cubitron/)
