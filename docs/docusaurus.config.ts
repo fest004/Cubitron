@@ -86,19 +86,27 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: 'img/docusaurus.png',
+    colormode: {
+      defaultMode:"dark"
+    },
+    image: 'img/cubitron.svg',
+    docs:{
+      sidebar:{
+        hideable: true,
+      },
+    },
     navbar: {
       title: 'Home',
       logo: {
         alt: 'My Site Logo',
-        src: 'img/docusaurus.png',
+        src: 'img/cubitron.svg',
       },
       items: [
         {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Guide',
+          label: 'Read',
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
@@ -106,25 +114,16 @@ const config: Config = {
           label: 'GitHub',
           position: 'right',
         },
+        {
+          href: 'https://youtube.com',
+          label: 'YouTube',
+          position: 'right',
+        },
       ],
     },
     footer: {
       style: 'dark',
-      links: [
-        {
-          items: [
-            {
-              label: 'GitHub',
-              href: 'https://github.com/fest004/Cubitron',
-            },
-            {
-              label: 'YouTube',
-              href: 'https://youtube.com'
-            }
-          ],
-        },
-      ],
-      copyright: `Version 0.0.1 Copyright © ${new Date().getFullYear()} roboboys. Built with Docusaurus.`,
+      copyright: `Version 0.0.1 Copyright © ${new Date().getFullYear()} roboboys.`,
     },
     prism:{
       theme: Autumn,
