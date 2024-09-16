@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# About
+# Abstract
 
 This project is a graphics playground, it is meant 
 to be a tool for visualizing and to generate beatutiful
