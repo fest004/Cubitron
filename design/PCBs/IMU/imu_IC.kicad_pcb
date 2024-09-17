@@ -96,7 +96,7 @@
 	(footprint "MountingHole:MountingHole_2.2mm_M2"
 		(layer "F.Cu")
 		(uuid "211d0d27-b630-4653-990b-6355360b5316")
-		(at 128 86)
+		(at 127.7 85.75)
 		(descr "Mounting Hole 2.2mm, no annular, M2")
 		(tags "mounting hole 2.2mm no annular m2")
 		(property "Reference" "H4"
@@ -415,7 +415,7 @@
 	(footprint "MountingHole:MountingHole_2.2mm_M2"
 		(layer "F.Cu")
 		(uuid "4071f23b-e6c3-4b51-a13a-0ea366e801af")
-		(at 147 86)
+		(at 147.25 85.75)
 		(descr "Mounting Hole 2.2mm, no annular, M2")
 		(tags "mounting hole 2.2mm no annular m2")
 		(property "Reference" "H1"
@@ -1132,7 +1132,7 @@
 	(footprint "Connector:FanPinHeader_1x04_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "81f73f2c-09e1-4950-9c37-20e4ead0033b")
-		(at 141 87.75 180)
+		(at 141 87.12 180)
 		(descr "4-pin CPU fan Through hole pin header, e.g. for Wieson part number 2366C888-007 Molex 47053-1000, Foxconn HF27040-M1, Tyco 1470947-1 or equivalent, see http://www.formfactors.org/developer%5Cspecs%5Crev1_2_public.pdf")
 		(tags "pin header 4-pin CPU fan")
 		(property "Reference" "J2"
@@ -1322,7 +1322,7 @@
 	(footprint "Connector:FanPinHeader_1x04_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "b1b793ed-3066-45e1-9cde-90b41a10f2e4")
-		(at 141 71.25 180)
+		(at 141 71.88 180)
 		(descr "4-pin CPU fan Through hole pin header, e.g. for Wieson part number 2366C888-007 Molex 47053-1000, Foxconn HF27040-M1, Tyco 1470947-1 or equivalent, see http://www.formfactors.org/developer%5Cspecs%5Crev1_2_public.pdf")
 		(tags "pin header 4-pin CPU fan")
 		(property "Reference" "J1"
@@ -1512,7 +1512,7 @@
 	(footprint "MountingHole:MountingHole_2.2mm_M2"
 		(layer "F.Cu")
 		(uuid "d22e64ab-d457-48e8-b0cd-d66ab6fb17a7")
-		(at 147 73)
+		(at 147.25 73.29)
 		(descr "Mounting Hole 2.2mm, no annular, M2")
 		(tags "mounting hole 2.2mm no annular m2")
 		(property "Reference" "H2"
@@ -1627,7 +1627,7 @@
 	(footprint "MountingHole:MountingHole_2.2mm_M2"
 		(layer "F.Cu")
 		(uuid "dc070c8a-756e-46d5-ac82-e38726165fec")
-		(at 128 73)
+		(at 127.7 73.29)
 		(descr "Mounting Hole 2.2mm, no annular, M2")
 		(tags "mounting hole 2.2mm no annular m2")
 		(property "Reference" "H3"
@@ -1750,92 +1750,92 @@
 		(layer "F.SilkS")
 		(uuid "acbcd235-a8f4-4627-8bc4-f66e5171b955")
 	)
-	(gr_line
-		(start 124.5 89)
-		(end 124.5 70)
+	(gr_arc
+		(start 125 70.9)
+		(mid 125.087868 70.687868)
+		(end 125.3 70.6)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "0552823b-32d9-4fcb-8239-3b495d9b1303")
+		(uuid "05c18dcc-abdd-49ca-ae0a-5a95c932dc7f")
 	)
 	(gr_arc
-		(start 150.5 89)
-		(mid 150.353553 89.353553)
-		(end 150 89.5)
+		(start 125.31 88.39)
+		(mid 125.098384 88.308688)
+		(end 125.009828 88.1)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "34f9a971-d1c9-47cc-9533-439fd60df7df")
+		(uuid "41438ca7-ba60-4ef2-8162-aab83d799c84")
 	)
 	(gr_line
-		(start 125 69.5)
-		(end 150 69.5)
+		(start 150 88.1)
+		(end 150 70.9)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "425ccd38-184b-49e1-b07e-323ed5816e90")
+		(uuid "56bf089e-e1af-4252-949c-699a2a9a1dee")
 	)
 	(gr_arc
-		(start 150 69.5)
-		(mid 150.353553 69.646447)
-		(end 150.5 70)
+		(start 150 88.1)
+		(mid 149.915061 88.305061)
+		(end 149.71 88.39)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "c3f144d2-fb60-43b3-8ab1-339a123f9a45")
+		(uuid "579b9106-bfd4-424c-8ddd-cd18d9f2e2e1")
 	)
 	(gr_line
-		(start 150 89.5)
-		(end 125 89.5)
+		(start 125.31 88.39)
+		(end 149.71 88.39)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "d3d334a1-459c-4759-ac65-3f5c5084f482")
+		(uuid "5c95ac4a-addb-4cc9-bf23-33c4400067e8")
 	)
 	(gr_arc
-		(start 124.5 70)
-		(mid 124.646447 69.646447)
-		(end 125 69.5)
+		(start 149.7 70.6)
+		(mid 149.912132 70.687868)
+		(end 150 70.9)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "d4028a77-3728-45d2-9556-fc194837502a")
-	)
-	(gr_arc
-		(start 125 89.5)
-		(mid 124.646447 89.353553)
-		(end 124.5 89)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "f52e1d2a-6634-44ef-9f93-abdf7b867f56")
+		(uuid "5fa3c001-8e86-4d43-9cf8-9e9f43669808")
 	)
 	(gr_line
-		(start 150.5 70)
-		(end 150.5 89)
+		(start 149.7 70.6)
+		(end 125.3 70.6)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "fd5d2aeb-ca5f-4469-8598-cd569f8663dd")
+		(uuid "7da32551-ece9-4b4c-9c01-eeb31be49b45")
+	)
+	(gr_line
+		(start 125.009828 88.1)
+		(end 125 70.9)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "fd7dd8ad-f195-4291-93f6-2c13342ac122")
 	)
 	(gr_text "CUBITRON"
-		(at 126.625 76.05 90)
+		(at 126.975 76.05 90)
 		(layer "B.SilkS" knockout)
 		(uuid "83b22431-c281-4c9a-b857-f872ec073fb8")
 		(effects
@@ -1871,7 +1871,7 @@
 		)
 	)
 	(gr_text "BW"
-		(at 150.05 83.9 90)
+		(at 149.755 83.38 90)
 		(layer "F.SilkS")
 		(uuid "0dace829-6a1c-4c99-948c-77e6efe80896")
 		(effects
@@ -1883,7 +1883,7 @@
 		)
 	)
 	(gr_text "IMU\n"
-		(at 126.65 80.8 90)
+		(at 127 80.8 90)
 		(layer "F.SilkS" knockout)
 		(uuid "13c0048a-63fc-410a-bc2e-cd7bb67fe505")
 		(effects
@@ -1895,7 +1895,7 @@
 		)
 	)
 	(gr_text "M2"
-		(at 145.325 87.225 90)
+		(at 149.56 86.81 90)
 		(layer "F.SilkS")
 		(uuid "215f0a91-148c-43a4-8a5b-21786900b61c")
 		(effects
@@ -1943,7 +1943,7 @@
 		)
 	)
 	(gr_text "M2"
-		(at 145.425 73.975 90)
+		(at 149.61 74.4 90)
 		(layer "F.SilkS")
 		(uuid "5bb0d545-00f8-4da9-88ea-3afcd6ac0ca0")
 		(effects
@@ -1967,7 +1967,7 @@
 		)
 	)
 	(gr_text "M2"
-		(at 126.325 74 90)
+		(at 130.05 74.27 90)
 		(layer "F.SilkS")
 		(uuid "80dede1a-eea1-47f9-9eb6-34cea93de4ca")
 		(effects
@@ -2027,7 +2027,7 @@
 		)
 	)
 	(gr_text "M2"
-		(at 126.375 87.125 90)
+		(at 130.01 86.81 90)
 		(layer "F.SilkS")
 		(uuid "b8579cf2-a6cc-47d5-bebb-ac4881d2b04e")
 		(effects
@@ -2039,7 +2039,7 @@
 		)
 	)
 	(gr_text "FS"
-		(at 149.225 83.85 90)
+		(at 148.93 83.33 90)
 		(layer "F.SilkS")
 		(uuid "f0fc6b69-f4ff-487b-a2aa-513e2829fb65")
 		(effects
