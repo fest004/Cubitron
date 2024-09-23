@@ -5,6 +5,47 @@
  */
 
 /* You can override the default Infima variables here. */
+@font-face {
+  font-family: 'Tex Gyre Bonum';
+  src: url('/fonts/texgyrebonum-bold.otf') format('opentype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Tex Gyre Bonum';
+  src: url('/fonts/texgyrebonum-bolditalic.otf') format('opentype');
+  font-weight: bold;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Tex Gyre Schola';
+  src: url('/fonts/texgyreschola-regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Tex Gyre Schola';
+  src: url('/fonts/texgyreschola-italic.otf') format('opentype');
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Tex Gyre Schola';
+  src: url('/fonts/texgyreschola-bold.otf') format('opentype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Tex Gyre Schola';
+  src: url('/fonts/texgyreschola-bolditalic.otf') format('opentype');
+  font-weight: bold;
+  font-style: italic;
+}
+
+
 :root {
   --ifm-color-primary: #2e8555;
   --ifm-color-primary-dark: #29784c;
@@ -16,10 +57,9 @@
   --ifm-code-font-size: 80%;
   --ifm-font-family-monospace: 'Roboto Mono', monospace;
   --ifm-code-font-weight: 500;
-  --ifm-font-size-base : 100%;
+  --ifm-font-size-base : 105%;
   /* --ifm-font-weigth-base: 700; */
   --ifm-font-family-base: 'Source Serif 4', sans-serif;
-  font-weight:500;
   background-color : #fafafa;
 }
 
@@ -35,12 +75,11 @@
 }
 
 h2, h3, h4, h5, h6 {
-  font-family: 'Source Serif 4', sans-serif;
+  font-family: 'Tex Gyre Bonum', sans-serif;
   font-style: italic;
 }
 h1 {
-  font-family: 'Source Serif 4', sans-serif;
-  font-weight: 700;
+  font-family: 'Tex Gyre Bonum', sans-serif;
 }
 
 a {

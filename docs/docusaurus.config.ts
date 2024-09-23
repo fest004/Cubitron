@@ -83,7 +83,6 @@ const config: Config = {
         type: 'text/css',
     },
   ],
-
   themeConfig: {
     // Replace with your project's social card
     colormode: {
