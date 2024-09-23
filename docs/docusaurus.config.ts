@@ -122,7 +122,7 @@ const config: Config = {
     },
     footer: {
       style: 'dark',
-      copyright: `Version 0.0.1 Copyright © ${new Date().getFullYear()} roboboys.`,
+      copyright: `Version 0.0.1 ${new Date().getFullYear()}.`,
     },
     prism:{
       theme: Autumn,
