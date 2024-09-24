@@ -386,6 +386,30 @@
     [
       "c7634e88-16d1-45ec-9aac-9c841e03cf6d",
       "Root"
+    ],
+    [
+      "22c06531-1f6c-46f3-988e-cea008e98016",
+      "currentsense"
+    ],
+    [
+      "b5eb0271-9027-4941-b236-8f001fce8a08",
+      "drivergates"
+    ],
+    [
+      "40fe2217-7020-4fd5-b361-1423767f0697",
+      "voltageregulators"
+    ],
+    [
+      "38bc72d2-c2f6-4538-9c33-e1ab2a8ac987",
+      "io"
+    ],
+    [
+      "095cf403-627e-473d-974a-cb1fe8ca8b1f",
+      "driverIC"
+    ],
+    [
+      "b555d9bd-a3b8-401d-a289-b1ff04158553",
+      "brakectrl"
     ]
   ],
   "text_variables": {}
