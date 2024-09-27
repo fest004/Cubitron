@@ -4,6 +4,10 @@ title: How it works
 description: How a self balancing cube works
 ---
 
+# First Principles
+
+## Newton
+
 The moment of inertia tensor $\mathbf{I}$ is a second-order tensor that describes the distribution of mass in a rigid body with respect to its rotation.
 For a rigid body consisting of $N$ particles, each with mass $m_i$ located at position $\mathbf{r}_i = (x_i, y_i, z_i)$ in a given coordinate system, the components of the inertia tensor are given by:
 

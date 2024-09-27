@@ -45,7 +45,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/fest004/Cubitron',
+            'https://github.com/fest004/Cubitron/tree/main/docs',
         },
         blog: {
           showReadingTime: true,
@@ -54,7 +54,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/fest004/Cubitron',
+            'https://github.com/fest004/Cubitron/tree/main/docs',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -83,7 +83,6 @@ const config: Config = {
         type: 'text/css',
     },
   ],
-
   themeConfig: {
     // Replace with your project's social card
     colormode: {
@@ -123,7 +122,7 @@ const config: Config = {
     },
     footer: {
       style: 'dark',
-      copyright: `Version 0.0.1 Copyright © ${new Date().getFullYear()} roboboys.`,
+      copyright: `Version 0.0.1 ${new Date().getFullYear()}.`,
     },
     prism:{
       theme: Autumn,
