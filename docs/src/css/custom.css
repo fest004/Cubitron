@@ -63,6 +63,8 @@
   background-color : #faf8f6;
 }
 
+
+  
 @media (min-width: 997px) {
   .docSidebarContainer_node_modules-\@docusaurus-theme-classic-lib-theme-DocRoot-Layout-Sidebar-styles-module {
     display: block;
@@ -75,20 +77,33 @@
     clip-path: inset(0);
   }
 
+  .menu_SIkG {
+    flex-grow:0 !important;
+    padding:.5rem;
+  }
+  .sidebar_njMd {
+    display:flex;
+    border:none !important;
+    flex-direction:column;
+    height:100%;
+    padding-top:var(--ifm-navbar-height);
+    width:var(--doc-sidebar-width)
+  }
+
   .menu_node_modules-\@docusaurus-theme-classic-lib-theme-DocSidebar-Desktop-Content-styles-module {
     flex-grow: 0 !important;
     padding: 0.5rem;
   }
   
-  .docSidebarContainerHidden_node_modules-\@docusaurus-theme-classic-lib-theme-DocRoot-Layout-Sidebar-styles-module {
-    width: var(--doc-sidebar-hidden-width);
-    cursor: pointer;
-  }
+  /* :global(.docSidebarContainerHidden_node_modules-\@docusaurus-theme-classic-lib-theme-DocRoot-Layout-Sidebar-styles-module) { */
+    /* width: var(--doc-sidebar-hidden-width); */
+    /* cursor: pointer; */
+  /* } */
 
   .sidebarViewport_node_modules-\@docusaurus-theme-classic-lib-theme-DocRoot-Layout-Sidebar-styles-module {
     top: 0;
     position: sticky;
-    height: 100%;
+    /* height: 100%; */
     max-height: 100vh;
   }
   .collapseSidebarButton_node_modules-\@docusaurus-theme-classic-lib-theme-DocSidebar-Desktop-CollapseButton-styles-module {
@@ -103,19 +118,19 @@
     bottom: auto !important; /* Remove the bottom positioning */
   }
 
-  .collapseSidebarButtonIcon_node_modules-\@docusaurus-theme-classic-lib-theme-DocSidebar-Desktop-CollapseButton-styles-module {
-    transform: rotate(180deg);
-    margin-top: 4px;
-  }
+  /* :global(.collapseSidebarButtonIcon_node_modules-\@docusaurus-theme-classic-lib-theme-DocSidebar-Desktop-CollapseButton-styles-module) { */
+    /* transform: rotate(180deg); */
+    /* margin-top: 4px; */
+  /* } */
 
-  [dir='rtl'] .collapseSidebarButtonIcon_node_modules-\@docusaurus-theme-classic-lib-theme-DocSidebar-Desktop-CollapseButton-styles-module {
-    transform: rotate(0);
-  }
+  /* [dir='rtl'] .collapseSidebarButtonIcon_node_modules-\@docusaurus-theme-classic-lib-theme-DocSidebar-Desktop-CollapseButton-styles-module { */
+    /* transform: rotate(0); */
+  /* } */
 
-  .collapseSidebarButton_node_modules-\@docusaurus-theme-classic-lib-theme-DocSidebar-Desktop-CollapseButton-styles-module:hover,
-  .collapseSidebarButton_node_modules-\@docusaurus-theme-classic-lib-theme-DocSidebar-Desktop-CollapseButton-styles-module:focus {
-    background-color: var(--docusaurus-collapse-button-bg-hover);
-  }
+  /* :global(.collapseSidebarButton_node_modules-\@docusaurus-theme-classic-lib-theme-DocSidebar-Desktop-CollapseButton-styles-module:hover, */
+  /* .collapseSidebarButton_node_modules-\@docusaurus-theme-classic-lib-theme-DocSidebar-Desktop-CollapseButton-styles-module:focus) { */
+    /* background-color: var(--docusaurus-collapse-button-bg-hover); */
+  /* } */
 }
 
 .codeBlockContainer {
