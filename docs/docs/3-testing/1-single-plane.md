@@ -1,3 +1,10 @@
+---
+title: Testing
+sidebar_position: 1
+description: Testing details
+---
+
+
 # Single Plane Testing
 
 Testing with one side of the cube in a 2D plane with 1 DOF will provide a surprising amount of feedback and hints on what to do next. This makes it the first major milestone of this project.

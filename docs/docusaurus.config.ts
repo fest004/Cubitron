@@ -107,7 +107,6 @@ const config: Config = {
           position: 'left',
           label: 'Read',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
         {
           href: 'https://github.com/fest004/Cubitron',
           label: 'GitHub',
