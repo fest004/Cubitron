@@ -1,0 +1,2 @@
+
+#define EMBEDDED 0
