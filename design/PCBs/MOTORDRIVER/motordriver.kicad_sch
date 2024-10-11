@@ -6,7 +6,7 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
-		(at 86.36 118.11)
+		(at 60.96 134.62)
 		(size 48.26 38.1)
 		(fields_autoplaced yes)
 		(stroke
@@ -18,7 +18,7 @@
 		)
 		(uuid "095cf403-627e-473d-974a-cb1fe8ca8b1f")
 		(property "Sheetname" "driverIC"
-			(at 86.36 117.3984 0)
+			(at 60.96 133.9084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27,7 +27,7 @@
 			)
 		)
 		(property "Sheetfile" "driverIC.kicad_sch"
-			(at 86.36 156.7946 0)
+			(at 60.96 173.3046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44,8 +44,8 @@
 		)
 	)
 	(sheet
-		(at 171.45 38.1)
-		(size 48.26 44.45)
+		(at 137.16 25.4)
+		(size 40.64 21.59)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.5)
@@ -56,7 +56,7 @@
 		)
 		(uuid "22c06531-1f6c-46f3-988e-cea008e98016")
 		(property "Sheetname" "currentsense"
-			(at 171.45 37.3884 0)
+			(at 137.16 24.5146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -65,7 +65,7 @@
 			)
 		)
 		(property "Sheetfile" "currentsense.kicad_sch"
-			(at 171.45 83.1346 0)
+			(at 137.16 47.7484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -83,7 +83,7 @@
 	)
 	(sheet
 		(at 19.05 20.32)
-		(size 24.13 170.18)
+		(size 13.97 170.18)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.5)
@@ -112,7 +112,7 @@
 			)
 		)
 		(pin "BAT_12V" input
-			(at 43.18 85.09 0)
+			(at 33.02 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -122,7 +122,7 @@
 			(uuid "b31eecae-60fb-414d-a70b-34d08c1ae6a8")
 		)
 		(pin "BAT_GND" input
-			(at 43.18 77.47 0)
+			(at 33.02 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -140,7 +140,7 @@
 		)
 	)
 	(sheet
-		(at 100.33 39.37)
+		(at 54.61 22.86)
 		(size 45.72 39.37)
 		(fields_autoplaced yes)
 		(stroke
@@ -152,7 +152,7 @@
 		)
 		(uuid "40fe2217-7020-4fd5-b361-1423767f0697")
 		(property "Sheetname" "voltageregulators"
-			(at 100.33 38.6584 0)
+			(at 54.61 22.1484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -161,7 +161,7 @@
 			)
 		)
 		(property "Sheetfile" "voltageregulatros.kicad_sch"
-			(at 100.33 79.3246 0)
+			(at 54.61 62.8146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -173,6 +173,44 @@
 			(project "motordriver"
 				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d"
 					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 124.46 99.06)
+		(size 58.42 41.91)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.5)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9ebbb593-eaf1-4a56-ba2a-164e20b1d55e")
+		(property "Sheetname" "microcontroller"
+			(at 124.46 98.1746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "microcontroller.kicad_sch"
+			(at 124.46 141.7284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "motordriver"
+				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d"
+					(page "8")
 				)
 			)
 		)
@@ -216,7 +254,7 @@
 		)
 	)
 	(sheet
-		(at 180.34 114.3)
+		(at 212.09 106.68)
 		(size 52.07 41.91)
 		(fields_autoplaced yes)
 		(stroke
@@ -228,7 +266,7 @@
 		)
 		(uuid "b5eb0271-9027-4941-b236-8f001fce8a08")
 		(property "Sheetname" "drivergates"
-			(at 180.34 113.5884 0)
+			(at 212.09 105.9684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -237,7 +275,7 @@
 			)
 		)
 		(property "Sheetfile" "gates.kicad_sch"
-			(at 180.34 156.7946 0)
+			(at 212.09 149.1746 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -5,12 +5,13 @@
 	(uuid "6907a4f5-f1f9-4c64-bf66-1c00f6fa2b43")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Driver_FET:2ED1323S12P"
+		(symbol "Transistor_FET:RQ6E080AJ"
+			(pin_names hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 1.27 13.335 0)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -18,8 +19,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "2ED1323S12P"
-				(at 1.27 11.43 0)
+			(property "Value" "RQ6E080AJ"
+				(at 5.08 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -27,26 +28,28 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_SO:Infineon_PG-DSO-20-U03_7.5x12.8mm"
-				(at 0 -17.78 0)
+			(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-6"
+				(at 5.08 -1.905 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 						(italic yes)
 					)
+					(justify left)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-2ED1323S12P_2ED1324S12P-DataSheet-v01_01-EN.pdf?fileId=8ac78c8c869190210186e92f0f506d0c"
-				(at 1.27 -15.24 0)
+			(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/discrete/transistor/mosfet/rq6e080ajtcr-e.pdf"
+				(at 5.08 -3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 					(hide yes)
 				)
 			)
-			(property "Description" "1200V Half Bridge Gate Driver with active Miller clamp, OCP, SCC, Bootstrap Diode, +/-2.3A drive current, PG-DSO-20-U03"
+			(property "Description" "8A Id, 30V Vds, 16.5 mOhm RdsOn, N-Channel Small-Signal MOSFET, TSOT-23-6"
 				(at 0 0 0)
 				(effects
 					(font
@@ -55,7 +58,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "Gate Driver MOSFET IGBT SiC"
+			(property "ki_keywords" "N-Channel MOSFET Low-Threshold sot-457t sc-95 tsmt6"
 				(at 0 0 0)
 				(effects
 					(font
@@ -64,7 +67,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Infineon*PG?DSO?20?U03*7.5x12.8mm*"
+			(property "ki_fp_filters" "TSOT?23*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -73,24 +76,178 @@
 					(hide yes)
 				)
 			)
-			(symbol "2ED1323S12P_0_1"
-				(rectangle
-					(start -7.62 -10.16)
-					(end 7.62 10.16)
+			(symbol "RQ6E080AJ_0_1"
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
 					(stroke
 						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
 					)
 				)
 			)
-			(symbol "2ED1323S12P_1_1"
-				(pin no_connect line
-					(at -7.62 7.62 0)
-					(length 2.54) hide
-					(name "NC"
+			(symbol "RQ6E080AJ_1_1"
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -106,189 +263,9 @@
 					)
 				)
 				(pin passive line
-					(at 10.16 -7.62 180)
-					(length 2.54)
-					(name "LC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 10.16 -5.08 180)
-					(length 2.54)
-					(name "LO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 12.7 270)
-					(length 2.54)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 7.62 0 180)
+					(at 2.54 5.08 270)
 					(length 2.54) hide
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 7.62 180)
-					(length 2.54)
-					(name "VB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 10.16 5.08 180)
-					(length 2.54)
-					(name "HO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 2.54 180)
-					(length 2.54)
-					(name "HC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 -2.54 180)
-					(length 2.54)
-					(name "VS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 5.08 10.16 270)
-					(length 2.54) hide
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "18"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 2.54 10.16 270)
-					(length 2.54) hide
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "19"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at -7.62 5.08 0)
-					(length 2.54) hide
-					(name "NC"
+					(name "D"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -303,28 +280,10 @@
 						)
 					)
 				)
-				(pin no_connect line
-					(at -2.54 10.16 270)
-					(length 2.54) hide
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "20"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at -7.62 -7.62 0)
-					(length 2.54) hide
-					(name "NC"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -339,10 +298,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at -10.16 2.54 0)
+				(pin passive line
+					(at 2.54 -5.08 90)
 					(length 2.54)
-					(name "HIN"
+					(name "S"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -357,10 +316,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at -10.16 0 0)
-					(length 2.54)
-					(name "LIN"
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54) hide
+					(name "D"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -375,10 +334,10 @@
 						)
 					)
 				)
-				(pin open_collector line
-					(at -10.16 -2.54 0)
-					(length 2.54)
-					(name "~{RFE}"
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54) hide
+					(name "D"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -393,474 +352,71 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at -2.54 -12.7 90)
-					(length 2.54)
-					(name "VSS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -5.08 0)
-					(length 2.54)
-					(name "ITRIP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 2.54 -12.7 90)
-					(length 2.54)
-					(name "COM"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Relay_SolidState:CPC1002N"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -5.08 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "CPC1002N"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_SO:SOP-4_3.8x4.1mm_P2.54mm"
-				(at -5.08 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.ixysic.com/home/pdfs.nsf/www/CPC1002N.pdf/$file/CPC1002N.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "Form A, Solid State Relay (Photo MOSFET) 60V, 0.7A, 0.55Ohm, SOP-4"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "MOSFET Output Photorelay 1-Form-A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOP*3.8x4.1mm*P2.54mm*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "CPC1002N_0_1"
-				(rectangle
-					(start -5.08 3.81)
-					(end 5.08 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 -0.635) (xy -2.54 -0.635)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0.762) (xy 1.016 -0.762)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.524 -0.762) (xy 2.794 -0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.429 0.381) (xy 4.191 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.524 -0.635) (xy 1.524 -0.889) (xy 1.524 -0.889)
-					)
-					(stroke
-						(width 0.3556)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.524 0.127) (xy 1.524 -0.127) (xy 1.524 -0.127)
-					)
-					(stroke
-						(width 0.3556)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.524 0.889) (xy 1.524 0.635) (xy 1.524 0.635)
-					)
-					(stroke
-						(width 0.3556)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 2.54) (xy -3.175 2.54) (xy -3.175 -2.54) (xy -5.08 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.175 -0.635) (xy -3.81 0.635) (xy -2.54 0.635) (xy -3.175 -0.635)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.524 0) (xy 2.794 0) (xy 2.794 -2.54) (xy 5.08 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.524 0.762) (xy 2.794 0.762) (xy 2.794 2.54) (xy 5.08 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.778 0) (xy 2.286 0.127) (xy 2.286 -0.127) (xy 1.778 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.794 -1.397) (xy 3.81 -1.397) (xy 3.81 1.397) (xy 2.794 1.397)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 0.381) (xy 3.429 -0.381) (xy 4.191 -0.381) (xy 3.81 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 -0.508) (xy -0.635 -0.508) (xy -1.016 -0.635) (xy -1.016 -0.381) (xy -0.635 -0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 0.508) (xy -0.635 0.508) (xy -1.016 0.381) (xy -1.016 0.635) (xy -0.635 0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.794 -1.397)
-					(radius 0.127)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.794 -0.762)
-					(radius 0.127)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.794 1.397)
-					(radius 0.127)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "CPC1002N_1_1"
-				(pin passive line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -2.54 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 2.54 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
 		)
 	)
+	(rectangle
+		(start 55.88 53.34)
+		(end 81.28 71.12)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 4b8b4dd5-f3cd-4352-90a1-ce10203e26f4)
+	)
+	(text "Hbridge Gates\nTODO: Find component"
+		(exclude_from_sim no)
+		(at 68.834 61.722 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7f1ca5c3-301c-42a3-bf51-0741351a0645")
+	)
+	(text "MOSFET Drivers\nTODO: Replace components and wire up\n"
+		(exclude_from_sim no)
+		(at 180.594 61.214 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d4d70735-9157-4746-929d-791e429b370d")
+	)
 	(symbol
-		(lib_id "Relay_SolidState:CPC1002N")
-		(at 153.67 73.66 0)
+		(lib_id "Transistor_FET:RQ6E080AJ")
+		(at 191.77 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "2724ccf7-6db3-40c6-9551-ec6acbe2df8f")
-		(property "Reference" "U5"
-			(at 153.67 64.77 0)
+		(uuid "123787d5-d1a6-4938-a2ee-f33bdefee3d9")
+		(property "Reference" "Q6"
+			(at 198.12 90.1699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "CPC1002N"
-			(at 153.67 67.31 0)
+		(property "Value" "RQ6E080AJ"
+			(at 198.12 92.7099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOP-4_3.8x4.1mm_P2.54mm"
-			(at 148.59 78.74 0)
+		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-6"
+			(at 196.85 93.345 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -870,8 +426,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ixysic.com/home/pdfs.nsf/www/CPC1002N.pdf/$file/CPC1002N.pdf"
-			(at 153.67 73.66 0)
+		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/discrete/transistor/mosfet/rq6e080ajtcr-e.pdf"
+			(at 196.85 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -880,8 +436,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Form A, Solid State Relay (Photo MOSFET) 60V, 0.7A, 0.55Ohm, SOP-4"
-			(at 153.67 73.66 0)
+		(property "Description" "8A Id, 30V Vds, 16.5 mOhm RdsOn, N-Channel Small-Signal MOSFET, TSOT-23-6"
+			(at 191.77 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -889,39 +445,45 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "750120a6-63fe-4949-a032-e18da41de3ca")
-		)
 		(pin "3"
-			(uuid "9098dd97-eb83-40bd-8b03-5ed8be35b030")
+			(uuid "bcc07024-754a-44b9-ad51-d7fbf5429769")
+		)
+		(pin "2"
+			(uuid "7c22d4cc-5c4d-40ff-b200-1828f94b8486")
 		)
 		(pin "1"
-			(uuid "b5e13d8d-2c2d-4940-aba0-53158aa07017")
+			(uuid "9699f520-b780-43ba-9b4b-e2e3638ae48a")
+		)
+		(pin "5"
+			(uuid "f687c2ef-c6ae-4b18-99d5-996bcdf3b247")
 		)
 		(pin "4"
-			(uuid "3578454a-9bbf-42dc-8cbe-06e4b012947a")
+			(uuid "46db5c50-c8ef-4004-af84-7fd02a7b5c07")
+		)
+		(pin "6"
+			(uuid "9755ddac-0600-41c6-9e20-24e66c2d9352")
 		)
 		(instances
-			(project ""
+			(project "motordriver"
 				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/b5eb0271-9027-4941-b236-8f001fce8a08"
-					(reference "U5")
+					(reference "Q6")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Driver_FET:2ED1323S12P")
-		(at 96.52 63.5 0)
+		(lib_id "Transistor_FET:RQ6E080AJ")
+		(at 160.02 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c898f899-0d38-460d-9c55-24165bccac64")
-		(property "Reference" "U4"
-			(at 99.022 48.26 0)
+		(uuid "2701c219-fa71-4741-a5ab-b84ae72fe70c")
+		(property "Reference" "Q4"
+			(at 166.37 90.1699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -929,8 +491,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2ED1323S12P"
-			(at 99.022 50.8 0)
+		(property "Value" "RQ6E080AJ"
+			(at 166.37 92.7099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -938,98 +500,568 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:Infineon_PG-DSO-20-U03_7.5x12.8mm"
-			(at 96.52 81.28 0)
+		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-6"
+			(at 165.1 93.345 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(italic yes)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-2ED1323S12P_2ED1324S12P-DataSheet-v01_01-EN.pdf?fileId=8ac78c8c869190210186e92f0f506d0c"
-			(at 97.79 78.74 0)
+		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/discrete/transistor/mosfet/rq6e080ajtcr-e.pdf"
+			(at 165.1 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "8A Id, 30V Vds, 16.5 mOhm RdsOn, N-Channel Small-Signal MOSFET, TSOT-23-6"
+			(at 160.02 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "Description" "1200V Half Bridge Gate Driver with active Miller clamp, OCP, SCC, Bootstrap Diode, +/-2.3A drive current, PG-DSO-20-U03"
-			(at 96.52 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "9"
-			(uuid "57ee70cc-c055-45e2-9bfb-b6670f90455c")
-		)
-		(pin "17"
-			(uuid "5139efdd-6e0e-45cf-bebf-32067cdd526a")
-		)
-		(pin "4"
-			(uuid "3dff7764-f310-44f1-81bd-42adef65e7c5")
-		)
-		(pin "20"
-			(uuid "c85b2cf1-8e61-4ff5-a05c-e2b4244a4362")
 		)
 		(pin "3"
-			(uuid "cf320652-ad95-4d9d-8a6e-53fe3b5155a1")
-		)
-		(pin "18"
-			(uuid "81f54efd-4a35-4b5f-916a-87bb38a00db7")
-		)
-		(pin "7"
-			(uuid "c957fc84-0ce7-498d-b774-eff11d753c52")
-		)
-		(pin "5"
-			(uuid "227bcb7c-48d9-4b9b-b3bf-ca406395cd41")
-		)
-		(pin "6"
-			(uuid "bc9d5b22-efc7-4668-978a-520ffeb9a2cc")
-		)
-		(pin "8"
-			(uuid "7043682b-b88c-4cab-a421-4827e5818bc6")
-		)
-		(pin "16"
-			(uuid "f8eae0ce-9a5a-4374-9454-6c1f9d3f44b4")
-		)
-		(pin "13"
-			(uuid "f86050a9-25dc-4606-93cb-004375a0a9d5")
+			(uuid "be3c9743-4790-4934-b801-8a3f53f2776f")
 		)
 		(pin "2"
-			(uuid "1d786a8a-25a2-444a-ae46-1f7343730c85")
-		)
-		(pin "19"
-			(uuid "58bd70e0-9c6e-4ba3-930b-952916d2fcf7")
-		)
-		(pin "10"
-			(uuid "5122b0af-3f92-46ce-8c8f-19f0a8764595")
-		)
-		(pin "15"
-			(uuid "94ec5d22-8919-4f73-a14d-5905b50be112")
-		)
-		(pin "14"
-			(uuid "bfea8d9b-8779-43ca-8664-a3d35bd56817")
-		)
-		(pin "11"
-			(uuid "ec5ba0a8-dbd8-44d1-9b44-bccdf309d3ab")
+			(uuid "dd39d5df-6ce5-4223-bf7c-d6bdbc45987b")
 		)
 		(pin "1"
-			(uuid "69ce5237-6981-4e42-a4b3-ea1a5f570ee7")
+			(uuid "d9bf5bc6-fa51-4060-bc34-5cfede3b534d")
 		)
-		(pin "12"
-			(uuid "ef9f74d6-3f94-4ed6-9c77-fc1216d67aa9")
+		(pin "5"
+			(uuid "2a66a9eb-8823-4c7c-a601-a78e7b1170f9")
+		)
+		(pin "4"
+			(uuid "8b42b21e-9f84-4f45-ab26-ec22aee296cc")
+		)
+		(pin "6"
+			(uuid "9a332061-eb63-4802-8110-468ec818dc00")
+		)
+		(instances
+			(project "motordriver"
+				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/b5eb0271-9027-4941-b236-8f001fce8a08"
+					(reference "Q4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:RQ6E080AJ")
+		(at 191.77 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "52b387a4-e44b-4471-b709-75035a5fd0b6")
+		(property "Reference" "Q5"
+			(at 198.12 71.1199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RQ6E080AJ"
+			(at 198.12 73.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-6"
+			(at 196.85 74.295 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/discrete/transistor/mosfet/rq6e080ajtcr-e.pdf"
+			(at 196.85 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "8A Id, 30V Vds, 16.5 mOhm RdsOn, N-Channel Small-Signal MOSFET, TSOT-23-6"
+			(at 191.77 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "4af04415-ea32-4737-b324-14e8aded742e")
+		)
+		(pin "2"
+			(uuid "ac443408-6d35-4eca-85fe-06f04490aa5f")
+		)
+		(pin "1"
+			(uuid "17b3282f-25ff-4047-93d3-309d3b274b30")
+		)
+		(pin "5"
+			(uuid "5ce9aed3-fdcc-45e8-8f85-e5ae9fbb64e5")
+		)
+		(pin "4"
+			(uuid "52bb6dac-e88d-48a2-bafe-dc00327fe0b0")
+		)
+		(pin "6"
+			(uuid "4aec1aa4-731b-4388-8850-ae604d1a3a46")
+		)
+		(instances
+			(project "motordriver"
+				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/b5eb0271-9027-4941-b236-8f001fce8a08"
+					(reference "Q5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:RQ6E080AJ")
+		(at 218.44 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "65075e9f-1ece-427d-bf2f-7a9eb48d6b39")
+		(property "Reference" "Q7"
+			(at 224.79 71.1199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RQ6E080AJ"
+			(at 224.79 73.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-6"
+			(at 223.52 74.295 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/discrete/transistor/mosfet/rq6e080ajtcr-e.pdf"
+			(at 223.52 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "8A Id, 30V Vds, 16.5 mOhm RdsOn, N-Channel Small-Signal MOSFET, TSOT-23-6"
+			(at 218.44 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "c62e92c3-ee20-4c4d-99e8-1ca248ab2972")
+		)
+		(pin "2"
+			(uuid "40fa34f3-4d97-47c1-85c5-18e409952266")
+		)
+		(pin "1"
+			(uuid "7680bab0-775c-43fb-8d31-f49b5c079a1e")
+		)
+		(pin "5"
+			(uuid "bdf4330e-31c7-4773-8867-e99d09197882")
+		)
+		(pin "4"
+			(uuid "69a35b58-84e3-4c94-9599-aba413b4d48c")
+		)
+		(pin "6"
+			(uuid "53e5a6f6-c44e-429a-9a90-a0f8a5e03d26")
+		)
+		(instances
+			(project "motordriver"
+				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/b5eb0271-9027-4941-b236-8f001fce8a08"
+					(reference "Q7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:RQ6E080AJ")
+		(at 137.16 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "983caf15-1618-4f59-ba29-10af09f6ffd0")
+		(property "Reference" "Q2"
+			(at 143.51 71.1199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RQ6E080AJ"
+			(at 143.51 73.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-6"
+			(at 142.24 74.295 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/discrete/transistor/mosfet/rq6e080ajtcr-e.pdf"
+			(at 142.24 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "8A Id, 30V Vds, 16.5 mOhm RdsOn, N-Channel Small-Signal MOSFET, TSOT-23-6"
+			(at 137.16 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "08254624-057a-4fc3-afae-ad1f1cc7253c")
+		)
+		(pin "2"
+			(uuid "30560d75-7753-4e91-9a56-c25bb28ca3f0")
+		)
+		(pin "1"
+			(uuid "cea9f9a0-513e-4a98-bdb0-af11145702e8")
+		)
+		(pin "5"
+			(uuid "3e86dbbf-b9d1-430f-952e-718b89876662")
+		)
+		(pin "4"
+			(uuid "3b459d55-d0b7-498d-b86e-001d131994e2")
+		)
+		(pin "6"
+			(uuid "b6158ed8-61fd-469b-b807-45032699f780")
+		)
+		(instances
+			(project "motordriver"
+				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/b5eb0271-9027-4941-b236-8f001fce8a08"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:RQ6E080AJ")
+		(at 218.44 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bd50c00c-e1bd-4b7a-a916-a9476bcdec41")
+		(property "Reference" "Q8"
+			(at 224.79 88.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RQ6E080AJ"
+			(at 224.79 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-6"
+			(at 223.52 92.075 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/discrete/transistor/mosfet/rq6e080ajtcr-e.pdf"
+			(at 223.52 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "8A Id, 30V Vds, 16.5 mOhm RdsOn, N-Channel Small-Signal MOSFET, TSOT-23-6"
+			(at 218.44 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "53efc180-c913-4b3c-84c5-0f5cbeaa9f3c")
+		)
+		(pin "2"
+			(uuid "22958ecf-57fd-4be9-97b5-7c232ddf7681")
+		)
+		(pin "1"
+			(uuid "81c14e14-a867-4219-bb04-ae305f52bced")
+		)
+		(pin "5"
+			(uuid "304be678-1b89-4d94-bbcc-fdca586cb5dc")
+		)
+		(pin "4"
+			(uuid "645e6f3e-2f7e-4bbb-97e4-ade2af4374f4")
+		)
+		(pin "6"
+			(uuid "ba6b2b2d-38c4-46b4-a586-836961223675")
+		)
+		(instances
+			(project "motordriver"
+				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/b5eb0271-9027-4941-b236-8f001fce8a08"
+					(reference "Q8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:RQ6E080AJ")
+		(at 160.02 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eaa33700-6b20-4c95-bb18-1f66c2ac2c49")
+		(property "Reference" "Q3"
+			(at 166.37 71.1199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RQ6E080AJ"
+			(at 166.37 73.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-6"
+			(at 165.1 74.295 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/discrete/transistor/mosfet/rq6e080ajtcr-e.pdf"
+			(at 165.1 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "8A Id, 30V Vds, 16.5 mOhm RdsOn, N-Channel Small-Signal MOSFET, TSOT-23-6"
+			(at 160.02 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "a4782a3a-f85e-4125-9e5a-11154d53d4a0")
+		)
+		(pin "2"
+			(uuid "cfd5a296-db73-4cb4-825f-255e3e3eb59a")
+		)
+		(pin "1"
+			(uuid "25953483-5a47-48ab-86c8-790cbd075abe")
+		)
+		(pin "5"
+			(uuid "0a8eaed8-6ddc-4b3c-9141-e3bf7c29be7b")
+		)
+		(pin "4"
+			(uuid "da8af6f7-4ea9-4d2e-80be-9838deb09f6b")
+		)
+		(pin "6"
+			(uuid "59015619-8f89-4aca-9bac-5b0d1e367f92")
+		)
+		(instances
+			(project "motordriver"
+				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/b5eb0271-9027-4941-b236-8f001fce8a08"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:RQ6E080AJ")
+		(at 137.16 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f39fc6d8-262a-4663-897b-ad8d9ab74251")
+		(property "Reference" "Q1"
+			(at 143.51 90.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RQ6E080AJ"
+			(at 143.51 92.7099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-6"
+			(at 142.24 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/discrete/transistor/mosfet/rq6e080ajtcr-e.pdf"
+			(at 142.24 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "8A Id, 30V Vds, 16.5 mOhm RdsOn, N-Channel Small-Signal MOSFET, TSOT-23-6"
+			(at 137.16 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "ad2f9d86-3706-4a1d-a82d-75bf63c3175b")
+		)
+		(pin "2"
+			(uuid "f27b9917-6dd8-4919-b6ed-a5c4ea89d65d")
+		)
+		(pin "1"
+			(uuid "20c0512f-679b-48e2-b320-899b989273dc")
+		)
+		(pin "5"
+			(uuid "8c0762e7-2925-4040-94fd-8aa31f44805c")
+		)
+		(pin "4"
+			(uuid "e8c504cb-5bda-41c9-b52d-0ee976a0b1be")
+		)
+		(pin "6"
+			(uuid "0723c0f9-8ede-4fc7-89b2-2320d313cca3")
 		)
 		(instances
 			(project ""
 				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/b5eb0271-9027-4941-b236-8f001fce8a08"
-					(reference "U4")
+					(reference "Q1")
 					(unit 1)
 				)
 			)

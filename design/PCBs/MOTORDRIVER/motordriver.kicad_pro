@@ -410,6 +410,10 @@
     [
       "b555d9bd-a3b8-401d-a289-b1ff04158553",
       "brakectrl"
+    ],
+    [
+      "9ebbb593-eaf1-4a56-ba2a-164e20b1d55e",
+      "microcontroller"
     ]
   ],
   "text_variables": {}

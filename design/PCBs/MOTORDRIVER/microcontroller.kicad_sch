@@ -2,12 +2,12 @@
 	(version 20231120)
 	(generator "eeschema")
 	(generator_version "8.0")
-	(uuid "9317377d-ff71-4845-89db-76c2786ecc72")
+	(uuid "760dc0d2-6ad3-4787-81a9-a5bb39b4afae")
 	(paper "A4")
 	(lib_symbols)
 	(rectangle
-		(start 105.41 74.93)
-		(end 162.56 116.84)
+		(start 63.5 49.53)
+		(end 226.06 134.62)
 		(stroke
 			(width 0)
 			(type default)
@@ -15,16 +15,16 @@
 		(fill
 			(type none)
 		)
-		(uuid a170427f-5b64-4eae-bcb7-565482af37c4)
+		(uuid c792c6c4-c456-4451-a963-ad9e1f686421)
 	)
-	(text "Current sensor IC\nTODO: Find component"
+	(text "M4 microcontroller\nTODO: Find component"
 		(exclude_from_sim no)
-		(at 132.334 98.552 0)
+		(at 143.002 92.964 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "549a9042-d517-484d-80fc-8b644b0f144e")
+		(uuid "b73b9122-3c97-465e-97f1-5b4fdff3d97a")
 	)
 )

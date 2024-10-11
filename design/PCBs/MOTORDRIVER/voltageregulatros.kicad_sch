@@ -4,257 +4,47 @@
 	(generator_version "8.0")
 	(uuid "ea557f04-0119-411e-803e-09c7e24e4e09")
 	(paper "A4")
-	(lib_symbols
-		(symbol "Regulator_Switching:ADP1108AN-3.3"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 1.27 10.795 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "ADP1108AN-3.3"
-				(at 1.27 8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
-				(at 1.27 -8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ADP1108.pdf"
-				(at -5.08 15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Micropower DC-DC converter, step-up or step-down operation, 2V-30Vin, 3.3V fixed output voltage, DIP-8"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "switching buck boost converter step-down step-up"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "DIP*W7.62mm*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "ADP1108AN-3.3_0_1"
-				(rectangle
-					(start -7.62 7.62)
-					(end 7.62 -7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "ADP1108AN-3.3_1_1"
-				(pin input line
-					(at -5.08 10.16 270)
-					(length 2.54)
-					(name "Ilim"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 10.16 270)
-					(length 2.54)
-					(name "Vin"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 10.16 5.08 180)
-					(length 2.54)
-					(name "SW1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 0 -10.16 90)
-					(length 2.54)
-					(name "SW2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -5.08 -10.16 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -10.16 0 0)
-					(length 2.54)
-					(name "A0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 10.16 -5.08 180)
-					(length 2.54)
-					(name "SET"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 10.16 0 180)
-					(length 2.54)
-					(name "SENSE"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
+	(lib_symbols)
+	(rectangle
+		(start 116.84 92.71)
+		(end 167.64 127)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 358ee7f9-b613-4a1c-beee-e2c8d5d1a1f1)
+	)
+	(text "Switching voltage regulator\nTODO: Find component"
+		(exclude_from_sim no)
+		(at 143.002 109.982 0)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
 		)
+		(uuid "440ce410-e6f8-4372-9996-6abf286589b3")
 	)
 	(global_label "3.3V"
 		(shape input)
-		(at 143.51 77.47 0)
+		(at 125.73 78.74 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "4bed6a54-cd64-4077-9849-d82f3307bcd0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 150.5409 77.47 0)
+			(at 118.6991 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -278,93 +68,6 @@
 				)
 				(justify right)
 				(hide yes)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Regulator_Switching:ADP1108AN-3.3")
-		(at 142.24 96.52 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a40aee91-eda6-46bb-b56f-e7b236eeb242")
-		(property "Reference" "U2"
-			(at 125.73 89.5855 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ADP1108AN-3.3"
-			(at 125.73 92.1255 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
-			(at 143.51 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ADP1108.pdf"
-			(at 137.16 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Micropower DC-DC converter, step-up or step-down operation, 2V-30Vin, 3.3V fixed output voltage, DIP-8"
-			(at 142.24 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "7"
-			(uuid "c211d07b-746f-40c4-bec8-4e971c8abd68")
-		)
-		(pin "1"
-			(uuid "3a9d39f9-317b-4f1a-aee8-2afec43cbc7e")
-		)
-		(pin "2"
-			(uuid "a96e34dd-35c1-4ded-8a95-34f85bf2b84a")
-		)
-		(pin "5"
-			(uuid "d36890a5-14c5-4ba8-be2d-ade516692253")
-		)
-		(pin "4"
-			(uuid "d36af3bb-178c-48c2-aac0-c55f756ceb4f")
-		)
-		(pin "3"
-			(uuid "7e0a1a9d-232d-4a4a-a0a7-4a2e95bd718c")
-		)
-		(pin "6"
-			(uuid "6567898c-72c1-4476-bb9b-2ea4fba0eda6")
-		)
-		(pin "8"
-			(uuid "db957e8e-7c53-46a5-a078-8ae2900cf25f")
-		)
-		(instances
-			(project ""
-				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/40fe2217-7020-4fd5-b361-1423767f0697"
-					(reference "U2")
-					(unit 1)
-				)
 			)
 		)
 	)
