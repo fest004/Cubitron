@@ -111,6 +111,26 @@
 				(justify left top)
 			)
 		)
+		(pin "BAT_12V" input
+			(at 43.18 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b31eecae-60fb-414d-a70b-34d08c1ae6a8")
+		)
+		(pin "BAT_GND" input
+			(at 43.18 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e9d1bd2e-9eee-4b8a-b8c4-e3c570745ca1")
+		)
 		(instances
 			(project "motordriver"
 				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d"
@@ -158,7 +178,7 @@
 		)
 	)
 	(sheet
-		(at 238.76 43.18)
+		(at 246.38 38.1)
 		(size 22.86 44.45)
 		(fields_autoplaced yes)
 		(stroke
@@ -170,7 +190,7 @@
 		)
 		(uuid "b555d9bd-a3b8-401d-a289-b1ff04158553")
 		(property "Sheetname" "brakectrl"
-			(at 238.76 42.2946 0)
+			(at 246.38 37.2146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -179,7 +199,7 @@
 			)
 		)
 		(property "Sheetfile" "brakectrl.kicad_sch"
-			(at 238.76 88.3884 0)
+			(at 246.38 83.3084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
