@@ -1753,108 +1753,6 @@
 			)
 		)
 	)
-	(wire
-		(pts
-			(xy 22.86 82.55) (xy 69.85 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c4cd99c-849a-4235-8da7-f39e5d3ec396")
-	)
-	(wire
-		(pts
-			(xy 69.85 54.61) (xy 50.8 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "658b3d0b-a469-4940-9fcb-c84416bd8e86")
-	)
-	(wire
-		(pts
-			(xy 217.17 92.71) (xy 236.22 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "71197f11-e8e4-4027-8539-0e54c3908a9b")
-	)
-	(wire
-		(pts
-			(xy 217.17 115.57) (xy 236.22 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "93c68591-56f1-45db-84d5-4342c71507dd")
-	)
-	(wire
-		(pts
-			(xy 217.17 138.43) (xy 236.22 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d8ad0385-5d00-4fba-bac5-f634244c8884")
-	)
-	(wire
-		(pts
-			(xy 217.17 64.77) (xy 236.22 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1b16295-98c4-4461-b8bc-50b234c21281")
-	)
-	(text "Current sensing\nanalog input. \nGoes through current to\nvoltage converter\n"
-		(exclude_from_sim no)
-		(at 41.402 93.98 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "5d6463cb-709e-477a-906d-e88703eed5b1")
-	)
-	(text "Analog Input from Hall-\nSensor directly from Motor"
-		(exclude_from_sim no)
-		(at 39.116 119.38 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "e475534c-ded4-4333-aab1-8c16a4ba6f17")
-	)
-	(global_label "GND"
-		(shape input)
-		(at 236.22 72.39 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "28df868d-b3de-473e-ac79-acac71f4db2c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 236.22 79.2457 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "GND"
 		(shape input)
 		(at 217.17 135.89 0)
@@ -1873,50 +1771,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SPI_SCK"
-		(shape input)
-		(at 69.85 67.31 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3484309e-099a-4ae1-bcd9-3c2a7638fb9d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 59.0634 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GND"
-		(shape input)
-		(at 50.8 62.23 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "34ca39e2-8833-43d5-8afa-3425ababce4c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 50.8 69.0857 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -1945,29 +1799,7 @@
 	)
 	(global_label "3.3V"
 		(shape input)
-		(at 50.8 54.61 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3e5352e3-1aea-4e12-a344-92cae5796796")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 43.7024 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "3.3V"
-		(shape input)
-		(at 236.22 64.77 0)
+		(at 45.72 68.58 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1975,185 +1807,9 @@
 			)
 			(justify left)
 		)
-		(uuid "4105b1f3-b6e4-4845-885e-b7764ea47a7b")
+		(uuid "7fb61b7c-24f0-434a-8045-374a2f6f3aa6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 243.2509 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GND"
-		(shape input)
-		(at 236.22 123.19 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "46d7d2e3-f9ff-4a26-abe9-a92d384c2773")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 236.22 130.0457 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SPI_MISO"
-		(shape input)
-		(at 69.85 72.39 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "703964d3-09c3-4f74-bc65-d566831ceb15")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 58.2167 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GND"
-		(shape input)
-		(at 236.22 146.05 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "709ff819-c8d7-4af1-805b-615e1a1b83ea")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 236.22 152.9057 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "3.3V"
-		(shape input)
-		(at 236.22 115.57 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "8208b4fd-6092-4e64-a8e5-8fe74c2539b9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 243.2509 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SPI_MOSI"
-		(shape input)
-		(at 69.85 69.85 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "91b7a0bb-3ef1-4e5a-a864-410b1fe53079")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 58.2167 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GND"
-		(shape input)
-		(at 236.22 100.33 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "93699ce4-4428-4722-a0c1-9ee4d675ac77")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 236.22 107.1857 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "3.3V"
-		(shape input)
-		(at 22.86 82.55 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9aee3f8d-788e-4580-ba09-aa5331278f59")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 15.7624 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "3.3V"
-		(shape input)
-		(at 236.22 92.71 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a895c511-557c-48f6-8fbe-5bba1269fb1c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 243.2509 92.71 0)
+			(at 52.7509 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2229,28 +1885,6 @@
 			)
 		)
 	)
-	(global_label "3.3V"
-		(shape input)
-		(at 236.22 138.43 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f7eb10bc-2c37-40a6-a9e7-74915f57e5f3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 243.2509 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "GND"
 		(shape input)
 		(at 217.17 113.03 0)
@@ -2272,76 +1906,6 @@
 				(hide yes)
 			)
 		)
-	)
-	(global_label "GND"
-		(shape input)
-		(at 22.86 90.17 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "fed7b5a3-e3f4-4336-b2f8-2f7a96f7b1d8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 22.86 97.0257 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(hierarchical_label "AENC_VN_NEG"
-		(shape input)
-		(at 69.85 120.65 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "039ed6d4-9142-49d2-b161-3761025e7df8")
-	)
-	(hierarchical_label "TMC_HALL_B"
-		(shape input)
-		(at 69.85 143.51 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "03ecf495-01f1-4504-b066-47a2ea0a9659")
-	)
-	(hierarchical_label "ADC_I0_POS"
-		(shape input)
-		(at 69.85 90.17 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0a6233f7-8c81-4269-b616-ef0d10bc1f8d")
-	)
-	(hierarchical_label "ADC_I1_NEG"
-		(shape input)
-		(at 69.85 95.25 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0ff9f151-024f-4b6e-ad3d-6d44b564a758")
 	)
 	(hierarchical_label "PWM_UX1_L"
 		(shape input)
@@ -2379,30 +1943,6 @@
 		)
 		(uuid "157b2117-e67a-472b-9576-afcfa5216639")
 	)
-	(hierarchical_label "ADC_I1_NEG"
-		(shape input)
-		(at 69.85 97.79 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "26dd0fe0-3a4c-4046-b240-4692d4cc3e30")
-	)
-	(hierarchical_label "TMC_HALL_UX"
-		(shape input)
-		(at 69.85 146.05 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "2984550c-f38e-4bcd-826c-32e62ec306d2")
-	)
 	(hierarchical_label "PWM_IDLE_H"
 		(shape input)
 		(at 217.17 97.79 0)
@@ -2427,42 +1967,6 @@
 		)
 		(uuid "52867638-66c2-44e0-b129-0a1d8b6d5442")
 	)
-	(hierarchical_label "AENC_UX_POS"
-		(shape input)
-		(at 69.85 113.03 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "69736f48-211d-4572-8c81-c208547b0da7")
-	)
-	(hierarchical_label "AENC_VN_POS"
-		(shape input)
-		(at 69.85 118.11 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "82a09fbc-1c19-4bdf-9615-64a711690fc7")
-	)
-	(hierarchical_label "AENC_UX_POS"
-		(shape input)
-		(at 69.85 115.57 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "849af5b1-019f-40dd-ab31-e977605eaa61")
-	)
 	(hierarchical_label "ENC2_N"
 		(shape input)
 		(at 217.17 80.01 0)
@@ -2474,42 +1978,6 @@
 			(justify left)
 		)
 		(uuid "9b337d54-c509-41d1-b7ce-698d0830506b")
-	)
-	(hierarchical_label "AENC_WY_NEG"
-		(shape input)
-		(at 69.85 125.73 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a06207cb-b5ae-4367-ba9d-e6550372865f")
-	)
-	(hierarchical_label "ADC_I0_NEG"
-		(shape input)
-		(at 69.85 92.71 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a30520e1-a3d5-4ae9-8d00-70792abf9358")
-	)
-	(hierarchical_label "AENC_WY_POS"
-		(shape input)
-		(at 69.85 123.19 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c1d51734-b12b-4b04-b287-7c4b7776adb9")
 	)
 	(hierarchical_label "ENC2_A"
 		(shape input)
@@ -2523,18 +1991,6 @@
 		)
 		(uuid "c6d566c0-388a-4d27-badb-437f7fbb334b")
 	)
-	(hierarchical_label "TMC_UART_RX"
-		(shape input)
-		(at 69.85 74.93 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "df384e62-6ca1-4cad-b525-902d9297c78b")
-	)
 	(hierarchical_label "CLK"
 		(shape input)
 		(at 217.17 118.11 0)
@@ -2546,18 +2002,6 @@
 			(justify left)
 		)
 		(uuid "e8903858-4a35-472d-8782-e25b112bf8a3")
-	)
-	(hierarchical_label "TMC_HALL_WY"
-		(shape input)
-		(at 69.85 140.97 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ed67f694-54c8-4127-b6be-654ed9bb7b26")
 	)
 	(hierarchical_label "PWM_UX1_H"
 		(shape input)
@@ -2582,158 +2026,6 @@
 			(justify left)
 		)
 		(uuid "f100b42c-5149-4236-91b4-bdc5f8c92cb7")
-	)
-	(hierarchical_label "TMC_UART_TX"
-		(shape input)
-		(at 69.85 77.47 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f54d9622-5042-492d-9bc9-860682b56f27")
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 236.22 68.58 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "17399906-3131-40d8-be42-3561cea5b825")
-		(property "Reference" "100nF3"
-			(at 240.03 65.532 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "C"
-			(at 232.41 67.3101 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 235.2548 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 236.22 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 236.22 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e9a9b3d0-c80d-4218-bf6c-6d1d7f8ab729")
-		)
-		(pin "1"
-			(uuid "c5ba6910-4cb5-442d-bd5a-db0e5f2244b5")
-		)
-		(instances
-			(project "motordriver"
-				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/095cf403-627e-473d-974a-cb1fe8ca8b1f"
-					(reference "100nF3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 50.8 58.42 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "265ecb3d-5278-4fef-b637-8b05ac033cc1")
-		(property "Reference" "100nF4"
-			(at 54.61 55.372 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "C"
-			(at 46.99 57.1501 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 49.8348 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 50.8 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 50.8 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2e72c330-c6ba-464c-9085-fa1f643ce115")
-		)
-		(pin "1"
-			(uuid "8cc83f13-015a-4c5d-82df-3225d1604e22")
-		)
-		(instances
-			(project "motordriver"
-				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/095cf403-627e-473d-974a-cb1fe8ca8b1f"
-					(reference "100nF4")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -2803,15 +2095,16 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 236.22 142.24 180)
+		(at 49.53 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "5ca3ddd4-37d7-4ce3-b6fb-b0d4bbc25b50")
-		(property "Reference" "100nF"
-			(at 240.03 139.192 90)
+		(property "Reference" "C1"
+			(at 53.34 41.9099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2820,17 +2113,16 @@
 			)
 		)
 		(property "Value" "C"
-			(at 232.41 140.9701 0)
+			(at 53.34 44.4499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 235.2548 138.43 0)
+			(at 50.4952 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2839,7 +2131,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 236.22 142.24 0)
+			(at 49.53 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2848,7 +2140,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 236.22 142.24 0)
+			(at 49.53 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2865,147 +2157,7 @@
 		(instances
 			(project ""
 				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/095cf403-627e-473d-974a-cb1fe8ca8b1f"
-					(reference "100nF")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 236.22 119.38 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6aca56e2-2332-40ab-ba8b-af3a60e7ee6e")
-		(property "Reference" "100nF1"
-			(at 240.03 116.332 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "C"
-			(at 232.41 118.1101 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 235.2548 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 236.22 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 236.22 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3fb4c726-1816-423f-b7b8-b9d4444e7436")
-		)
-		(pin "1"
-			(uuid "2ecc09bb-7635-45e1-959f-5e7f9957d774")
-		)
-		(instances
-			(project "motordriver"
-				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/095cf403-627e-473d-974a-cb1fe8ca8b1f"
-					(reference "100nF1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 22.86 86.36 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "82c85692-69b3-44f0-9d0b-03098667a288")
-		(property "Reference" "100nF5"
-			(at 26.67 83.312 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "C"
-			(at 19.05 85.0901 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 21.8948 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 22.86 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 22.86 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e309d120-ac99-43f4-a9e1-5700edb885bf")
-		)
-		(pin "1"
-			(uuid "8b397688-246e-4437-b0a0-19923c721aae")
-		)
-		(instances
-			(project "motordriver"
-				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/095cf403-627e-473d-974a-cb1fe8ca8b1f"
-					(reference "100nF5")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -3301,76 +2453,6 @@
 			(project "motordriver"
 				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/095cf403-627e-473d-974a-cb1fe8ca8b1f"
 					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 236.22 96.52 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e0fc00fb-773f-42cd-9e8c-7803d1dc1e11")
-		(property "Reference" "100nF2"
-			(at 240.03 93.472 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "C"
-			(at 232.41 95.2501 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 235.2548 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 236.22 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 236.22 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ec810555-dd79-4574-8801-2e985eb02b31")
-		)
-		(pin "1"
-			(uuid "1efc00d7-770a-47fc-8a37-d587279de21b")
-		)
-		(instances
-			(project "motordriver"
-				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/095cf403-627e-473d-974a-cb1fe8ca8b1f"
-					(reference "100nF2")
 					(unit 1)
 				)
 			)
