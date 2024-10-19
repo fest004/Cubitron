@@ -10,12 +10,18 @@ if [ "$CURRENT_BRANCH" != "main" ]; then
     exit 1
 fi
 
-# Push the website directory to gh-pages
-git subtree push --prefix documents/documentation/website origin pages
+# Build a fresh commit with only the content of the website folder and push it to gh-pages branch
+git subtree split --prefix documents/documentation/website -b pages-deploy
+
+# Force push the new subtree commit to the gh-pages branch
+git push origin pages-deploy:pages --force
+
+# Delete the temporary gh-pages-deploy branch created locally
+git branch -D pages-deploy
 
 # Optional: Return success message
 if [ $? -eq 0 ]; then
-    echo "Deployment successful!"
+    echo "Deployment successful! All content on pages branch has been overridden."
 else
     echo "Deployment failed!"
 fi
