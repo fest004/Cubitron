@@ -1,0 +1,27 @@
+{
+  "id": "guide/translate-your-site",
+  "title": "Translate your site",
+  "description": "Let's translate docs/intro.md to French.",
+  "source": "@site/docs/guide/translate-your-site.md",
+  "sourceDirName": "guide",
+  "slug": "/guide/translate-your-site",
+  "permalink": "/Cubitron/docs/guide/translate-your-site",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/fest004/Cubitron/docs/guide/translate-your-site.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Guide",
+    "permalink": "/Cubitron/docs/category/guide"
+  },
+  "next": {
+    "title": "Manage Docs Versions",
+    "permalink": "/Cubitron/docs/guide/manage-docs-versions"
+  }
+}
