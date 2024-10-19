@@ -4017,15 +4017,9 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-<<<<<<< Updated upstream
 		(uuid "4af57086-5479-4db7-a9af-f123d32b104d")
 		(property "Reference" "#PWR03"
 			(at 62.23 45.72 0)
-=======
-		(uuid "2770fbb2-8c8c-4116-bc55-293c9abb2e55")
-		(property "Reference" "#PWR044"
-			(at 236.22 68.58 0)
->>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
