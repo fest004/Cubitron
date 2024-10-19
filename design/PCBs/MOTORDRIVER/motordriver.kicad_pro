@@ -404,16 +404,44 @@
       "io"
     ],
     [
-      "095cf403-627e-473d-974a-cb1fe8ca8b1f",
-      "driverIC"
+      "721caf15-f1fc-41df-88f3-9bb14360f09a",
+      "currentsense1"
     ],
     [
       "b555d9bd-a3b8-401d-a289-b1ff04158553",
       "brakectrl"
     ],
     [
+      "095cf403-627e-473d-974a-cb1fe8ca8b1f",
+      "driverIC"
+    ],
+    [
       "9ebbb593-eaf1-4a56-ba2a-164e20b1d55e",
       "microcontroller"
+    ],
+    [
+      "7ab13b98-13da-46e6-9185-f3e4f2d07aff",
+      "programmer"
+    ],
+    [
+      "acd3f6cb-f2e2-4fe4-b3cb-86a86a6f231d",
+      "driverIC1"
+    ],
+    [
+      "d2c99155-6dc4-4cef-b7d8-f7ba5e4118d0",
+      "drivergates1"
+    ],
+    [
+      "474d6285-5514-49ae-8177-1e63fd9cd03e",
+      "currentsense2"
+    ],
+    [
+      "3a57148f-9ebd-4906-ad6b-7dbf7876a4a8",
+      "driverIC2"
+    ],
+    [
+      "4adc8e75-6797-461c-8ad6-e6b779b2e551",
+      "drivergates2"
     ]
   ],
   "text_variables": {}

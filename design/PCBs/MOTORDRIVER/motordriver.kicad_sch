@@ -5,9 +5,105 @@
 	(uuid "c7634e88-16d1-45ec-9aac-9c841e03cf6d")
 	(paper "A4")
 	(lib_symbols)
+	(rectangle
+		(start 186.69 96.52)
+		(end 270.51 160.02)
+		(stroke
+			(width -0.0001)
+			(type dot)
+			(color 30 30 30 1)
+		)
+		(fill
+			(type color)
+			(color 30 30 30 1)
+		)
+		(uuid 14eca32d-4b8e-4d10-ae7e-437072a0114a)
+	)
+	(rectangle
+		(start 175.26 21.59)
+		(end 259.08 85.09)
+		(stroke
+			(width -0.0001)
+			(type dot)
+			(color 30 30 30 1)
+		)
+		(fill
+			(type color)
+			(color 30 30 30 1)
+		)
+		(uuid 7b6507c0-1861-46e2-a3c4-a62345bb663c)
+	)
+	(rectangle
+		(start 50.8 58.42)
+		(end 147.32 107.95)
+		(stroke
+			(width -0.0001)
+			(type dot)
+			(color 30 30 30 1)
+		)
+		(fill
+			(type color)
+			(color 30 30 30 1)
+		)
+		(uuid 8b0260a0-ee08-440b-a2d5-0123bc6a9165)
+	)
+	(rectangle
+		(start 88.9 120.65)
+		(end 172.72 184.15)
+		(stroke
+			(width -0.0001)
+			(type dot)
+			(color 30 30 30 1)
+		)
+		(fill
+			(type color)
+			(color 30 30 30 1)
+		)
+		(uuid d119cdcc-ff54-4987-81d2-42ab89d50408)
+	)
+	(text "MCU Stage"
+		(exclude_from_sim no)
+		(at 96.52 62.484 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b0b6435e-f637-4dc8-b197-4633566efbf8")
+	)
+	(text "Motor Stage"
+		(exclude_from_sim no)
+		(at 217.678 24.892 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c5858e96-5931-4a7f-af44-3bce7be33640")
+	)
+	(text "Motor Stage"
+		(exclude_from_sim no)
+		(at 130.302 125.222 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d641d689-3eac-4ba7-8af3-628a257e4e1e")
+	)
+	(text "Motor Stage"
+		(exclude_from_sim no)
+		(at 229.362 100.838 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e449aee4-de4b-46b9-ab0e-516859dc8c5d")
+	)
 	(sheet
-		(at 60.96 134.62)
-		(size 48.26 38.1)
+		(at 95.25 157.48)
+		(size 40.64 20.32)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.5)
@@ -18,7 +114,7 @@
 		)
 		(uuid "095cf403-627e-473d-974a-cb1fe8ca8b1f")
 		(property "Sheetname" "driverIC"
-			(at 60.96 133.9084 0)
+			(at 95.25 156.5946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27,7 +123,7 @@
 			)
 		)
 		(property "Sheetfile" "driverIC.kicad_sch"
-			(at 60.96 173.3046 0)
+			(at 95.25 178.5584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44,8 +140,8 @@
 		)
 	)
 	(sheet
-		(at 137.16 25.4)
-		(size 40.64 21.59)
+		(at 121.92 133.35)
+		(size 20.32 15.24)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.5)
@@ -56,7 +152,7 @@
 		)
 		(uuid "22c06531-1f6c-46f3-988e-cea008e98016")
 		(property "Sheetname" "currentsense"
-			(at 137.16 24.5146 0)
+			(at 121.92 132.4646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -65,7 +161,7 @@
 			)
 		)
 		(property "Sheetfile" "currentsense.kicad_sch"
-			(at 137.16 47.7484 0)
+			(at 121.92 149.3484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -140,8 +236,46 @@
 		)
 	)
 	(sheet
-		(at 54.61 22.86)
-		(size 45.72 39.37)
+		(at 180.34 54.61)
+		(size 40.64 20.32)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.5)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3a57148f-9ebd-4906-ad6b-7dbf7876a4a8")
+		(property "Sheetname" "driverIC2"
+			(at 180.34 53.7246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "driverIC.kicad_sch"
+			(at 180.34 75.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "motordriver"
+				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d"
+					(page "13")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 58.42 21.59)
+		(size 81.28 20.32)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.5)
@@ -152,7 +286,7 @@
 		)
 		(uuid "40fe2217-7020-4fd5-b361-1423767f0697")
 		(property "Sheetname" "voltageregulators"
-			(at 54.61 22.1484 0)
+			(at 58.42 20.7046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -161,7 +295,7 @@
 			)
 		)
 		(property "Sheetfile" "voltageregulatros.kicad_sch"
-			(at 54.61 62.8146 0)
+			(at 58.42 42.6684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -178,8 +312,160 @@
 		)
 	)
 	(sheet
-		(at 124.46 99.06)
-		(size 58.42 41.91)
+		(at 207.01 30.48)
+		(size 20.32 15.24)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.5)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "474d6285-5514-49ae-8177-1e63fd9cd03e")
+		(property "Sheetname" "currentsense2"
+			(at 207.01 29.5946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "currentsense.kicad_sch"
+			(at 207.01 46.4784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "motordriver"
+				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 227.33 57.15)
+		(size 26.67 16.51)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.5)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4adc8e75-6797-461c-8ad6-e6b779b2e551")
+		(property "Sheetname" "drivergates2"
+			(at 227.33 56.2646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "gates.kicad_sch"
+			(at 227.33 74.4184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "motordriver"
+				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d"
+					(page "14")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 218.44 107.95)
+		(size 20.32 15.24)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.5)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "721caf15-f1fc-41df-88f3-9bb14360f09a")
+		(property "Sheetname" "currentsense1"
+			(at 218.44 107.0646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "currentsense.kicad_sch"
+			(at 218.44 123.9484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "motordriver"
+				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 58.42 71.12)
+		(size 25.4 27.94)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.5)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7ab13b98-13da-46e6-9185-f3e4f2d07aff")
+		(property "Sheetname" "programmer"
+			(at 58.42 70.2346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "programmer.kicad_sch"
+			(at 58.42 99.8184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "motordriver"
+				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 104.14 71.12)
+		(size 35.56 29.21)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.5)
@@ -190,7 +476,7 @@
 		)
 		(uuid "9ebbb593-eaf1-4a56-ba2a-164e20b1d55e")
 		(property "Sheetname" "microcontroller"
-			(at 124.46 98.1746 0)
+			(at 104.14 70.2346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -199,7 +485,7 @@
 			)
 		)
 		(property "Sheetfile" "microcontroller.kicad_sch"
-			(at 124.46 141.7284 0)
+			(at 104.14 101.0884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -216,8 +502,46 @@
 		)
 	)
 	(sheet
-		(at 246.38 38.1)
-		(size 22.86 44.45)
+		(at 191.77 132.08)
+		(size 40.64 20.32)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.5)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "acd3f6cb-f2e2-4fe4-b3cb-86a86a6f231d")
+		(property "Sheetname" "driverIC1"
+			(at 191.77 131.1946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "driverIC.kicad_sch"
+			(at 191.77 153.1584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "motordriver"
+				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 48.26 158.75)
+		(size 21.59 13.97)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.5)
@@ -228,7 +552,7 @@
 		)
 		(uuid "b555d9bd-a3b8-401d-a289-b1ff04158553")
 		(property "Sheetname" "brakectrl"
-			(at 246.38 37.2146 0)
+			(at 48.26 157.8646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -237,7 +561,7 @@
 			)
 		)
 		(property "Sheetfile" "brakectrl.kicad_sch"
-			(at 246.38 83.3084 0)
+			(at 48.26 173.4784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -254,8 +578,8 @@
 		)
 	)
 	(sheet
-		(at 212.09 106.68)
-		(size 52.07 41.91)
+		(at 142.24 160.02)
+		(size 26.67 16.51)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.5)
@@ -266,7 +590,7 @@
 		)
 		(uuid "b5eb0271-9027-4941-b236-8f001fce8a08")
 		(property "Sheetname" "drivergates"
-			(at 212.09 105.9684 0)
+			(at 142.24 159.1346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -275,7 +599,7 @@
 			)
 		)
 		(property "Sheetfile" "gates.kicad_sch"
-			(at 212.09 149.1746 0)
+			(at 142.24 177.2884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -287,6 +611,44 @@
 			(project "motordriver"
 				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d"
 					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 238.76 134.62)
+		(size 26.67 16.51)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.5)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d2c99155-6dc4-4cef-b7d8-f7ba5e4118d0")
+		(property "Sheetname" "drivergates1"
+			(at 238.76 133.7346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "gates.kicad_sch"
+			(at 238.76 151.8884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "motordriver"
+				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d"
+					(page "11")
 				)
 			)
 		)
