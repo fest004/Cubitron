@@ -11,7 +11,7 @@ if [ "$CURRENT_BRANCH" != "main" ]; then
 fi
 
 # Push the website directory to gh-pages
-git subtree push --prefix documents/documentation/website origin gh-pages
+git subtree push --prefix documents/documentation/website origin pages
 
 # Optional: Return success message
 if [ $? -eq 0 ]; then
