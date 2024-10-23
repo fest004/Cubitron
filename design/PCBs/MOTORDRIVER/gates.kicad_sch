@@ -397,7 +397,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "123787d5-d1a6-4938-a2ee-f33bdefee3d9")
-		(property "Reference" "Q6"
+		(property "Reference" "Q22"
 			(at 198.12 90.1699 0)
 			(effects
 				(font
@@ -490,7 +490,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2701c219-fa71-4741-a5ab-b84ae72fe70c")
-		(property "Reference" "Q4"
+		(property "Reference" "Q20"
 			(at 166.37 90.1699 0)
 			(effects
 				(font
@@ -583,7 +583,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "52b387a4-e44b-4471-b709-75035a5fd0b6")
-		(property "Reference" "Q5"
+		(property "Reference" "Q21"
 			(at 198.12 71.1199 0)
 			(effects
 				(font
@@ -676,7 +676,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "65075e9f-1ece-427d-bf2f-7a9eb48d6b39")
-		(property "Reference" "Q7"
+		(property "Reference" "Q23"
 			(at 224.79 71.1199 0)
 			(effects
 				(font
@@ -769,7 +769,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "983caf15-1618-4f59-ba29-10af09f6ffd0")
-		(property "Reference" "Q2"
+		(property "Reference" "Q17"
 			(at 143.51 71.1199 0)
 			(effects
 				(font
@@ -862,7 +862,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bd50c00c-e1bd-4b7a-a916-a9476bcdec41")
-		(property "Reference" "Q8"
+		(property "Reference" "Q24"
 			(at 224.79 88.8999 0)
 			(effects
 				(font
@@ -955,7 +955,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eaa33700-6b20-4c95-bb18-1f66c2ac2c49")
-		(property "Reference" "Q3"
+		(property "Reference" "Q19"
 			(at 166.37 71.1199 0)
 			(effects
 				(font
@@ -1048,7 +1048,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f39fc6d8-262a-4663-897b-ad8d9ab74251")
-		(property "Reference" "Q10"
+		(property "Reference" "Q18"
 			(at 143.51 90.1699 0)
 			(effects
 				(font
@@ -1118,6 +1118,10 @@
 			(project "motordriver"
 				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/4adc8e75-6797-461c-8ad6-e6b779b2e551"
 					(reference "Q18")
+					(unit 1)
+				)
+				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/b5eb0271-9027-4941-b236-8f001fce8a08"
+					(reference "Q?")
 					(unit 1)
 				)
 				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/d2c99155-6dc4-4cef-b7d8-f7ba5e4118d0"
