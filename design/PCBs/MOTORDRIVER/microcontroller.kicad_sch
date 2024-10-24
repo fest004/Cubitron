@@ -1932,6 +1932,16 @@
 		)
 		(uuid "fd372683-56b0-4f3d-879c-390c90cc93a7")
 	)
+	(text "to programmer\n"
+		(exclude_from_sim no)
+		(at 144.526 54.356 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b49c1c2e-55d9-421b-8936-dc80640f2d54")
+	)
 	(hierarchical_label "ERR_LED"
 		(shape input)
 		(at 156.21 146.05 270)
@@ -1979,6 +1989,30 @@
 			(justify left)
 		)
 		(uuid "58ca23ec-c20b-405b-84ae-ca219cfec15d")
+	)
+	(hierarchical_label "SWDIO"
+		(shape input)
+		(at 143.51 69.85 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9be908d9-671e-48b8-a0c3-73e85202dc4f")
+	)
+	(hierarchical_label "SWCLK"
+		(shape input)
+		(at 146.05 69.85 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ad1085c5-20ac-4e2c-95dc-d911383ccf41")
 	)
 	(hierarchical_label "PROCESS_LED"
 		(shape input)
