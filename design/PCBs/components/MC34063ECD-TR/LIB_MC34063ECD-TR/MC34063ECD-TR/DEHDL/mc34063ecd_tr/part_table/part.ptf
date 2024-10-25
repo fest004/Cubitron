@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'MC34063ECD_TR'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "STMicroelectronics", "MC34063ECD-TR" (!) = "", "SOIC127P600X175-8N", "Small Outline Packages", "511-MC34063ECD-TR", "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/MC34063ECD-TR?qs=yc0hdvjf4X927o4awNc7hw%3D%3D", "STMicroelectronics, MC34063ECD-TR", "https://www.st.com/resource/en/datasheet/mc34063ec.pdf", "1.75 mm"
+END_PART
+
+END.

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MC34063ECD-TR
+D STMicroelectronics, MC34063ECD-TR
+K
+F https://www.st.com/resource/en/datasheet/mc34063ec.pdf
+$ENDCMP
+#
+#End Doc Library
