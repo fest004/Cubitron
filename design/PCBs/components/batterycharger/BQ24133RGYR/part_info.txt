@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=BQ24133RGYR
+PartCategory=Integrated Circuit
+PackageCategory=Other
+PinCount=25
+Version=1.2
+Released=2020-02-18 00:08:51
+Downloaded=2024-10-25 13:53:19
+3D=Y

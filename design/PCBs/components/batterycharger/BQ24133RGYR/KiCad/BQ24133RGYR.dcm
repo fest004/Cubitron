@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BQ24133RGYR
+D Synchronous Switch-Mode Li-Ion and Li-Polymer Stand-Alone Battery Charger
+K
+F http://www.ti.com/lit/gpn/BQ24133
+$ENDCMP
+#
+#End Doc Library
