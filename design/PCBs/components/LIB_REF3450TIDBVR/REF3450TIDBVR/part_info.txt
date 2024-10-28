@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=REF3450TIDBVR
+PartCategory=Integrated Circuit
+PackageCategory=SOT23 (6-Pin)
+PinCount=6
+Version=2.1
+Released=2022-02-02 04:39:52
+Downloaded=2024-10-25 14:55:37
+3D=Y
