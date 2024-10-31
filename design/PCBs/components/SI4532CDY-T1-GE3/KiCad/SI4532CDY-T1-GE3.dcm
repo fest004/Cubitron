@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SI4532CDY-T1-GE3
+D Vishay SI4532CDY-T1-GE3 Dual N/P-channel MOSFET Transistor, 8-Pin SOIC
+K
+F http://www.vishay.com/docs/64805/si4532cd.pdf
+$ENDCMP
+#
+#End Doc Library

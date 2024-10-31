@@ -193,6 +193,16 @@
 			)
 		)
 	)
+	(text "Motor pins TODO\nIMU pins TODO\n"
+		(exclude_from_sim no)
+		(at 170.18 73.152 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "116a3ef1-03d4-404b-bc1b-67d93817f62b")
+	)
 	(hierarchical_label "BAT_GND"
 		(shape input)
 		(at 133.35 91.44 180)

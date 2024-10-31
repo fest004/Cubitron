@@ -1,0 +1,16 @@
+.SI4532CDY-T1-GE3 :1 ;Vishay SI4532CDY-T1-GE3 Dual N/P-channel MOSFET Transistor, 8-Pin SOIC
+SOT127P600X175-8N
+*STM Q
+*NGS
+*PLB 1="S" 2="G1" 3="S2" 4="G2" 5="D2_1" 6="D2_2" 7="D1_1" 8="D1_2"
+*MXP 8
+*DFN SI4532CDY-T1-GE3
+~!Mouser Part Number (781-SI4532CDY-GE3)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/SI4532CDY-T1-GE3?qs=45wPT2wjtGnob1HAmZ9n7g%3D%3D)
+~!Manufacturer_Name (Vishay)
+~!Manufacturer_Part_Number (SI4532CDY-T1-GE3)
+~!Link Datasheet (http://www.vishay.com/docs/64805/si4532cd.pdf)
+~!Height (1.75mm)
+~!3D_Model (SI4532CDY-T1-GE3)
+SI4532CDY-T1-GE3
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 
