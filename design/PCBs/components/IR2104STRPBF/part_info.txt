@@ -1,0 +1,9 @@
+Manufacturer=Infineon
+PartNumber=IR2104STRPBF
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=8
+Version=7.1
+Released=2020-03-10 13:36:54
+Downloaded=2024-11-01 14:04:13
+3D=Y
