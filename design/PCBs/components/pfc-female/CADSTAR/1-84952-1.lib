@@ -1,0 +1,17 @@
+.1-84952-1 :1 ;FFC & FPC Connectors 1MM FPC HORZ .BTTM CONT.ASS.11P
+"1849521"
+*STM J
+*NGS
+*PNM 1=1 2=2 3=3 4=4 5=5 6=6 7=7 8=8 9=9 10=10 11=11 12=MP1 13=MP2
+*PLB 1="1" 2="2" 3="3" 4="4" 5="5" 6="6" 7="7" 8="8" 9="9" 10="10" 11="11" 12="MP1" 13="MP2"
+*MXP 13
+*DFN 1-84952-1
+~!Mouser Part Number (571-1-84952-1)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/TE-Connectivity/1-84952-1?qs=uUkeXfjQ8uS9Vjbveobf0Q%3D%3D)
+~!Manufacturer_Name (TE Connectivity)
+~!Manufacturer_Part_Number (1-84952-1)
+~!Link Datasheet (https://componentsearchengine.com/Datasheets/2/1-84952-1.pdf)
+~!Height (2.74mm)
+~!3D_Model (1-84952-1)
+"1-84952-1"
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 11.1!U 12.1!U 13.1!U 

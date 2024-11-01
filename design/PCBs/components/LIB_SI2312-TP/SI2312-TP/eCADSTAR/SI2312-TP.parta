@@ -1,0 +1,70 @@
+(Japanese_coding: sjis)
+(function "ECS_899657"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2019-05-31-03:53:39)
+    (utime 2024-05-17-16:34:44)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 3) (portType INOUT))
+        (port "3" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "SI2312-TP")
+)
+
+
+(pinAssign "ECS_899657"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2019-05-31-03:53:39)
+    (utime 2024-05-17-16:34:44)
+    (interface
+        (port "1" (symbPinId 1) (portName "G") (portType INOUT))
+        (port "2" (symbPinId 3) (portName "S") (portType INOUT))
+        (port "3" (symbPinId 2) (portName "D") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_899657")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+                (port "3" (match "3"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "SI2312-TP")
+)
+
+
+(part "SI2312-TP"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2019-05-31-03:53:39)
+    (utime 2024-05-17-16:34:44)
+    (packageRef "SI2312-TP")
+    (pinAssignRef "ECS_899657")
+    (interface
+        (port "1" (symbPinId 1) (portName "G") (portType INOUT))
+        (port "2" (symbPinId 3) (portName "S") (portType INOUT))
+        (port "3" (symbPinId 2) (portName "D") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "YES")
+    (property "refDesPrefix" "Q")
+    (property "description" "Small Signal MOSFETS")
+    (property "Mouser_Part_Number" "833-SI2312-TP")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/Micro-Commercial-Components-MCC/SI2312-TP?qs=MoCBKJu1Jj1t1%2FytLtzFIw%3D%3D")
+    (property "Manufacturer_Name" "MCC")
+    (property "Manufacturer_Part_Number" "SI2312-TP")
+    (property "Datasheet_Link" "https://www.mccsemi.com/pdf/Products/SI2312(SOT-23).pdf")
+    (property "compAreaTopHeight" 1.25)
+)
+
+
