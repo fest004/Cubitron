@@ -5,12 +5,13 @@
 	(uuid "6907a4f5-f1f9-4c64-bf66-1c00f6fa2b43")
 	(paper "A4")
 	(lib_symbols
-		(symbol "SI4532CDY-T1-GE3:SI4532CDY-T1-GE3"
+		(symbol "SI2312-TP:SI2312-TP"
+			(pin_names hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "Q"
-				(at 21.59 7.62 0)
+				(at 11.43 3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -18,8 +19,8 @@
 					(justify left top)
 				)
 			)
-			(property "Value" "SI4532CDY-T1-GE3"
-				(at 21.59 5.08 0)
+			(property "Value" "SI2312-TP"
+				(at 11.43 1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -27,18 +28,8 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "SOT127P600X175-8N"
-				(at 21.59 -94.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.vishay.com/docs/64805/si4532cd.pdf"
-				(at 21.59 -194.92 0)
+			(property "Footprint" "SOT95P237X125-3N"
+				(at 11.43 -98.73 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -47,7 +38,17 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Vishay SI4532CDY-T1-GE3 Dual N/P-channel MOSFET Transistor, 8-Pin SOIC"
+			(property "Datasheet" "https://www.mccsemi.com/pdf/Products/SI2312(SOT-23).pdf"
+				(at 11.43 -198.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Small Signal MOSFETS"
 				(at 0 0 0)
 				(effects
 					(font
@@ -56,8 +57,8 @@
 					(hide yes)
 				)
 			)
-			(property "Height" "1.75"
-				(at 21.59 -394.92 0)
+			(property "Height" "1.25"
+				(at 11.43 -398.73 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -66,8 +67,8 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Part Number" "781-SI4532CDY-GE3"
-				(at 21.59 -494.92 0)
+			(property "Mouser Part Number" "833-SI2312-TP"
+				(at 11.43 -498.73 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -76,8 +77,8 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/SI4532CDY-T1-GE3?qs=45wPT2wjtGnob1HAmZ9n7g%3D%3D"
-				(at 21.59 -594.92 0)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Micro-Commercial-Components-MCC/SI2312-TP?qs=MoCBKJu1Jj1t1%2FytLtzFIw%3D%3D"
+				(at 11.43 -598.73 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -86,8 +87,8 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Name" "Vishay"
-				(at 21.59 -694.92 0)
+			(property "Manufacturer_Name" "MCC"
+				(at 11.43 -698.73 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -96,8 +97,8 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Part_Number" "SI4532CDY-T1-GE3"
-				(at 21.59 -794.92 0)
+			(property "Manufacturer_Part_Number" "SI2312-TP"
+				(at 11.43 -798.73 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -106,22 +107,154 @@
 					(hide yes)
 				)
 			)
-			(symbol "SI4532CDY-T1-GE3_1_1"
-				(rectangle
-					(start 5.08 2.54)
-					(end 20.32 -10.16)
+			(symbol "SI2312-TP_1_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 5.08 0)
+					)
 					(stroke
 						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 5.08) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.842 -0.508) (xy 5.842 0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.842 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.842 2.032) (xy 5.842 3.048)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.842 5.588) (xy 5.842 4.572)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 2.54) (xy 5.842 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 2.54) (xy 7.62 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 5.842 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 7.62 7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.842 2.54) (xy 6.858 3.048) (xy 6.858 2.032) (xy 5.842 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 6.35 2.54)
+					(radius 3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(pin passive line
 					(at 0 0 0)
-					(length 5.08)
-					(name "S"
+					(length 2.54)
+					(name "G"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -137,9 +270,9 @@
 					)
 				)
 				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "G1"
+					(at 7.62 -5.08 90)
+					(length 2.54)
+					(name "S"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -155,9 +288,9 @@
 					)
 				)
 				(pin passive line
-					(at 0 -5.08 0)
-					(length 5.08)
-					(name "S2"
+					(at 7.62 10.16 270)
+					(length 2.54)
+					(name "D"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -165,96 +298,6 @@
 						)
 					)
 					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -7.62 0)
-					(length 5.08)
-					(name "G2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 25.4 0 180)
-					(length 5.08)
-					(name "D2_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 25.4 -2.54 180)
-					(length 5.08)
-					(name "D2_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 25.4 -5.08 180)
-					(length 5.08)
-					(name "D1_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 25.4 -7.62 180)
-					(length 5.08)
-					(name "D1_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -277,16 +320,6 @@
 		)
 		(uuid 4b8b4dd5-f3cd-4352-90a1-ce10203e26f4)
 	)
-	(text "Motor 2\n"
-		(exclude_from_sim no)
-		(at 181.356 63.754 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "4f492cf5-1fff-4e30-8b78-f6a1229342f0")
-	)
 	(text "Hbridge Gates\nTODO: Find component"
 		(exclude_from_sim no)
 		(at 68.834 61.722 0)
@@ -297,64 +330,36 @@
 		)
 		(uuid "7f1ca5c3-301c-42a3-bf51-0741351a0645")
 	)
-	(text "Motor 1\n"
-		(exclude_from_sim no)
-		(at 130.302 63.246 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "88c0082e-c5aa-4b88-be45-bf5c9f8b0bbb")
-	)
-	(text "Motor 3\n\n"
-		(exclude_from_sim no)
-		(at 227.33 65.024 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "a838f7eb-2986-47f7-a24b-486b48057cbb")
-	)
 	(symbol
-		(lib_id "SI4532CDY-T1-GE3:SI4532CDY-T1-GE3")
-		(at 118.11 101.6 0)
+		(lib_id "SI2312-TP:SI2312-TP")
+		(at 154.94 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "31be74b6-4e2e-4549-bb2f-d1e8270c3680")
-		(property "Reference" "Q39"
-			(at 130.81 93.98 0)
+		(uuid "583ef995-70c9-4066-b2c9-9760631c8907")
+		(property "Reference" "Q1"
+			(at 166.37 77.4699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "SI4532CDY-T1-GE3"
-			(at 130.81 96.52 0)
+		(property "Value" "SI2312-TP"
+			(at 166.37 80.0099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "SOT127P600X175-8N"
-			(at 139.7 196.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/64805/si4532cd.pdf"
-			(at 139.7 296.52 0)
+		(property "Footprint" "SOT95P237X125-3N"
+			(at 166.37 180.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -363,17 +368,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Vishay SI4532CDY-T1-GE3 Dual N/P-channel MOSFET Transistor, 8-Pin SOIC"
-			(at 118.11 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.75"
-			(at 139.7 496.52 0)
+		(property "Datasheet" "https://www.mccsemi.com/pdf/Products/SI2312(SOT-23).pdf"
+			(at 166.37 280.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -382,8 +378,17 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "781-SI4532CDY-GE3"
-			(at 139.7 596.52 0)
+		(property "Description" "Small Signal MOSFETS"
+			(at 154.94 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.25"
+			(at 166.37 480.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -392,8 +397,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/SI4532CDY-T1-GE3?qs=45wPT2wjtGnob1HAmZ9n7g%3D%3D"
-			(at 139.7 696.52 0)
+		(property "Mouser Part Number" "833-SI2312-TP"
+			(at 166.37 580.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -402,8 +407,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Vishay"
-			(at 139.7 796.52 0)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Micro-Commercial-Components-MCC/SI2312-TP?qs=MoCBKJu1Jj1t1%2FytLtzFIw%3D%3D"
+			(at 166.37 680.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -412,8 +417,18 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "SI4532CDY-T1-GE3"
-			(at 139.7 896.52 0)
+		(property "Manufacturer_Name" "MCC"
+			(at 166.37 780.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SI2312-TP"
+			(at 166.37 880.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -423,325 +438,18 @@
 			)
 		)
 		(pin "1"
-			(uuid "ea36fd94-ae81-45e5-b35f-07e60974ac68")
-		)
-		(pin "8"
-			(uuid "477cadc8-fe6d-45ac-95aa-98a2d0b82cdf")
-		)
-		(pin "5"
-			(uuid "c4a08263-0fca-4021-a5de-277d95a0c898")
-		)
-		(pin "7"
-			(uuid "546a3cec-9e41-4cdf-8d2c-138fdd0ccbea")
-		)
-		(pin "3"
-			(uuid "76bf3b92-b503-4271-ae83-e5d290e2ffec")
-		)
-		(pin "4"
-			(uuid "d4d74298-b2fb-49f1-9c3a-89b6d4f26aa3")
+			(uuid "6d6e2a6d-691a-40f0-b98d-a67e6ecf225d")
 		)
 		(pin "2"
-			(uuid "d7ff627c-7ee2-4878-92c1-c5f4d89986ff")
-		)
-		(pin "6"
-			(uuid "8cc0cecd-5eb7-41d9-b771-bab424743844")
-		)
-		(instances
-			(project "motordriver"
-				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/4adc8e75-6797-461c-8ad6-e6b779b2e551"
-					(reference "Q39")
-					(unit 1)
-				)
-				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/b5eb0271-9027-4941-b236-8f001fce8a08"
-					(reference "Q33")
-					(unit 1)
-				)
-				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/d2c99155-6dc4-4cef-b7d8-f7ba5e4118d0"
-					(reference "Q36")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SI4532CDY-T1-GE3:SI4532CDY-T1-GE3")
-		(at 215.9 80.01 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "450d8e30-062b-485c-aafa-c12e290f10d0")
-		(property "Reference" "Q32"
-			(at 228.6 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SI4532CDY-T1-GE3"
-			(at 228.6 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SOT127P600X175-8N"
-			(at 237.49 174.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/64805/si4532cd.pdf"
-			(at 237.49 274.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Vishay SI4532CDY-T1-GE3 Dual N/P-channel MOSFET Transistor, 8-Pin SOIC"
-			(at 215.9 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.75"
-			(at 237.49 474.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "781-SI4532CDY-GE3"
-			(at 237.49 574.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/SI4532CDY-T1-GE3?qs=45wPT2wjtGnob1HAmZ9n7g%3D%3D"
-			(at 237.49 674.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Vishay"
-			(at 237.49 774.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "SI4532CDY-T1-GE3"
-			(at 237.49 874.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "687a1f0b-4433-42d9-893e-7de830f34ec0")
-		)
-		(pin "8"
-			(uuid "418f3982-714b-4172-8b85-f4e42a7d78ac")
-		)
-		(pin "5"
-			(uuid "81b58e62-cef9-458a-8161-f28a57aee6c3")
-		)
-		(pin "7"
-			(uuid "0e8c3596-d586-4eb5-a5cf-c6d53c9caee8")
+			(uuid "7ace56c1-0d61-4326-9ac3-756ecc3fcd81")
 		)
 		(pin "3"
-			(uuid "79cff5ef-3bd5-4dfd-89b5-9366032e62c4")
-		)
-		(pin "4"
-			(uuid "0ed39644-a2a2-4684-9894-3c1860dce16a")
-		)
-		(pin "2"
-			(uuid "24c270a6-9c13-4038-b748-1fe8bc6cef7d")
-		)
-		(pin "6"
-			(uuid "05af03ce-320d-4db0-a7ff-8221b37c6863")
-		)
-		(instances
-			(project "motordriver"
-				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/4adc8e75-6797-461c-8ad6-e6b779b2e551"
-					(reference "Q32")
-					(unit 1)
-				)
-				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/b5eb0271-9027-4941-b236-8f001fce8a08"
-					(reference "Q30")
-					(unit 1)
-				)
-				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/d2c99155-6dc4-4cef-b7d8-f7ba5e4118d0"
-					(reference "Q31")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SI4532CDY-T1-GE3:SI4532CDY-T1-GE3")
-		(at 118.11 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "485a1563-63a6-44d6-946e-346ad4f91fc5")
-		(property "Reference" "Q26"
-			(at 130.81 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SI4532CDY-T1-GE3"
-			(at 130.81 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SOT127P600X175-8N"
-			(at 139.7 173.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/64805/si4532cd.pdf"
-			(at 139.7 273.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Vishay SI4532CDY-T1-GE3 Dual N/P-channel MOSFET Transistor, 8-Pin SOIC"
-			(at 118.11 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.75"
-			(at 139.7 473.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "781-SI4532CDY-GE3"
-			(at 139.7 573.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/SI4532CDY-T1-GE3?qs=45wPT2wjtGnob1HAmZ9n7g%3D%3D"
-			(at 139.7 673.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Vishay"
-			(at 139.7 773.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "SI4532CDY-T1-GE3"
-			(at 139.7 873.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "09af9bc1-3b32-4cad-92da-4ea4aaab821d")
-		)
-		(pin "8"
-			(uuid "c2d7265d-7762-4136-a8c0-e423796f5950")
-		)
-		(pin "5"
-			(uuid "faca6b18-d09d-465e-8fc9-803f5855efe0")
-		)
-		(pin "7"
-			(uuid "df314747-15d2-4813-83a3-8ced4e8a95d6")
-		)
-		(pin "3"
-			(uuid "ba5ed36b-7be0-47d5-8885-e7dd8ff9845e")
-		)
-		(pin "4"
-			(uuid "88923d8a-e736-4bba-859b-4953b2fcfdbc")
-		)
-		(pin "2"
-			(uuid "9f69bb16-b299-4a86-ac6a-ee319bb620e9")
-		)
-		(pin "6"
-			(uuid "b43be54f-cf06-45b8-8c46-15c975c40358")
+			(uuid "e9c0dcf9-87c9-48f6-b4f9-3b1f4939cc80")
 		)
 		(instances
 			(project ""
 				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/4adc8e75-6797-461c-8ad6-e6b779b2e551"
-					(reference "Q26")
+					(reference "Q3")
 					(unit 1)
 				)
 				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/b5eb0271-9027-4941-b236-8f001fce8a08"
@@ -749,883 +457,7 @@
 					(unit 1)
 				)
 				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/d2c99155-6dc4-4cef-b7d8-f7ba5e4118d0"
-					(reference "Q25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SI4532CDY-T1-GE3:SI4532CDY-T1-GE3")
-		(at 118.11 124.46 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5575a6d8-f93e-4444-8eaf-8f08ed0bc1ae")
-		(property "Reference" "Q8"
-			(at 130.81 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SI4532CDY-T1-GE3"
-			(at 130.81 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SOT127P600X175-8N"
-			(at 139.7 219.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/64805/si4532cd.pdf"
-			(at 139.7 319.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Vishay SI4532CDY-T1-GE3 Dual N/P-channel MOSFET Transistor, 8-Pin SOIC"
-			(at 118.11 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.75"
-			(at 139.7 519.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "781-SI4532CDY-GE3"
-			(at 139.7 619.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/SI4532CDY-T1-GE3?qs=45wPT2wjtGnob1HAmZ9n7g%3D%3D"
-			(at 139.7 719.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Vishay"
-			(at 139.7 819.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "SI4532CDY-T1-GE3"
-			(at 139.7 919.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0477e8a8-2f31-48b1-8ef7-39a97725d4f9")
-		)
-		(pin "8"
-			(uuid "55055de5-3ff7-4ea3-913b-ca842225bb19")
-		)
-		(pin "5"
-			(uuid "b1d6bb6b-b7ec-411a-87ea-37d4636e5424")
-		)
-		(pin "7"
-			(uuid "10696f8b-7525-410e-b456-1846784a44b4")
-		)
-		(pin "3"
-			(uuid "43a57303-79ee-4b86-b652-5418316d35c1")
-		)
-		(pin "4"
-			(uuid "0372c37c-7fb4-4f10-aca6-ddc9d747d251")
-		)
-		(pin "2"
-			(uuid "6a018bff-b703-44da-ab62-b14a180598a6")
-		)
-		(pin "6"
-			(uuid "19f192ff-1e43-48d0-b74b-95e89473b560")
-		)
-		(instances
-			(project "motordriver"
-				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/4adc8e75-6797-461c-8ad6-e6b779b2e551"
-					(reference "Q8")
-					(unit 1)
-				)
-				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/b5eb0271-9027-4941-b236-8f001fce8a08"
 					(reference "Q2")
-					(unit 1)
-				)
-				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/d2c99155-6dc4-4cef-b7d8-f7ba5e4118d0"
-					(reference "Q5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SI4532CDY-T1-GE3:SI4532CDY-T1-GE3")
-		(at 168.91 101.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "65c49c8d-2011-4329-ab79-c163c97b87d9")
-		(property "Reference" "Q40"
-			(at 181.61 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SI4532CDY-T1-GE3"
-			(at 181.61 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SOT127P600X175-8N"
-			(at 190.5 196.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/64805/si4532cd.pdf"
-			(at 190.5 296.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Vishay SI4532CDY-T1-GE3 Dual N/P-channel MOSFET Transistor, 8-Pin SOIC"
-			(at 168.91 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.75"
-			(at 190.5 496.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "781-SI4532CDY-GE3"
-			(at 190.5 596.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/SI4532CDY-T1-GE3?qs=45wPT2wjtGnob1HAmZ9n7g%3D%3D"
-			(at 190.5 696.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Vishay"
-			(at 190.5 796.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "SI4532CDY-T1-GE3"
-			(at 190.5 896.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c8ee4644-232d-4bd6-bc28-66f64bdb6388")
-		)
-		(pin "8"
-			(uuid "20423560-ef29-471e-a06e-5caf64713827")
-		)
-		(pin "5"
-			(uuid "b2b76616-8607-4d6a-b7e7-749d7be6f9f0")
-		)
-		(pin "7"
-			(uuid "6896be58-a726-41ef-a33c-55a444425eb5")
-		)
-		(pin "3"
-			(uuid "e7a095fd-ef98-4984-b342-1f1d102e97f4")
-		)
-		(pin "4"
-			(uuid "b1a12c71-c15a-4797-890a-1f63091737d6")
-		)
-		(pin "2"
-			(uuid "64d9a2e5-50b9-4acf-9477-139e80169400")
-		)
-		(pin "6"
-			(uuid "7faae532-cbcd-4bda-872b-c4e3ce02ba57")
-		)
-		(instances
-			(project "motordriver"
-				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/4adc8e75-6797-461c-8ad6-e6b779b2e551"
-					(reference "Q40")
-					(unit 1)
-				)
-				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/b5eb0271-9027-4941-b236-8f001fce8a08"
-					(reference "Q34")
-					(unit 1)
-				)
-				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/d2c99155-6dc4-4cef-b7d8-f7ba5e4118d0"
-					(reference "Q37")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SI4532CDY-T1-GE3:SI4532CDY-T1-GE3")
-		(at 215.9 102.87 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "72ccb605-e295-4acb-8511-2d27552d9071")
-		(property "Reference" "Q41"
-			(at 228.6 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SI4532CDY-T1-GE3"
-			(at 228.6 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SOT127P600X175-8N"
-			(at 237.49 197.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/64805/si4532cd.pdf"
-			(at 237.49 297.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Vishay SI4532CDY-T1-GE3 Dual N/P-channel MOSFET Transistor, 8-Pin SOIC"
-			(at 215.9 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.75"
-			(at 237.49 497.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "781-SI4532CDY-GE3"
-			(at 237.49 597.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/SI4532CDY-T1-GE3?qs=45wPT2wjtGnob1HAmZ9n7g%3D%3D"
-			(at 237.49 697.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Vishay"
-			(at 237.49 797.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "SI4532CDY-T1-GE3"
-			(at 237.49 897.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1b954d2d-7d81-493f-a4f4-f7b9fbad0de3")
-		)
-		(pin "8"
-			(uuid "19ee9b8c-60b5-4bb0-b1eb-9eb82bc2af42")
-		)
-		(pin "5"
-			(uuid "d9c4d247-8caf-4e76-ab94-549f589e0392")
-		)
-		(pin "7"
-			(uuid "ab6a438c-6472-4e77-8d84-feee06e60a18")
-		)
-		(pin "3"
-			(uuid "374c4d95-ea2d-4e97-9aa9-8ec1869f005f")
-		)
-		(pin "4"
-			(uuid "9b0d4d7e-3392-42a5-81e2-ee901f97de7b")
-		)
-		(pin "2"
-			(uuid "5b7e5dbf-0e55-4596-ac23-23b2ef965008")
-		)
-		(pin "6"
-			(uuid "7c141449-0128-47a0-89cd-f1459e3c8bda")
-		)
-		(instances
-			(project "motordriver"
-				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/4adc8e75-6797-461c-8ad6-e6b779b2e551"
-					(reference "Q41")
-					(unit 1)
-				)
-				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/b5eb0271-9027-4941-b236-8f001fce8a08"
-					(reference "Q35")
-					(unit 1)
-				)
-				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/d2c99155-6dc4-4cef-b7d8-f7ba5e4118d0"
-					(reference "Q38")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SI4532CDY-T1-GE3:SI4532CDY-T1-GE3")
-		(at 168.91 124.46 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a27e711b-93f9-4709-967d-8511a9c5e382")
-		(property "Reference" "Q9"
-			(at 181.61 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SI4532CDY-T1-GE3"
-			(at 181.61 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SOT127P600X175-8N"
-			(at 190.5 219.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/64805/si4532cd.pdf"
-			(at 190.5 319.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Vishay SI4532CDY-T1-GE3 Dual N/P-channel MOSFET Transistor, 8-Pin SOIC"
-			(at 168.91 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.75"
-			(at 190.5 519.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "781-SI4532CDY-GE3"
-			(at 190.5 619.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/SI4532CDY-T1-GE3?qs=45wPT2wjtGnob1HAmZ9n7g%3D%3D"
-			(at 190.5 719.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Vishay"
-			(at 190.5 819.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "SI4532CDY-T1-GE3"
-			(at 190.5 919.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c125c8ed-3922-41dd-a559-5927f7c742fe")
-		)
-		(pin "8"
-			(uuid "6da8aa6f-813d-4b53-af2d-07fd0c4b9935")
-		)
-		(pin "5"
-			(uuid "d4e47cd7-c57c-4ab7-b294-624c961145ed")
-		)
-		(pin "7"
-			(uuid "6032e377-4289-49fa-a7d1-6ba95f628e01")
-		)
-		(pin "3"
-			(uuid "d80190db-7c73-4c36-a5cd-a7799909b39e")
-		)
-		(pin "4"
-			(uuid "26fad71e-baf8-4876-bd79-facda3df6105")
-		)
-		(pin "2"
-			(uuid "c8edc5fb-2c81-4ea6-9a9e-fb083e714d42")
-		)
-		(pin "6"
-			(uuid "3acb6957-9022-4284-87df-aa5226c12689")
-		)
-		(instances
-			(project "motordriver"
-				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/4adc8e75-6797-461c-8ad6-e6b779b2e551"
-					(reference "Q9")
-					(unit 1)
-				)
-				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/b5eb0271-9027-4941-b236-8f001fce8a08"
-					(reference "Q3")
-					(unit 1)
-				)
-				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/d2c99155-6dc4-4cef-b7d8-f7ba5e4118d0"
-					(reference "Q6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SI4532CDY-T1-GE3:SI4532CDY-T1-GE3")
-		(at 168.91 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b3a3d77b-5771-4faf-a17d-fa8eec76ba86")
-		(property "Reference" "Q29"
-			(at 181.61 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SI4532CDY-T1-GE3"
-			(at 181.61 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SOT127P600X175-8N"
-			(at 190.5 173.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/64805/si4532cd.pdf"
-			(at 190.5 273.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Vishay SI4532CDY-T1-GE3 Dual N/P-channel MOSFET Transistor, 8-Pin SOIC"
-			(at 168.91 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.75"
-			(at 190.5 473.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "781-SI4532CDY-GE3"
-			(at 190.5 573.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/SI4532CDY-T1-GE3?qs=45wPT2wjtGnob1HAmZ9n7g%3D%3D"
-			(at 190.5 673.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Vishay"
-			(at 190.5 773.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "SI4532CDY-T1-GE3"
-			(at 190.5 873.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f4a32623-ec13-4f5d-af7a-b5f5ab8fc743")
-		)
-		(pin "8"
-			(uuid "c0a426ba-57de-4def-9cbd-da5d5e508aa6")
-		)
-		(pin "5"
-			(uuid "2dbdccc1-fde2-41d0-81d4-f05b13dfe07a")
-		)
-		(pin "7"
-			(uuid "cf2da6e3-ae8f-44e6-9760-3898849de256")
-		)
-		(pin "3"
-			(uuid "af757581-7ff2-495d-a961-56b3e8963c3f")
-		)
-		(pin "4"
-			(uuid "3f496091-6727-47c3-8d7b-c565e1db42b8")
-		)
-		(pin "2"
-			(uuid "ca7adb47-a0b1-4456-85a5-3f69693475a3")
-		)
-		(pin "6"
-			(uuid "78b7bcb0-19b3-496a-9573-a7091453fe15")
-		)
-		(instances
-			(project "motordriver"
-				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/4adc8e75-6797-461c-8ad6-e6b779b2e551"
-					(reference "Q29")
-					(unit 1)
-				)
-				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/b5eb0271-9027-4941-b236-8f001fce8a08"
-					(reference "Q27")
-					(unit 1)
-				)
-				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/d2c99155-6dc4-4cef-b7d8-f7ba5e4118d0"
-					(reference "Q28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SI4532CDY-T1-GE3:SI4532CDY-T1-GE3")
-		(at 215.9 125.73 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "faca03ec-a6f9-44a5-8f43-8d1e23967014")
-		(property "Reference" "Q10"
-			(at 228.6 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SI4532CDY-T1-GE3"
-			(at 228.6 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SOT127P600X175-8N"
-			(at 237.49 220.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/64805/si4532cd.pdf"
-			(at 237.49 320.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Vishay SI4532CDY-T1-GE3 Dual N/P-channel MOSFET Transistor, 8-Pin SOIC"
-			(at 215.9 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.75"
-			(at 237.49 520.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "781-SI4532CDY-GE3"
-			(at 237.49 620.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/SI4532CDY-T1-GE3?qs=45wPT2wjtGnob1HAmZ9n7g%3D%3D"
-			(at 237.49 720.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Vishay"
-			(at 237.49 820.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "SI4532CDY-T1-GE3"
-			(at 237.49 920.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9b8518b4-e29e-480d-b208-a213010d09f8")
-		)
-		(pin "8"
-			(uuid "36d0dcdb-b095-4c0c-9048-511078a6431a")
-		)
-		(pin "5"
-			(uuid "d4398321-da34-459c-963e-a3cf82a7002c")
-		)
-		(pin "7"
-			(uuid "5a6484d2-f492-4e16-bdd4-638e64618800")
-		)
-		(pin "3"
-			(uuid "eef2bc03-8243-4962-b1bb-1bf77b3cd0da")
-		)
-		(pin "4"
-			(uuid "3c3213d9-7cef-4f3a-b519-63be1e58ecaf")
-		)
-		(pin "2"
-			(uuid "d8bb3ca5-05af-4c1c-9577-f5f4ad235c02")
-		)
-		(pin "6"
-			(uuid "5b03ff1d-39e3-45cc-9e7b-11dfc5144dc1")
-		)
-		(instances
-			(project "motordriver"
-				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/4adc8e75-6797-461c-8ad6-e6b779b2e551"
-					(reference "Q10")
-					(unit 1)
-				)
-				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/b5eb0271-9027-4941-b236-8f001fce8a08"
-					(reference "Q4")
-					(unit 1)
-				)
-				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/d2c99155-6dc4-4cef-b7d8-f7ba5e4118d0"
-					(reference "Q7")
 					(unit 1)
 				)
 			)
