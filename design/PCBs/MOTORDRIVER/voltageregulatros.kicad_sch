@@ -3332,16 +3332,6 @@
 		)
 		(uuid "27aeb799-e922-44b6-b411-8d884ec7bc9f")
 	)
-	(text "(may be removed, check before ordering)\n"
-		(exclude_from_sim no)
-		(at 234.95 76.2 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "306ae2fc-f1ec-4ebc-86f1-3831003b5161")
-	)
 	(text "12V to 3.3V LDO"
 		(exclude_from_sim no)
 		(at 43.688 20.066 0)
@@ -3362,7 +3352,7 @@
 		)
 		(uuid "43813ea1-d43c-442e-8742-816151fba376")
 	)
-	(text "5V to 12V"
+	(text "12V out"
 		(exclude_from_sim no)
 		(at 234.95 79.248 0)
 		(effects
@@ -3384,7 +3374,7 @@
 	)
 	(text "LiPo Battey Charger\n"
 		(exclude_from_sim no)
-		(at 129.286 41.402 0)
+		(at 145.542 57.658 0)
 		(effects
 			(font
 				(size 1.27 1.27)

@@ -5,61 +5,137 @@
 	(uuid "c7634e88-16d1-45ec-9aac-9c841e03cf6d")
 	(paper "A4")
 	(lib_symbols)
-	(rectangle
-		(start 186.69 96.52)
-		(end 270.51 160.02)
+	(wire
+		(pts
+			(xy 48.26 71.12) (xy 48.26 77.47)
+		)
 		(stroke
-			(width -0.0001)
-			(type dot)
-			(color 30 30 30 1)
+			(width 0)
+			(type default)
 		)
-		(fill
-			(type color)
-			(color 30 30 30 1)
+		(uuid "01c0d046-fa73-4287-836a-fd66ae1bcc5f")
+	)
+	(wire
+		(pts
+			(xy 45.72 73.66) (xy 45.72 80.01)
 		)
-		(uuid 14eca32d-4b8e-4d10-ae7e-437072a0114a)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "037c1aea-5b7b-4730-a195-8fbd46b1ab6a")
+	)
+	(wire
+		(pts
+			(xy 33.02 73.66) (xy 45.72 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33c36a6e-4bdd-43d3-9ded-2e55150abb4e")
+	)
+	(wire
+		(pts
+			(xy 83.82 81.28) (xy 104.14 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "382ccccb-0f87-42ee-b38a-5fa94bd0e182")
+	)
+	(wire
+		(pts
+			(xy 83.82 83.82) (xy 104.14 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46999ce0-7ed7-4715-b188-b54bd6dcd8b9")
+	)
+	(wire
+		(pts
+			(xy 48.26 77.47) (xy 58.42 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cad6f54-7b04-4d7c-a535-756d6738b129")
+	)
+	(wire
+		(pts
+			(xy 33.02 71.12) (xy 48.26 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8ec83c0-9d3e-48b6-9489-6378188e6cc8")
+	)
+	(wire
+		(pts
+			(xy 45.72 80.01) (xy 58.42 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4a74c07-824d-4063-8cea-c1c18127feda")
 	)
 	(rectangle
-		(start 175.26 21.59)
-		(end 259.08 85.09)
+		(start 182.88 66.04)
+		(end 257.81 110.49)
 		(stroke
-			(width -0.0001)
+			(width 0.5)
 			(type dot)
-			(color 30 30 30 1)
+			(color 132 132 132 1)
 		)
 		(fill
-			(type color)
-			(color 30 30 30 1)
+			(type none)
 		)
-		(uuid 7b6507c0-1861-46e2-a3c4-a62345bb663c)
+		(uuid 7ba90286-5edf-49a8-9901-aa4f80cf98ed)
 	)
 	(rectangle
-		(start 50.8 58.42)
-		(end 147.32 107.95)
+		(start 182.88 17.78)
+		(end 252.73 62.23)
 		(stroke
-			(width -0.0001)
+			(width 0.5)
 			(type dot)
-			(color 30 30 30 1)
+			(color 132 132 132 1)
 		)
 		(fill
-			(type color)
-			(color 30 30 30 1)
+			(type none)
 		)
-		(uuid 8b0260a0-ee08-440b-a2d5-0123bc6a9165)
+		(uuid 89ae0da0-6d13-40e1-888c-558946975931)
 	)
 	(rectangle
-		(start 88.9 120.65)
-		(end 172.72 184.15)
+		(start 182.88 116.84)
+		(end 257.81 154.94)
 		(stroke
-			(width -0.0001)
+			(width 0.5)
 			(type dot)
-			(color 30 30 30 1)
+			(color 132 132 132 1)
 		)
 		(fill
-			(type color)
-			(color 30 30 30 1)
+			(type none)
 		)
 		(uuid d119cdcc-ff54-4987-81d2-42ab89d50408)
+	)
+	(rectangle
+		(start 52.07 55.88)
+		(end 146.05 106.68)
+		(stroke
+			(width 0.5)
+			(type dot)
+			(color 132 132 132 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid e81d2978-7bad-402c-8648-671640392bf2)
 	)
 	(text "MCU Stage"
 		(exclude_from_sim no)
@@ -73,7 +149,7 @@
 	)
 	(text "Motor Stage"
 		(exclude_from_sim no)
-		(at 217.678 24.892 0)
+		(at 214.122 22.86 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -83,7 +159,7 @@
 	)
 	(text "Motor Stage"
 		(exclude_from_sim no)
-		(at 130.302 125.222 0)
+		(at 218.186 121.412 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -93,7 +169,7 @@
 	)
 	(text "Motor Stage"
 		(exclude_from_sim no)
-		(at 229.362 100.838 0)
+		(at 214.63 70.104 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -102,8 +178,8 @@
 		(uuid "e449aee4-de4b-46b9-ab0e-516859dc8c5d")
 	)
 	(sheet
-		(at 95.25 157.48)
-		(size 40.64 20.32)
+		(at 195.58 129.54)
+		(size 20.32 15.24)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.5)
@@ -114,7 +190,7 @@
 		)
 		(uuid "095cf403-627e-473d-974a-cb1fe8ca8b1f")
 		(property "Sheetname" "driverIC"
-			(at 95.25 156.5946 0)
+			(at 195.58 128.6546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -123,7 +199,7 @@
 			)
 		)
 		(property "Sheetfile" "driverIC.kicad_sch"
-			(at 95.25 178.5584 0)
+			(at 195.58 145.5384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -140,8 +216,8 @@
 		)
 	)
 	(sheet
-		(at 121.92 133.35)
-		(size 20.32 15.24)
+		(at 223.52 127)
+		(size 21.59 6.35)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.5)
@@ -152,7 +228,7 @@
 		)
 		(uuid "22c06531-1f6c-46f3-988e-cea008e98016")
 		(property "Sheetname" "currentsense"
-			(at 121.92 132.4646 0)
+			(at 223.52 126.1146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -161,7 +237,7 @@
 			)
 		)
 		(property "Sheetfile" "currentsense.kicad_sch"
-			(at 121.92 149.3484 0)
+			(at 223.52 134.1084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -189,7 +265,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "38bc72d2-c2f6-4538-9c33-e1ab2a8ac987")
-		(property "Sheetname" "io"
+		(property "Sheetname" "input"
 			(at 19.05 19.4346 0)
 			(effects
 				(font
@@ -198,7 +274,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "io.kicad_sch"
+		(property "Sheetfile" "input.kicad_sch"
 			(at 19.05 191.2584 0)
 			(effects
 				(font
@@ -208,7 +284,7 @@
 			)
 		)
 		(pin "BAT_12V" input
-			(at 33.02 85.09 0)
+			(at 33.02 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -218,7 +294,7 @@
 			(uuid "b31eecae-60fb-414d-a70b-34d08c1ae6a8")
 		)
 		(pin "BAT_GND" input
-			(at 33.02 77.47 0)
+			(at 33.02 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -226,6 +302,26 @@
 				(justify right)
 			)
 			(uuid "e9d1bd2e-9eee-4b8a-b8c4-e3c570745ca1")
+		)
+		(pin "D+" input
+			(at 33.02 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a574579f-8e83-4b56-866e-ddcee05b0ebc")
+		)
+		(pin "D-" input
+			(at 33.02 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5fbe2461-66f9-456b-acbd-91ef64f92fbf")
 		)
 		(instances
 			(project "motordriver"
@@ -236,8 +332,8 @@
 		)
 	)
 	(sheet
-		(at 180.34 54.61)
-		(size 40.64 20.32)
+		(at 190.5 31.75)
+		(size 24.13 13.97)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.5)
@@ -248,7 +344,7 @@
 		)
 		(uuid "3a57148f-9ebd-4906-ad6b-7dbf7876a4a8")
 		(property "Sheetname" "driverIC2"
-			(at 180.34 53.7246 0)
+			(at 190.5 30.8646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -257,7 +353,7 @@
 			)
 		)
 		(property "Sheetfile" "driverIC.kicad_sch"
-			(at 180.34 75.6884 0)
+			(at 190.5 46.4784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -312,8 +408,8 @@
 		)
 	)
 	(sheet
-		(at 207.01 30.48)
-		(size 20.32 15.24)
+		(at 220.98 26.67)
+		(size 21.59 7.62)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.5)
@@ -324,7 +420,7 @@
 		)
 		(uuid "474d6285-5514-49ae-8177-1e63fd9cd03e")
 		(property "Sheetname" "currentsense2"
-			(at 207.01 29.5946 0)
+			(at 220.98 25.7846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -333,7 +429,7 @@
 			)
 		)
 		(property "Sheetfile" "currentsense.kicad_sch"
-			(at 207.01 46.4784 0)
+			(at 220.98 35.0484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -350,8 +446,8 @@
 		)
 	)
 	(sheet
-		(at 227.33 57.15)
-		(size 26.67 16.51)
+		(at 220.98 44.45)
+		(size 22.86 7.62)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.5)
@@ -362,7 +458,7 @@
 		)
 		(uuid "4adc8e75-6797-461c-8ad6-e6b779b2e551")
 		(property "Sheetname" "drivergates2"
-			(at 227.33 56.2646 0)
+			(at 220.98 43.5646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -371,7 +467,7 @@
 			)
 		)
 		(property "Sheetfile" "gates.kicad_sch"
-			(at 227.33 74.4184 0)
+			(at 220.98 52.8284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -388,8 +484,226 @@
 		)
 	)
 	(sheet
-		(at 218.44 107.95)
-		(size 20.32 15.24)
+		(at 267.97 20.32)
+		(size 12.7 135.89)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.5)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5d8f5153-26a2-4903-a925-dc0c63f77bf7")
+		(property "Sheetname" "output"
+			(at 267.97 19.4346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "output.kicad_sch"
+			(at 267.97 156.9684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "HALL_B1" input
+			(at 267.97 34.29 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "304e57f1-c2e8-493a-a94c-095bd30f88f4")
+		)
+		(pin "HALL_A1" input
+			(at 267.97 36.83 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ee60aad6-12be-48a3-9e83-ad69d2221ded")
+		)
+		(pin "HALL_C1" input
+			(at 267.97 39.37 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "080958d4-2f9d-4c39-b17e-066e8ad223c0")
+		)
+		(pin "PHASE_U2" input
+			(at 267.97 71.12 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d0b4ef47-5d1b-4dbc-adb3-c502b9fd65be")
+		)
+		(pin "PHASE_V1" input
+			(at 267.97 45.72 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "193e800c-8bb8-4130-bef6-1852498dbb79")
+		)
+		(pin "PHASE_U1" input
+			(at 267.97 43.18 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "042ae849-f79e-4863-b0a8-63f497846b2d")
+		)
+		(pin "PHASE_W1" input
+			(at 267.97 48.26 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0d84d9f5-5667-4a6f-9dcf-7b1ae32c97e2")
+		)
+		(pin "PHASE_U3" input
+			(at 267.97 123.19 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "be6c98f2-b077-4ff0-9882-98985be2e05f")
+		)
+		(pin "PHASE_V3" input
+			(at 267.97 125.73 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d3006608-aa8d-45e9-b7b7-92c932518f0d")
+		)
+		(pin "PHASE_W3" input
+			(at 267.97 128.27 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0ee22d8f-b8a8-457b-81f8-4ee53c08f169")
+		)
+		(pin "HALL_C2" input
+			(at 267.97 67.31 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "11bdc71a-cbea-459a-bd7a-7d0d23273efa")
+		)
+		(pin "HALL_A2" input
+			(at 267.97 64.77 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5f21d7df-80ea-43dd-adf1-35eb8424f0e7")
+		)
+		(pin "HALL_B2" input
+			(at 267.97 62.23 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "350ffe5f-ea9f-4536-96fc-2d5b347cdfa4")
+		)
+		(pin "PHASE_V2" input
+			(at 267.97 73.66 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "aefedaeb-ae89-4f87-a389-db7a5e2e23f3")
+		)
+		(pin "PHASE_W2" input
+			(at 267.97 76.2 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f412664d-8a85-401a-a6fb-0fa6a7d4e8c4")
+		)
+		(pin "HALL_B3" input
+			(at 267.97 114.3 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "bba4f4f8-3765-45de-a7f2-3dc9169e012d")
+		)
+		(pin "HALL_A3" input
+			(at 267.97 116.84 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "fe2fb522-7cd2-4694-8c98-2940480b7074")
+		)
+		(pin "HALL_C3" input
+			(at 267.97 119.38 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "221aaeb8-bb99-4164-aee3-f9f8dbafdca7")
+		)
+		(instances
+			(project "motordriver"
+				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d"
+					(page "16")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 224.79 76.2)
+		(size 21.59 8.89)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.5)
@@ -400,7 +714,7 @@
 		)
 		(uuid "721caf15-f1fc-41df-88f3-9bb14360f09a")
 		(property "Sheetname" "currentsense1"
-			(at 218.44 107.0646 0)
+			(at 224.79 75.3146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -409,7 +723,7 @@
 			)
 		)
 		(property "Sheetfile" "currentsense.kicad_sch"
-			(at 218.44 123.9484 0)
+			(at 224.79 85.8484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -455,6 +769,46 @@
 				(justify left top)
 			)
 		)
+		(pin "D+" input
+			(at 58.42 77.47 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a0240db4-3520-4d3b-b9be-0417d411f4a1")
+		)
+		(pin "D-" input
+			(at 58.42 80.01 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "192f56a0-b943-474f-80e2-242f459e9275")
+		)
+		(pin "SWCLK" input
+			(at 83.82 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "59062b3e-6162-4744-8c1f-2aa529d84211")
+		)
+		(pin "SWDIO" input
+			(at 83.82 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "20c718eb-4b30-4c99-b861-b327be0ceb32")
+		)
 		(instances
 			(project "motordriver"
 				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d"
@@ -493,6 +847,106 @@
 				(justify left top)
 			)
 		)
+		(pin "RESETN" input
+			(at 123.19 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6bd3f699-6b72-44cc-b469-12147d793cd3")
+		)
+		(pin "SWCLK" input
+			(at 104.14 81.28 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "90826bb0-9057-464d-973e-8b9e9312e9e2")
+		)
+		(pin "SWDIO" input
+			(at 104.14 83.82 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f24a5435-9edb-4d21-bc4f-bdd861502e83")
+		)
+		(pin "IMU_SS" input
+			(at 110.49 100.33 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6b8d3115-40d4-4070-86b8-1915efce9767")
+		)
+		(pin "IMU_INT1" input
+			(at 113.03 100.33 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8d5e1712-8c9e-48bf-8e12-1fb7d8d99f56")
+		)
+		(pin "IMU_INT2" input
+			(at 115.57 100.33 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9a6ddd92-a205-453b-85b7-20032f0a1aee")
+		)
+		(pin "DB_TX" input
+			(at 118.11 100.33 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3e80bb22-5d41-4825-9042-d71e13f41c9b")
+		)
+		(pin "DB_RX" input
+			(at 120.65 100.33 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b96c5eab-f9d8-4976-af9a-64e96f028cfe")
+		)
+		(pin "ERR_LED" input
+			(at 123.19 100.33 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5f1696d6-de6c-4e90-bda3-13b32b8d6754")
+		)
+		(pin "PROCESS_LED" input
+			(at 125.73 100.33 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "98f5ac54-0c65-44ed-addd-7c7fde5f641c")
+		)
 		(instances
 			(project "motordriver"
 				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d"
@@ -502,8 +956,8 @@
 		)
 	)
 	(sheet
-		(at 191.77 132.08)
-		(size 40.64 20.32)
+		(at 191.77 80.01)
+		(size 24.13 19.05)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.5)
@@ -514,7 +968,7 @@
 		)
 		(uuid "acd3f6cb-f2e2-4fe4-b3cb-86a86a6f231d")
 		(property "Sheetname" "driverIC1"
-			(at 191.77 131.1946 0)
+			(at 191.77 79.1246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -523,7 +977,7 @@
 			)
 		)
 		(property "Sheetfile" "driverIC.kicad_sch"
-			(at 191.77 153.1584 0)
+			(at 191.77 99.8184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -540,7 +994,7 @@
 		)
 	)
 	(sheet
-		(at 48.26 158.75)
+		(at 95.25 147.32)
 		(size 21.59 13.97)
 		(fields_autoplaced yes)
 		(stroke
@@ -552,7 +1006,7 @@
 		)
 		(uuid "b555d9bd-a3b8-401d-a289-b1ff04158553")
 		(property "Sheetname" "brakectrl"
-			(at 48.26 157.8646 0)
+			(at 95.25 146.4346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -561,7 +1015,7 @@
 			)
 		)
 		(property "Sheetfile" "brakectrl.kicad_sch"
-			(at 48.26 173.4784 0)
+			(at 95.25 162.0484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -578,8 +1032,8 @@
 		)
 	)
 	(sheet
-		(at 142.24 160.02)
-		(size 26.67 16.51)
+		(at 223.52 140.97)
+		(size 22.86 6.35)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.5)
@@ -590,7 +1044,7 @@
 		)
 		(uuid "b5eb0271-9027-4941-b236-8f001fce8a08")
 		(property "Sheetname" "drivergates"
-			(at 142.24 159.1346 0)
+			(at 223.52 140.0846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -599,7 +1053,7 @@
 			)
 		)
 		(property "Sheetfile" "gates.kicad_sch"
-			(at 142.24 177.2884 0)
+			(at 223.52 148.0784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -616,8 +1070,8 @@
 		)
 	)
 	(sheet
-		(at 238.76 134.62)
-		(size 26.67 16.51)
+		(at 224.79 93.98)
+		(size 22.86 8.89)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.5)
@@ -628,7 +1082,7 @@
 		)
 		(uuid "d2c99155-6dc4-4cef-b7d8-f7ba5e4118d0")
 		(property "Sheetname" "drivergates1"
-			(at 238.76 133.7346 0)
+			(at 224.79 93.0946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -637,7 +1091,7 @@
 			)
 		)
 		(property "Sheetfile" "gates.kicad_sch"
-			(at 238.76 151.8884 0)
+			(at 224.79 103.6284 0)
 			(effects
 				(font
 					(size 1.27 1.27)

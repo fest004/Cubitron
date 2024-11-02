@@ -1942,6 +1942,16 @@
 		)
 		(uuid "b49c1c2e-55d9-421b-8936-dc80640f2d54")
 	)
+	(text "Decoupling capacitors"
+		(exclude_from_sim no)
+		(at 65.532 39.624 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f2272187-c641-4724-b36d-35e145998dfd")
+	)
 	(hierarchical_label "ERR_LED"
 		(shape input)
 		(at 156.21 146.05 270)

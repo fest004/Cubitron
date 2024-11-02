@@ -401,7 +401,7 @@
     ],
     [
       "38bc72d2-c2f6-4538-9c33-e1ab2a8ac987",
-      "io"
+      "input"
     ],
     [
       "721caf15-f1fc-41df-88f3-9bb14360f09a",
@@ -442,6 +442,10 @@
     [
       "4adc8e75-6797-461c-8ad6-e6b779b2e551",
       "drivergates2"
+    ],
+    [
+      "5d8f5153-26a2-4903-a925-dc0c63f77bf7",
+      "output"
     ]
   ],
   "text_variables": {}
