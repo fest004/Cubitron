@@ -3342,16 +3342,6 @@
 		)
 		(uuid "34adc911-daa5-4e43-9e97-61dfdf790735")
 	)
-	(text "Missing to insert Power Mux/power mangagmnet ic, 5V Reference, 12V to 12V"
-		(exclude_from_sim no)
-		(at 136.906 7.366 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "43813ea1-d43c-442e-8742-816151fba376")
-	)
 	(text "12V out"
 		(exclude_from_sim no)
 		(at 234.95 79.248 0)

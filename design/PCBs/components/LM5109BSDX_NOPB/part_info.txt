@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=LM5109BSDX/NOPB
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline No-lead
+PinCount=9
+Version=1.1
+Released=2021-05-03 03:43:41
+Downloaded=2024-11-03 09:41:25
+3D=Y
