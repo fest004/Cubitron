@@ -182,6 +182,308 @@
 				)
 			)
 		)
+		(symbol "DMG2302UKQ-7:DMG2302UKQ-7"
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 11.43 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "DMG2302UKQ-7"
+				(at 11.43 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "SOT96P240X110-3N"
+				(at 11.43 -98.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/DIOD/DIOD-S-A0006646649/DIOD-S-A0006646649-1.pdf?hkey=6D3A4C79FDBF58556ACFDE234799DDF0"
+				(at 11.43 -198.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "MOSFET MOSFET BVDSS: 8V-24V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.1"
+				(at 11.43 -398.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "621-DMG2302UKQ-7"
+				(at 11.43 -498.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/DMG2302UKQ-7?qs=qSfuJ%252Bfl%2Fd4nL5iHhLXGjg%3D%3D"
+				(at 11.43 -598.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Diodes Incorporated"
+				(at 11.43 -698.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "DMG2302UKQ-7"
+				(at 11.43 -798.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "DMG2302UKQ-7_1_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 5.08) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.842 -0.508) (xy 5.842 0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.842 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.842 2.032) (xy 5.842 3.048)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.842 5.588) (xy 5.842 4.572)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 2.54) (xy 5.842 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 2.54) (xy 7.62 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 5.842 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 7.62 7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.842 2.54) (xy 6.858 3.048) (xy 6.858 2.032) (xy 5.842 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 6.35 2.54)
+					(radius 3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 10.16 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:C"
 			(pin_numbers hide)
 			(pin_names
@@ -1060,308 +1362,6 @@
 				)
 			)
 		)
-		(symbol "SI2312-TP:SI2312-TP"
-			(pin_names hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 11.43 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "SI2312-TP"
-				(at 11.43 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "SOT95P237X125-3N"
-				(at 11.43 -98.73 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.mccsemi.com/pdf/Products/SI2312(SOT-23).pdf"
-				(at 11.43 -198.73 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "Small Signal MOSFETS"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "1.25"
-				(at 11.43 -398.73 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "833-SI2312-TP"
-				(at 11.43 -498.73 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Micro-Commercial-Components-MCC/SI2312-TP?qs=MoCBKJu1Jj1t1%2FytLtzFIw%3D%3D"
-				(at 11.43 -598.73 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "MCC"
-				(at 11.43 -698.73 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "SI2312-TP"
-				(at 11.43 -798.73 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "SI2312-TP_1_1"
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 5.08) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.842 -0.508) (xy 5.842 0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.842 0) (xy 7.62 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.842 2.032) (xy 5.842 3.048)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.842 5.588) (xy 5.842 4.572)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 2.54) (xy 5.842 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 2.54) (xy 7.62 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 5.08) (xy 5.842 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 5.08) (xy 7.62 7.62)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.842 2.54) (xy 6.858 3.048) (xy 6.858 2.032) (xy 5.842 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 6.35 2.54)
-					(radius 3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 10.16 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:+12V"
 			(power)
 			(pin_numbers hide)
@@ -2120,6 +2120,139 @@
 		(uuid "f944f2d6-9861-40e8-97d3-4a29beaba5f0")
 	)
 	(symbol
+		(lib_id "DMG2302UKQ-7:DMG2302UKQ-7")
+		(at 184.15 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "03ad2755-ef72-49dc-a154-769ec94809a7")
+		(property "Reference" "Q10"
+			(at 195.58 126.9999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DMG2302UKQ-7"
+			(at 195.58 129.5399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SOT96P240X110-3N"
+			(at 195.58 229.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/DIOD/DIOD-S-A0006646649/DIOD-S-A0006646649-1.pdf?hkey=6D3A4C79FDBF58556ACFDE234799DDF0"
+			(at 195.58 329.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "MOSFET MOSFET BVDSS: 8V-24V"
+			(at 184.15 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.1"
+			(at 195.58 529.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "621-DMG2302UKQ-7"
+			(at 195.58 629.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/DMG2302UKQ-7?qs=qSfuJ%252Bfl%2Fd4nL5iHhLXGjg%3D%3D"
+			(at 195.58 729.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Diodes Incorporated"
+			(at 195.58 829.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "DMG2302UKQ-7"
+			(at 195.58 929.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4f63d189-f2ff-4804-811d-f5d87cd08b3f")
+		)
+		(pin "2"
+			(uuid "6a8be741-cf1e-4550-afea-7df6ccf6d73a")
+		)
+		(pin "3"
+			(uuid "818579fe-5df9-4ea4-89de-5abfc9b60427")
+		)
+		(instances
+			(project "motordriver"
+				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/4adc8e75-6797-461c-8ad6-e6b779b2e551"
+					(reference "Q12")
+					(unit 1)
+				)
+				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/b5eb0271-9027-4941-b236-8f001fce8a08"
+					(reference "Q10")
+					(unit 1)
+				)
+				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/d2c99155-6dc4-4cef-b7d8-f7ba5e4118d0"
+					(reference "Q11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 88.9 78.74 0)
 		(unit 1)
@@ -2129,7 +2262,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0dff30bb-3e22-4c23-96bc-e9f25adc5810")
-		(property "Reference" "#PWR093"
+		(property "Reference" "#PWR095"
 			(at 88.9 85.09 0)
 			(effects
 				(font
@@ -2194,17 +2327,17 @@
 		)
 	)
 	(symbol
-		(lib_id "SI2312-TP:SI2312-TP")
-		(at 184.15 130.81 0)
+		(lib_id "DMG2302UKQ-7:DMG2302UKQ-7")
+		(at 203.2 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "12db4462-f50a-4c58-8fb4-8b00a8d23152")
-		(property "Reference" "Q12"
-			(at 195.58 126.9999 0)
+		(uuid "2ef209dc-7d0f-42b2-b2a9-6e474ad51b87")
+		(property "Reference" "Q7"
+			(at 214.63 34.2899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2212,8 +2345,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SI2312-TP"
-			(at 195.58 129.5399 0)
+		(property "Value" "DMG2302UKQ-7"
+			(at 214.63 36.8299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2221,8 +2354,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SOT95P237X125-3N"
-			(at 195.58 229.54 0)
+		(property "Footprint" "SOT96P240X110-3N"
+			(at 214.63 136.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2231,8 +2364,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mccsemi.com/pdf/Products/SI2312(SOT-23).pdf"
-			(at 195.58 329.54 0)
+		(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/DIOD/DIOD-S-A0006646649/DIOD-S-A0006646649-1.pdf?hkey=6D3A4C79FDBF58556ACFDE234799DDF0"
+			(at 214.63 236.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2241,8 +2374,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Small Signal MOSFETS"
-			(at 184.15 130.81 0)
+		(property "Description" "MOSFET MOSFET BVDSS: 8V-24V"
+			(at 203.2 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2250,18 +2383,8 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "1.25"
-			(at 195.58 529.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "833-SI2312-TP"
-			(at 195.58 629.54 0)
+		(property "Height" "1.1"
+			(at 214.63 436.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2270,8 +2393,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Micro-Commercial-Components-MCC/SI2312-TP?qs=MoCBKJu1Jj1t1%2FytLtzFIw%3D%3D"
-			(at 195.58 729.54 0)
+		(property "Mouser Part Number" "621-DMG2302UKQ-7"
+			(at 214.63 536.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2280,8 +2403,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "MCC"
-			(at 195.58 829.54 0)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/DMG2302UKQ-7?qs=qSfuJ%252Bfl%2Fd4nL5iHhLXGjg%3D%3D"
+			(at 214.63 636.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2290,8 +2413,18 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "SI2312-TP"
-			(at 195.58 929.54 0)
+		(property "Manufacturer_Name" "Diodes Incorporated"
+			(at 214.63 736.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "DMG2302UKQ-7"
+			(at 214.63 836.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2301,26 +2434,26 @@
 			)
 		)
 		(pin "1"
-			(uuid "fdfc5498-9b2f-467e-af4d-e0fc0e8c3420")
+			(uuid "55acfaea-9ca6-4dc4-92b2-82e68d16a492")
 		)
 		(pin "2"
-			(uuid "494fe185-eab9-4948-b656-636926f6074c")
+			(uuid "6db15074-c1f4-4c91-912e-ba2516ea621e")
 		)
 		(pin "3"
-			(uuid "f79b5a22-c6e9-4daa-b24b-66f3150ab645")
+			(uuid "3f43064b-5118-4df8-84dc-a27e73ce1069")
 		)
 		(instances
 			(project "motordriver"
 				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/4adc8e75-6797-461c-8ad6-e6b779b2e551"
-					(reference "Q12")
+					(reference "Q9")
 					(unit 1)
 				)
 				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/b5eb0271-9027-4941-b236-8f001fce8a08"
-					(reference "Q10")
+					(reference "Q7")
 					(unit 1)
 				)
 				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/d2c99155-6dc4-4cef-b7d8-f7ba5e4118d0"
-					(reference "Q11")
+					(reference "Q8")
 					(unit 1)
 				)
 			)
@@ -2336,7 +2469,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "323d6dcc-0d05-43e1-8675-1193cc78590e")
-		(property "Reference" "#PWR081"
+		(property "Reference" "#PWR083"
 			(at 172.72 57.15 0)
 			(effects
 				(font
@@ -2410,7 +2543,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "34447f46-afd9-4f76-9567-905bca3827a7")
-		(property "Reference" "R18"
+		(property "Reference" "R20"
 			(at 228.6 92.71 90)
 			(effects
 				(font
@@ -2492,7 +2625,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3cf74a5b-7fe3-4a6d-a01f-bc55a144213b")
-		(property "Reference" "IC6"
+		(property "Reference" "IC8"
 			(at 101.6 63.5 0)
 			(effects
 				(font
@@ -2641,7 +2774,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3d875c8d-8cce-47a0-b63e-d21c9ea7ca67")
-		(property "Reference" "IC12"
+		(property "Reference" "IC14"
 			(at 139.7 63.5 0)
 			(effects
 				(font
@@ -2790,7 +2923,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5171fe89-2cf6-4a0f-84f5-c85487714699")
-		(property "Reference" "D29"
+		(property "Reference" "D31"
 			(at 72.39 33.02 0)
 			(effects
 				(font
@@ -2875,139 +3008,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SI2312-TP:SI2312-TP")
-		(at 203.2 38.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5196421a-9b19-4a20-88b2-4a2e552836df")
-		(property "Reference" "Q15"
-			(at 214.63 34.2899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SI2312-TP"
-			(at 214.63 36.8299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "SOT95P237X125-3N"
-			(at 214.63 136.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mccsemi.com/pdf/Products/SI2312(SOT-23).pdf"
-			(at 214.63 236.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Small Signal MOSFETS"
-			(at 203.2 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.25"
-			(at 214.63 436.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "833-SI2312-TP"
-			(at 214.63 536.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Micro-Commercial-Components-MCC/SI2312-TP?qs=MoCBKJu1Jj1t1%2FytLtzFIw%3D%3D"
-			(at 214.63 636.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "MCC"
-			(at 214.63 736.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "SI2312-TP"
-			(at 214.63 836.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1b17ae73-1be3-4165-968c-e31053783513")
-		)
-		(pin "2"
-			(uuid "76b44d71-3ece-46dd-83c1-4f180ed4db38")
-		)
-		(pin "3"
-			(uuid "0df79f27-f832-4c67-afd2-186e9f0fe696")
-		)
-		(instances
-			(project "motordriver"
-				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/4adc8e75-6797-461c-8ad6-e6b779b2e551"
-					(reference "Q15")
-					(unit 1)
-				)
-				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/b5eb0271-9027-4941-b236-8f001fce8a08"
-					(reference "Q13")
-					(unit 1)
-				)
-				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/d2c99155-6dc4-4cef-b7d8-f7ba5e4118d0"
-					(reference "Q14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Shunt")
 		(at 218.44 78.74 90)
 		(unit 1)
@@ -3017,7 +3017,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5505c7b3-8a20-4183-93e2-ec9ed3dde2b0")
-		(property "Reference" "R24"
+		(property "Reference" "R26"
 			(at 218.44 82.55 90)
 			(effects
 				(font
@@ -3090,139 +3090,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SI2312-TP:SI2312-TP")
-		(at 165.1 63.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "583ef995-70c9-4066-b2c9-9760631c8907")
-		(property "Reference" "Q3"
-			(at 176.53 59.6899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SI2312-TP"
-			(at 176.53 62.2299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "SOT95P237X125-3N"
-			(at 176.53 162.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mccsemi.com/pdf/Products/SI2312(SOT-23).pdf"
-			(at 176.53 262.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Small Signal MOSFETS"
-			(at 165.1 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.25"
-			(at 176.53 462.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "833-SI2312-TP"
-			(at 176.53 562.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Micro-Commercial-Components-MCC/SI2312-TP?qs=MoCBKJu1Jj1t1%2FytLtzFIw%3D%3D"
-			(at 176.53 662.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "MCC"
-			(at 176.53 762.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "SI2312-TP"
-			(at 176.53 862.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6d6e2a6d-691a-40f0-b98d-a67e6ecf225d")
-		)
-		(pin "2"
-			(uuid "7ace56c1-0d61-4326-9ac3-756ecc3fcd81")
-		)
-		(pin "3"
-			(uuid "e9c0dcf9-87c9-48f6-b4f9-3b1f4939cc80")
-		)
-		(instances
-			(project ""
-				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/4adc8e75-6797-461c-8ad6-e6b779b2e551"
-					(reference "Q3")
-					(unit 1)
-				)
-				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/b5eb0271-9027-4941-b236-8f001fce8a08"
-					(reference "Q1")
-					(unit 1)
-				)
-				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/d2c99155-6dc4-4cef-b7d8-f7ba5e4118d0"
-					(reference "Q2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 191.77 135.89 0)
 		(unit 1)
@@ -3232,7 +3099,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5b771dc3-65c5-4bd3-a20f-b698a574dc29")
-		(property "Reference" "#PWR0105"
+		(property "Reference" "#PWR0107"
 			(at 191.77 142.24 0)
 			(effects
 				(font
@@ -3297,6 +3164,139 @@
 		)
 	)
 	(symbol
+		(lib_id "DMG2302UKQ-7:DMG2302UKQ-7")
+		(at 165.1 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "60f1df41-a562-41db-a9be-b9cd1cda00e3")
+		(property "Reference" "Q1"
+			(at 176.53 59.6899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DMG2302UKQ-7"
+			(at 176.53 62.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SOT96P240X110-3N"
+			(at 176.53 162.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/DIOD/DIOD-S-A0006646649/DIOD-S-A0006646649-1.pdf?hkey=6D3A4C79FDBF58556ACFDE234799DDF0"
+			(at 176.53 262.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "MOSFET MOSFET BVDSS: 8V-24V"
+			(at 165.1 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.1"
+			(at 176.53 462.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "621-DMG2302UKQ-7"
+			(at 176.53 562.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/DMG2302UKQ-7?qs=qSfuJ%252Bfl%2Fd4nL5iHhLXGjg%3D%3D"
+			(at 176.53 662.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Diodes Incorporated"
+			(at 176.53 762.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "DMG2302UKQ-7"
+			(at 176.53 862.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bb7ab8be-97c2-4d1d-b718-1e827f85ab51")
+		)
+		(pin "2"
+			(uuid "811f2eca-f0da-4814-9056-7a88c980e839")
+		)
+		(pin "3"
+			(uuid "0887220c-d0d5-4dbc-9fbd-ae32c027ab48")
+		)
+		(instances
+			(project "motordriver"
+				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/4adc8e75-6797-461c-8ad6-e6b779b2e551"
+					(reference "Q3")
+					(unit 1)
+				)
+				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/b5eb0271-9027-4941-b236-8f001fce8a08"
+					(reference "Q1")
+					(unit 1)
+				)
+				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/d2c99155-6dc4-4cef-b7d8-f7ba5e4118d0"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+12V")
 		(at 210.82 27.94 0)
 		(unit 1)
@@ -3306,7 +3306,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "732fd121-2ccb-428a-9435-7cfef8dc5d18")
-		(property "Reference" "#PWR0114"
+		(property "Reference" "#PWR0116"
 			(at 210.82 31.75 0)
 			(effects
 				(font
@@ -3380,7 +3380,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "73511f7f-0d92-44c5-849e-d5144cc0861a")
-		(property "Reference" "#PWR0108"
+		(property "Reference" "#PWR0110"
 			(at 172.72 129.54 0)
 			(effects
 				(font
@@ -3454,7 +3454,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7b96cfa6-3920-477e-bf2b-d006a16cd186")
-		(property "Reference" "#PWR0111"
+		(property "Reference" "#PWR0113"
 			(at 191.77 44.45 0)
 			(effects
 				(font
@@ -3528,7 +3528,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "800f3043-2f37-4db0-9b8d-d8649917e2ba")
-		(property "Reference" "#PWR099"
+		(property "Reference" "#PWR0101"
 			(at 50.8 85.09 0)
 			(effects
 				(font
@@ -3602,7 +3602,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9a508f38-3bba-4b82-9952-b69a9c3b7e63")
-		(property "Reference" "U8"
+		(property "Reference" "U10"
 			(at 247.65 43.7259 90)
 			(effects
 				(font
@@ -3687,7 +3687,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9bbca370-d227-4c4b-849b-9e3a078a5362")
-		(property "Reference" "#PWR0102"
+		(property "Reference" "#PWR0104"
 			(at 210.82 154.94 0)
 			(effects
 				(font
@@ -3761,7 +3761,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9e056f08-95f5-461e-bda4-f55e2ebe8ba9")
-		(property "Reference" "#PWR096"
+		(property "Reference" "#PWR098"
 			(at 127 85.09 0)
 			(effects
 				(font
@@ -3826,138 +3826,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SI2312-TP:SI2312-TP")
-		(at 165.1 118.11 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9e9a630f-1631-43c4-b857-2981a4126fb5")
-		(property "Reference" "Q6"
-			(at 176.53 114.2999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SI2312-TP"
-			(at 176.53 117.348 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "SOT95P237X125-3N"
-			(at 176.53 216.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mccsemi.com/pdf/Products/SI2312(SOT-23).pdf"
-			(at 176.53 316.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Small Signal MOSFETS"
-			(at 165.1 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.25"
-			(at 176.53 516.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "833-SI2312-TP"
-			(at 176.53 616.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Micro-Commercial-Components-MCC/SI2312-TP?qs=MoCBKJu1Jj1t1%2FytLtzFIw%3D%3D"
-			(at 176.53 716.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "MCC"
-			(at 176.53 816.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "SI2312-TP"
-			(at 176.53 916.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e67a22e0-eec4-45a5-804a-1a4502ca1bd6")
-		)
-		(pin "2"
-			(uuid "1dab741e-984a-4b23-9e49-383b1f3031cb")
-		)
-		(pin "3"
-			(uuid "85f94778-55ae-4493-aad8-7243b638b4d2")
-		)
-		(instances
-			(project "motordriver"
-				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/4adc8e75-6797-461c-8ad6-e6b779b2e551"
-					(reference "Q6")
-					(unit 1)
-				)
-				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/b5eb0271-9027-4941-b236-8f001fce8a08"
-					(reference "Q4")
-					(unit 1)
-				)
-				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/d2c99155-6dc4-4cef-b7d8-f7ba5e4118d0"
-					(reference "Q5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "LM5109BSDX_NOPB:LM5109BSDX_NOPB")
 		(at 50.8 71.12 0)
 		(unit 1)
@@ -3967,7 +3835,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a7f0bc33-af1f-4649-8eb1-076afd601843")
-		(property "Reference" "IC9"
+		(property "Reference" "IC11"
 			(at 63.5 63.5 0)
 			(effects
 				(font
@@ -4116,7 +3984,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ab0656d9-35b0-470a-b484-8b1d14fc878f")
-		(property "Reference" "C19"
+		(property "Reference" "C21"
 			(at 49.53 38.0999 0)
 			(effects
 				(font
@@ -4185,7 +4053,140 @@
 		)
 	)
 	(symbol
-		(lib_id "SI2312-TP:SI2312-TP")
+		(lib_id "DMG2302UKQ-7:DMG2302UKQ-7")
+		(at 165.1 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e2f3bc1e-b481-4e87-9f69-fad9f865f9c7")
+		(property "Reference" "Q19"
+			(at 176.53 114.2999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DMG2302UKQ-7"
+			(at 176.53 116.8399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SOT96P240X110-3N"
+			(at 176.53 216.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/DIOD/DIOD-S-A0006646649/DIOD-S-A0006646649-1.pdf?hkey=6D3A4C79FDBF58556ACFDE234799DDF0"
+			(at 176.53 316.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "MOSFET MOSFET BVDSS: 8V-24V"
+			(at 165.1 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.1"
+			(at 176.53 516.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "621-DMG2302UKQ-7"
+			(at 176.53 616.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/DMG2302UKQ-7?qs=qSfuJ%252Bfl%2Fd4nL5iHhLXGjg%3D%3D"
+			(at 176.53 716.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Diodes Incorporated"
+			(at 176.53 816.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "DMG2302UKQ-7"
+			(at 176.53 916.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6717cbad-5a41-415a-a465-1bca048554d4")
+		)
+		(pin "2"
+			(uuid "c5954a2e-0ddc-4767-9c15-ccd5196932f8")
+		)
+		(pin "3"
+			(uuid "74702f7f-0c7f-4e66-a44e-874ae4d14f81")
+		)
+		(instances
+			(project ""
+				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/4adc8e75-6797-461c-8ad6-e6b779b2e551"
+					(reference "Q21")
+					(unit 1)
+				)
+				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/b5eb0271-9027-4941-b236-8f001fce8a08"
+					(reference "Q19")
+					(unit 1)
+				)
+				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/d2c99155-6dc4-4cef-b7d8-f7ba5e4118d0"
+					(reference "Q20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DMG2302UKQ-7:DMG2302UKQ-7")
 		(at 184.15 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4193,8 +4194,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b9a29be7-5878-45f1-aeaa-2ecacf960af5")
-		(property "Reference" "Q9"
+		(uuid "e47dd620-f83c-4877-850f-b3445a970499")
+		(property "Reference" "Q4"
 			(at 195.58 46.9899 0)
 			(effects
 				(font
@@ -4203,7 +4204,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SI2312-TP"
+		(property "Value" "DMG2302UKQ-7"
 			(at 195.58 49.5299 0)
 			(effects
 				(font
@@ -4212,7 +4213,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SOT95P237X125-3N"
+		(property "Footprint" "SOT96P240X110-3N"
 			(at 195.58 149.53 0)
 			(effects
 				(font
@@ -4222,7 +4223,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mccsemi.com/pdf/Products/SI2312(SOT-23).pdf"
+		(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/DIOD/DIOD-S-A0006646649/DIOD-S-A0006646649-1.pdf?hkey=6D3A4C79FDBF58556ACFDE234799DDF0"
 			(at 195.58 249.53 0)
 			(effects
 				(font
@@ -4232,7 +4233,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Small Signal MOSFETS"
+		(property "Description" "MOSFET MOSFET BVDSS: 8V-24V"
 			(at 184.15 50.8 0)
 			(effects
 				(font
@@ -4241,7 +4242,7 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "1.25"
+		(property "Height" "1.1"
 			(at 195.58 449.53 0)
 			(effects
 				(font
@@ -4251,7 +4252,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "833-SI2312-TP"
+		(property "Mouser Part Number" "621-DMG2302UKQ-7"
 			(at 195.58 549.53 0)
 			(effects
 				(font
@@ -4261,7 +4262,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Micro-Commercial-Components-MCC/SI2312-TP?qs=MoCBKJu1Jj1t1%2FytLtzFIw%3D%3D"
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/DMG2302UKQ-7?qs=qSfuJ%252Bfl%2Fd4nL5iHhLXGjg%3D%3D"
 			(at 195.58 649.53 0)
 			(effects
 				(font
@@ -4271,7 +4272,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "MCC"
+		(property "Manufacturer_Name" "Diodes Incorporated"
 			(at 195.58 749.53 0)
 			(effects
 				(font
@@ -4281,7 +4282,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "SI2312-TP"
+		(property "Manufacturer_Part_Number" "DMG2302UKQ-7"
 			(at 195.58 849.53 0)
 			(effects
 				(font
@@ -4292,159 +4293,26 @@
 			)
 		)
 		(pin "1"
-			(uuid "17186fc5-0f1f-4d2d-a26b-2b0730d7789f")
+			(uuid "069dc1c3-c8c6-4d8f-b1cb-48272a4984cb")
 		)
 		(pin "2"
-			(uuid "9bda54df-203d-44b6-a49f-125ddee8c620")
+			(uuid "fc4cf2b9-6c5b-4f32-aa97-73394a65812e")
 		)
 		(pin "3"
-			(uuid "babed8c9-b3ed-42b3-925d-9c92b5921c27")
+			(uuid "285eaa63-effd-4260-b3f6-c57b4475ecf5")
 		)
 		(instances
 			(project "motordriver"
 				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/4adc8e75-6797-461c-8ad6-e6b779b2e551"
-					(reference "Q9")
+					(reference "Q6")
 					(unit 1)
 				)
 				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/b5eb0271-9027-4941-b236-8f001fce8a08"
-					(reference "Q7")
+					(reference "Q4")
 					(unit 1)
 				)
 				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/d2c99155-6dc4-4cef-b7d8-f7ba5e4118d0"
-					(reference "Q8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SI2312-TP:SI2312-TP")
-		(at 203.2 143.51 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ca975d81-6dbc-4af1-974c-6dd456634f1f")
-		(property "Reference" "Q18"
-			(at 214.63 139.6999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SI2312-TP"
-			(at 214.63 142.2399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "SOT95P237X125-3N"
-			(at 214.63 242.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mccsemi.com/pdf/Products/SI2312(SOT-23).pdf"
-			(at 214.63 342.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Small Signal MOSFETS"
-			(at 203.2 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.25"
-			(at 214.63 542.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "833-SI2312-TP"
-			(at 214.63 642.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Micro-Commercial-Components-MCC/SI2312-TP?qs=MoCBKJu1Jj1t1%2FytLtzFIw%3D%3D"
-			(at 214.63 742.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "MCC"
-			(at 214.63 842.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "SI2312-TP"
-			(at 214.63 942.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e9199be7-b6fa-496f-8245-c5b6e5614435")
-		)
-		(pin "2"
-			(uuid "6e9500e9-2636-49ee-978b-7556459521c6")
-		)
-		(pin "3"
-			(uuid "607a40ee-025d-4d0f-9878-1d09155b8fef")
-		)
-		(instances
-			(project "motordriver"
-				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/4adc8e75-6797-461c-8ad6-e6b779b2e551"
-					(reference "Q18")
-					(unit 1)
-				)
-				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/b5eb0271-9027-4941-b236-8f001fce8a08"
-					(reference "Q16")
-					(unit 1)
-				)
-				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/d2c99155-6dc4-4cef-b7d8-f7ba5e4118d0"
-					(reference "Q17")
+					(reference "Q5")
 					(unit 1)
 				)
 			)
@@ -4460,7 +4328,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f638f40f-2f34-464d-9be1-576933f25a09")
-		(property "Reference" "U5"
+		(property "Reference" "U7"
 			(at 267.97 43.7259 90)
 			(effects
 				(font
@@ -4545,7 +4413,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f6fc7ed4-00ee-4360-a133-614254bdf63d")
-		(property "Reference" "R21"
+		(property "Reference" "R23"
 			(at 60.96 33.02 90)
 			(effects
 				(font
@@ -4606,6 +4474,139 @@
 				)
 				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/d2c99155-6dc4-4cef-b7d8-f7ba5e4118d0"
 					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DMG2302UKQ-7:DMG2302UKQ-7")
+		(at 203.2 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ff763d8f-5bbb-4b07-8170-50e5501fa8b9")
+		(property "Reference" "Q13"
+			(at 214.63 139.6999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DMG2302UKQ-7"
+			(at 214.63 142.2399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SOT96P240X110-3N"
+			(at 214.63 242.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/DIOD/DIOD-S-A0006646649/DIOD-S-A0006646649-1.pdf?hkey=6D3A4C79FDBF58556ACFDE234799DDF0"
+			(at 214.63 342.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "MOSFET MOSFET BVDSS: 8V-24V"
+			(at 203.2 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.1"
+			(at 214.63 542.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "621-DMG2302UKQ-7"
+			(at 214.63 642.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/DMG2302UKQ-7?qs=qSfuJ%252Bfl%2Fd4nL5iHhLXGjg%3D%3D"
+			(at 214.63 742.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Diodes Incorporated"
+			(at 214.63 842.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "DMG2302UKQ-7"
+			(at 214.63 942.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cf095b19-8c20-42a0-9ee4-b0ca633ba894")
+		)
+		(pin "2"
+			(uuid "0b976f6e-a21f-4681-895e-2ee7ea077703")
+		)
+		(pin "3"
+			(uuid "8dcde729-b914-481b-9043-032ee2bf3333")
+		)
+		(instances
+			(project "motordriver"
+				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/4adc8e75-6797-461c-8ad6-e6b779b2e551"
+					(reference "Q15")
+					(unit 1)
+				)
+				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/b5eb0271-9027-4941-b236-8f001fce8a08"
+					(reference "Q13")
+					(unit 1)
+				)
+				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/d2c99155-6dc4-4cef-b7d8-f7ba5e4118d0"
+					(reference "Q14")
 					(unit 1)
 				)
 			)
