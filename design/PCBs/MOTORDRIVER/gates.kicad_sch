@@ -2129,7 +2129,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "03ad2755-ef72-49dc-a154-769ec94809a7")
-		(property "Reference" "Q10"
+		(property "Reference" "Q12"
 			(at 195.58 126.9999 0)
 			(effects
 				(font
@@ -2336,7 +2336,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2ef209dc-7d0f-42b2-b2a9-6e474ad51b87")
-		(property "Reference" "Q7"
+		(property "Reference" "Q9"
 			(at 214.63 34.2899 0)
 			(effects
 				(font
@@ -3173,7 +3173,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "60f1df41-a562-41db-a9be-b9cd1cda00e3")
-		(property "Reference" "Q1"
+		(property "Reference" "Q3"
 			(at 176.53 59.6899 0)
 			(effects
 				(font
@@ -4062,7 +4062,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e2f3bc1e-b481-4e87-9f69-fad9f865f9c7")
-		(property "Reference" "Q19"
+		(property "Reference" "Q21"
 			(at 176.53 114.2999 0)
 			(effects
 				(font
@@ -4195,7 +4195,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e47dd620-f83c-4877-850f-b3445a970499")
-		(property "Reference" "Q4"
+		(property "Reference" "Q6"
 			(at 195.58 46.9899 0)
 			(effects
 				(font
@@ -4489,7 +4489,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ff763d8f-5bbb-4b07-8170-50e5501fa8b9")
-		(property "Reference" "Q13"
+		(property "Reference" "Q15"
 			(at 214.63 139.6999 0)
 			(effects
 				(font
