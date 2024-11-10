@@ -1988,7 +1988,7 @@
 	)
 	(hierarchical_label "DB_RX"
 		(shape input)
-		(at 173.99 105.41 0)
+		(at 184.15 105.41 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2000,7 +2000,7 @@
 	)
 	(hierarchical_label "DB_TX"
 		(shape input)
-		(at 173.99 102.87 0)
+		(at 184.15 102.87 0)
 		(fields_autoplaced yes)
 		(effects
 			(font

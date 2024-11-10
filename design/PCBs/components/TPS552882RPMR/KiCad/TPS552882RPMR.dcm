@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TPS552882RPMR
+D 36-V, 16-A buck-boost converter
+K
+F https://www.ti.com/lit/gpn/TPS552882
+$ENDCMP
+#
+#End Doc Library
