@@ -1,0 +1,9 @@
+Manufacturer=Diodes Incorporated
+PartNumber=DMPH6050SK3-13
+PartCategory=MOSFET (P-Channel)
+PackageCategory=Other
+PinCount=3
+Version=5.1
+Released=2018-11-01 15:07:03
+Downloaded=2024-11-15 12:15:41
+3D=Y
