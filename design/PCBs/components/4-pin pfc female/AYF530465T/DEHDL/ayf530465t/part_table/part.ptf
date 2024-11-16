@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'AYF530465T'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Panasonic", "AYF530465T" (!) = "", "AYF530465T", "Other", "AYF530465T", "null?region=nac", "Conn FPC Connector SKT 4 POS 0.5mm Solder RA SMD T/R", "https://api.pim.na.industrial.panasonic.com/file_stream/main/fileversion/1656", "1.76 mm"
+END_PART
+
+END.

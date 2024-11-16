@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "AYF530465T"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2024-07-26-09:35:09)
+    (mountForm default
+        (footprintRef "AYF530465T")
+        (spec "System")
+    )
+)

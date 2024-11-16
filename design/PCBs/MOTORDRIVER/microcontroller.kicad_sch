@@ -1942,6 +1942,16 @@
 		)
 		(uuid "747dd3d4-899a-4215-be9c-7f96ad19849b")
 	)
+	(text "Servo Signals (PWM)"
+		(exclude_from_sim no)
+		(at 195.072 118.364 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "99f9efc5-a4c1-4e82-9bf0-eac3d85629ad")
+	)
 	(text "to programmer\n"
 		(exclude_from_sim no)
 		(at 144.526 54.356 90)
@@ -1961,6 +1971,30 @@
 			)
 		)
 		(uuid "f2272187-c641-4724-b36d-35e145998dfd")
+	)
+	(hierarchical_label "SDA IMU1"
+		(shape input)
+		(at 173.99 95.25 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1048c57c-6911-47b1-a7c6-e9f8ca9449e9")
+	)
+	(hierarchical_label "S2_SIG"
+		(shape input)
+		(at 173.99 118.11 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "30e89d8d-ba97-4212-ab78-3af169b88d22")
 	)
 	(hierarchical_label "ERR_LED"
 		(shape input)
@@ -1988,7 +2022,7 @@
 	)
 	(hierarchical_label "DB_RX"
 		(shape input)
-		(at 184.15 105.41 0)
+		(at 173.99 105.41 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2000,7 +2034,7 @@
 	)
 	(hierarchical_label "DB_TX"
 		(shape input)
-		(at 184.15 102.87 0)
+		(at 173.99 102.87 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2010,7 +2044,55 @@
 		)
 		(uuid "58ca23ec-c20b-405b-84ae-ca219cfec15d")
 	)
-	(hierarchical_label "IMU2_INT1"
+	(hierarchical_label "S1_SIG"
+		(shape input)
+		(at 173.99 120.65 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "644fd87d-71ae-470e-919d-8fbd29afa97d")
+	)
+	(hierarchical_label "SDA IMU2"
+		(shape input)
+		(at 118.11 128.27 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "67198325-2086-49e1-9393-4198df42f048")
+	)
+	(hierarchical_label "SCL IMU2"
+		(shape input)
+		(at 118.11 125.73 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8070d0c8-23b8-430a-8c2c-dccf130acd04")
+	)
+	(hierarchical_label "S3_SIG"
+		(shape input)
+		(at 173.99 115.57 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "84173203-b6b0-4d56-8f7d-b3e08794bd21")
+	)
+	(hierarchical_label "SCL IMU1"
 		(shape input)
 		(at 173.99 97.79 0)
 		(fields_autoplaced yes)
@@ -2020,7 +2102,7 @@
 			)
 			(justify left)
 		)
-		(uuid "98c52572-c00c-46aa-a8dd-94c4c9a0bb87")
+		(uuid "8a69fb88-7de2-42a4-b23e-13f6435a750a")
 	)
 	(hierarchical_label "SWDIO"
 		(shape input)
@@ -2046,6 +2128,18 @@
 		)
 		(uuid "ad1085c5-20ac-4e2c-95dc-d911383ccf41")
 	)
+	(hierarchical_label "INT1 IMU2"
+		(shape input)
+		(at 118.11 123.19 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bea3718f-d9fa-4e91-8708-aff4b8882e95")
+	)
 	(hierarchical_label "OLED_SCL"
 		(shape input)
 		(at 125.73 146.05 270)
@@ -2057,18 +2151,6 @@
 			(justify right)
 		)
 		(uuid "c32ac3b2-ff37-4f8f-9488-2a62b7f83d46")
-	)
-	(hierarchical_label "IMU2_INT2"
-		(shape input)
-		(at 173.99 95.25 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c612d1fb-bd7e-49e7-ab38-565385ea62ab")
 	)
 	(hierarchical_label "PROCESS_LED"
 		(shape input)
@@ -2082,42 +2164,6 @@
 		)
 		(uuid "d50b9563-a638-4da9-b721-be0e285fd2d4")
 	)
-	(hierarchical_label "IMU2_SS"
-		(shape input)
-		(at 173.99 100.33 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "df09234d-8967-4c8c-9f5f-7184dcd272e0")
-	)
-	(hierarchical_label "IMU1_SS"
-		(shape input)
-		(at 118.11 97.79 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e9a52ea0-7ea2-428f-ae2b-838b9cd5c79b")
-	)
-	(hierarchical_label "IMU1_INT1"
-		(shape input)
-		(at 118.11 95.25 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f069ee06-f187-45e4-a69c-c0f1cb31000f")
-	)
 	(hierarchical_label "OLED_SDA"
 		(shape input)
 		(at 128.27 146.05 270)
@@ -2130,17 +2176,17 @@
 		)
 		(uuid "f840d548-7df9-4a7d-9e76-316d40b34955")
 	)
-	(hierarchical_label "IMU1_INT2"
+	(hierarchical_label "INT1 IMU1"
 		(shape input)
-		(at 118.11 92.71 180)
+		(at 173.99 100.33 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "f9bc3da2-cdfb-4ae1-ab92-d945514d6318")
+		(uuid "fcdc36fc-e50f-4be9-8c6f-555fdc111129")
 	)
 	(symbol
 		(lib_id "Device:C")

@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '59453_061110ECHLF'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Amphenol Communications Solutions", "59453-061110ECHLF" (!) = "", "59453061110ECHLF", "Other", "", "", "0.50mm Flex Connectors, FPC/FFC Side Entry ZIF Connector, Surface Mount, 6 Positions, Bottom Contact, 0.50mm (0.020in) Pitch.", "https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/59453.pdf", "1 mm"
+END_PART
+
+END.

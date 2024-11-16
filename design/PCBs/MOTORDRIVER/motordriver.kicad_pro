@@ -502,6 +502,10 @@
       "Root"
     ],
     [
+      "1f871d76-fcf6-4539-ad99-6eac26f9ffb4",
+      "output1"
+    ],
+    [
       "b5eb0271-9027-4941-b236-8f001fce8a08",
       "drivergates"
     ],
@@ -512,10 +516,6 @@
     [
       "38bc72d2-c2f6-4538-9c33-e1ab2a8ac987",
       "input"
-    ],
-    [
-      "b555d9bd-a3b8-401d-a289-b1ff04158553",
-      "brakectrl"
     ],
     [
       "095cf403-627e-473d-974a-cb1fe8ca8b1f",

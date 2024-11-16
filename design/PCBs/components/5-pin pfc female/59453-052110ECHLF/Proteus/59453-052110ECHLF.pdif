@@ -1,0 +1,157 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "59453-052110ECHLF"
+   (description "0.50mm Flex Connectors, FPC/FFC Side Entry ZIF Connector, Surface Mount, 5 Positions, Top Contact, 0.50mm (0.020in) Pitch.")
+   (family "CON")
+   (package "59453052110ECHLF")
+   (attribute "Datasheet Link" "https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/59453-0_2110echlf.pdf")
+   (attribute "Geometry.Height" "1mm")
+   (attribute "Manufacturer_Name" "Amphenol Communications Solutions")
+   (attribute "Manufacturer_Part_Number" "59453-052110ECHLF")
+   (attribute "Arrow Part Number" "")
+   (attribute "Arrow Price/Stock" "")
+   (gate
+    (symbol "59453-052110ECHLF")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+    (pin "3" 3 PS)
+    (pin "4" 4 PS)
+    (pin "5" 5 PS)
+    (pin "MP1" 6 PS)
+    (pin "MP2" 7 PS)
+   )
+  )
+  (symbol "59453-052110ECHLF"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 700 100) (pt 700 -500) (pt 200 -500) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 900 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 900 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 900 -200) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 900 -300) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 900 -400) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "59453052110ECHLF"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2 1.75)
+      (pt 2 1.75)
+      (pt 2 -1.75)
+      (pt -2 -1.75)
+      (pt -2 1.75))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -3 3.05)
+      (pt 3 3.05)
+      (pt 3 -2.75)
+      (pt -3 -2.75)
+      (pt -3 3.05))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -1.4 1.75)
+      (pt -2 1.75)
+      (pt -2 1.2))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -2 -0.4)
+      (pt -2 -1.75)
+      (pt 2 -1.75)
+      (pt 2 -0.4))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 1.4 1.75)
+      (pt 2 1.75)
+      (pt 2 1.2))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -1 2.6)
+      (arc (pt -1.000 2.600) (pt -1.050 2.500) (pt -0.950 2.600) (start 180.0) (sweep 90.0))
+      (pt -1 2.5)
+      (arc (pt -1.000 2.500) (pt -1.050 2.500) (pt -0.950 2.600) (start 180.0) (sweep -90.0))
+      (pt -1 2.6))))
+   (leg 1 (pt -1.000 1.600) (padstack 0))
+   (leg 2 (pt -0.500 1.600) (padstack 0))
+   (leg 3 (pt 0.000 1.600) (padstack 0))
+   (leg 4 (pt 0.500 1.600) (padstack 0))
+   (leg 5 (pt 1.000 1.600) (padstack 0))
+   (leg 6 (pt -1.740 0.400) (padstack 6))
+   (leg 7 (pt 1.740 0.400) (padstack 7))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 0.300 0.900 0 0 90.000))
+   )
+   (padstack 6
+    (plated false)
+    (pad (layer TCOP) (rectf 0.520 1.000 0 0 90.000))
+   )
+   (padstack 7
+    (plated false)
+    (pad (layer TCOP) (rectf 0.520 1.000 0 0 90.000))
+   )
+   (model "59453-052110ECHLF.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)
