@@ -1,9 +1,0 @@
-Manufacturer=Amphenol Communications Solutions
-PartNumber=59453-061110ECHLF
-PartCategory=Connector
-PackageCategory=Other
-PinCount=8
-Version=2.3
-Released=2024-10-30 08:14:27
-Downloaded=2024-11-15 14:32:56
-3D=Y

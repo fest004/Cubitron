@@ -1,9 +1,0 @@
-Manufacturer=Panasonic
-PartNumber=AYF530465T
-PartCategory=Connector
-PackageCategory=Other
-PinCount=8
-Version=3.3
-Released=2020-10-04 19:07:29
-Downloaded=2024-11-15 14:05:56
-3D=Y

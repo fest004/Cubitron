@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LM5176PWPR
+D 55V wide VIN synchronous 4-switch buck-boost controller
+K
+F http://www.ti.com/lit/gpn/LM5176
+$ENDCMP
+#
+#End Doc Library

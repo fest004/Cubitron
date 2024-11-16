@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP DMN3042L-7
+D MOSFET 30V N-Ch Enh Mode 26.5mOhm 10V 5.8A
+K
+F https://www.diodes.com//assets/Datasheets/DMN3042L.pdf
+$ENDCMP
+#
+#End Doc Library
