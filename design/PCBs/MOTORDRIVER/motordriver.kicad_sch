@@ -1412,8 +1412,8 @@
 		)
 	)
 	(sheet
-		(at 50.8 139.7)
-		(size 97.79 20.32)
+		(at 72.39 139.7)
+		(size 54.61 20.32)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.5)
@@ -1424,7 +1424,7 @@
 		)
 		(uuid "1f871d76-fcf6-4539-ad99-6eac26f9ffb4")
 		(property "Sheetname" "output1"
-			(at 49.9146 160.02 90)
+			(at 71.5046 160.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1433,7 +1433,7 @@
 			)
 		)
 		(property "Sheetfile" "output.kicad_sch"
-			(at 149.3484 160.02 90)
+			(at 127.7584 160.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2627,36 +2627,6 @@
 			)
 			(uuid "f24a5435-9edb-4d21-bc4f-bdd861502e83")
 		)
-		(pin "IMU_SS" input
-			(at 116.84 111.76 270)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "6b8d3115-40d4-4070-86b8-1915efce9767")
-		)
-		(pin "IMU_INT1" input
-			(at 119.38 111.76 270)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "8d5e1712-8c9e-48bf-8e12-1fb7d8d99f56")
-		)
-		(pin "IMU_INT2" input
-			(at 121.92 111.76 270)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "9a6ddd92-a205-453b-85b7-20032f0a1aee")
-		)
 		(pin "DB_TX" input
 			(at 91.44 111.76 270)
 			(effects
@@ -2697,36 +2667,6 @@
 			)
 			(uuid "98f5ac54-0c65-44ed-addd-7c7fde5f641c")
 		)
-		(pin "IMU2_INT1" input
-			(at 100.33 111.76 270)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "35b4a5d9-6e00-4f2f-a6c1-f112c6499a66")
-		)
-		(pin "IMU2_INT2" input
-			(at 97.79 111.76 270)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "a34ed624-9e81-414c-a55d-07caff229ea7")
-		)
-		(pin "IMU2_SS" input
-			(at 95.25 111.76 270)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "eb896f94-6613-434e-a8ab-9c682fb8195a")
-		)
 		(pin "OLED_SCL" input
 			(at 83.82 111.76 270)
 			(effects
@@ -2746,36 +2686,6 @@
 				(justify left)
 			)
 			(uuid "d2496a03-1ab2-49fe-a387-cc4c3f81a72d")
-		)
-		(pin "IMU1_SS" input
-			(at 105.41 111.76 270)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "278e59f5-c02c-483f-8489-c0d6eea8a598")
-		)
-		(pin "IMU1_INT1" input
-			(at 107.95 111.76 270)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "ea6810a7-6122-4e9d-8b68-02effa32bcd7")
-		)
-		(pin "IMU1_INT2" input
-			(at 110.49 111.76 270)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "40af25bb-95e9-44fe-94f0-d483e9962d3f")
 		)
 		(pin "S3_SIG" input
 			(at 74.93 111.76 270)
