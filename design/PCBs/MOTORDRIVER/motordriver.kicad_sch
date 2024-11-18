@@ -5,22 +5,6 @@
 	(uuid "c7634e88-16d1-45ec-9aac-9c841e03cf6d")
 	(paper "A4")
 	(lib_symbols)
-	(junction
-		(at 236.22 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6d5cfefb-d368-4b5a-9da8-ef413fa38348")
-	)
-	(wire
-		(pts
-			(xy 236.22 76.2) (xy 234.95 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "01602e48-2b1d-41e9-b0e1-3b936dec16fb")
-	)
 	(wire
 		(pts
 			(xy 236.22 44.45) (xy 242.57 44.45)
@@ -150,6 +134,16 @@
 			(type default)
 		)
 		(uuid "18166ef4-f154-487c-86a2-34e793fd65cb")
+	)
+	(wire
+		(pts
+			(xy 236.22 81.28) (xy 242.57 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bf2f08d-33e9-458a-8aee-1ca62cfd2e9a")
 	)
 	(wire
 		(pts
@@ -430,6 +424,16 @@
 			(type default)
 		)
 		(uuid "5a052707-2bb7-4172-bcf5-eb020a8910b7")
+	)
+	(wire
+		(pts
+			(xy 236.22 76.2) (xy 242.57 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b46ba62-3d40-4860-bcb3-cb9438b29978")
 	)
 	(wire
 		(pts
@@ -790,16 +794,6 @@
 			(type default)
 		)
 		(uuid "fb6816a3-2ee8-4eed-8d83-0b5dab0cf66e")
-	)
-	(wire
-		(pts
-			(xy 234.95 78.74) (xy 236.22 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fcf68a46-a866-4726-a3c8-6fa5058141e4")
 	)
 	(wire
 		(pts
@@ -3240,26 +3234,6 @@
 			)
 			(uuid "6fe2e3c0-756b-4153-ad48-3e7c96fec402")
 		)
-		(pin "I1" input
-			(at 242.57 78.74 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "9f7ef336-973f-44f8-807a-9c73aa57b266")
-		)
-		(pin "I0" input
-			(at 242.57 73.66 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "7f03e0be-ff17-4750-b1e5-756163e84f3f")
-		)
 		(pin "PWM_U_H" input
 			(at 242.57 83.82 180)
 			(effects
@@ -3319,6 +3293,46 @@
 				(justify left)
 			)
 			(uuid "580c15bd-8bc3-4a06-b8a5-37b86d236d67")
+		)
+		(pin "I1_POS" input
+			(at 242.57 78.74 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d3b1fd41-c616-4ea2-81c9-afedadbfbf5e")
+		)
+		(pin "I1_NEG" input
+			(at 242.57 81.28 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c3f5cdf6-9b2a-4945-94b3-624b91000e88")
+		)
+		(pin "I0_NEG" input
+			(at 242.57 76.2 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "60145237-9765-4732-88c1-47a2a676fe3c")
+		)
+		(pin "I0_POS" input
+			(at 242.57 73.66 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "71d4b407-1e7c-4be9-b158-87bda8852328")
 		)
 		(instances
 			(project "motordriver"

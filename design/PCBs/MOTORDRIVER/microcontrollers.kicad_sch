@@ -2796,7 +2796,7 @@
 	)
 	(text "switch reset button could be nice\nor not idk\n"
 		(exclude_from_sim no)
-		(at 212.852 77.47 0)
+		(at 225.806 63.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)

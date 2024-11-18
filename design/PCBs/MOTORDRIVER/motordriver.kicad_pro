@@ -266,12 +266,7 @@
       "version": 3
     },
     "net_colors": null,
-    "netclass_assignments": {
-      "Net-(IC4-VREF)": "vref",
-      "unconnected-(R14-Pad1)": "vref",
-      "unconnected-(R32-Pad2)": "vref",
-      "unconnected-(R35-Pad2)": "vref"
-    },
+    "netclass_assignments": null,
     "netclass_patterns": []
   },
   "pcbnew": {

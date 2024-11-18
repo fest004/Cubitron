@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP INA2181A2IDGSR
+D Dual Channel, 26V, Bi-Directional, Low-/High-Side Voltage Output Current Sense Amp
+K
+F http://www.ti.com/lit/gpn/ina2181
+$ENDCMP
+#
+#End Doc Library

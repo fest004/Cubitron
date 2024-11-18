@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=INA2181A2IDGSR
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=10
+Version=1.1
+Released=2021-10-03 07:43:35
+Downloaded=2024-11-18 17:45:08
+3D=Y
