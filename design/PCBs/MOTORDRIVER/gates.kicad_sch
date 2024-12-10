@@ -3864,7 +3864,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3129d8f2-37b7-4dfa-8d7b-f9879ad393d6")
-		(property "Reference" "#PWR0201"
+		(property "Reference" "#PWR0203"
 			(at 218.44 60.96 0)
 			(effects
 				(font
@@ -4607,7 +4607,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "0.1uF"
 			(at 138.43 117.348 0)
 			(effects
 				(font
@@ -4676,7 +4676,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "435dca58-4bfe-4a4d-9cfe-ef1c323ff08c")
-		(property "Reference" "#PWR0195"
+		(property "Reference" "#PWR0197"
 			(at 228.6 66.04 0)
 			(effects
 				(font
@@ -5492,7 +5492,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "0.1uF"
 			(at 46.99 111.252 0)
 			(effects
 				(font
@@ -5541,7 +5541,7 @@
 					(unit 1)
 				)
 				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/b5eb0271-9027-4941-b236-8f001fce8a08"
-					(reference "C26")
+					(reference "Bootstrap1")
 					(unit 1)
 				)
 				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/d2c99155-6dc4-4cef-b7d8-f7ba5e4118d0"
@@ -5561,7 +5561,7 @@
 		(dnp no)
 		(uuid "8a930a5a-b58d-4ab3-a694-637cc7dd82ea")
 		(property "Reference" "C31"
-			(at 92.964 140.462 0)
+			(at 92.964 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5569,8 +5569,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 95.25 138.938 0)
+		(property "Value" "0.1uF"
+			(at 95.25 138.176 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5646,7 +5646,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "0.1uF"
 			(at 91.44 82.042 0)
 			(effects
 				(font
@@ -5695,7 +5695,7 @@
 					(unit 1)
 				)
 				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/b5eb0271-9027-4941-b236-8f001fce8a08"
-					(reference "C32")
+					(reference "Bootstrap2")
 					(unit 1)
 				)
 				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/d2c99155-6dc4-4cef-b7d8-f7ba5e4118d0"
@@ -5723,7 +5723,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "0.1uF"
 			(at 134.62 60.452 0)
 			(effects
 				(font
@@ -5772,7 +5772,7 @@
 					(unit 1)
 				)
 				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/b5eb0271-9027-4941-b236-8f001fce8a08"
-					(reference "C35")
+					(reference "Bootstrap3")
 					(unit 1)
 				)
 				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/d2c99155-6dc4-4cef-b7d8-f7ba5e4118d0"
@@ -6098,7 +6098,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "0.1uF"
 			(at 50.8 168.148 0)
 			(effects
 				(font
@@ -6561,7 +6561,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cc9d9403-d27c-40a0-8437-babc3187a0e1")
-		(property "Reference" "#PWR0179"
+		(property "Reference" "#PWR0181"
 			(at 81.28 129.54 0)
 			(effects
 				(font
