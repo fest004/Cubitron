@@ -4263,12 +4263,6 @@
 		(uuid "56a3aa80-5d0d-496d-b432-bd88ab97c6ff")
 	)
 	(junction
-		(at 85.09 110.49)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5723b4f4-03a0-44e6-9273-892f3c62cbfe")
-	)
-	(junction
 		(at 110.49 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4381,6 +4375,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c5f8711c-be30-4c5e-b9e2-0c462642112b")
+	)
+	(junction
+		(at 85.09 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c6403656-e6ee-4653-8a26-c11432b9b6a4")
 	)
 	(junction
 		(at 134.62 63.5)
@@ -5082,16 +5082,6 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 110.49) (xy 85.09 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "428f6e84-04a9-420a-af4b-d792653f6ee6")
-	)
-	(wire
-		(pts
 			(xy 241.3 48.26) (xy 241.3 50.8)
 		)
 		(stroke
@@ -5549,6 +5539,16 @@
 			(type default)
 		)
 		(uuid "724793b7-df72-4803-9868-96c3a04fbf72")
+	)
+	(wire
+		(pts
+			(xy 85.09 119.38) (xy 85.09 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74e2b0e1-4f2e-45f6-bfd1-43ae7a3e9dad")
 	)
 	(wire
 		(pts
@@ -6292,6 +6292,16 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 110.49) (xy 85.09 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4f2df8e-13db-46ae-8549-0c03296b0631")
+	)
+	(wire
+		(pts
 			(xy 149.86 20.32) (xy 166.37 20.32)
 		)
 		(stroke
@@ -6875,6 +6885,17 @@
 		(uuid "da529b57-1c6b-43d2-acf9-36c8537df6df")
 	)
 	(label "IC4_vref"
+		(at 39.37 91.44 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f1b8bbc8-b076-43e1-8045-09516b1cdafc")
+	)
+	(label "IC4_vref"
 		(at 110.49 104.14 0)
 		(fields_autoplaced yes)
 		(effects
@@ -6951,18 +6972,17 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "034feb1d-7986-45b5-8bf6-8b76ba089873")
 		(property "Reference" "C41"
-			(at 72.39 40.64 90)
+			(at 71.374 51.562 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "C"
-			(at 72.39 43.18 90)
+		(property "Value" "0.1uF"
+			(at 71.12 54.356 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7082,6 +7102,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 85.09 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "04a1a21e-7581-4511-82b7-01182f5a547c")
+		(property "Reference" "R43"
+			(at 85.09 115.062 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "32.4K"
+			(at 87.884 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.312 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 85.09 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 85.09 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "67d9ab77-30de-4127-b368-a4799ac68f13")
+		)
+		(pin "1"
+			(uuid "7be424e8-0d35-4429-be39-5dbbb9f15752")
+		)
+		(instances
+			(project "motordriver"
+				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/40fe2217-7020-4fd5-b361-1423767f0697"
+					(reference "R43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:L")
 		(at 250.19 50.8 90)
 		(unit 1)
@@ -7168,7 +7255,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "30.1k"
 			(at 54.61 113.0299 0)
 			(effects
 				(font
@@ -7238,7 +7325,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10 Ohm"
 			(at 25.4 74.9299 0)
 			(effects
 				(font
@@ -7308,7 +7395,7 @@
 			)
 		)
 		(property "Value" "BZV55B2V4"
-			(at 18.542 83.566 90)
+			(at 19.304 82.804 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7646,7 +7733,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "10uF"
 			(at 166.37 173.9899 0)
 			(effects
 				(font
@@ -7715,7 +7802,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "20mOhm"
 			(at 72.39 39.37 90)
 			(effects
 				(font
@@ -7784,7 +7871,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "0.1uF"
 			(at 125.73 85.0899 0)
 			(effects
 				(font
@@ -7984,8 +8071,8 @@
 				)
 			)
 		)
-		(property "Value" "R"
-			(at 79.502 110.49 90)
+		(property "Value" "232k"
+			(at 81.026 113.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8769,7 +8856,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "4.02k"
 			(at 47.752 56.134 0)
 			(effects
 				(font
@@ -8839,7 +8926,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "10uF"
 			(at 153.67 68.5799 0)
 			(effects
 				(font
@@ -10007,7 +10094,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100nF"
 			(at 133.35 173.9899 0)
 			(effects
 				(font
@@ -10077,7 +10164,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "100k"
 			(at 34.29 134.6199 0)
 			(effects
 				(font
@@ -10139,7 +10226,7 @@
 		(fields_autoplaced yes)
 		(uuid "67cfc2b8-c231-4445-a393-bedbf0e81671")
 		(property "Reference" "C47"
-			(at 105.1103 66.0399 0)
+			(at 105.41 66.0399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10147,8 +10234,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C"
-			(at 105.1103 68.5799 0)
+		(property "Value" "0.047uF"
+			(at 105.41 68.5799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10352,8 +10439,8 @@
 				)
 			)
 		)
-		(property "Value" "R"
-			(at 41.402 91.44 90)
+		(property "Value" "1.5K"
+			(at 43.434 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10468,6 +10555,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 31.75 50.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "74b29f71-6e7f-48a3-8fef-f3f86dad710b")
+		(property "Reference" "C26"
+			(at 30.734 54.102 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.2uF"
+			(at 30.48 56.388 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.56 49.8348 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 31.75 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 31.75 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b537059f-9df9-4d15-afe8-04636a54c2ea")
+		)
+		(pin "2"
+			(uuid "bb84989d-32df-4d99-ac85-0fe445d44be7")
+		)
+		(instances
+			(project "motordriver"
+				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/40fe2217-7020-4fd5-b361-1423767f0697"
+					(reference "C26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 52.07 104.14 180)
 		(unit 1)
@@ -10486,7 +10640,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "5.23k"
 			(at 54.61 105.4099 0)
 			(effects
 				(font
@@ -10738,7 +10892,7 @@
 		(fields_autoplaced yes)
 		(uuid "7b10f645-ddf6-4f0f-a0ca-f7a58beee9b3")
 		(property "Reference" "C24"
-			(at 114.0003 78.7399 0)
+			(at 114.3 78.7399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10746,8 +10900,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C"
-			(at 114.0003 81.2799 0)
+		(property "Value" "1uF"
+			(at 114.3 81.2799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11015,10 +11169,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "88699c5e-775f-4cfd-b448-8076422e3b3a")
 		(property "Reference" "C22"
-			(at 81.28 115.5699 0)
+			(at 71.628 115.062 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11026,8 +11179,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 81.28 118.1099 0)
+		(property "Value" "1uF"
+			(at 71.12 117.348 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11678,7 +11831,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 27.94 50.8 0)
+		(at 35.56 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11687,7 +11840,7 @@
 		(fields_autoplaced yes)
 		(uuid "9af088a5-ed5d-40f2-b3a0-7148d4069d68")
 		(property "Reference" "#PWR0191"
-			(at 27.94 57.15 0)
+			(at 35.56 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11696,7 +11849,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 27.94 55.88 0)
+			(at 35.56 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11704,7 +11857,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 27.94 50.8 0)
+			(at 35.56 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11713,7 +11866,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 27.94 50.8 0)
+			(at 35.56 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11722,7 +11875,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 27.94 50.8 0)
+			(at 35.56 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11892,8 +12045,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R"
-			(at 60.452 49.53 0)
+		(property "Value" "4.02kOhm"
+			(at 57.658 51.054 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12160,7 +12313,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "0.1uF"
 			(at 129.54 69.85 90)
 			(effects
 				(font
@@ -12220,7 +12373,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a1d6d297-338f-4815-a0fe-d7c9c258a777")
-		(property "Reference" "100nF28"
+		(property "Reference" "C"
 			(at 113.03 177.7999 0)
 			(effects
 				(font
@@ -12229,7 +12382,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100nF"
 			(at 113.03 180.3399 0)
 			(effects
 				(font
@@ -12274,7 +12427,7 @@
 		(instances
 			(project "motordriver"
 				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/40fe2217-7020-4fd5-b361-1423767f0697"
-					(reference "100nF28")
+					(reference "C")
 					(unit 1)
 				)
 			)
@@ -12412,18 +12565,17 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a6490965-f02a-457e-9641-281963c19c18")
 		(property "Reference" "C46"
-			(at 80.01 40.64 90)
+			(at 80.518 44.704 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "C"
-			(at 80.01 43.18 90)
+		(property "Value" "1uF"
+			(at 85.852 47.752 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12615,7 +12767,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1000k"
 			(at 34.29 124.4599 0)
 			(effects
 				(font
@@ -12799,7 +12951,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b2ab0f9d-64a6-4f00-aa70-868d1cefe8af")
-		(property "Reference" "100nF"
+		(property "Reference" "C"
 			(at 64.77 177.7999 0)
 			(effects
 				(font
@@ -12808,7 +12960,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100nF"
 			(at 64.77 180.3399 0)
 			(effects
 				(font
@@ -12853,7 +13005,7 @@
 		(instances
 			(project "motordriver"
 				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/40fe2217-7020-4fd5-b361-1423767f0697"
-					(reference "100nF")
+					(reference "C")
 					(unit 1)
 				)
 			)
@@ -12943,7 +13095,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "10uF"
 			(at 53.34 68.58 90)
 			(effects
 				(font
@@ -13144,7 +13296,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1K"
 			(at 113.03 49.53 90)
 			(effects
 				(font
@@ -13566,7 +13718,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "0.1uF"
 			(at 66.04 106.6799 0)
 			(effects
 				(font
@@ -13703,7 +13855,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "10uF"
 			(at 144.78 68.5799 0)
 			(effects
 				(font
@@ -13840,7 +13992,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "2"
 			(at 30.48 48.2599 0)
 			(effects
 				(font
@@ -14235,7 +14387,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10MegaOhm :D"
 			(at 129.54 59.69 90)
 			(effects
 				(font
@@ -14457,7 +14609,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "32.4K"
 			(at 113.03 119.3799 0)
 			(effects
 				(font
@@ -14726,7 +14878,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "100K"
 			(at 113.03 109.2199 0)
 			(effects
 				(font

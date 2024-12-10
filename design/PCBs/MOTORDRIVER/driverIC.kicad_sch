@@ -6043,7 +6043,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a2ce8e63-2ab6-4c46-8285-683169004c89")
 		(property "Reference" "R4"
 			(at 125.73 161.29 90)
@@ -6054,7 +6053,7 @@
 			)
 		)
 		(property "Value" "1.5K"
-			(at 125.73 163.83 90)
+			(at 125.73 164.338 90)
 			(effects
 				(font
 					(size 1.27 1.27)
