@@ -2490,20 +2490,60 @@
 		(uuid "112d5597-3207-4ce6-8859-0eb1d93c71f7")
 	)
 	(no_connect
+		(at 227.33 54.61)
+		(uuid "2d15eb13-1d47-4dcd-9150-a2b072a97832")
+	)
+	(no_connect
 		(at 80.01 125.73)
 		(uuid "3a8c2a1d-d076-4e86-861c-05673a5b9ef5")
+	)
+	(no_connect
+		(at 227.33 90.17)
+		(uuid "56449e05-743d-429d-8f74-9780ebb96fa5")
+	)
+	(no_connect
+		(at 227.33 92.71)
+		(uuid "66ec98a8-0eef-4498-8102-7984f1080514")
 	)
 	(no_connect
 		(at 80.01 90.17)
 		(uuid "6d9dcb1a-e3ce-4a9a-be75-84625269c0aa")
 	)
 	(no_connect
+		(at 80.01 118.11)
+		(uuid "85c02c8b-6165-496e-9c4a-ab15de140bdd")
+	)
+	(no_connect
+		(at 227.33 64.77)
+		(uuid "88d18a59-d6cb-453b-85fa-99a1e8188804")
+	)
+	(no_connect
 		(at 80.01 92.71)
 		(uuid "97f28333-5e0a-4683-af88-48dcbd43fa17")
 	)
 	(no_connect
+		(at 80.01 64.77)
+		(uuid "a01a7698-14f9-441f-8ece-b2c04238f89f")
+	)
+	(no_connect
+		(at 80.01 115.57)
+		(uuid "a1a17b7e-9f84-4ca2-9b7b-d82f3a1e54c1")
+	)
+	(no_connect
 		(at 227.33 39.37)
 		(uuid "b7855988-b2ce-4323-8b03-df762f316f09")
+	)
+	(no_connect
+		(at 227.33 59.69)
+		(uuid "bbd4a8f8-cf28-456c-9804-f9b1dfff50d0")
+	)
+	(no_connect
+		(at 80.01 62.23)
+		(uuid "bc0bf79e-fae3-47f9-9ad8-92910a8001ea")
+	)
+	(no_connect
+		(at 227.33 87.63)
+		(uuid "bf3c9e48-70e7-4930-89fb-5bfbbc820c0c")
 	)
 	(no_connect
 		(at 80.01 123.19)
@@ -2514,8 +2554,20 @@
 		(uuid "df6dec20-f35e-4626-b3e8-6cb9b1f8db55")
 	)
 	(no_connect
+		(at 227.33 46.99)
+		(uuid "e1528163-002e-44dd-9713-bc3d1042c1fc")
+	)
+	(no_connect
+		(at 227.33 62.23)
+		(uuid "f78ef400-313d-49c6-915c-57e8d8cfcd56")
+	)
+	(no_connect
 		(at 227.33 72.39)
 		(uuid "f95ab82d-fa87-4651-9cbd-92a8cd65d623")
+	)
+	(no_connect
+		(at 227.33 57.15)
+		(uuid "f9629134-4d79-46a4-8ed8-8a62b45d9c6b")
 	)
 	(wire
 		(pts
@@ -2953,18 +3005,6 @@
 		)
 		(uuid "157b2117-e67a-472b-9576-afcfa5216639")
 	)
-	(hierarchical_label "BRAKE"
-		(shape input)
-		(at 80.01 115.57 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1838e8da-6273-47ef-bd04-d96eb8eef4e3")
-	)
 	(hierarchical_label "ADC_I1_NEG"
 		(shape input)
 		(at 80.01 85.09 180)
@@ -2976,30 +3016,6 @@
 			(justify right)
 		)
 		(uuid "26dd0fe0-3a4c-4046-b240-4692d4cc3e30")
-	)
-	(hierarchical_label "PWM_I"
-		(shape input)
-		(at 227.33 87.63 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "29711c32-8688-4d06-91ad-4d5d8ccce35d")
-	)
-	(hierarchical_label "STP"
-		(shape input)
-		(at 227.33 90.17 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2d47cc17-4d88-4b8e-91cf-d481afdd65e3")
 	)
 	(hierarchical_label "AENC_WY_POS"
 		(shape input)
@@ -3013,30 +3029,6 @@
 		)
 		(uuid "3599cc8f-7e14-4da2-8308-909d2c1ae29a")
 	)
-	(hierarchical_label "PWM_IDLE_H"
-		(shape input)
-		(at 227.33 85.09 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "387b3d4e-f203-4385-9cc9-9f0e16830c34")
-	)
-	(hierarchical_label "REF_L"
-		(shape input)
-		(at 227.33 64.77 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "38829e0c-3bf1-477e-a62b-5b3f3aa6aac6")
-	)
 	(hierarchical_label "GPIO7"
 		(shape input)
 		(at 80.01 49.53 180)
@@ -3049,7 +3041,7 @@
 		)
 		(uuid "3e3b736e-9ccd-4922-ae9e-7202b37a0f3b")
 	)
-	(hierarchical_label "GPIO_4"
+	(hierarchical_label "GPIO4"
 		(shape input)
 		(at 227.33 41.91 0)
 		(fields_autoplaced yes)
@@ -3085,18 +3077,6 @@
 		)
 		(uuid "5df97b1b-50e2-4640-b3bc-d0575a6e958d")
 	)
-	(hierarchical_label "REF_R"
-		(shape input)
-		(at 227.33 59.69 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6f14d267-0baa-449b-9bf5-3fbd8acff9ee")
-	)
 	(hierarchical_label "AENC_UX_POS"
 		(shape input)
 		(at 38.1 167.64 180)
@@ -3109,7 +3089,7 @@
 		)
 		(uuid "73ce55db-1e3a-4a91-add0-73a3eea0a033")
 	)
-	(hierarchical_label "GPIO_3"
+	(hierarchical_label "GPIO3"
 		(shape input)
 		(at 227.33 44.45 0)
 		(fields_autoplaced yes)
@@ -3120,18 +3100,6 @@
 			(justify left)
 		)
 		(uuid "87f7bef9-d87b-43e0-b241-8c03bfff4889")
-	)
-	(hierarchical_label "DIR"
-		(shape input)
-		(at 227.33 92.71 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "8c61068c-1a8a-4d3b-ad42-f74775ab9539")
 	)
 	(hierarchical_label "PWM_W1_H"
 		(shape input)
@@ -3181,30 +3149,6 @@
 		)
 		(uuid "9c957ce0-27a7-4716-9f08-a8968a2407b6")
 	)
-	(hierarchical_label "GPIO_2"
-		(shape input)
-		(at 227.33 46.99 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9cddde47-eb91-4596-8547-f5ed7bc019b3")
-	)
-	(hierarchical_label "GPIO_0"
-		(shape input)
-		(at 227.33 57.15 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a1fb8c54-d065-4f34-8868-2286a4714342")
-	)
 	(hierarchical_label "ADC_I0_NEG"
 		(shape input)
 		(at 80.01 80.01 180)
@@ -3229,18 +3173,6 @@
 		)
 		(uuid "a742661e-7f2d-408a-b527-b2c47e6d9191")
 	)
-	(hierarchical_label "ENO"
-		(shape input)
-		(at 80.01 118.11 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b1a343d6-c2c9-437b-8062-75da0d093613")
-	)
 	(hierarchical_label "AENC_VN_POS"
 		(shape input)
 		(at 76.2 167.64 180)
@@ -3252,30 +3184,6 @@
 			(justify right)
 		)
 		(uuid "b4ccf56e-479a-4a73-ac18-3035a0f17648")
-	)
-	(hierarchical_label "REF_H"
-		(shape input)
-		(at 227.33 62.23 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c7517f8d-1bf4-4f33-8fcb-bf69056d1957")
-	)
-	(hierarchical_label "TMC_UART_RX"
-		(shape input)
-		(at 80.01 62.23 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "df384e62-6ca1-4cad-b525-902d9297c78b")
 	)
 	(hierarchical_label "GPIO5"
 		(shape input)
@@ -3325,30 +3233,6 @@
 		)
 		(uuid "efcb628d-e73e-4f0e-b647-0baf848429dd")
 	)
-	(hierarchical_label "PWM_IDLE_L"
-		(shape input)
-		(at 227.33 82.55 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f100b42c-5149-4236-91b4-bdc5f8c92cb7")
-	)
-	(hierarchical_label "TMC_UART_TX"
-		(shape input)
-		(at 80.01 64.77 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f54d9622-5042-492d-9bc9-860682b56f27")
-	)
 	(hierarchical_label "STATUS"
 		(shape input)
 		(at 80.01 67.31 180)
@@ -3360,18 +3244,6 @@
 			(justify right)
 		)
 		(uuid "f7fc2e7d-8e73-410d-ad93-20f62c0af16b")
-	)
-	(hierarchical_label "GPIO_1"
-		(shape input)
-		(at 227.33 54.61 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "fc104dc2-61c0-4c2b-9473-54b8e1f33cb0")
 	)
 	(symbol
 		(lib_id "power:+3.3V")

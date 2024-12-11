@@ -4152,8 +4152,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "39a70bb1-6653-4f63-b69b-13948a574875")
-		(property "Reference" "100nF29"
-			(at 251.333 45.593 90)
+		(property "Reference" "100nF"
+			(at 250.698 58.674 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4207,7 +4207,7 @@
 		(instances
 			(project "motordriver"
 				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/9ebbb593-eaf1-4a56-ba2a-164e20b1d55e"
-					(reference "100nF29")
+					(reference "100nF")
 					(unit 1)
 				)
 			)
