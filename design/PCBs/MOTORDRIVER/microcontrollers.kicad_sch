@@ -2784,6 +2784,16 @@
 		)
 		(uuid "fd372683-56b0-4f3d-879c-390c90cc93a7")
 	)
+	(text "Chip select for\ndifferent motors\n"
+		(exclude_from_sim no)
+		(at 200.152 109.982 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "55db60db-61f4-41d0-9d9f-3465ee151455")
+	)
 	(text "assuming i2c screen"
 		(exclude_from_sim no)
 		(at 127.762 159.512 0)
@@ -2834,6 +2844,18 @@
 		)
 		(uuid "f2272187-c641-4724-b36d-35e145998dfd")
 	)
+	(hierarchical_label "driverIC2_CS"
+		(shape input)
+		(at 173.99 113.03 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0dc35d39-039b-4e6b-b9b5-781b2f3928fa")
+	)
 	(hierarchical_label "SDA IMU1"
 		(shape input)
 		(at 173.99 95.25 0)
@@ -2845,6 +2867,18 @@
 			(justify left)
 		)
 		(uuid "1048c57c-6911-47b1-a7c6-e9f8ca9449e9")
+	)
+	(hierarchical_label "driverIC1_CS"
+		(shape input)
+		(at 173.99 110.49 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "14df26e7-5c00-478d-a5a7-6544375440a5")
 	)
 	(hierarchical_label "D+"
 		(shape input)
@@ -3013,6 +3047,18 @@
 			(justify right)
 		)
 		(uuid "c32ac3b2-ff37-4f8f-9488-2a62b7f83d46")
+	)
+	(hierarchical_label "driverIC_CS"
+		(shape input)
+		(at 173.99 107.95 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d0fc18a1-1149-460c-a56d-435b10114249")
 	)
 	(hierarchical_label "PROCESS_LED"
 		(shape input)
