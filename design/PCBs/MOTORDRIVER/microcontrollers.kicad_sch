@@ -2656,6 +2656,16 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 163.83) (xy 161.29 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c6ee21d-ecc4-490c-9fd9-4e40d2c8a0b3")
+	)
+	(wire
+		(pts
 			(xy 143.51 69.85) (xy 143.51 34.29)
 		)
 		(stroke
@@ -2673,6 +2683,16 @@
 			(type default)
 		)
 		(uuid "7904d328-8f34-40ad-acc6-a37edb9c67e8")
+	)
+	(wire
+		(pts
+			(xy 143.51 146.05) (xy 143.51 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b31472b-6c4e-4f2c-ae3d-bd7dd144992d")
 	)
 	(wire
 		(pts
@@ -2736,6 +2756,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 163.83) (xy 161.29 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1e66023-52e6-4dc0-a530-04fc8d160f12")
+	)
+	(wire
+		(pts
 			(xy 156.21 50.8) (xy 156.21 54.61)
 		)
 		(stroke
@@ -2776,6 +2806,16 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 146.05) (xy 140.97 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f29e2896-424c-4ea2-acbc-be4611aebed5")
+	)
+	(wire
+		(pts
 			(xy 151.13 62.23) (xy 151.13 69.85)
 		)
 		(stroke
@@ -2786,7 +2826,7 @@
 	)
 	(text "Chip select for\ndifferent motors\n"
 		(exclude_from_sim no)
-		(at 200.152 109.982 0)
+		(at 198.882 110.49 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2794,9 +2834,9 @@
 		)
 		(uuid "55db60db-61f4-41d0-9d9f-3465ee151455")
 	)
-	(text "assuming i2c screen"
+	(text "i2c screen"
 		(exclude_from_sim no)
-		(at 127.762 159.512 0)
+		(at 127.254 158.496 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2833,6 +2873,26 @@
 			)
 		)
 		(uuid "9df3e943-9efb-4632-96c5-b6bcd60a0a5d")
+	)
+	(text "Enable motordrivers"
+		(exclude_from_sim no)
+		(at 166.37 176.022 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a28a9ae3-d67f-4fd2-bf60-3b39b6992168")
+	)
+	(text "25MHz CLK for \nTMC"
+		(exclude_from_sim no)
+		(at 146.05 176.784 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b50fb5a6-3204-4777-a099-48b881b13d3b")
 	)
 	(text "Decoupling capacitors, place them close to IC"
 		(exclude_from_sim no)
@@ -2879,6 +2939,18 @@
 			(justify left)
 		)
 		(uuid "14df26e7-5c00-478d-a5a7-6544375440a5")
+	)
+	(hierarchical_label "TMC_CLK1"
+		(shape input)
+		(at 140.97 170.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "21a47b90-41a0-425e-9aca-1397b61eed6b")
 	)
 	(hierarchical_label "D+"
 		(shape input)
@@ -2928,6 +3000,18 @@
 		)
 		(uuid "35dd2c1e-416a-4168-874a-f0df7dd63940")
 	)
+	(hierarchical_label "TMC_CLK"
+		(shape input)
+		(at 140.97 167.64 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "39e93712-e8fa-4cfd-bc5d-24ef5bb62ba7")
+	)
 	(hierarchical_label "DB_RX"
 		(shape input)
 		(at 173.99 105.41 0)
@@ -2976,6 +3060,30 @@
 		)
 		(uuid "67198325-2086-49e1-9393-4198df42f048")
 	)
+	(hierarchical_label "TMC_CLK2"
+		(shape input)
+		(at 140.97 172.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6e766761-ab64-4b0d-825b-76c487201abd")
+	)
+	(hierarchical_label "TMC_ENI2"
+		(shape input)
+		(at 161.29 172.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8050f525-14fe-4f8a-8fc8-c5b6d1eab5cc")
+	)
 	(hierarchical_label "SCL IMU2"
 		(shape input)
 		(at 118.11 125.73 180)
@@ -3000,6 +3108,18 @@
 		)
 		(uuid "84173203-b6b0-4d56-8f7d-b3e08794bd21")
 	)
+	(hierarchical_label "TMC_ENI1"
+		(shape input)
+		(at 161.29 170.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8a304a01-7bf1-4c38-b639-341f440e74cf")
+	)
 	(hierarchical_label "SCL IMU1"
 		(shape input)
 		(at 173.99 97.79 0)
@@ -3011,6 +3131,18 @@
 			(justify left)
 		)
 		(uuid "8a69fb88-7de2-42a4-b23e-13f6435a750a")
+	)
+	(hierarchical_label "TMC_ENI"
+		(shape input)
+		(at 161.29 167.64 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9d4d9b20-d88a-4700-96bd-3e85732c632a")
 	)
 	(hierarchical_label "D-"
 		(shape input)

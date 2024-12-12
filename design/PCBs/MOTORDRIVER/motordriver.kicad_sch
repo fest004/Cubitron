@@ -27,6 +27,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 48.26) (xy 166.37 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04cdc564-4f6f-476f-93e4-b922a11a1a6e")
+	)
+	(wire
+		(pts
 			(xy 265.43 22.86) (xy 265.43 20.32)
 		)
 		(stroke
@@ -147,6 +157,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 146.05) (xy 154.94 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1836b78c-5d01-49d6-86ef-3d064bf157fa")
+	)
+	(wire
+		(pts
 			(xy 236.22 81.28) (xy 242.57 81.28)
 		)
 		(stroke
@@ -257,6 +277,26 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 83.82) (xy 166.37 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2eaaf5af-3b3e-4cb2-8755-f46bbe3b44ee")
+	)
+	(wire
+		(pts
+			(xy 167.64 148.59) (xy 152.4 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f0cf8c9-88e2-4ef8-94e0-0d5c5555c453")
+	)
+	(wire
+		(pts
 			(xy 236.22 96.52) (xy 242.57 96.52)
 		)
 		(stroke
@@ -327,6 +367,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 129.54) (xy 123.19 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4183652d-f8d6-41b7-9577-84a6eedadeb3")
+	)
+	(wire
+		(pts
 			(xy 236.22 73.66) (xy 242.57 73.66)
 		)
 		(stroke
@@ -347,6 +397,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 57.15) (xy 124.46 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "476050cd-904b-4504-8577-1ee4cb05a4d6")
+	)
+	(wire
+		(pts
 			(xy 203.2 66.04) (xy 203.2 71.12)
 		)
 		(stroke
@@ -364,6 +424,16 @@
 			(type default)
 		)
 		(uuid "4903b9f3-4341-4ece-af06-c1264f4f5d9b")
+	)
+	(wire
+		(pts
+			(xy 120.65 111.76) (xy 120.65 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49a77d8d-c014-4d49-ba02-3d4da73b9662")
 	)
 	(wire
 		(pts
@@ -404,6 +474,16 @@
 			(type default)
 		)
 		(uuid "4e3a55fa-422f-4ec3-8ef7-3873762d7f51")
+	)
+	(wire
+		(pts
+			(xy 152.4 148.59) (xy 152.4 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fb61567-f060-4e47-a05f-d4a5db9d5367")
 	)
 	(wire
 		(pts
@@ -457,6 +537,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 127) (xy 125.73 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60aa4af0-7ebe-4b61-a3cc-311c25d6d681")
+	)
+	(wire
+		(pts
 			(xy 255.27 52.07) (xy 267.97 52.07)
 		)
 		(stroke
@@ -464,6 +554,16 @@
 			(type default)
 		)
 		(uuid "61d437df-1d2f-4c3b-8ca4-8c8de24d258a")
+	)
+	(wire
+		(pts
+			(xy 121.92 43.18) (xy 166.37 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6804e13e-1ecb-4465-9496-8c4619f6ec7b")
 	)
 	(wire
 		(pts
@@ -494,6 +594,16 @@
 			(type default)
 		)
 		(uuid "6b4237a0-04d7-474c-9dfa-a328329ef990")
+	)
+	(wire
+		(pts
+			(xy 149.86 132.08) (xy 120.65 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d1c85c6-fddf-4836-a489-9604832d6c9b")
 	)
 	(wire
 		(pts
@@ -567,6 +677,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 151.13) (xy 149.86 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86be9178-9a8f-4dc7-a7d8-7d6323f9a10c")
+	)
+	(wire
+		(pts
 			(xy 266.7 116.84) (xy 266.7 118.11)
 		)
 		(stroke
@@ -577,6 +697,26 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 86.36) (xy 143.51 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a373892-b0f5-42ff-af77-5106724e09ca")
+	)
+	(wire
+		(pts
+			(xy 154.94 146.05) (xy 154.94 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d147b7a-59a8-488a-959c-6d62419dc7a0")
+	)
+	(wire
+		(pts
 			(xy 236.22 34.29) (xy 242.57 34.29)
 		)
 		(stroke
@@ -584,6 +724,36 @@
 			(type default)
 		)
 		(uuid "8de82ee2-8275-43c8-ada0-36a37620e2f4")
+	)
+	(wire
+		(pts
+			(xy 143.51 88.9) (xy 166.37 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e35e075-2a86-4bbf-bf1e-a0911594cf59")
+	)
+	(wire
+		(pts
+			(xy 121.92 57.15) (xy 121.92 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9292f1a0-5488-4c0c-9c12-7fb2e7300cd8")
+	)
+	(wire
+		(pts
+			(xy 124.46 45.72) (xy 166.37 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93f6f9f5-d3e9-4ef0-a074-e7fad3026b2c")
 	)
 	(wire
 		(pts
@@ -644,6 +814,16 @@
 			(type default)
 		)
 		(uuid "af9f9027-e780-4565-a0e3-3d402b5605c8")
+	)
+	(wire
+		(pts
+			(xy 149.86 151.13) (xy 149.86 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b44d2031-9790-4d31-a44c-2ba25f24d30c")
 	)
 	(wire
 		(pts
@@ -717,6 +897,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 127) (xy 125.73 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d266a2c7-b4b7-493e-a5e3-947e39597d3e")
+	)
+	(wire
+		(pts
 			(xy 265.43 120.65) (xy 267.97 120.65)
 		)
 		(stroke
@@ -744,6 +934,26 @@
 			(type default)
 		)
 		(uuid "d4df3ce7-ec4b-4b25-967c-3b12de95f5b8")
+	)
+	(wire
+		(pts
+			(xy 123.19 129.54) (xy 123.19 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1bae465-a1ce-47b1-baa4-c30436ea1cce")
+	)
+	(wire
+		(pts
+			(xy 127 57.15) (xy 127 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1c6a29d-d4de-4aeb-a3c4-6c3c8d7f8b4b")
 	)
 	(wire
 		(pts
@@ -884,6 +1094,16 @@
 		)
 		(uuid d119cdcc-ff54-4987-81d2-42ab89d50408)
 	)
+	(text "can we use status interrupt\npin for lighting an LED?"
+		(exclude_from_sim no)
+		(at 191.516 154.178 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3ddd8894-c966-45da-a5ab-701428ed04a8")
+	)
 	(text "Motor Stage"
 		(exclude_from_sim no)
 		(at 171.45 18.034 0)
@@ -985,7 +1205,7 @@
 			(uuid "9d641fea-047b-4ab4-a18c-6b72b073da9d")
 		)
 		(pin "GPIO7" input
-			(at 167.64 138.43 180)
+			(at 167.64 143.51 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -995,7 +1215,7 @@
 			(uuid "e4ce2f15-5d90-42d2-858d-8a02b2147dc1")
 		)
 		(pin "GPIO6" input
-			(at 167.64 135.89 180)
+			(at 167.64 140.97 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1015,7 +1235,7 @@
 			(uuid "e77cdfe2-7253-4ba1-9d2f-93e106c841fd")
 		)
 		(pin "GPIO5" input
-			(at 167.64 133.35 180)
+			(at 167.64 138.43 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1043,16 +1263,6 @@
 				(justify right)
 			)
 			(uuid "ec22df9d-0687-4fe4-9bb0-a512ce51bf16")
-		)
-		(pin "PWM_Y2_H" input
-			(at 190.5 158.75 270)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "f2bbc47d-0ce1-42bf-a757-79e7799fe5e1")
 		)
 		(pin "PWM_UX1_L" input
 			(at 236.22 135.89 0)
@@ -1094,38 +1304,18 @@
 			)
 			(uuid "24ebaccd-fdbb-475b-aaa7-162783d4df97")
 		)
-		(pin "NRST" input
-			(at 181.61 120.65 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "18bd22c2-a868-4585-9138-c35e38ea74f8")
-		)
-		(pin "PWM_Y2_L" input
-			(at 193.04 158.75 270)
+		(pin "CLK" input
+			(at 167.64 146.05 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "860d564a-4b0c-4b31-bc24-dfcd3e7061e4")
-		)
-		(pin "CLK" input
-			(at 184.15 120.65 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
 			(uuid "38c3d566-e8b5-4dcc-96a8-5d6f1aff9317")
 		)
 		(pin "ENI" input
-			(at 208.28 158.75 270)
+			(at 167.64 151.13 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1135,7 +1325,7 @@
 			(uuid "1c4b48f8-7c9b-4cb5-8c44-64ed0faf71e4")
 		)
 		(pin "GPIO3" input
-			(at 167.64 128.27 180)
+			(at 167.64 133.35 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1145,7 +1335,7 @@
 			(uuid "a8ded17a-1b2b-4785-9450-b52dfda01ca6")
 		)
 		(pin "GPIO4" input
-			(at 167.64 130.81 180)
+			(at 167.64 135.89 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1155,12 +1345,12 @@
 			(uuid "d8a5ae46-ddf2-4a18-be62-ae600fc76868")
 		)
 		(pin "TMC_CS" input
-			(at 194.31 120.65 90)
+			(at 167.64 148.59 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 			(uuid "8d5ae3c7-feb0-4374-8586-806ebdfdd044")
 		)
@@ -1519,7 +1709,7 @@
 			(uuid "75aef437-50cb-44d7-8e63-b53f45919969")
 		)
 		(pin "STATUS" input
-			(at 166.37 46.99 180)
+			(at 166.37 40.64 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1578,16 +1768,6 @@
 			)
 			(uuid "53088ec6-a8f5-4b9a-aa4a-f943a8802847")
 		)
-		(pin "PWM_Y2_H" input
-			(at 217.17 55.88 270)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "25f8a1bb-2a04-41e2-8f39-4ef58e0b2801")
-		)
 		(pin "PWM_UX1_L" input
 			(at 236.22 36.83 0)
 			(effects
@@ -1629,17 +1809,17 @@
 			(uuid "ef863af8-6f46-45f1-b8f3-4f347ad5976f")
 		)
 		(pin "CLK" input
-			(at 191.77 22.86 90)
+			(at 166.37 43.18 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 			(uuid "52c36ed3-2bb0-4f48-982b-3d59e29e0f35")
 		)
 		(pin "ENI" input
-			(at 203.2 55.88 270)
+			(at 166.37 48.26 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1647,26 +1827,6 @@
 				(justify left)
 			)
 			(uuid "00ac150f-aa41-4acb-b6e9-86cce626874c")
-		)
-		(pin "NRST" input
-			(at 187.96 22.86 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "3a211422-9071-4eac-8ae7-cdc0482f5322")
-		)
-		(pin "PWM_Y2_L" input
-			(at 214.63 55.88 270)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "7f01c7da-f291-413b-b449-6f17e3d2a87b")
 		)
 		(pin "GPIO3" input
 			(at 166.37 27.94 180)
@@ -1689,12 +1849,12 @@
 			(uuid "618a2d7e-fd84-4552-b156-8aa0c47fbf89")
 		)
 		(pin "TMC_CS" input
-			(at 199.39 22.86 90)
+			(at 166.37 45.72 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 			(uuid "3a06b556-a78f-4e5c-9d0d-1aa7059f022e")
 		)
@@ -1737,8 +1897,8 @@
 		)
 	)
 	(sheet
-		(at 58.42 21.59)
-		(size 81.28 20.32)
+		(at 45.72 17.78)
+		(size 44.45 21.59)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.5)
@@ -1749,7 +1909,7 @@
 		)
 		(uuid "40fe2217-7020-4fd5-b361-1423767f0697")
 		(property "Sheetname" "voltageregulators"
-			(at 58.42 20.7046 0)
+			(at 45.72 16.8946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1758,7 +1918,7 @@
 			)
 		)
 		(property "Sheetfile" "voltageregulatros.kicad_sch"
-			(at 58.42 42.6684 0)
+			(at 45.72 40.1284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2191,7 +2351,7 @@
 			)
 		)
 		(pin "RESETN" input
-			(at 123.19 57.15 90)
+			(at 99.06 57.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2221,7 +2381,7 @@
 			(uuid "b96c5eab-f9d8-4976-af9a-64e96f028cfe")
 		)
 		(pin "ERR_LED" input
-			(at 135.89 111.76 270)
+			(at 100.33 111.76 270)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2231,7 +2391,7 @@
 			(uuid "5f1696d6-de6c-4e90-bda3-13b32b8d6754")
 		)
 		(pin "PROCESS_LED" input
-			(at 138.43 111.76 270)
+			(at 102.87 111.76 270)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2370,6 +2530,96 @@
 			)
 			(uuid "f57b0676-619b-4cbe-9140-ab90d842a894")
 		)
+		(pin "driverIC2_CS" input
+			(at 123.19 111.76 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "40ef87ca-065a-42b5-a7cd-0c9a3dca2289")
+		)
+		(pin "driverIC1_CS" input
+			(at 143.51 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "95064c0d-b985-4924-8683-18e55e3a4fdf")
+		)
+		(pin "driverIC_CS" input
+			(at 124.46 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "34d50c4b-f9ff-4795-8c84-849f1f7f536e")
+		)
+		(pin "TMC_ENI2" input
+			(at 120.65 111.76 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "db5c05c2-4e2b-4d06-ba1b-e94ebd219f61")
+		)
+		(pin "TMC_ENI1" input
+			(at 143.51 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "357ca851-e32e-481c-87f9-83d0537afc68")
+		)
+		(pin "TMC_ENI" input
+			(at 127 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a115f206-a4a7-41f5-810c-52213b66a4c1")
+		)
+		(pin "TMC_CLK2" input
+			(at 125.73 111.76 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a3649b33-ffe0-4b3d-a450-ae015d4f5df1")
+		)
+		(pin "TMC_CLK" input
+			(at 121.92 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "234a4e11-8410-48ad-a446-6f5285e5bb59")
+		)
+		(pin "TMC_CLK1" input
+			(at 143.51 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3b213ba7-b73d-493b-8286-427ff42eab26")
+		)
 		(instances
 			(project "motordriver"
 				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d"
@@ -2449,7 +2699,7 @@
 			(uuid "263779fa-54cb-4a13-8d4f-bf30a6ebff24")
 		)
 		(pin "GPIO7" input
-			(at 166.37 88.9 180)
+			(at 166.37 93.98 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2459,7 +2709,7 @@
 			(uuid "72a01145-748e-4135-8260-43d3408382b4")
 		)
 		(pin "GPIO6" input
-			(at 166.37 86.36 180)
+			(at 166.37 81.28 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2479,7 +2729,7 @@
 			(uuid "2e92e365-c4de-43b6-9e58-32a5489ad2ae")
 		)
 		(pin "GPIO5" input
-			(at 166.37 83.82 180)
+			(at 166.37 78.74 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2507,16 +2757,6 @@
 				(justify right)
 			)
 			(uuid "a54fb5e8-d117-4fa8-9b3a-1593074740d3")
-		)
-		(pin "PWM_Y2_H" input
-			(at 193.04 105.41 270)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "6594ca61-499a-47f3-85d2-002904664a83")
 		)
 		(pin "PWM_UX1_L" input
 			(at 236.22 86.36 0)
@@ -2558,38 +2798,18 @@
 			)
 			(uuid "d815feb8-16d7-49ba-90e3-bc3fceddcc42")
 		)
-		(pin "NRST" input
-			(at 179.07 71.12 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "8f391ec7-4a3d-4781-b268-6098875e29bc")
-		)
-		(pin "PWM_Y2_L" input
-			(at 195.58 105.41 270)
+		(pin "CLK" input
+			(at 166.37 83.82 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "35a2ae9c-42f9-4328-8341-5353640aff7b")
-		)
-		(pin "CLK" input
-			(at 189.23 71.12 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
 			(uuid "ebea7e69-1846-47f3-9f9c-6531c144f258")
 		)
 		(pin "ENI" input
-			(at 205.74 105.41 270)
+			(at 166.37 88.9 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2599,7 +2819,7 @@
 			(uuid "153ef9fe-2aed-4199-aebd-1dfd884aba85")
 		)
 		(pin "GPIO3" input
-			(at 166.37 78.74 180)
+			(at 166.37 73.66 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2609,7 +2829,7 @@
 			(uuid "b06639ef-a095-4ae2-92dd-a09bf3482647")
 		)
 		(pin "GPIO4" input
-			(at 166.37 81.28 180)
+			(at 166.37 76.2 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2619,12 +2839,12 @@
 			(uuid "95604594-1d90-4ab1-a8bd-dbbf26717b68")
 		)
 		(pin "TMC_CS" input
-			(at 195.58 71.12 90)
+			(at 166.37 86.36 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 			(uuid "f5a794ba-5437-479a-92fc-f32c9d9612f9")
 		)
