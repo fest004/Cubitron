@@ -1134,6 +1134,26 @@
 		)
 		(uuid "04dce7d2-da14-4217-8b0f-534ca4f4e847")
 	)
+	(text "voltage regulation, voltage\nreference and battery\ncharger"
+		(exclude_from_sim no)
+		(at 65.278 29.464 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0963e335-0d34-4661-980a-535308754f05")
+	)
+	(text "motor driver, takes \nhall sensors, current\nmeasurement and SPI \nsignal. Outputs low-power\nPWM for drivergates"
+		(exclude_from_sim no)
+		(at 200.152 41.402 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "11a1d79c-bc6a-46ea-bb9b-c2db6e257a8b")
+	)
 	(text "can we use status interrupt\npin for lighting an LED?"
 		(exclude_from_sim no)
 		(at 191.516 154.178 0)
@@ -1143,6 +1163,16 @@
 			)
 		)
 		(uuid "3ddd8894-c966-45da-a5ab-701428ed04a8")
+	)
+	(text "motor driver, takes \nhall sensors, current\nmeasurement and SPI \nsignal. Outputs low-power\nPWM for drivergates"
+		(exclude_from_sim no)
+		(at 198.12 90.424 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "423222a3-dd2a-4d18-a15a-4b7ed528e0f5")
 	)
 	(text "root\n"
 		(exclude_from_sim no)
@@ -1174,6 +1204,16 @@
 		)
 		(uuid "8f62eab0-86c0-44b2-8320-8730018509b3")
 	)
+	(text "main microcontroller for \ncomputation etc., as well\nas programmer for ease of \nuse and debugging"
+		(exclude_from_sim no)
+		(at 106.68 82.296 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a8869fcc-a438-4063-b6bf-5496d88a9ef9")
+	)
 	(text "Motor Stage"
 		(exclude_from_sim no)
 		(at 171.45 18.034 0)
@@ -1203,6 +1243,16 @@
 			)
 		)
 		(uuid "e449aee4-de4b-46b9-ab0e-516859dc8c5d")
+	)
+	(text "motor driver, takes \nhall sensors, current\nmeasurement and SPI \nsignal. Outputs low-power\nPWM for drivergates"
+		(exclude_from_sim no)
+		(at 195.834 137.922 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e6dda58c-7d5a-4494-96ea-ef00098d5e3a")
 	)
 	(sheet
 		(at 167.64 120.65)

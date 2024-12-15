@@ -1346,6 +1346,12 @@
 			)
 		)
 	)
+	(junction
+		(at 128.27 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "184a106e-9e54-4088-9ff6-f52c7543ef6a")
+	)
 	(no_connect
 		(at 165.1 110.49)
 		(uuid "054e7af9-f60b-4021-bd50-014840114d09")
@@ -1369,6 +1375,36 @@
 	(no_connect
 		(at 163.83 85.09)
 		(uuid "cc51afa8-3cda-4cf6-b760-7f185e7c4bb5")
+	)
+	(wire
+		(pts
+			(xy 128.27 86.36) (xy 120.65 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "166d20a1-a7fd-4e95-b405-f513fada86a5")
+	)
+	(wire
+		(pts
+			(xy 128.27 90.17) (xy 128.27 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e33fd3a-9d6e-4352-b9b1-188e559de74a")
+	)
+	(wire
+		(pts
+			(xy 128.27 82.55) (xy 128.27 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83f0bd15-b3ae-4e44-acbc-2c21fb02a41c")
 	)
 	(text "input\n"
 		(exclude_from_sim no)
@@ -1515,6 +1551,18 @@
 			(justify left)
 		)
 		(uuid "b5ff0ac9-dd94-4a5a-8526-8f69b5344947")
+	)
+	(hierarchical_label "USBVIN"
+		(shape input)
+		(at 128.27 82.55 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "eb091347-2277-41fe-aa1b-bd66c0a0161a")
 	)
 	(hierarchical_label "SDA IMU1"
 		(shape input)
@@ -2313,7 +2361,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 120.65 86.36 0)
+		(at 128.27 90.17 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2322,7 +2370,7 @@
 		(fields_autoplaced yes)
 		(uuid "e15463e7-1c43-4006-9f23-763e799a620f")
 		(property "Reference" "#PWR089"
-			(at 120.65 90.17 0)
+			(at 128.27 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2331,15 +2379,16 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 120.65 81.28 0)
+			(at 130.81 91.4399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 120.65 86.36 0)
+			(at 128.27 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2348,7 +2397,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.65 86.36 0)
+			(at 128.27 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2357,7 +2406,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 120.65 86.36 0)
+			(at 128.27 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)

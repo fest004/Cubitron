@@ -1899,19 +1899,7 @@
 			)
 			(justify left)
 		)
-		(uuid "12aea47d-637a-4df9-8704-10404e664362")
-	)
-	(hierarchical_label "OLED_SCL"
-		(shape input)
-		(at 184.15 64.77 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "14866516-082a-417f-a2db-b6ed02697ab1")
+		(uuid "2d6c509e-95f3-463c-af24-207dcfd2ce28")
 	)
 	(hierarchical_label "PHASE_U2"
 		(shape input)
@@ -1949,6 +1937,18 @@
 		)
 		(uuid "3cd498df-76db-46c1-abd8-4cab4c83be34")
 	)
+	(hierarchical_label "SERVO_2_SIGNAL"
+		(shape input)
+		(at 177.8 125.73 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "42f6c0f5-c66d-4a53-aa01-03472c6462fa")
+	)
 	(hierarchical_label "HALL_B1"
 		(shape input)
 		(at 116.84 64.77 0)
@@ -1961,6 +1961,30 @@
 		)
 		(uuid "45945bfb-7e3b-447c-928b-58e930ab7896")
 	)
+	(hierarchical_label "OLED_SDA"
+		(shape input)
+		(at 184.15 67.31 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "488554f6-079d-4239-97ed-f71ff0047f9f")
+	)
+	(hierarchical_label "TX"
+		(shape input)
+		(at 180.34 44.45 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4e43a6fa-2b33-43e0-ba70-52106082a15a")
+	)
 	(hierarchical_label "HALL_B2"
 		(shape input)
 		(at 115.57 107.95 0)
@@ -1972,18 +1996,6 @@
 			(justify left)
 		)
 		(uuid "4f7c9b66-39b0-4077-8ca7-f46dbf5583ba")
-	)
-	(hierarchical_label "OLED_SDA"
-		(shape input)
-		(at 184.15 67.31 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "53c461dc-327c-4530-8da1-f7d48d37569e")
 	)
 	(hierarchical_label "HALL_B3"
 		(shape input)
@@ -2081,30 +2093,6 @@
 		)
 		(uuid "9fa78efe-5967-47c2-be31-88fc13d094a1")
 	)
-	(hierarchical_label "SERVO_3_SIGNAL"
-		(shape input)
-		(at 177.8 139.7 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "aa1b38c5-595a-42d9-ae30-c4ca489d60b3")
-	)
-	(hierarchical_label "TX"
-		(shape input)
-		(at 180.34 44.45 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ab032b61-9358-4439-8f12-18640e2968f8")
-	)
 	(hierarchical_label "HALL_C1"
 		(shape input)
 		(at 116.84 69.85 0)
@@ -2116,6 +2104,18 @@
 			(justify left)
 		)
 		(uuid "ada0cfa7-4538-479f-9538-5fc7d6450c5e")
+	)
+	(hierarchical_label "OLED_SCL"
+		(shape input)
+		(at 184.15 64.77 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ae933024-d331-437e-a7c2-ba8c421da29f")
 	)
 	(hierarchical_label "HALL_A3"
 		(shape input)
@@ -2141,30 +2141,6 @@
 		)
 		(uuid "b35355a4-a1be-41bd-94bc-f50e60ed0c3f")
 	)
-	(hierarchical_label "SERVO_2_SIGNAL"
-		(shape input)
-		(at 177.8 125.73 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c7702d00-5748-446e-b17d-27b9ffee0bde")
-	)
-	(hierarchical_label "SERVO_1_SIGNAL"
-		(shape input)
-		(at 177.8 111.76 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ce722971-50c9-4512-bf57-86d1ff856f55")
-	)
 	(hierarchical_label "HALL_C2"
 		(shape input)
 		(at 115.57 113.03 0)
@@ -2176,6 +2152,30 @@
 			(justify left)
 		)
 		(uuid "dbb16887-c999-42f6-8287-88f79fe63c08")
+	)
+	(hierarchical_label "SERVO_1_SIGNAL"
+		(shape input)
+		(at 177.8 111.76 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e821ccd0-5622-4a2a-865c-d6c90145f53d")
+	)
+	(hierarchical_label "SERVO_3_SIGNAL"
+		(shape input)
+		(at 177.8 139.7 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f1419599-33f9-4a78-98f6-9450ec9309fe")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -2238,143 +2238,6 @@
 			(project "motordriver"
 				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/5d8f5153-26a2-4903-a925-dc0c63f77bf7"
 					(reference "#PWR092")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 177.8 109.22 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0d09b404-95a4-4cef-9f6c-40d83444e3fb")
-		(property "Reference" "#PWR?"
-			(at 173.99 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 181.61 109.2199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 177.8 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 177.8 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 177.8 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7621e9aa-288a-4869-8d54-0dea10d693d0")
-		)
-		(instances
-			(project "motordriver"
-				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/5d8f5153-26a2-4903-a925-dc0c63f77bf7"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
-		(at 175.26 41.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "159c322d-895b-44bb-9666-4374952d11a2")
-		(property "Reference" "DB?"
-			(at 175.895 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "Conn_01x02_Pin"
-			(at 175.895 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 175.26 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 175.26 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 175.26 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "bb1204bf-e695-49db-8f58-a488b5fbc804")
-		)
-		(pin "1"
-			(uuid "6080230c-f16d-4c12-940a-ddb8ec5b5b9c")
-		)
-		(instances
-			(project "motordriver"
-				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/5d8f5153-26a2-4903-a925-dc0c63f77bf7"
-					(reference "DB?")
 					(unit 1)
 				)
 			)
@@ -2534,93 +2397,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x04")
-		(at 189.23 67.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2b2706d4-30d2-4bd2-a982-aab5c412b0f6")
-		(property "Reference" "Screen"
-			(at 186.436 60.452 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x04"
-			(at 191.77 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x04_P2.00mm_Horizontal"
-			(at 189.23 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 189.23 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 189.23 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "49c6227c-360a-4349-a3d0-7594bd448d3d")
-		)
-		(pin "2"
-			(uuid "58cc6015-2b4f-4df5-b9b8-0eb3413f5378")
-		)
-		(pin "3"
-			(uuid "601ad35f-4ac7-4275-ae58-758abc5dfc2e")
-		)
-		(pin "4"
-			(uuid "0e6029f6-fe43-483a-94dd-e7e86f41d105")
-		)
-		(instances
-			(project "motordriver"
-				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/5d8f5153-26a2-4903-a925-dc0c63f77bf7"
-					(reference "Screen")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 168.91 69.85 0)
+		(lib_id "power:GND")
+		(at 177.8 120.65 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "2ed1f978-f84e-469f-92bc-73a806316bb9")
-		(property "Reference" "#PWR?"
-			(at 168.91 73.66 0)
+		(uuid "202434b9-3499-4d93-b2a1-0bccd6f90928")
+		(property "Reference" "#PWR0158"
+			(at 184.15 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2628,16 +2415,17 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 168.91 64.77 0)
+		(property "Value" "GND"
+			(at 181.61 120.6499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 168.91 69.85 0)
+			(at 177.8 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2646,7 +2434,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 168.91 69.85 0)
+			(at 177.8 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2654,73 +2442,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 168.91 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "858d9406-d033-4b4b-ac29-5f24323c6f2f")
-		)
-		(instances
-			(project "motordriver"
-				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/5d8f5153-26a2-4903-a925-dc0c63f77bf7"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x03_Pin")
-		(at 172.72 109.22 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6118df38-8763-4f26-89e7-9481746e834b")
-		(property "Reference" "S?"
-			(at 173.355 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 173.355 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 172.72 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 172.72 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 172.72 109.22 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 177.8 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2729,35 +2452,29 @@
 			)
 		)
 		(pin "1"
-			(uuid "284ddb24-f52c-4928-b69d-477252eaa29b")
-		)
-		(pin "3"
-			(uuid "54093aff-f9ea-4a9d-9576-76be8ec87eb9")
-		)
-		(pin "2"
-			(uuid "35c933ce-8372-49bd-aab6-e684397a00a4")
+			(uuid "12070b7d-c605-49b7-8f71-27c70f57f45e")
 		)
 		(instances
 			(project "motordriver"
 				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/5d8f5153-26a2-4903-a925-dc0c63f77bf7"
-					(reference "S?")
+					(reference "#PWR0158")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 177.8 137.16 270)
+		(lib_id "power:GND")
+		(at 177.8 134.62 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "61bba41d-c90d-46a1-bedf-783fa3915138")
-		(property "Reference" "#PWR0161"
-			(at 173.99 137.16 0)
+		(uuid "25e7b72d-9d83-43b3-8184-163c949f18f2")
+		(property "Reference" "#PWR0160"
+			(at 184.15 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2765,17 +2482,17 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
-			(at 181.61 137.1599 90)
+		(property "Value" "GND"
+			(at 181.61 134.6199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 177.8 137.16 0)
+			(at 177.8 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2784,7 +2501,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 177.8 137.16 0)
+			(at 177.8 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2792,8 +2509,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 177.8 137.16 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 177.8 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2802,12 +2519,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "c599b6e7-361f-4c0b-af2d-ec7b5a12a5bd")
+			(uuid "d17ca285-ebe2-47a1-9cd8-206d9271fc9f")
 		)
 		(instances
 			(project "motordriver"
 				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/5d8f5153-26a2-4903-a925-dc0c63f77bf7"
-					(reference "#PWR0161")
+					(reference "#PWR0160")
 					(unit 1)
 				)
 			)
@@ -3099,25 +2816,26 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x03_Pin")
-		(at 172.72 137.16 0)
+		(lib_id "power:+3.3V")
+		(at 168.91 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "7fd7e8db-f48a-4d63-a489-6dcdf16337a6")
-		(property "Reference" "S3"
-			(at 173.355 130.81 0)
+		(uuid "847bf4ab-b5e8-4c6b-a08b-4febd27272d3")
+		(property "Reference" "#PWR0217"
+			(at 168.91 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Value" "~"
-			(at 173.355 133.35 0)
+		(property "Value" "+3.3V"
+			(at 168.91 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3125,79 +2843,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 172.72 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 172.72 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 172.72 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5f7ce348-f467-47f7-8f2b-b5a8ee73ffc9")
-		)
-		(pin "3"
-			(uuid "9427788e-01bb-4290-9f86-f140cbfaf56c")
-		)
-		(pin "2"
-			(uuid "ec8ad74d-ae1d-435c-9fd7-39429341b3db")
-		)
-		(instances
-			(project "motordriver"
-				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/5d8f5153-26a2-4903-a925-dc0c63f77bf7"
-					(reference "S3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 184.15 72.39 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8cdc042e-5aea-47c3-ac24-2c857fac4ab7")
-		(property "Reference" "#PWR?"
-			(at 184.15 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 184.15 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 184.15 72.39 0)
+			(at 168.91 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3206,7 +2852,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 184.15 72.39 0)
+			(at 168.91 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3214,8 +2860,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 184.15 72.39 0)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 168.91 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3224,12 +2870,88 @@
 			)
 		)
 		(pin "1"
-			(uuid "3eae8638-d159-4907-90b8-1d67fbb62ca4")
+			(uuid "858d9406-d033-4b4b-ac29-5f24323c6f2f")
 		)
 		(instances
 			(project "motordriver"
 				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/5d8f5153-26a2-4903-a925-dc0c63f77bf7"
-					(reference "#PWR?")
+					(reference "#PWR0217")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 189.23 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8d3e9143-e9c2-4f59-b01d-71ff2ddfbc98")
+		(property "Reference" "Screen"
+			(at 186.436 60.452 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x04"
+			(at 191.77 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x04_P2.00mm_Horizontal"
+			(at 189.23 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 189.23 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 189.23 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "49c6227c-360a-4349-a3d0-7594bd448d3d")
+		)
+		(pin "2"
+			(uuid "58cc6015-2b4f-4df5-b9b8-0eb3413f5378")
+		)
+		(pin "3"
+			(uuid "601ad35f-4ac7-4275-ae58-758abc5dfc2e")
+		)
+		(pin "4"
+			(uuid "0e6029f6-fe43-483a-94dd-e7e86f41d105")
+		)
+		(instances
+			(project "motordriver"
+				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/5d8f5153-26a2-4903-a925-dc0c63f77bf7"
+					(reference "Screen")
 					(unit 1)
 				)
 			)
@@ -3522,6 +3244,73 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
+		(at 177.8 109.22 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "999974f9-7cc3-471b-866a-0390f8c8c94e")
+		(property "Reference" "#PWR0220"
+			(at 173.99 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 181.61 109.2199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 177.8 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 177.8 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7621e9aa-288a-4869-8d54-0dea10d693d0")
+		)
+		(instances
+			(project "motordriver"
+				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/5d8f5153-26a2-4903-a925-dc0c63f77bf7"
+					(reference "#PWR0220")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
 		(at 177.8 123.19 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3529,7 +3318,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b7945267-d9a1-4f85-bb6c-a3832a7991ae")
+		(uuid "9a26763d-b068-4336-864e-f1eb845aefbc")
 		(property "Reference" "#PWR0159"
 			(at 173.99 123.19 0)
 			(effects
@@ -3589,16 +3378,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 177.8 134.62 90)
+		(at 184.15 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "cc2d1406-4e8d-490e-ad64-177d4236ab06")
-		(property "Reference" "#PWR0160"
-			(at 184.15 134.62 0)
+		(uuid "a8221b0d-620e-401a-90b2-39a7ab17c9bf")
+		(property "Reference" "#PWR0218"
+			(at 184.15 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3607,16 +3396,15 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 181.61 134.6199 90)
+			(at 184.15 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 177.8 134.62 0)
+			(at 184.15 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3625,7 +3413,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 177.8 134.62 0)
+			(at 184.15 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3634,7 +3422,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 177.8 134.62 0)
+			(at 184.15 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3643,12 +3431,150 @@
 			)
 		)
 		(pin "1"
-			(uuid "d17ca285-ebe2-47a1-9cd8-206d9271fc9f")
+			(uuid "3eae8638-d159-4907-90b8-1d67fbb62ca4")
 		)
 		(instances
 			(project "motordriver"
 				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/5d8f5153-26a2-4903-a925-dc0c63f77bf7"
-					(reference "#PWR0160")
+					(reference "#PWR0218")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x03_Pin")
+		(at 172.72 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b2de43d3-554f-4c06-acf9-93c0e63b9d47")
+		(property "Reference" "S3"
+			(at 173.355 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 173.355 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 172.72 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 172.72 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 172.72 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5f7ce348-f467-47f7-8f2b-b5a8ee73ffc9")
+		)
+		(pin "3"
+			(uuid "9427788e-01bb-4290-9f86-f140cbfaf56c")
+		)
+		(pin "2"
+			(uuid "ec8ad74d-ae1d-435c-9fd7-39429341b3db")
+		)
+		(instances
+			(project "motordriver"
+				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/5d8f5153-26a2-4903-a925-dc0c63f77bf7"
+					(reference "S3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 177.8 137.16 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c93b2092-5b69-42b3-a670-f78289ad7b50")
+		(property "Reference" "#PWR0161"
+			(at 173.99 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 181.61 137.1599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 177.8 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 177.8 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c599b6e7-361f-4c0b-af2d-ec7b5a12a5bd")
+		)
+		(instances
+			(project "motordriver"
+				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/5d8f5153-26a2-4903-a925-dc0c63f77bf7"
+					(reference "#PWR0161")
 					(unit 1)
 				)
 			)
@@ -3663,8 +3589,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "daaf5e5c-8c3b-4ad9-9126-d85e3265a1fc")
-		(property "Reference" "#PWR?"
+		(uuid "d084bf69-e27e-437d-a75a-03ff79c31987")
+		(property "Reference" "#PWR0219"
 			(at 184.15 106.68 0)
 			(effects
 				(font
@@ -3715,7 +3641,148 @@
 		(instances
 			(project "motordriver"
 				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/5d8f5153-26a2-4903-a925-dc0c63f77bf7"
-					(reference "#PWR?")
+					(reference "#PWR0219")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 175.26 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e46cc380-4f68-4280-855a-ba1c7a33f1b8")
+		(property "Reference" "DB?"
+			(at 175.895 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 175.895 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 175.26 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 175.26 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bb1204bf-e695-49db-8f58-a488b5fbc804")
+		)
+		(pin "1"
+			(uuid "6080230c-f16d-4c12-940a-ddb8ec5b5b9c")
+		)
+		(instances
+			(project "motordriver"
+				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/5d8f5153-26a2-4903-a925-dc0c63f77bf7"
+					(reference "DB?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x03_Pin")
+		(at 172.72 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ec21df92-c7ee-4c16-8fca-655bef4ab807")
+		(property "Reference" "S2"
+			(at 173.355 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 173.355 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 172.72 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 172.72 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 172.72 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b89f0b5f-370a-40a9-9b5f-33e491e0710b")
+		)
+		(pin "3"
+			(uuid "91fb67eb-12d5-4b25-95f6-ce40960d0ec7")
+		)
+		(pin "2"
+			(uuid "99a52962-610c-410b-8463-807d65d7d589")
+		)
+		(instances
+			(project "motordriver"
+				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/5d8f5153-26a2-4903-a925-dc0c63f77bf7"
+					(reference "S2")
 					(unit 1)
 				)
 			)
@@ -3788,84 +3855,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 177.8 120.65 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f048e3e5-4dc4-4e36-b61b-855cbcebfc3e")
-		(property "Reference" "#PWR0158"
-			(at 184.15 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 181.61 120.6499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 177.8 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 177.8 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 177.8 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "12070b7d-c605-49b7-8f71-27c70f57f45e")
-		)
-		(instances
-			(project "motordriver"
-				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/5d8f5153-26a2-4903-a925-dc0c63f77bf7"
-					(reference "#PWR0158")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x03_Pin")
-		(at 172.72 123.19 0)
+		(at 172.72 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f9a83f50-433e-4a28-9308-c90f0ee0d9d5")
-		(property "Reference" "S2"
-			(at 173.355 116.84 0)
+		(uuid "efaf9636-92ff-416d-8045-bc6617bf6d97")
+		(property "Reference" "S?"
+			(at 173.355 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3873,7 +3873,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 173.355 119.38 0)
+			(at 173.355 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3881,7 +3881,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 172.72 123.19 0)
+			(at 172.72 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3890,7 +3890,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 172.72 123.19 0)
+			(at 172.72 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3899,7 +3899,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 172.72 123.19 0)
+			(at 172.72 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3908,18 +3908,18 @@
 			)
 		)
 		(pin "1"
-			(uuid "b89f0b5f-370a-40a9-9b5f-33e491e0710b")
+			(uuid "284ddb24-f52c-4928-b69d-477252eaa29b")
 		)
 		(pin "3"
-			(uuid "91fb67eb-12d5-4b25-95f6-ce40960d0ec7")
+			(uuid "54093aff-f9ea-4a9d-9576-76be8ec87eb9")
 		)
 		(pin "2"
-			(uuid "99a52962-610c-410b-8463-807d65d7d589")
+			(uuid "35c933ce-8372-49bd-aab6-e684397a00a4")
 		)
 		(instances
 			(project "motordriver"
 				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/5d8f5153-26a2-4903-a925-dc0c63f77bf7"
-					(reference "S2")
+					(reference "S?")
 					(unit 1)
 				)
 			)
