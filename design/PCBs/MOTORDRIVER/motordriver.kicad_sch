@@ -707,6 +707,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 111.76) (xy 104.14 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c573418-967a-4753-96b0-f3fe8f73b50d")
+	)
+	(wire
+		(pts
 			(xy 154.94 146.05) (xy 154.94 127)
 		)
 		(stroke
@@ -777,6 +787,16 @@
 	)
 	(wire
 		(pts
+			(xy 33.02 25.4) (xy 39.37 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d1637ee-0fcd-4041-aa00-9bbb873bd788")
+	)
+	(wire
+		(pts
 			(xy 208.28 68.58) (xy 265.43 68.58)
 		)
 		(stroke
@@ -834,6 +854,16 @@
 			(type default)
 		)
 		(uuid "bcbcd3d3-3e1e-49e2-9780-4e89cbad5e55")
+	)
+	(wire
+		(pts
+			(xy 101.6 111.76) (xy 101.6 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd1206aa-4b32-4cc5-8a1f-6d9b0f5ad674")
 	)
 	(wire
 		(pts
@@ -1094,6 +1124,16 @@
 		)
 		(uuid d119cdcc-ff54-4987-81d2-42ab89d50408)
 	)
+	(text "1.0"
+		(exclude_from_sim no)
+		(at 270.764 193.548 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "04dce7d2-da14-4217-8b0f-534ca4f4e847")
+	)
 	(text "can we use status interrupt\npin for lighting an LED?"
 		(exclude_from_sim no)
 		(at 191.516 154.178 0)
@@ -1103,6 +1143,36 @@
 			)
 		)
 		(uuid "3ddd8894-c966-45da-a5ab-701428ed04a8")
+	)
+	(text "root\n"
+		(exclude_from_sim no)
+		(at 191.008 189.992 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5a172e0c-d619-4f79-9eb7-9481ed0ea30d")
+	)
+	(text "PCB_KUBEN\n"
+		(exclude_from_sim no)
+		(at 229.108 175.514 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+		)
+		(uuid "7f15f5c0-f8a5-492e-8a7b-011217d89751")
+	)
+	(text "2024-12-14"
+		(exclude_from_sim no)
+		(at 212.344 193.548 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8f62eab0-86c0-44b2-8320-8730018509b3")
 	)
 	(text "Motor Stage"
 		(exclude_from_sim no)
@@ -1394,7 +1464,7 @@
 	)
 	(sheet
 		(at 72.39 139.7)
-		(size 54.61 20.32)
+		(size 39.37 20.32)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.5)
@@ -1404,7 +1474,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "1f871d76-fcf6-4539-ad99-6eac26f9ffb4")
-		(property "Sheetname" "output1"
+		(property "Sheetname" "external"
 			(at 71.5046 160.02 90)
 			(effects
 				(font
@@ -1413,8 +1483,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "output.kicad_sch"
-			(at 127.7584 160.02 90)
+		(property "Sheetfile" "second_output.kicad_sch"
+			(at 112.5184 160.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1492,6 +1562,26 @@
 			)
 			(uuid "24696d38-63fb-4ce6-9c48-3cd482172f9c")
 		)
+		(pin "PROCESS_LED" input
+			(at 104.14 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "4f61b774-2f8b-4384-9f2c-5c93ab30698f")
+		)
+		(pin "ERROR_LED" input
+			(at 101.6 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b1838abc-ef6c-444c-8205-edadfc59f6e2")
+		)
 		(instances
 			(project "motordriver"
 				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d"
@@ -1502,7 +1592,7 @@
 	)
 	(sheet
 		(at 19.05 20.32)
-		(size 13.97 170.18)
+		(size 13.97 72.39)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.5)
@@ -1522,7 +1612,7 @@
 			)
 		)
 		(property "Sheetfile" "input.kicad_sch"
-			(at 19.05 191.2584 0)
+			(at 19.05 93.4684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1897,7 +1987,7 @@
 		)
 	)
 	(sheet
-		(at 45.72 17.78)
+		(at 39.37 19.05)
 		(size 44.45 21.59)
 		(fields_autoplaced yes)
 		(stroke
@@ -1909,7 +1999,7 @@
 		)
 		(uuid "40fe2217-7020-4fd5-b361-1423767f0697")
 		(property "Sheetname" "voltageregulators"
-			(at 45.72 16.8946 0)
+			(at 39.37 18.1646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1918,13 +2008,33 @@
 			)
 		)
 		(property "Sheetfile" "voltageregulatros.kicad_sch"
-			(at 45.72 40.1284 0)
+			(at 39.37 41.3984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
 			)
+		)
+		(pin "BATTIN" input
+			(at 39.37 25.4 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "dae15151-5f70-4fe7-bc26-67eb336206a3")
+		)
+		(pin "USBVIN" input
+			(at 39.37 27.94 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c9814b6c-f6ed-41a5-be2a-97fd38f3bbcb")
 		)
 		(instances
 			(project "motordriver"
@@ -2114,7 +2224,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "5d8f5153-26a2-4903-a925-dc0c63f77bf7")
-		(property "Sheetname" "output"
+		(property "Sheetname" "hall & phases"
 			(at 267.97 14.3546 0)
 			(effects
 				(font
@@ -2381,7 +2491,7 @@
 			(uuid "b96c5eab-f9d8-4976-af9a-64e96f028cfe")
 		)
 		(pin "ERR_LED" input
-			(at 100.33 111.76 270)
+			(at 101.6 111.76 270)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2391,7 +2501,7 @@
 			(uuid "5f1696d6-de6c-4e90-bda3-13b32b8d6754")
 		)
 		(pin "PROCESS_LED" input
-			(at 102.87 111.76 270)
+			(at 104.14 111.76 270)
 			(effects
 				(font
 					(size 1.27 1.27)

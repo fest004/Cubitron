@@ -6710,6 +6710,16 @@
 		)
 		(uuid "34adc911-daa5-4e43-9e97-61dfdf790735")
 	)
+	(text "1.0"
+		(exclude_from_sim no)
+		(at 271.018 193.802 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "35ce8028-5541-44dc-8587-09e7a7ddd9d5")
+	)
 	(text "TODO: find the right MOSFETS and inductor\n"
 		(exclude_from_sim no)
 		(at 228.092 124.968 0)
@@ -6721,16 +6731,25 @@
 		)
 		(uuid "556f6be8-ddff-4e76-b562-d1bfdf0dfe63")
 	)
-	(text "TODO: we need to swap out these references with low noise regultors.\nreason beeing that we have components that need 5v power not reference. I \nthink that a low noise 5v regulator can br used as both reference and\npower since it is not so critical to have a very precise measurements for\nmotor control\n"
+	(text "TODO: we need to swap out these references with low noise regulators.\nreason beeing that we have components that need 5v power not reference. I \nthink that a low noise 5v regulator can br used as both reference and\npower since it is not so critical to have a very precise measurements for\nmotor control\n"
 		(exclude_from_sim no)
 		(at 80.264 136.398 0)
 		(effects
 			(font
-				(face "RobotoMono Nerd Font Medium")
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "672438cb-d930-4b69-b5fd-93238e92254e")
+	)
+	(text "2024-12-14"
+		(exclude_from_sim no)
+		(at 212.598 193.802 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "92195a37-4b86-4d08-b613-373a868f5534")
 	)
 	(text "12V out"
 		(exclude_from_sim no)
@@ -6751,6 +6770,16 @@
 			)
 		)
 		(uuid "e3b3b199-3556-49f2-b1cf-9b65e8357b03")
+	)
+	(text "voltage regulators\n"
+		(exclude_from_sim no)
+		(at 198.882 190.246 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "eb064d12-083b-4596-a1a2-9e3ce62b092e")
 	)
 	(label "HDRV2"
 		(at 213.36 63.5 0)

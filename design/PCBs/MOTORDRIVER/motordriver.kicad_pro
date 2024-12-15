@@ -503,7 +503,7 @@
     ],
     [
       "1f871d76-fcf6-4539-ad99-6eac26f9ffb4",
-      "output1"
+      "external"
     ],
     [
       "b5eb0271-9027-4941-b236-8f001fce8a08",
@@ -543,7 +543,7 @@
     ],
     [
       "5d8f5153-26a2-4903-a925-dc0c63f77bf7",
-      "output"
+      "hall & phases"
     ]
   ],
   "text_variables": {}

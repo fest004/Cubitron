@@ -1,3 +1,4 @@
+/* Configurations */
 #set text(font: "TeX Gyre Schola")
 #show math.equation : set text(font:"TeX Gyre Schola Math")
 #show heading : it => {
@@ -5,15 +6,26 @@
   set text(weight: "bold",  font:"TeX Gyre Bonum" )
   smallcaps(it)
 }
+
+/* table of contents, enable indents and subsections*/
+#show outline.entry.where(
+  level: 2
+): it => {
+  v(12pt, weak: true)
+  strong(it)
+}
+
 #text(font:"TeX Gyre Bonum",weight: "black", size: 35pt,
-smallcaps("CUBITRON")
+smallcaps("Kuben")
 )
 #set par(justify: true)
 #text(font: "TeX Gyre Bonum", weight: "bold",
-  [Felix Strand #h(1.2cm) Brage Wiseth]
+  [Felix Strand #h(1cm) Brage Wiseth]
 )
-= Introduction
-In this project, we aim to design and build a self-balancing cube using reaction wheels, a type
+
+
+== Introduction
+this project, we aim to design and build a self-balancing cube using reaction wheels, a type
 of control mechanism commonly used in spacecraft for attitude control. The goal is to create a compact,
 dynamically stable system capable of maintaining its equilibrium in three-dimensional space without external support.
 The cube, with its simple geometric structure, presents unique challenges in terms of balance and orientation control,
@@ -33,6 +45,11 @@ Ultimately, the self-balancing cube will serve as a proof-of-concept for demonst
 reaction wheels in balancing and controlling small-scale systems, offering a hands-on opportunity to delve
 into the fascinating intersection of mechanical engineering, robotics, and control theory.
 
+#pagebreak()
+
+#outline(indent: auto)
+#pagebreak()
+
 
 = First Principles
 How can we balance with just a set of spinning wheels that don't even touch the ground? Well the same way
@@ -43,31 +60,36 @@ by extending our arms further out or even using a rod to artifitially extend our
 enhance our ability to balance. By doing so we create torque, we can use this exact theqnique with flywheels only
 instead of it beeing two arms we essentially have infinite arms stacked in a circle.
 
-= Circuitry
+== Circuitry
 
 The internal logic and the physical output of our system needs to be joined together by circuitry; a way to translate our calculations for balance onto the motors themselves. Our circuitry has three main responsibilites; input -> calculate -> output. Our input will be in form of sensordata indicating our cubes current angle, and a wanted state (do we want to balance? on which edge? so on). Our calculations will be about transforming our current input angles into a quantative action for the motors to perform. The output will in turn be the adjustment of our motors to achieve balance. High level, this will require accelerometers and gyroscopes as our input, a microcontroller to perform the calculations, and motors to be adjusted for output. All this combined can be reasonably packed into a few circuits that contain a few sensors, a microcontroller, and motordriver capabililities. 
 
-This section of our documentation aims to provide context and reasoning behind our main circuit choices, as well as give a general overview of all components, their role in Cubitron specifically, and how they are interconnected to achieve a cohesive circuit with results. 
+This section of our documentation aims to provide context and reasoning behind our main circuit choices, as well as give a general overview of all components, their role in Cubitron specifically, and how they are interconnected to achieve a cohesive circuit with results.
 
-== Components
+= Structure and Routing
+
+The circuitry will consist of three different PCBs. Two PCBs are mounted on opposite corners of the cube, containing an Inertial Measuremt Unit each. The last circuit will be mounted in the center of the cube, containing our main logic, motors, battery charger, driver gates; essentially the rest of our circuitry. Three BLDC motors that put motion to our flywheels are connected to our main circuit. Additionally, three micro-servos are positioned for braking mechanism for each flywheel. Cables between the main circuit, BLDC motors and sensor-PCBs will be of type PFC. They are a thin, compact and convenient snap-on cable to work with. They came standard with our chosen motors, and influenced the choice for the sensor PCBs. The micro-servo are cabled with individual insulated wires bundled together. It is important to be specific with wire lengths, as loose wires may disurb moving parts of the whole robot. 
+
+= Components
 
 To gain context of our implementation, this subsection will outline every integrated circuit we use, what their general purpose in a project is, and more specifically what their purpose is for Cubitron. 
 
 
-
-=== Microcontroller 
+= Microcontroller 
 
 Our microcontroller will be the ATSAME53J18A-MF, which is has a 32-bit ARM Cortex-4 processor. Our main reasons for this microcontroller is the ceiling for calculations and peripherals. We expect
 to make reasonably heavy calculations in the context of an embedded system, which the 32 bit system with an in built Floating Point Unit is excellent for. Additionally, we need to connect two sensors and six motors, which makes the pool of peripherals we need to support quite large. We also have personal experience with the usage of these microcontrollers, with similar problem statements, and were satisfied with the physical capabilities of our microcontroller. 
 
 The microcontroller has the most central and complicated role of the whole circuitry. It will be the component responsible of combing the three main stages of our program runtime. The pipeline of Input -> Calculate -> Output has the microcontroller as a major component in all of them. Our sensors will both be sending their data through an I2C connection to our microcontroller. They will have an assigned interrupt pin each, which opens for having our sensor data be as close to real time as possible. From this sensor data, we need to calculate our current position in space, with regard to our 3D orientation, and calculate again how far this is from our intended position, and what motor actions we need to perform to get there. Lastly, our output stage will consist of sending that data to our TMC controllers, and adjusting our motors physically. 
 
+The TMC4671, which will be detailed later, needs a 25MHz clock signal to operate. This microcontroller has a Generic Clock Controller, which can be configured to generate a steady 25MHz clock signal to each of the TMC4671 ICs.
 
 As you can imagine, our microcontroller is hooked up to a of external components in our circuitry, which is quite nice to have an overview over. Below is a table of the names of all external connections in the perspective of our microcontroller schematics, the endpoint they are connected to, the pin and pin type it is connected to, and a short description of its purpose: 
 
 // TODO please note that if no connections to the individual motordriver ICs we have not connected those yet. Top priority!
 
 // Table is a bit large as well
+#set text(size:8pt)
 #table(
   columns: (1fr, 1fr, auto, auto, 2fr),
   inset: 10pt,
@@ -93,6 +115,7 @@ As you can imagine, our microcontroller is hooked up to a of external components
   "DB_TX", "DB_HEADER", "PA22", "Digital", "UART TX for debug purposes",
   "DB_RX", "DB_HEADER", "PA22", "Digital", "UART RX for debug purposes",
 )
+#set text(size:12pt)
 
 
 === Programmer 
@@ -107,6 +130,7 @@ Read more about CMSIS-DAP:
 https://arm-software.github.io/CMSIS_5/DAP/html/index.html
 
 
+#set text(size:8pt)
 #table(
   columns: (1fr, 1fr, auto, auto, 2fr),
   inset: 10pt,
@@ -119,8 +143,9 @@ https://arm-software.github.io/CMSIS_5/DAP/html/index.html
   "D+", "Microcontroller", "PA25", "Digital", "USB Interface",
   "D-", "Microcontroller", "PA24", "Digital", "USB Interface",
 )
+#set text(size:12pt)
 
- == Motorcontroller 
+ = Motorcontroller 
 
 The TMC4671 allows for control of a BLDC motor, and will be tripled up for the control of three BLDC motors in total. The benefit of this is being allowed to control the motors completely separated, with no interference between the three. We will take use of supported field operated control (FOC), which allows for very precise and energy efficient moving of the motors. 
 
@@ -150,10 +175,15 @@ motor operation, and is part of the core functionality of the controller. Theref
 
 Lastly, we need to decide on whether we want debugging through SPI or UART. /*TODO*/
 
+=== Driver Gates
+
+=== Power Supply
+
 === Inertial Measurement Unit 
 
-We will in total have three separate circuits, wherein two of them will be dedicated to host a single IMU (Inertial Measurement Unit) each. The rationale for this is the positions we will mount the sensors, to acquire the information about our orientation in order to stabilize the system at a given angle. One IMU will be mounted on the corner which will be facing the ground during operation, and the other IMU will be on the corner straight above the corner facing the ground, so they form a straight line. We can then deduce the orientation and angle of the cube, in such a way that we know our cube is balancing straight if $theta = pi / 2$ with respect to the ground, and $delta theta approx 0$.
+We will in total have three separate circuits, wherein two of them will be dedicated to host a single IMU (Inertial Measurement Unit) each. The rationale for this is the positions we will mount the sensors, to acquire the information about our orientation in order to stabilize the system at a given angle. One IMU will be mounted on the corner which will be facing the ground during operation, and the other IMU will be on the corner straight above the corner facing the ground, so they form a straight line. We can then deduce the orientation and angle of the cube, in such a way that we know our cube is balancing straight if $theta = pi / 2$ with respect to the ground, and $Delta theta approx 0$.
 
+#set text(size:8pt)
 #figure(
   image("imu_pos_fig.png", width: 80%),
   caption: [
@@ -161,6 +191,7 @@ We will in total have three separate circuits, wherein two of them will be dedic
       Blue highlights the angle of our IMU-line with respect to the ground.
   ],
 )
+#set text(size:12pt)
 
 The specific IC we will move forward is the ISM330DHXC, it hoists two separate sensors; a 3D gyroscope and 3D accelerometer. The sensors are high accuracy and high performance, comfortable to use and reliable. The team has had previous experience with the specific IMU, and have written drivers for similar purposes that can be partially reused.  
 
@@ -168,6 +199,8 @@ It communicates with either I2C or SPI, wherein we decided I2C is best for us. W
 
 Because the IMU itself has such few pins, we can include the whole table and the intended pin connections:  
 
+
+#set text(size:8pt)
 #table(
   columns: (1fr, 1fr, auto, auto, 2fr),
   inset: 10pt,
@@ -189,7 +222,67 @@ Because the IMU itself has such few pins, we can include the whole table and the
   "OCS_AUX", "X", "X", "X", "Disconnected",
   "SDO_AUX", "X", "X", "X", "Disconnected",
 )
+#set text(size:12pt)
 
-== Power Supply
+=== Micro Servos 
+
+The braking system requires one micro-servo for each flywheel to be able to stop their momentum as close to instant as possible. The micro-servos are a part of a
+larger mechanical brake functioning closely to a the way a bike-brake works. From a circuitry perspective, the braking system is quite simple, and only requires pins on
+the MCU for control, and headers to connect the motors themselves to. /* Find specific model */ 
+
+#set text(size:8pt)
+#table(
+  columns: (1fr, 1fr, auto, auto, 2fr),
+  inset: 10pt,
+  align: horizon,
+  table.header(
+    [*Name*], [*Endpoint*], [*Pin*], [*Pin Type*], [*Function*]
+  ),
+  "VDD", "5V", "VDD", "Power", "For Power",
+  "GND", "Ground", "GND", "For Power", "",
+  "Signal", "MCU", "Signal Pin", "Steer the controller",
+)
+#set text(size:12pt)
+
+=== OLED Screen
+
+Our OLED screen is added for personalization and options for communicating interesting internal states. The GROVE OLED SSD1306 is a small OLED display with a 64x48 resolution. It is just a fun addition to our circuit, and requires only I2C pins for communication. We will be using the U8G2 library for displaying and communicating easily through I2C. 
 
 
+#set text(size:8pt)
+#table(
+  columns: (1fr, 1fr, auto, auto, 2fr),
+  inset: 10pt,
+  align: horizon,
+  table.header(
+    [*Name*], [*Endpoint*], [*Pin*], [*Pin Type*], [*Function*]
+  ),
+  "VDD", "3.3V", "VDD", "Power", "For Power",
+  "GND", "Ground", "GND", "For Power", "",
+  "SCL", "MCU", "SCL", "Signal", "Serial Clock for I2C",
+  "SDA", "MCU", "SDA", "Signal", "Serial data for I2C",
+)
+#set text(size:12pt)
+
+
+
+/* Structural Suggestion */
+= Mechanical
+== Overview
+== Casing
+== Mountings
+== Flywheel
+== Brakes
+
+= Computation
+== Overview
+== Sensor Data
+== Orientation 
+== MPC/LDR /* TBD*/
+
+= Software
+== Overview
+== State Machine
+== Computation
+
+= Testing

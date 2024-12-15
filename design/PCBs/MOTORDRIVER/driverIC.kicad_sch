@@ -2380,6 +2380,16 @@
 		)
 		(uuid "f1b16295-98c4-4461-b8bc-50b234c21281")
 	)
+	(text "driver IC"
+		(exclude_from_sim no)
+		(at 194.818 190.246 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "49897660-e804-4cf6-9825-3dac0cfc714a")
+	)
 	(text "Current sensing\nanalog input. \nGoes through current to\nvoltage converter\n"
 		(exclude_from_sim no)
 		(at 51.562 81.28 0)
@@ -2389,6 +2399,26 @@
 			)
 		)
 		(uuid "5d6463cb-709e-477a-906d-e88703eed5b1")
+	)
+	(text "2024-12-14"
+		(exclude_from_sim no)
+		(at 212.852 193.802 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8e7b5a54-7628-40c4-bcb4-0cb1ceabdc5f")
+	)
+	(text "1.0"
+		(exclude_from_sim no)
+		(at 270.764 193.802 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a72d3303-fc65-43eb-a6fd-fcdc9689df13")
 	)
 	(text "Digital Input from Hall-\nSensor directly from Motor"
 		(exclude_from_sim no)

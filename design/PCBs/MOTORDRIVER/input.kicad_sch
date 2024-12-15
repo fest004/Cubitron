@@ -1370,6 +1370,16 @@
 		(at 163.83 85.09)
 		(uuid "cc51afa8-3cda-4cf6-b760-7f185e7c4bb5")
 	)
+	(text "input\n"
+		(exclude_from_sim no)
+		(at 192.024 189.992 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "07c94d40-dd07-4bd5-a9bc-208e2b5802d4")
+	)
 	(text "Dont need SAO pin, because \nwe have 2 sep i2c lines"
 		(exclude_from_sim no)
 		(at 214.376 76.2 0)
@@ -1389,6 +1399,26 @@
 			)
 		)
 		(uuid "24d11b32-c2ae-41d9-8235-9038f61301ce")
+	)
+	(text "2024-12-14"
+		(exclude_from_sim no)
+		(at 212.09 193.802 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8846d9d9-5b54-49bf-b558-2a930df4f942")
+	)
+	(text "1.0"
+		(exclude_from_sim no)
+		(at 270.51 193.548 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f85f501f-9a21-41fb-9a78-fe895c6c7b6e")
 	)
 	(hierarchical_label "SDA IMU2"
 		(shape input)
