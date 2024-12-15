@@ -1,10 +1,13 @@
 /* Configurations */
 #set text(font: "TeX Gyre Schola")
 #show math.equation : set text(font:"TeX Gyre Schola Math")
-#show heading : it => {
-  set block(below: 1em, above: 3em)
-  set text(weight: "bold",  font:"TeX Gyre Bonum" )
-  smallcaps(it)
+#show heading: h => {
+  set align(center)
+  set text(font:"TeX Gyre Bonum",weight: "bold")
+  set block(above: 2em, below: 1em)
+  grid(columns:3,align: center + horizon,
+    line(length: 80%), h , line(length: 80%)
+  )
 }
 
 /* table of contents, enable indents and subsections*/
@@ -23,9 +26,20 @@ smallcaps("Kuben")
   [Felix Strand #h(1cm) Brage Wiseth]
 )
 
+#set page(numbering: "1")
+#set align(center)
+#text(font:"TeX Gyre Bonum",weight: "black", size: 35pt, smallcaps("KUBEN") )
 
-== Introduction
-this project, we aim to design and build a self-balancing cube using reaction wheels, a type
+
+#datetime.today().display()
+#set align(left)
+#set par(justify: true)
+
+#v(1cm)
+#outline()
+
+= Introduction
+In this project, we aim to design and build a self-balancing cube using reaction wheels, a type
 of control mechanism commonly used in spacecraft for attitude control. The goal is to create a compact,
 dynamically stable system capable of maintaining its equilibrium in three-dimensional space without external support.
 The cube, with its simple geometric structure, presents unique challenges in terms of balance and orientation control,
