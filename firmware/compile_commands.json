@@ -1,7 +1,0 @@
-[
-  {
-    "directory": "/home/brage/Cubitron/src",
-    "command": "clang -target avr -mmcu=atmega328p -DF_CPU=16000000UL -o blinker.elf src/main.c         ",
-    "file": "src/main.c         "
-  }
-]
