@@ -1,0 +1,9 @@
+Manufacturer=STMicroelectronics
+PartNumber=LD1117S25CTR
+PartCategory=Integrated Circuit
+PackageCategory=SOT223 (3-Pin)
+PinCount=4
+Version=2.1
+Released=2022-09-03 03:50:39
+Downloaded=2024-12-16 14:22:56
+3D=Y
