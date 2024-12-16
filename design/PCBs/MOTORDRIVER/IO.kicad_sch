@@ -1986,7 +1986,7 @@
 	)
 	(text "Dont need SAO pin, because \nwe have 2 sep i2c lines"
 		(exclude_from_sim no)
-		(at 147.066 70.358 0)
+		(at 98.044 73.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1994,9 +1994,9 @@
 		)
 		(uuid "0847df86-7788-437a-bbe9-de6fc0e616a7")
 	)
-	(text "FFC to IMU"
+	(text "FFC (Flat Flexible Connector) to IMU"
 		(exclude_from_sim no)
-		(at 97.79 73.406 0)
+		(at 97.536 69.342 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2004,9 +2004,9 @@
 		)
 		(uuid "24d11b32-c2ae-41d9-8235-9038f61301ce")
 	)
-	(text "Debug"
+	(text "Microcontroller debug"
 		(exclude_from_sim no)
-		(at 190.754 116.586 0)
+		(at 191.77 117.856 0)
 		(effects
 			(font
 				(size 1.905 1.905)
@@ -2023,6 +2023,16 @@
 			)
 		)
 		(uuid "4bfb5618-fb8e-4db4-8715-9471643ed2dc")
+	)
+	(text "Should we connect this directly\nto 5v (essentially bypassing \ncharging and\nvoltage regulation) \nor not?"
+		(exclude_from_sim no)
+		(at 48.006 70.104 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6b3d134d-f2c7-4c8d-8d8b-e7855a8b0510")
 	)
 	(text "2024-12-14"
 		(exclude_from_sim no)
