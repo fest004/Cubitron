@@ -3089,13 +3089,23 @@
 	)
 	(text "i2c screen"
 		(exclude_from_sim no)
-		(at 127.254 158.496 0)
+		(at 122.682 158.496 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "747dd3d4-899a-4215-be9c-7f96ad19849b")
+	)
+	(text "need 2 double check all \nsercom pins"
+		(exclude_from_sim no)
+		(at 129.032 51.054 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "98c34c53-41d2-46c6-b1ca-4e8fbc2b7e09")
 	)
 	(text "Servo Signals (PWM)"
 		(exclude_from_sim no)
@@ -3233,6 +3243,18 @@
 			)
 		)
 	)
+	(hierarchical_label "TMC_DB_RX2"
+		(shape input)
+		(at 173.99 123.19 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0c21e5d7-b2ad-4fcb-a487-73839751530f")
+	)
 	(hierarchical_label "driverIC2_CS"
 		(shape input)
 		(at 173.99 113.03 0)
@@ -3280,6 +3302,18 @@
 			(justify left)
 		)
 		(uuid "14df26e7-5c00-478d-a5a7-6544375440a5")
+	)
+	(hierarchical_label "TMC_DB_RX1"
+		(shape input)
+		(at 146.05 146.05 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1614cfeb-854e-4f80-9f6f-df5d6b1536a8")
 	)
 	(hierarchical_label "TMC_CLK1"
 		(shape input)
@@ -3355,7 +3389,7 @@
 	)
 	(hierarchical_label "DB_RX"
 		(shape input)
-		(at 173.99 97.79 0)
+		(at 173.99 105.41 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3367,7 +3401,7 @@
 	)
 	(hierarchical_label "DB_TX"
 		(shape input)
-		(at 173.99 95.25 0)
+		(at 173.99 102.87 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3401,6 +3435,18 @@
 		)
 		(uuid "67198325-2086-49e1-9393-4198df42f048")
 	)
+	(hierarchical_label "TMC_DB_TX"
+		(shape input)
+		(at 118.11 125.73 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6b3bb89c-9370-428e-87ee-688b27f39e6f")
+	)
 	(hierarchical_label "TMC_CLK2"
 		(shape input)
 		(at 140.97 172.72 0)
@@ -3412,6 +3458,42 @@
 			(justify left)
 		)
 		(uuid "6e766761-ab64-4b0d-825b-76c487201abd")
+	)
+	(hierarchical_label "TMC_DB_TX1"
+		(shape input)
+		(at 130.81 146.05 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6f53b21a-67ec-4d54-9cc1-fd59301781cc")
+	)
+	(hierarchical_label "TMC_DB_TX2"
+		(shape input)
+		(at 135.89 69.85 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "70656d1c-0649-424d-9e5e-0c963139651b")
+	)
+	(hierarchical_label "TMC_DB_RX"
+		(shape input)
+		(at 118.11 90.17 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "70ecc7d3-0d83-43b2-b04d-10c77a779459")
 	)
 	(hierarchical_label "TMC_ENI2"
 		(shape input)
@@ -3463,13 +3545,13 @@
 	)
 	(hierarchical_label "SCL IMU1"
 		(shape input)
-		(at 173.99 102.87 0)
+		(at 118.11 92.71 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "8a69fb88-7de2-42a4-b23e-13f6435a750a")
 	)
