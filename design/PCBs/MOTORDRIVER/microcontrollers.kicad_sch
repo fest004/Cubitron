@@ -6527,7 +6527,7 @@
 				)
 			)
 		)
-		(property "Footprint" "QFN50P900X900X100-65N-D"
+		(property "Footprint" "kuben_footprints:QFN50P900X900X100-65N-D"
 			(at 170.18 74.93 0)
 			(effects
 				(font

@@ -2274,7 +2274,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 138.43 120.65 0)
 			(effects
 				(font
@@ -2480,7 +2480,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kuben_footprints:VN02A1500000G"
 			(at 234.95 101.6 0)
 			(effects
 				(font
@@ -2548,7 +2548,7 @@
 				)
 			)
 		)
-		(property "Footprint" "59453052110ECHLF"
+		(property "Footprint" "kuben_footprints:59453052110ECHLF"
 			(at 105.41 206.68 0)
 			(effects
 				(font
@@ -3253,7 +3253,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 187.96 121.92 0)
 			(effects
 				(font
@@ -3387,7 +3387,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 138.43 92.71 0)
 			(effects
 				(font
@@ -3458,7 +3458,7 @@
 				)
 			)
 		)
-		(property "Footprint" "59453052110ECHLF"
+		(property "Footprint" "kuben_footprints:59453052110ECHLF"
 			(at 105.41 180.01 0)
 			(effects
 				(font
@@ -3735,7 +3735,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 138.43 106.68 0)
 			(effects
 				(font

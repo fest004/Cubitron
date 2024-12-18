@@ -8007,7 +8007,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "DMPH6050SK313"
+		(property "Footprint" "kuben_footprints:DMPH6050SK313"
 			(at 138.43 152.07 0)
 			(effects
 				(font
@@ -8131,7 +8131,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SOT96P240X115-3N"
+		(property "Footprint" "kuben_footprints:SOT96P240X115-3N"
 			(at 245.11 141.91 0)
 			(effects
 				(font
@@ -9329,7 +9329,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "BQ24133RGYR"
+		(property "Footprint" "kuben_footprints:BQ24133RGYR"
 			(at 0.33 102.87 0)
 			(effects
 				(font
@@ -10268,7 +10268,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT96P240X115-3N"
+		(property "Footprint" "kuben_footprints:SOT96P240X115-3N"
 			(at 139.37 39.37 0)
 			(effects
 				(font
@@ -11079,7 +11079,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOP65P640X120-29N"
+		(property "Footprint" "kuben_footprints:SOP65P640X120-29N"
 			(at 209.55 135.56 0)
 			(effects
 				(font
@@ -11814,7 +11814,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SOT96P240X115-3N"
+		(property "Footprint" "kuben_footprints:SOT96P240X115-3N"
 			(at 255.27 -60.63 0)
 			(effects
 				(font
@@ -12074,7 +12074,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SOT96P240X115-3N"
+		(property "Footprint" "kuben_footprints:SOT96P240X115-3N"
 			(at 245.11 159.69 0)
 			(effects
 				(font
@@ -12267,7 +12267,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT96P240X115-3N"
+		(property "Footprint" "kuben_footprints:SOT96P240X115-3N"
 			(at 154.61 39.37 0)
 			(effects
 				(font
@@ -13680,7 +13680,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SOT96P240X115-3N"
+		(property "Footprint" "kuben_footprints:SOT96P240X115-3N"
 			(at 255.27 -42.85 0)
 			(effects
 				(font

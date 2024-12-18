@@ -4457,7 +4457,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom_Motor_Driver:QFN76_10P5X6P5_TRI"
+		(property "Footprint" "kuben_footprints:QFN76_10P5X6P5_TRI-L"
 			(at 80.01 39.37 0)
 			(effects
 				(font

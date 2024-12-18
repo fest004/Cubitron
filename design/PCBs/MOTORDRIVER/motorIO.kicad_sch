@@ -1357,7 +1357,7 @@
 				)
 			)
 		)
-		(property "Footprint" "1849521"
+		(property "Footprint" "kuben_footprints:1849521"
 			(at 154.94 186.36 0)
 			(effects
 				(font
@@ -1576,7 +1576,7 @@
 				)
 			)
 		)
-		(property "Footprint" "1849521"
+		(property "Footprint" "kuben_footprints:1849521"
 			(at 231.14 186.36 0)
 			(effects
 				(font
@@ -1927,7 +1927,7 @@
 				)
 			)
 		)
-		(property "Footprint" "1849521"
+		(property "Footprint" "kuben_footprints:1849521"
 			(at 78.74 186.36 0)
 			(effects
 				(font
