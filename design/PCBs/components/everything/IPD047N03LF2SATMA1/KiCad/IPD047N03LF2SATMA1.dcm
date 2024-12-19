@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP IPD047N03LF2SATMA1
+D N-Channel 30 V 71A (Tc) 65W (Tc) Surface Mount PG-TO252-3
+K
+F https://www.infineon.com/dgdl/Infineon-IPD047N03LF2S-DataSheet-v01_00-EN.pdf?fileId=8ac78c8c92416ca50192b89c5f296484
+$ENDCMP
+#
+#End Doc Library

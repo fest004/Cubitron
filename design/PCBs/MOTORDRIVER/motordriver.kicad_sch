@@ -47,6 +47,16 @@
 	)
 	(wire
 		(pts
+			(xy 33.02 78.74) (xy 72.39 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d7b5667-3ce2-4ca1-a837-41b8443e3d73")
+	)
+	(wire
+		(pts
 			(xy 33.02 109.22) (xy 72.39 109.22)
 		)
 		(stroke
@@ -144,6 +154,16 @@
 			(type default)
 		)
 		(uuid "1c8faeb0-9aff-489b-8463-a02e01fc155e")
+	)
+	(wire
+		(pts
+			(xy 255.27 52.07) (xy 267.97 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e6bbaf1-13a2-4a43-8ca0-d0d6b04830c5")
 	)
 	(wire
 		(pts
@@ -747,16 +767,6 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 49.53) (xy 267.97 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a848f399-b57c-466c-9afe-22426fa4cbe5")
-	)
-	(wire
-		(pts
 			(xy 132.08 57.15) (xy 132.08 53.34)
 		)
 		(stroke
@@ -1005,6 +1015,16 @@
 		)
 		(uuid "fec43c4f-fb74-4b34-8d74-188b36681a16")
 	)
+	(wire
+		(pts
+			(xy 33.02 81.28) (xy 72.39 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fff65142-ffd5-4018-95b7-6036532bdb69")
+	)
 	(rectangle
 		(start 163.83 63.5)
 		(end 257.81 110.49)
@@ -1104,12 +1124,22 @@
 		)
 		(uuid "5a172e0c-d619-4f79-9eb7-9481ed0ea30d")
 	)
+	(text "Main\nMotors IO"
+		(exclude_from_sim no)
+		(at 274.066 83.058 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7dcb2856-0af9-420c-aa92-55f5120b2d30")
+	)
 	(text "KUBEN\n"
 		(exclude_from_sim no)
 		(at 229.108 175.514 0)
 		(effects
 			(font
-				(size 3.81 3.81)
+				(size 4 4)
 			)
 		)
 		(uuid "7f15f5c0-f8a5-492e-8a7b-011217d89751")
@@ -1133,6 +1163,16 @@
 			)
 		)
 		(uuid "a8869fcc-a438-4063-b6bf-5496d88a9ef9")
+	)
+	(text "Utillity IO"
+		(exclude_from_sim no)
+		(at 23.622 53.594 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c3e3f7f2-335c-405d-9483-2a11adf9bf05")
 	)
 	(text "Motor Stage"
 		(exclude_from_sim no)
@@ -1432,16 +1472,6 @@
 				(justify left top)
 			)
 		)
-		(pin "BAT_12V" input
-			(at 33.02 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "b31eecae-60fb-414d-a70b-34d08c1ae6a8")
-		)
 		(pin "D+" input
 			(at 33.02 87.63 0)
 			(effects
@@ -1601,6 +1631,36 @@
 				(justify right)
 			)
 			(uuid "4f41ca5e-6699-4a0f-a11c-7bd3aa6e1281")
+		)
+		(pin "SWCLK" input
+			(at 33.02 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "09387c50-a214-4565-b15e-b2ee78f197d2")
+		)
+		(pin "SWDIO" input
+			(at 33.02 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "666b1c0b-67fb-4782-bee3-4015bb488043")
+		)
+		(pin "BATTVIN" input
+			(at 33.02 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "eef83232-0b50-4bad-974c-967476fdf2fd")
 		)
 		(instances
 			(project "motordriver"
@@ -2670,6 +2730,26 @@
 				(justify left)
 			)
 			(uuid "efc188df-9bbd-4d78-9ac8-3c57401e0226")
+		)
+		(pin "SWDIO" input
+			(at 72.39 78.74 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d2cea5c9-4455-42de-9d41-33515e247596")
+		)
+		(pin "SWCLK" input
+			(at 72.39 81.28 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "313219d8-566b-43cb-91c8-d476fa7c0796")
 		)
 		(instances
 			(project "motordriver"
