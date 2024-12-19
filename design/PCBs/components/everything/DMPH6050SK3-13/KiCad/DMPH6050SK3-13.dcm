@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP DMPH6050SK3-13
-D P-Channel 60 V 7.2A (Ta), 23.6A (Tc) 1.9W (Ta) Surface Mount TO-252-3
-K
-F https://www.diodes.com//assets/Datasheets/DMPH6050SK3.pdf
-$ENDCMP
-#
-#End Doc Library

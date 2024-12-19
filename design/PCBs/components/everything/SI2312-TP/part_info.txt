@@ -1,9 +1,0 @@
-Manufacturer=MCC
-PartNumber=SI2312-TP
-PartCategory=MOSFET (N-Channel)
-PackageCategory=SOT23 (3-Pin)
-PinCount=3
-Version=3.1
-Released=2019-05-31 03:53:39
-Downloaded=2024-11-01 13:32:54
-3D=Y

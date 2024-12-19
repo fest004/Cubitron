@@ -1,9 +1,0 @@
-Manufacturer=Amphenol
-PartNumber=VN02A1500000G
-PartCategory=Connector
-PackageCategory=Other
-PinCount=2
-Version=2.4
-Released=2019-05-25 22:18:05
-Downloaded=2024-12-18 12:15:10
-3D=Y

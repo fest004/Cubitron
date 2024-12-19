@@ -1,9 +1,0 @@
-Manufacturer=Vishay
-PartNumber=SI4532CDY-T1-GE3
-PartCategory=Transistor
-PackageCategory=SOT23 (8-Pin)
-PinCount=8
-Version=1.1
-Released=2017-10-10 08:48:52
-Downloaded=2024-10-31 13:49:31
-3D=Y

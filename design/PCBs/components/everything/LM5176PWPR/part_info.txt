@@ -1,9 +1,0 @@
-Manufacturer=Texas Instruments
-PartNumber=LM5176PWPR
-PartCategory=Integrated Circuit
-PackageCategory=Small Outline Packages
-PinCount=29
-Version=1.1
-Released=2019-09-12 08:48:25
-Downloaded=2024-11-16 10:32:30
-3D=Y

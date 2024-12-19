@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP SI2312-TP
-D Small Signal MOSFETS
-K
-F https://www.mccsemi.com/pdf/Products/SI2312(SOT-23).pdf
-$ENDCMP
-#
-#End Doc Library

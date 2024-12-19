@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP IR2104STRPBF
-D MOSFET Driver, Dual, 8 Pin, Plastic, SOP
-K
-F https://www.infineon.com/cms/en/product/power/gate-driver-ics/?
-$ENDCMP
-#
-#End Doc Library

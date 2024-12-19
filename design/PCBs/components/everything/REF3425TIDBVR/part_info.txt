@@ -1,9 +1,0 @@
-Manufacturer=Texas Instruments
-PartNumber=REF3425TIDBVR
-PartCategory=Integrated Circuit
-PackageCategory=SOT23 (6-Pin)
-PinCount=6
-Version=2.1
-Released=2024-01-19 14:56:07
-Downloaded=2024-11-10 12:34:00
-3D=Y

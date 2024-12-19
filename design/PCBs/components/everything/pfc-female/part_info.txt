@@ -1,9 +1,0 @@
-Manufacturer=TE Connectivity
-PartNumber=1-84952-1
-PartCategory=Connector
-PackageCategory=Other
-PinCount=13
-Version=1.2
-Released=2020-02-25 13:23:11
-Downloaded=2024-11-01 12:44:21
-3D=Y

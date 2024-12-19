@@ -1,9 +1,0 @@
-Manufacturer=Texas Instruments
-PartNumber=TPS552882RPMR
-PartCategory=Integrated Circuit
-PackageCategory=Other
-PinCount=30
-Version=1.3
-Released=2020-12-14 12:17:59
-Downloaded=2024-11-10 11:16:39
-3D=Y

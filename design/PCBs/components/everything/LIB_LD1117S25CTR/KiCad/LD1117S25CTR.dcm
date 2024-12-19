@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP LD1117S25CTR
-D Adjustable and fixed low drop positive voltage regulator
-K
-F https://www.st.com/resource/en/datasheet/ld1117.pdf
-$ENDCMP
-#
-#End Doc Library

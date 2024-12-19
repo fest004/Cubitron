@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP AYF530465T
-D Conn FPC Connector SKT 4 POS 0.5mm Solder RA SMD T/R
-K
-F https://api.pim.na.industrial.panasonic.com/file_stream/main/fileversion/1656
-$ENDCMP
-#
-#End Doc Library

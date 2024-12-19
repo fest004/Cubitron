@@ -1,9 +1,0 @@
-Manufacturer=STMicroelectronics
-PartNumber=MC34063ECD-TR
-PartCategory=Integrated Circuit
-PackageCategory=Small Outline Packages
-PinCount=8
-Version=1.1
-Released=2019-09-13 10:15:59
-Downloaded=2024-10-25 12:32:10
-3D=Y

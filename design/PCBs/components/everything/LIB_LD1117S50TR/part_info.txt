@@ -1,9 +1,0 @@
-Manufacturer=STMicroelectronics
-PartNumber=LD1117S50TR
-PartCategory=Integrated Circuit
-PackageCategory=SOT223 (3-Pin)
-PinCount=4
-Version=1.2
-Released=2020-06-19 10:16:38
-Downloaded=2024-12-16 14:17:30
-3D=Y
