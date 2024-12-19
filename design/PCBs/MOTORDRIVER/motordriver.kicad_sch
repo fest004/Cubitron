@@ -7,6 +7,16 @@
 	(lib_symbols)
 	(wire
 		(pts
+			(xy 262.89 44.45) (xy 267.97 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0442c1d6-d710-477a-bbae-6e15fb043123")
+	)
+	(wire
+		(pts
 			(xy 236.22 46.99) (xy 242.57 46.99)
 		)
 		(stroke
@@ -37,13 +47,13 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 99.06) (xy 267.97 99.06)
+			(xy 261.62 139.7) (xy 267.97 139.7)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "065881be-34ff-4729-ba62-d87c8d6e601a")
+		(uuid "0c998ced-d9ee-4734-ae44-0841eca571d9")
 	)
 	(wire
 		(pts
@@ -77,16 +87,6 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 57.15) (xy 267.97 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f88648d-1ce7-4b0c-94aa-427f967fabff")
-	)
-	(wire
-		(pts
 			(xy 236.22 134.62) (xy 242.57 134.62)
 		)
 		(stroke
@@ -104,6 +104,16 @@
 			(type default)
 		)
 		(uuid "14130b73-bb61-4d82-a39b-7d7f4c693874")
+	)
+	(wire
+		(pts
+			(xy 236.22 152.4) (xy 242.57 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15beb2be-4553-42b4-a30b-a24371527c6a")
 	)
 	(wire
 		(pts
@@ -157,16 +167,6 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 52.07) (xy 267.97 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1e6bbaf1-13a2-4a43-8ca0-d0d6b04830c5")
-	)
-	(wire
-		(pts
 			(xy 236.22 41.91) (xy 242.57 41.91)
 		)
 		(stroke
@@ -177,6 +177,16 @@
 	)
 	(wire
 		(pts
+			(xy 262.89 87.63) (xy 267.97 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2341ebd5-fc34-410d-aa60-f1f0d2bf4451")
+	)
+	(wire
+		(pts
 			(xy 205.74 67.31) (xy 267.97 67.31)
 		)
 		(stroke
@@ -184,16 +194,6 @@
 			(type default)
 		)
 		(uuid "236dc040-313a-47aa-8b00-2563f9bc27a8")
-	)
-	(wire
-		(pts
-			(xy 255.27 104.14) (xy 267.97 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "26fcbc6d-5fc0-44f1-82fb-1275cbe35032")
 	)
 	(wire
 		(pts
@@ -397,16 +397,6 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 101.6) (xy 267.97 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a7e9646-aa9f-4fce-b462-6b8eced82b90")
-	)
-	(wire
-		(pts
 			(xy 236.22 142.24) (xy 242.57 142.24)
 		)
 		(stroke
@@ -414,16 +404,6 @@
 			(type default)
 		)
 		(uuid "4ca971c8-4835-4e2f-a13d-9ad67a12aa4c")
-	)
-	(wire
-		(pts
-			(xy 255.27 152.4) (xy 267.97 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4dde2534-c716-4893-a451-6218550f5fb5")
 	)
 	(wire
 		(pts
@@ -507,13 +487,23 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 54.61) (xy 267.97 54.61)
+			(xy 262.89 90.17) (xy 267.97 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "61d437df-1d2f-4c3b-8ca4-8c8de24d258a")
+		(uuid "6240d7be-3445-4dfe-a759-3a551bc8f443")
+	)
+	(wire
+		(pts
+			(xy 261.62 144.78) (xy 267.97 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6400de5d-1e01-4505-bc69-3c438a78008e")
 	)
 	(wire
 		(pts
@@ -597,6 +587,16 @@
 	)
 	(wire
 		(pts
+			(xy 261.62 142.24) (xy 267.97 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78a55089-a950-4c72-ae0c-f719a9aac756")
+	)
+	(wire
+		(pts
 			(xy 236.22 29.21) (xy 242.57 29.21)
 		)
 		(stroke
@@ -624,16 +624,6 @@
 			(type default)
 		)
 		(uuid "82164de2-7f4f-404b-a141-17ed132e24c2")
-	)
-	(wire
-		(pts
-			(xy 255.27 157.48) (xy 267.97 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "85efe37c-437a-46bb-b714-be2c16d25293")
 	)
 	(wire
 		(pts
@@ -707,16 +697,6 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 33.02) (xy 242.57 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c3f6ddd-24ed-4f56-b0c8-a8a5bf8d01b3")
-	)
-	(wire
-		(pts
 			(xy 33.02 25.4) (xy 39.37 25.4)
 		)
 		(stroke
@@ -757,6 +737,16 @@
 	)
 	(wire
 		(pts
+			(xy 262.89 39.37) (xy 267.97 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3ad9d9f-68f3-49c9-881a-97278efccf05")
+	)
+	(wire
+		(pts
 			(xy 143.51 78.74) (xy 166.37 78.74)
 		)
 		(stroke
@@ -774,6 +764,26 @@
 			(type default)
 		)
 		(uuid "a8e8e384-0bbe-4e0b-bd79-c30b1e4342ef")
+	)
+	(wire
+		(pts
+			(xy 262.89 41.91) (xy 267.97 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9de6539-bb76-4a12-86c0-5cfc3c39c839")
+	)
+	(wire
+		(pts
+			(xy 236.22 99.06) (xy 242.57 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab613de3-b807-45ee-b1f7-e9172205718f")
 	)
 	(wire
 		(pts
@@ -867,6 +877,26 @@
 	)
 	(wire
 		(pts
+			(xy 236.22 52.07) (xy 242.57 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8268c05-fe34-491e-9e09-a7591d162fa3")
+	)
+	(wire
+		(pts
+			(xy 262.89 92.71) (xy 267.97 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9708e30-8116-44dc-8ec4-2e02c3ec27f3")
+	)
+	(wire
+		(pts
 			(xy 33.02 101.6) (xy 72.39 101.6)
 		)
 		(stroke
@@ -947,16 +977,6 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 154.94) (xy 267.97 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb49b71f-f4d0-48e1-a3c1-e456d2297034")
-	)
-	(wire
-		(pts
 			(xy 236.22 86.36) (xy 242.57 86.36)
 		)
 		(stroke
@@ -1024,45 +1044,6 @@
 			(type default)
 		)
 		(uuid "fff65142-ffd5-4018-95b7-6036532bdb69")
-	)
-	(rectangle
-		(start 163.83 63.5)
-		(end 257.81 110.49)
-		(stroke
-			(width 0.5)
-			(type dot)
-			(color 132 132 132 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 7ba90286-5edf-49a8-9901-aa4f80cf98ed)
-	)
-	(rectangle
-		(start 163.83 15.24)
-		(end 257.81 62.23)
-		(stroke
-			(width 0.5)
-			(type dot)
-			(color 132 132 132 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 89ae0da0-6d13-40e1-888c-558946975931)
-	)
-	(rectangle
-		(start 163.83 113.03)
-		(end 257.81 162.56)
-		(stroke
-			(width 0.5)
-			(type dot)
-			(color 132 132 132 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid d119cdcc-ff54-4987-81d2-42ab89d50408)
 	)
 	(text "1.0"
 		(exclude_from_sim no)
@@ -1174,36 +1155,6 @@
 		)
 		(uuid "c3e3f7f2-335c-405d-9483-2a11adf9bf05")
 	)
-	(text "Motor Stage"
-		(exclude_from_sim no)
-		(at 171.45 18.034 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "c5858e96-5931-4a7f-af44-3bce7be33640")
-	)
-	(text "Motor Stage"
-		(exclude_from_sim no)
-		(at 170.942 116.078 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "d641d689-3eac-4ba7-8af3-628a257e4e1e")
-	)
-	(text "Motor Stage"
-		(exclude_from_sim no)
-		(at 171.45 67.31 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "e449aee4-de4b-46b9-ab0e-516859dc8c5d")
-	)
 	(text "motor driver, takes \nhall sensors, current\nmeasurement and SPI \nsignal. Outputs low-power\nPWM for drivergates"
 		(exclude_from_sim no)
 		(at 195.834 137.922 0)
@@ -1213,6 +1164,17 @@
 			)
 		)
 		(uuid "e6dda58c-7d5a-4494-96ea-ef00098d5e3a")
+	)
+	(text "The circuit is designed around the\nTMC4671 chip which acts as a servocontroller.\nWe use three of theese as we are going to controll\nthree separate motors for x,y and z actuation.\nThe main microcontroller is responsible for calculating\na set-tourque for each motor, the TMC4671 servocontroller\nis responsoble for taking this tourqe target and commuting\nthe motors. In order for the microcontroller to find the\nset-torque it reads inertial measurements from external sensors\nand finds the attitude of the cube. A controll algorithm running\non the microcontroller spits out the torque for the three motors\nin order for the cube to balance."
+		(exclude_from_sim no)
+		(at 21.844 141.732 0)
+		(effects
+			(font
+				(size 1.8 1.8)
+			)
+			(justify left)
+		)
+		(uuid "ea3d13d9-e996-483f-9592-4354493bfddb")
 	)
 	(sheet
 		(at 167.64 125.73)
@@ -1414,7 +1376,27 @@
 			)
 			(uuid "1c438e21-7aa6-4ec2-84df-ba9d07736ca3")
 		)
-		(pin "tmc_rx" input
+		(pin "GPIO3" input
+			(at 167.64 128.27 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c277e582-7a75-49ac-9999-c4f09acd3edb")
+		)
+		(pin "GPIO4" input
+			(at 167.64 130.81 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ca048d37-434b-417a-b0b2-7bfb34224ffe")
+		)
+		(pin "TMC_RX" input
 			(at 167.64 143.51 180)
 			(effects
 				(font
@@ -1422,9 +1404,9 @@
 				)
 				(justify left)
 			)
-			(uuid "73b00958-d1ee-4c29-a79a-575dc34a5aef")
+			(uuid "43488ee8-9d2b-4ff7-8da2-ed0d0c2c1644")
 		)
-		(pin "tmc_tx" input
+		(pin "TMC_TX" input
 			(at 167.64 140.97 180)
 			(effects
 				(font
@@ -1432,7 +1414,47 @@
 				)
 				(justify left)
 			)
-			(uuid "39e11af7-1054-474a-b2a6-bfacc4b03a4d")
+			(uuid "3eb39221-a97a-4d64-a22b-94c225577d0b")
+		)
+		(pin "GPIO5" input
+			(at 167.64 133.35 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8f2c2f64-19e0-414c-8067-b378db35fc7a")
+		)
+		(pin "GPIO7" input
+			(at 167.64 138.43 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6d90823d-5b29-4e70-8888-a0b10f3dac25")
+		)
+		(pin "GPIO6" input
+			(at 167.64 135.89 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3127f9cf-a433-409c-bc8c-1f61536153d3")
+		)
+		(pin "BRAKE" input
+			(at 236.22 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c662a571-4b51-4562-9824-6a6db232e156")
 		)
 		(instances
 			(project "motordriver"
@@ -1920,7 +1942,7 @@
 			)
 			(uuid "2ab22c68-c98e-46a1-9abe-e1943a1c4dc9")
 		)
-		(pin "tmc_rx" input
+		(pin "TMC_RX" input
 			(at 166.37 53.34 180)
 			(effects
 				(font
@@ -1928,9 +1950,9 @@
 				)
 				(justify left)
 			)
-			(uuid "3512dad9-db17-4a81-9087-9c3a059a3153")
+			(uuid "2b2b9308-3405-47af-b48c-8529043ff9c6")
 		)
-		(pin "tmc_tx" input
+		(pin "TMC_TX" input
 			(at 166.37 50.8 180)
 			(effects
 				(font
@@ -1938,7 +1960,17 @@
 				)
 				(justify left)
 			)
-			(uuid "dfa218b1-da89-4c64-aa99-66050ee1591b")
+			(uuid "46b65ce3-7744-4c41-9e4c-8d4522f0052f")
+		)
+		(pin "BRAKE" input
+			(at 236.22 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2cf21a64-5d9f-4d91-98d8-46fda6964c4c")
 		)
 		(instances
 			(project "motordriver"
@@ -2008,7 +2040,7 @@
 	)
 	(sheet
 		(at 242.57 25.4)
-		(size 12.7 33.02)
+		(size 20.32 33.02)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.5)
@@ -2037,7 +2069,7 @@
 			)
 		)
 		(pin "PHASE_U" input
-			(at 255.27 52.07 0)
+			(at 262.89 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2047,7 +2079,7 @@
 			(uuid "372e9d36-d7b2-43ae-97c3-f07fd7bbdba0")
 		)
 		(pin "PHASE_V" input
-			(at 255.27 54.61 0)
+			(at 262.89 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2057,7 +2089,7 @@
 			(uuid "b153355e-faf9-4a88-b1e4-d6351f0ea759")
 		)
 		(pin "PHASE_W" input
-			(at 255.27 57.15 0)
+			(at 262.89 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2166,6 +2198,16 @@
 			)
 			(uuid "d86fbb32-76d7-4f2c-a830-dab07426fc21")
 		)
+		(pin "BRAKE" input
+			(at 242.57 52.07 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "32f50cb9-89e3-4b50-917b-2b9784660196")
+		)
 		(instances
 			(project "motordriver"
 				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d"
@@ -2234,7 +2276,7 @@
 			(uuid "080958d4-2f9d-4c39-b17e-066e8ad223c0")
 		)
 		(pin "PHASE_U2" input
-			(at 267.97 99.06 180)
+			(at 267.97 87.63 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2244,7 +2286,7 @@
 			(uuid "d0b4ef47-5d1b-4dbc-adb3-c502b9fd65be")
 		)
 		(pin "PHASE_V1" input
-			(at 267.97 54.61 180)
+			(at 267.97 41.91 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2254,7 +2296,7 @@
 			(uuid "193e800c-8bb8-4130-bef6-1852498dbb79")
 		)
 		(pin "PHASE_U1" input
-			(at 267.97 52.07 180)
+			(at 267.97 39.37 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2264,7 +2306,7 @@
 			(uuid "042ae849-f79e-4863-b0a8-63f497846b2d")
 		)
 		(pin "PHASE_W1" input
-			(at 267.97 57.15 180)
+			(at 267.97 44.45 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2274,7 +2316,7 @@
 			(uuid "0d84d9f5-5667-4a6f-9dcf-7b1ae32c97e2")
 		)
 		(pin "PHASE_U3" input
-			(at 267.97 152.4 180)
+			(at 267.97 139.7 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2284,7 +2326,7 @@
 			(uuid "be6c98f2-b077-4ff0-9882-98985be2e05f")
 		)
 		(pin "PHASE_V3" input
-			(at 267.97 154.94 180)
+			(at 267.97 142.24 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2294,7 +2336,7 @@
 			(uuid "d3006608-aa8d-45e9-b7b7-92c932518f0d")
 		)
 		(pin "PHASE_W3" input
-			(at 267.97 157.48 180)
+			(at 267.97 144.78 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2334,7 +2376,7 @@
 			(uuid "350ffe5f-ea9f-4536-96fc-2d5b347cdfa4")
 		)
 		(pin "PHASE_V2" input
-			(at 267.97 101.6 180)
+			(at 267.97 90.17 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2344,7 +2386,7 @@
 			(uuid "aefedaeb-ae89-4f87-a389-db7a5e2e23f3")
 		)
 		(pin "PHASE_W2" input
-			(at 267.97 104.14 180)
+			(at 267.97 92.71 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2830,7 +2872,7 @@
 			(uuid "263779fa-54cb-4a13-8d4f-bf30a6ebff24")
 		)
 		(pin "STATUS" input
-			(at 166.37 100.33 180)
+			(at 166.37 101.6 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2959,7 +3001,27 @@
 			)
 			(uuid "b64b7284-e8ae-484f-ae52-f59a0e17df1e")
 		)
-		(pin "tmc_rx" input
+		(pin "GPIO3" input
+			(at 166.37 91.44 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "79872a89-96a2-4ad0-a52b-42646f275219")
+		)
+		(pin "GPIO4" input
+			(at 166.37 93.98 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "537ffa2c-def0-4a81-9db7-b62279b65307")
+		)
+		(pin "TMC_RX" input
 			(at 166.37 81.28 180)
 			(effects
 				(font
@@ -2967,9 +3029,9 @@
 				)
 				(justify left)
 			)
-			(uuid "8568ede0-453d-4cb0-b282-14039e539b84")
+			(uuid "5b74f960-7e8d-4331-aa89-b81149cc75fe")
 		)
-		(pin "tmc_tx" input
+		(pin "TMC_TX" input
 			(at 166.37 78.74 180)
 			(effects
 				(font
@@ -2977,7 +3039,47 @@
 				)
 				(justify left)
 			)
-			(uuid "0daac7d6-1eb1-404c-be3c-c9b0f44ed923")
+			(uuid "46de4634-cf79-49d6-9343-0ddb79733c8f")
+		)
+		(pin "GPIO5" input
+			(at 166.37 96.52 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "80cf5dcc-fcb4-4f24-b303-aab3f7d2fbe4")
+		)
+		(pin "GPIO7" input
+			(at 166.37 76.2 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c11d4322-7b45-4645-aa61-6d748ef4751d")
+		)
+		(pin "GPIO6" input
+			(at 166.37 99.06 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c94d6835-a3d2-497e-acd6-b8bf5d355b28")
+		)
+		(pin "BRAKE" input
+			(at 236.22 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "aec41dce-fc57-4bb8-9897-037ce5218902")
 		)
 		(instances
 			(project "motordriver"
@@ -2989,7 +3091,7 @@
 	)
 	(sheet
 		(at 242.57 125.73)
-		(size 12.7 33.02)
+		(size 19.05 33.02)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.5)
@@ -3018,7 +3120,7 @@
 			)
 		)
 		(pin "PHASE_U" input
-			(at 255.27 152.4 0)
+			(at 261.62 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3028,7 +3130,7 @@
 			(uuid "ae6a6be0-2d5c-49df-9eac-9af7ea45479f")
 		)
 		(pin "PHASE_V" input
-			(at 255.27 154.94 0)
+			(at 261.62 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3038,7 +3140,7 @@
 			(uuid "e26375be-117e-419e-b8de-2181fb632073")
 		)
 		(pin "PHASE_W" input
-			(at 255.27 157.48 0)
+			(at 261.62 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3147,6 +3249,16 @@
 			)
 			(uuid "2568a384-b7ce-4ea6-9e1c-4623f1cf785a")
 		)
+		(pin "BRAKE" input
+			(at 242.57 152.4 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "205f511a-55dc-421c-a947-4de8289e463c")
+		)
 		(instances
 			(project "motordriver"
 				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d"
@@ -3157,7 +3269,7 @@
 	)
 	(sheet
 		(at 242.57 72.39)
-		(size 12.7 33.02)
+		(size 20.32 33.02)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.5)
@@ -3186,7 +3298,7 @@
 			)
 		)
 		(pin "PHASE_U" input
-			(at 255.27 99.06 0)
+			(at 262.89 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3196,7 +3308,7 @@
 			(uuid "9097c7e4-71e5-4c10-ba8d-90ff8028d468")
 		)
 		(pin "PHASE_V" input
-			(at 255.27 101.6 0)
+			(at 262.89 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3206,7 +3318,7 @@
 			(uuid "1dd5e70e-bf68-47a1-a8c3-2ec98881ab11")
 		)
 		(pin "PHASE_W" input
-			(at 255.27 104.14 0)
+			(at 262.89 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3314,6 +3426,16 @@
 				(justify left)
 			)
 			(uuid "71d4b407-1e7c-4be9-b158-87bda8852328")
+		)
+		(pin "BRAKE" input
+			(at 242.57 99.06 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9f1813f9-2fc5-4c91-8a1c-d2027707e1f7")
 		)
 		(instances
 			(project "motordriver"

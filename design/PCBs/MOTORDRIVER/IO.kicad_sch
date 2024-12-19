@@ -1999,7 +1999,7 @@
 		)
 		(uuid "26086638-b806-4cf1-b086-fc4bb40b089c")
 	)
-	(text "Initial programming interface"
+	(text "Programming interface"
 		(exclude_from_sim no)
 		(at 240.538 114.3 0)
 		(effects
@@ -2048,6 +2048,16 @@
 			)
 		)
 		(uuid "8846d9d9-5b54-49bf-b558-2a930df4f942")
+	)
+	(text "TODO: decide on connector for servo"
+		(exclude_from_sim no)
+		(at 149.606 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "eb348f2c-2aec-41a7-821b-57ec879f489f")
 	)
 	(text "1.0"
 		(exclude_from_sim no)

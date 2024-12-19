@@ -991,7 +991,7 @@
 	)
 	(text "MP1 & MP2 are mounting pins"
 		(exclude_from_sim no)
-		(at 81.026 70.104 0)
+		(at 72.898 79.756 0)
 		(effects
 			(font
 				(size 1.27 1.27)
