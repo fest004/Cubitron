@@ -578,7 +578,7 @@
 		(uuid "1f8f78af-15b4-456d-9e45-1afb03c3f1d0")
 	)
 	(junction
-		(at 82.55 102.87)
+		(at 83.82 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2a3bbf66-5b77-4a12-b2c4-9cae8025f351")
@@ -596,7 +596,7 @@
 		(uuid "61be6bf7-693a-4204-b646-2edc6eaa3485")
 	)
 	(junction
-		(at 82.55 92.71)
+		(at 83.82 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7f374c62-b2ff-4734-95c8-a43f8a294125")
@@ -608,7 +608,7 @@
 		(uuid "b2af87d1-e506-400f-993d-2a137bb6e6f2")
 	)
 	(junction
-		(at 82.55 97.79)
+		(at 83.82 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bb12b2fa-c4b9-4680-a26a-4117857f33c3")
@@ -634,11 +634,11 @@
 		(uuid "0f1c3667-28a5-434f-9bec-89657f185ccc")
 	)
 	(no_connect
-		(at 57.15 91.44)
+		(at 58.42 93.98)
 		(uuid "20628f86-7e99-4019-9640-9bb0b3b6491d")
 	)
 	(no_connect
-		(at 57.15 93.98)
+		(at 58.42 96.52)
 		(uuid "36a04170-3cd1-4b74-b1a6-417568a69584")
 	)
 	(no_connect
@@ -681,7 +681,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 102.87) (xy 82.55 102.87)
+			(xy 88.9 105.41) (xy 83.82 105.41)
 		)
 		(stroke
 			(width 0)
@@ -711,7 +711,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 97.79) (xy 82.55 99.06)
+			(xy 83.82 100.33) (xy 83.82 101.6)
 		)
 		(stroke
 			(width 0)
@@ -761,7 +761,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 92.71) (xy 82.55 92.71)
+			(xy 88.9 95.25) (xy 83.82 95.25)
 		)
 		(stroke
 			(width 0)
@@ -781,7 +781,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 101.6) (xy 82.55 102.87)
+			(xy 83.82 104.14) (xy 83.82 105.41)
 		)
 		(stroke
 			(width 0)
@@ -821,7 +821,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 97.79) (xy 82.55 97.79)
+			(xy 88.9 100.33) (xy 83.82 100.33)
 		)
 		(stroke
 			(width 0)
@@ -841,7 +841,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 116.84) (xy 82.55 116.84)
+			(xy 97.79 119.38) (xy 83.82 119.38)
 		)
 		(stroke
 			(width 0)
@@ -851,7 +851,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 102.87) (xy 82.55 104.14)
+			(xy 83.82 105.41) (xy 83.82 106.68)
 		)
 		(stroke
 			(width 0)
@@ -911,7 +911,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 91.44) (xy 82.55 92.71)
+			(xy 83.82 93.98) (xy 83.82 95.25)
 		)
 		(stroke
 			(width 0)
@@ -931,7 +931,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 106.68) (xy 102.87 106.68)
+			(xy 83.82 109.22) (xy 104.14 109.22)
 		)
 		(stroke
 			(width 0)
@@ -951,7 +951,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 92.71) (xy 82.55 93.98)
+			(xy 83.82 95.25) (xy 83.82 96.52)
 		)
 		(stroke
 			(width 0)
@@ -961,7 +961,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 96.52) (xy 82.55 97.79)
+			(xy 83.82 99.06) (xy 83.82 100.33)
 		)
 		(stroke
 			(width 0)
@@ -991,7 +991,7 @@
 	)
 	(text "MP1 & MP2 are mounting pins"
 		(exclude_from_sim no)
-		(at 72.898 79.756 0)
+		(at 74.168 82.296 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1067,7 +1067,7 @@
 	)
 	(hierarchical_label "PHASE_W1"
 		(shape input)
-		(at 87.63 102.87 0)
+		(at 88.9 105.41 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1079,7 +1079,7 @@
 	)
 	(hierarchical_label "HALL_B1"
 		(shape input)
-		(at 82.55 109.22 0)
+		(at 83.82 111.76 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1127,7 +1127,7 @@
 	)
 	(hierarchical_label "PHASE_V1"
 		(shape input)
-		(at 87.63 97.79 0)
+		(at 88.9 100.33 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1139,7 +1139,7 @@
 	)
 	(hierarchical_label "PHASE_U1"
 		(shape input)
-		(at 87.63 92.71 0)
+		(at 88.9 95.25 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1187,7 +1187,7 @@
 	)
 	(hierarchical_label "HALL_A1"
 		(shape input)
-		(at 82.55 111.76 0)
+		(at 83.82 114.3 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1199,7 +1199,7 @@
 	)
 	(hierarchical_label "HALL_C1"
 		(shape input)
-		(at 82.55 114.3 0)
+		(at 83.82 116.84 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1466,7 +1466,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 96.52 116.84 0)
+		(at 97.79 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1475,7 +1475,7 @@
 		(fields_autoplaced yes)
 		(uuid "74d68f26-68e4-4f55-909d-2bb22f1a7ead")
 		(property "Reference" "#PWR0208"
-			(at 96.52 120.65 0)
+			(at 97.79 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1484,7 +1484,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 96.52 111.76 0)
+			(at 97.79 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1492,7 +1492,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 96.52 116.84 0)
+			(at 97.79 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1501,7 +1501,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 116.84 0)
+			(at 97.79 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1510,7 +1510,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 96.52 116.84 0)
+			(at 97.79 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1685,7 +1685,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 102.87 106.68 0)
+		(at 104.14 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1694,7 +1694,7 @@
 		(fields_autoplaced yes)
 		(uuid "7cec37fb-5092-4f29-8d2a-b3eb41f2c1bb")
 		(property "Reference" "#PWR0209"
-			(at 102.87 113.03 0)
+			(at 104.14 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1703,7 +1703,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 102.87 111.76 0)
+			(at 104.14 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1711,7 +1711,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 102.87 106.68 0)
+			(at 104.14 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1720,7 +1720,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 102.87 106.68 0)
+			(at 104.14 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1729,7 +1729,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 102.87 106.68 0)
+			(at 104.14 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1883,7 +1883,7 @@
 	)
 	(symbol
 		(lib_id "1-84952-1:1-84952-1")
-		(at 57.15 91.44 0)
+		(at 58.42 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1892,7 +1892,7 @@
 		(fields_autoplaced yes)
 		(uuid "9283cdaf-5501-43ab-b210-f56381eb2cb3")
 		(property "Reference" "J5"
-			(at 69.85 83.82 0)
+			(at 71.12 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1900,7 +1900,7 @@
 			)
 		)
 		(property "Value" "1-84952-1"
-			(at 69.85 86.36 0)
+			(at 71.12 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1908,7 +1908,7 @@
 			)
 		)
 		(property "Footprint" "kuben-footprints:1849521"
-			(at 78.74 186.36 0)
+			(at 80.01 188.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1918,7 +1918,7 @@
 			)
 		)
 		(property "Datasheet" "https://componentsearchengine.com/Datasheets/2/1-84952-1.pdf"
-			(at 78.74 286.36 0)
+			(at 80.01 288.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1928,7 +1928,7 @@
 			)
 		)
 		(property "Description" "FFC & FPC Connectors 1MM FPC HORZ .BTTM CONT.ASS.11P"
-			(at 57.15 91.44 0)
+			(at 58.42 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1937,7 +1937,7 @@
 			)
 		)
 		(property "Height" "2.74"
-			(at 78.74 486.36 0)
+			(at 80.01 488.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1947,7 +1947,7 @@
 			)
 		)
 		(property "Mouser Part Number" "571-1-84952-1"
-			(at 78.74 586.36 0)
+			(at 80.01 588.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1957,7 +1957,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/1-84952-1?qs=uUkeXfjQ8uS9Vjbveobf0Q%3D%3D"
-			(at 78.74 686.36 0)
+			(at 80.01 688.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1967,7 +1967,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "TE Connectivity"
-			(at 78.74 786.36 0)
+			(at 80.01 788.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1977,7 +1977,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "1-84952-1"
-			(at 78.74 886.36 0)
+			(at 80.01 888.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)

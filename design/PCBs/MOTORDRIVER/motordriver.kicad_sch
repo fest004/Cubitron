@@ -1135,7 +1135,7 @@
 		)
 		(uuid "8f62eab0-86c0-44b2-8320-8730018509b3")
 	)
-	(text "main microcontroller for \ncomputation etc., as well\nas programmer for ease of \nuse and debugging"
+	(text "main microcontroller for \ncompute and general control as well\nas programmer for easy programming\nand debugging"
 		(exclude_from_sim no)
 		(at 107.696 84.328 0)
 		(effects

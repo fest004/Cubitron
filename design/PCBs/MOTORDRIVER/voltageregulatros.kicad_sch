@@ -570,308 +570,6 @@
 				)
 			)
 		)
-		(symbol "DMN3042L-7:DMN3042L-7"
-			(pin_names hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 11.43 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "DMN3042L-7"
-				(at 11.43 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "SOT96P240X115-3N"
-				(at 11.43 -98.73 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.diodes.com//assets/Datasheets/DMN3042L.pdf"
-				(at 11.43 -198.73 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "MOSFET 30V N-Ch Enh Mode 26.5mOhm 10V 5.8A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "1.15"
-				(at 11.43 -398.73 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "Diodes Incorporated"
-				(at 11.43 -498.73 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "DMN3042L-7"
-				(at 11.43 -598.73 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Arrow Part Number" "DMN3042L-7"
-				(at 11.43 -698.73 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/dmn3042l-7/diodes-incorporated"
-				(at 11.43 -798.73 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "DMN3042L-7_1_1"
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 5.08) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.842 -0.508) (xy 5.842 0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.842 0) (xy 7.62 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.842 2.032) (xy 5.842 3.048)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.842 5.588) (xy 5.842 4.572)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 2.54) (xy 5.842 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 2.54) (xy 7.62 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 5.08) (xy 5.842 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 5.08) (xy 7.62 7.62)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.842 2.54) (xy 6.858 3.048) (xy 6.858 2.032) (xy 5.842 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 6.35 2.54)
-					(radius 3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 10.16 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "DMPH6050SK3-13:DMPH6050SK3-13"
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -4244,6 +3942,12 @@
 		(uuid "b4e98c91-e10a-4227-9b4e-d65b9fe8f102")
 	)
 	(junction
+		(at 45.72 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c1ebd7c6-e34c-4080-a74d-ae8b41399322")
+	)
+	(junction
 		(at 67.31 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4278,12 +3982,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d288f0d5-6988-4c24-a802-945517a9bc97")
-	)
-	(junction
-		(at 45.72 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d2cbed81-ee91-4d31-af60-f291b4b17d53")
 	)
 	(junction
 		(at 241.3 50.8)
@@ -4375,7 +4073,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 73.66) (xy 62.23 59.69)
+			(xy 62.23 73.66) (xy 62.23 62.23)
 		)
 		(stroke
 			(width 0)
@@ -4565,7 +4263,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 81.28) (xy 60.96 58.42)
+			(xy 60.96 81.28) (xy 60.96 60.96)
 		)
 		(stroke
 			(width 0)
@@ -5025,7 +4723,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 59.69) (xy 88.9 43.18)
+			(xy 88.9 62.23) (xy 88.9 43.18)
 		)
 		(stroke
 			(width 0)
@@ -5095,7 +4793,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 59.69) (xy 88.9 59.69)
+			(xy 62.23 62.23) (xy 88.9 62.23)
 		)
 		(stroke
 			(width 0)
@@ -5205,7 +4903,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 55.88) (xy 60.96 52.07)
+			(xy 60.96 58.42) (xy 60.96 52.07)
 		)
 		(stroke
 			(width 0)
@@ -5715,7 +5413,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 57.15) (xy 59.69 83.82)
+			(xy 59.69 59.69) (xy 59.69 83.82)
 		)
 		(stroke
 			(width 0)
@@ -5785,7 +5483,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 48.26) (xy 76.2 58.42)
+			(xy 76.2 48.26) (xy 76.2 60.96)
 		)
 		(stroke
 			(width 0)
@@ -5885,7 +5583,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 48.26) (xy 67.31 57.15)
+			(xy 67.31 48.26) (xy 67.31 59.69)
 		)
 		(stroke
 			(width 0)
@@ -6105,7 +5803,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 57.15) (xy 67.31 57.15)
+			(xy 59.69 59.69) (xy 67.31 59.69)
 		)
 		(stroke
 			(width 0)
@@ -6135,7 +5833,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 55.88) (xy 60.96 55.88)
+			(xy 58.42 58.42) (xy 60.96 58.42)
 		)
 		(stroke
 			(width 0)
@@ -6265,7 +5963,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 55.88) (xy 58.42 86.36)
+			(xy 58.42 58.42) (xy 58.42 86.36)
 		)
 		(stroke
 			(width 0)
@@ -6345,7 +6043,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 58.42) (xy 76.2 58.42)
+			(xy 60.96 60.96) (xy 76.2 60.96)
 		)
 		(stroke
 			(width 0)
@@ -7620,6 +7318,140 @@
 			(project "motordriver"
 				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/40fe2217-7020-4fd5-b361-1423767f0697"
 					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "IPD047N03LF2SATMA1:IPD047N03LF2SATMA1")
+		(at 55.88 50.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1f2f4907-28ff-4fe8-b60d-4b48d0aa8603")
+		(property "Reference" "Q7"
+			(at 48.26 42.418 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IPD047N03LF2SATMA1"
+			(at 52.07 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "kuben-footprints:IPD047N03LF2SATMA1"
+			(at 57.15 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-IPD047N03LF2S-DataSheet-v01_00-EN.pdf?fileId=8ac78c8c92416ca50192b89c5f296484"
+			(at 59.69 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 55.88 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "N-Channel 30 V 71A (Tc) 65W (Tc) Surface Mount PG-TO252-3"
+			(at 62.23 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "2.52"
+			(at 64.77 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 67.31 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 69.85 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Infineon"
+			(at 72.39 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "IPD047N03LF2SATMA1"
+			(at 74.93 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "79c6d9c4-cc67-4143-9c8a-643941e641a5")
+		)
+		(pin "2"
+			(uuid "a55b478b-3241-432e-8811-7a435af53c35")
+		)
+		(pin "1"
+			(uuid "1822c520-3100-4fef-a83f-2ee4756a1e9b")
+		)
+		(instances
+			(project "motordriver"
+				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/40fe2217-7020-4fd5-b361-1423767f0697"
+					(reference "Q7")
 					(unit 1)
 				)
 			)
@@ -10371,129 +10203,6 @@
 		)
 	)
 	(symbol
-		(lib_id "DMN3042L-7:DMN3042L-7")
-		(at 40.64 50.8 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "79288085-5874-455e-9701-f46758b9dac2")
-		(property "Reference" "Q7"
-			(at 38.1 35.56 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DMN3042L-7"
-			(at 38.1 38.1 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "kuben-footprints:SOT96P240X115-3N"
-			(at 139.37 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com//assets/Datasheets/DMN3042L.pdf"
-			(at 239.37 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "MOSFET 30V N-Ch Enh Mode 26.5mOhm 10V 5.8A"
-			(at 40.64 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.15"
-			(at 439.37 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Diodes Incorporated"
-			(at 539.37 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "DMN3042L-7"
-			(at 639.37 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "DMN3042L-7"
-			(at 739.37 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/dmn3042l-7/diodes-incorporated"
-			(at 839.37 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ec810029-f907-4bee-acc3-06c35bb7787a")
-		)
-		(pin "3"
-			(uuid "a1e976ef-4a24-4a46-8196-728372641fb3")
-		)
-		(pin "1"
-			(uuid "4a018e01-7886-4fb3-a781-2b02a15c0bf2")
-		)
-		(instances
-			(project "motordriver"
-				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/40fe2217-7020-4fd5-b361-1423767f0697"
-					(reference "Q7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 110.49 80.01 180)
 		(unit 1)
@@ -12323,129 +12032,6 @@
 		)
 	)
 	(symbol
-		(lib_id "DMN3042L-7:DMN3042L-7")
-		(at 55.88 50.8 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b29edb2f-47b2-4c4f-8d6b-b048570c612e")
-		(property "Reference" "Q8"
-			(at 53.34 35.56 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DMN3042L-7"
-			(at 53.34 38.1 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "kuben-footprints:SOT96P240X115-3N"
-			(at 154.61 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com//assets/Datasheets/DMN3042L.pdf"
-			(at 254.61 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "MOSFET 30V N-Ch Enh Mode 26.5mOhm 10V 5.8A"
-			(at 55.88 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.15"
-			(at 454.61 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Diodes Incorporated"
-			(at 554.61 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "DMN3042L-7"
-			(at 654.61 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "DMN3042L-7"
-			(at 754.61 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/dmn3042l-7/diodes-incorporated"
-			(at 854.61 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "67b16da8-54bc-4515-9ff0-fa1a5880d409")
-		)
-		(pin "3"
-			(uuid "28e3a619-1a6a-4e54-94d9-36e181422a35")
-		)
-		(pin "1"
-			(uuid "20ff6dc7-c4bf-482e-8bc6-1edf0c6633d3")
-		)
-		(instances
-			(project "motordriver"
-				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/40fe2217-7020-4fd5-b361-1423767f0697"
-					(reference "Q8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 52.07 73.66 270)
 		(unit 1)
@@ -14268,6 +13854,140 @@
 			(project "motordriver"
 				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/40fe2217-7020-4fd5-b361-1423767f0697"
 					(reference "R34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "IPD047N03LF2SATMA1:IPD047N03LF2SATMA1")
+		(at 40.64 50.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e06bcd44-9536-4c8b-a86e-fe8c2256eeac")
+		(property "Reference" "Q29"
+			(at 33.02 42.418 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IPD047N03LF2SATMA1"
+			(at 36.83 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "kuben-footprints:IPD047N03LF2SATMA1"
+			(at 41.91 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-IPD047N03LF2S-DataSheet-v01_00-EN.pdf?fileId=8ac78c8c92416ca50192b89c5f296484"
+			(at 44.45 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 40.64 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "N-Channel 30 V 71A (Tc) 65W (Tc) Surface Mount PG-TO252-3"
+			(at 46.99 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "2.52"
+			(at 49.53 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 52.07 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 54.61 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Infineon"
+			(at 57.15 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "IPD047N03LF2SATMA1"
+			(at 59.69 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "b908ea98-7a96-4b8a-8e20-cc2ff719295e")
+		)
+		(pin "2"
+			(uuid "9e95496a-4104-4c75-83db-7151b1853b23")
+		)
+		(pin "1"
+			(uuid "a6b3f0b5-b256-43c2-bda5-21e9a38ea0ee")
+		)
+		(instances
+			(project "motordriver"
+				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/40fe2217-7020-4fd5-b361-1423767f0697"
+					(reference "Q29")
 					(unit 1)
 				)
 			)
