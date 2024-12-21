@@ -38,8 +38,8 @@
   (pad 6 smd rect (at -1.740 -0.4 0) (size 0.520 1.000) (layers F.Cu F.Paste F.Mask))
   (pad 7 smd rect (at 1.740 -0.4 0) (size 0.520 1.000) (layers F.Cu F.Paste F.Mask))
   (model 59453-052110ECHLF.stp
-    (at (xyz 0 0 0))
+    (at (xyz 0 -0.064960628982604 0.00078740155720335))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
+    (rotate (xyz -90 0 -180))
   )
 )
