@@ -1075,16 +1075,6 @@
 		)
 		(uuid "11a1d79c-bc6a-46ea-bb9b-c2db6e257a8b")
 	)
-	(text "can we use status interrupt\npin for lighting an LED?"
-		(exclude_from_sim no)
-		(at 191.516 154.178 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "3ddd8894-c966-45da-a5ab-701428ed04a8")
-	)
 	(text "motor driver, takes \nhall sensors, current\nmeasurement and SPI \nsignal. Outputs low-power\nPWM for drivergates"
 		(exclude_from_sim no)
 		(at 198.12 90.424 0)
@@ -1245,16 +1235,6 @@
 				(justify right)
 			)
 			(uuid "9d641fea-047b-4ab4-a18c-6b72b073da9d")
-		)
-		(pin "STATUS" input
-			(at 167.64 153.67 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "e77cdfe2-7253-4ba1-9d2f-93e106c841fd")
 		)
 		(pin "PWM_W1_H" input
 			(at 236.22 147.32 0)
@@ -1721,16 +1701,6 @@
 				(justify right)
 			)
 			(uuid "75aef437-50cb-44d7-8e63-b53f45919969")
-		)
-		(pin "STATUS" input
-			(at 166.37 39.37 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "bed744f3-7715-4e97-9bf7-e677ba69991d")
 		)
 		(pin "ADC_I0_POS" input
 			(at 236.22 26.67 0)
@@ -2810,16 +2780,6 @@
 				(justify right)
 			)
 			(uuid "263779fa-54cb-4a13-8d4f-bf30a6ebff24")
-		)
-		(pin "STATUS" input
-			(at 166.37 101.6 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "2e92e365-c4de-43b6-9e58-32a5489ad2ae")
 		)
 		(pin "PWM_W1_H" input
 			(at 236.22 93.98 0)

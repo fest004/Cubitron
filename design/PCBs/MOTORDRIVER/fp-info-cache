@@ -1,4 +1,4 @@
-24121226638841492
+24103883941143883
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -97496,26 +97496,12 @@ Connector
 7
 7
 kuben-footprints
-59453061110ECHLF
-59453-061110ECHLF-2
-Connector
-0
-8
-8
-kuben-footprints
 1849521
 1-84952-1-1
 Connector
 0
 13
 13
-kuben-footprints
-AYF530465T
-AYF530465T-6
-Connector
-0
-8
-8
 kuben-footprints
 BQ24133RGYR
 BQ24133RGYR-4
@@ -97524,19 +97510,40 @@ Integrated Circuit
 25
 25
 kuben-footprints
-DMPH6050SK313
-DMPH6050SK3-13
+CAPAE1050X1050N
+10x10
+Capacitor Polarised
+0
+2
+2
+kuben-footprints
+IPD047N03LF2SATMA1
+PG‑TO252‑3 
+MOSFET (N-Channel)
+0
+3
+3
+kuben-footprints
+IPD70P04P4L08ATMA2
+IPD70P04P4L08ATMA2-2
 MOSFET (P-Channel)
 0
 3
 3
 kuben-footprints
-IMU
-
-
+QFN40P1050X650X90-77N
+QFN76
+Integrated Circuit
 0
-14
-14
+77
+77
+kuben-footprints
+QFN50P400X400X90-25N-D
+24-pin QFN, 4x4mm Body, 0.5mm Pitch_3
+Integrated Circuit
+0
+25
+25
 kuben-footprints
 QFN50P900X900X100-65N-D
 64 QFN-MF
@@ -97544,20 +97551,6 @@ Integrated Circuit
 0
 65
 65
-kuben-footprints
-QFN76_10P5X6P5_TRI-L
-
-TMC4671-LA 
-0
-77
-77
-kuben-footprints
-SOIC127P600X175-8N
-8 SOIC
-Integrated Circuit
-0
-8
-8
 kuben-footprints
 SON80P400X400X80-9N
 NGT0008A_*2021
@@ -97580,72 +97573,9 @@ Integrated Circuit
 29
 29
 kuben-footprints
-SOT95P237X125-3N
-SI2312-TP-9
-MOSFET (N-Channel)
-0
-3
-3
-kuben-footprints
-SOT95P280X145-6N
-DBV (R-PDSO-G6)
-Integrated Circuit
-0
-6
-6
-kuben-footprints
-SOT96P240X110-3N
-SOT23_2022
-MOSFET (N-Channel)
-0
-3
-3
-kuben-footprints
-SOT96P240X115-3N
-SOT-23wwww
-MOSFET (N-Channel)
-0
-3
-3
-kuben-footprints
-SOT127P600X175-8N
-SOIC (NARROW): 8-LEAD
-Transistor
-0
-8
-8
-kuben-footprints
-SOT223
-
-
-0
-4
-4
-kuben-footprints
-SOT230P700X180-4N
-SOT-223-2020
-Integrated Circuit
-0
-4
-4
-kuben-footprints
-SOT230P700X190-4N
-SOT-223
-Integrated Circuit
-0
-4
-4
-kuben-footprints
-TPS552882RPMR
-TPS552882RPMR-3
-Integrated Circuit
-0
-30
-30
-kuben-footprints
-VN02A1500000G
-VN02A1500000G-4
+USB4110GFA
+USB4110-GF-A-1
 Connector
 0
-2
-2
+20
+20

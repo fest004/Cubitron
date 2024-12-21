@@ -7831,7 +7831,7 @@
 				)
 			)
 		)
-		(property "Value" "470mV 500mA"
+		(property "Value" "470mVf 500mA"
 			(at 18.288 61.722 0)
 			(effects
 				(font
@@ -8436,7 +8436,7 @@
 				)
 			)
 		)
-		(property "Value" "470mV 500mA"
+		(property "Value" "470mVf 500mA"
 			(at 26.162 66.04 0)
 			(effects
 				(font
@@ -10853,7 +10853,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470mV 500mA"
+		(property "Value" "470mVf 500mA"
 			(at 228.6 87.3124 90)
 			(effects
 				(font
@@ -12624,7 +12624,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "385mV 500mA"
+		(property "Value" "385mVf 500mA"
 			(at 212.598 93.98 90)
 			(effects
 				(font
@@ -13163,7 +13163,7 @@
 				)
 			)
 		)
-		(property "Value" "470mV 500mA"
+		(property "Value" "470mVf 500mA"
 			(at 142.748 39.116 0)
 			(effects
 				(font
