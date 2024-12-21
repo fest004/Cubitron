@@ -1,4 +1,0 @@
-(fp_lib_table
-  (version 7)
-  (lib (name "kuben-footprints")(type "KiCad")(uri "/home/brage/kuben/design/PCBs/components/kuben-footprints.pretty")(options "")(descr ""))
-)

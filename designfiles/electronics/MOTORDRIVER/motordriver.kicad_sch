@@ -1792,36 +1792,6 @@
 			)
 			(uuid "00ac150f-aa41-4acb-b6e9-86cce626874c")
 		)
-		(pin "GPIO3" input
-			(at 166.37 26.67 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "663140fd-f411-47d3-97d3-c9bbc25361eb")
-		)
-		(pin "GPIO4" input
-			(at 166.37 29.21 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "618a2d7e-fd84-4552-b156-8aa0c47fbf89")
-		)
-		(pin "TMC_CS" input
-			(at 166.37 44.45 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "3a06b556-a78f-4e5c-9d0d-1aa7059f022e")
-		)
 		(pin "HALL_WY" input
 			(at 210.82 25.4 90)
 			(effects
@@ -1852,26 +1822,6 @@
 			)
 			(uuid "2ab22c68-c98e-46a1-9abe-e1943a1c4dc9")
 		)
-		(pin "TMC_RX" input
-			(at 166.37 53.34 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "2b2b9308-3405-47af-b48c-8529043ff9c6")
-		)
-		(pin "TMC_TX" input
-			(at 166.37 50.8 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "46b65ce3-7744-4c41-9e4c-8d4522f0052f")
-		)
 		(pin "BRAKE" input
 			(at 236.22 52.07 0)
 			(effects
@@ -1881,6 +1831,166 @@
 				(justify right)
 			)
 			(uuid "2cf21a64-5d9f-4d91-98d8-46fda6964c4c")
+		)
+		(pin "PWM_I" input
+			(at 181.61 25.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b5286910-3bf1-4d6d-8768-c0bc250fb73d")
+		)
+		(pin "GPIO1" input
+			(at 184.15 25.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a97448b6-2724-4a67-8bb7-970c70b81e2e")
+		)
+		(pin "GPIO0" input
+			(at 186.69 25.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "278fccad-7e11-4656-b983-d85fe80e2862")
+		)
+		(pin "GPIO2" input
+			(at 189.23 25.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7103193f-c790-462c-ad70-0b31c16892ba")
+		)
+		(pin "HALL_U" input
+			(at 193.04 25.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "fcd72e61-94c3-47d4-90c0-08cc4ec487cb")
+		)
+		(pin "HALL_W" input
+			(at 195.58 25.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e0c26922-3c07-43a8-8a95-7fd15d566b2b")
+		)
+		(pin "PWM_W_L" input
+			(at 198.12 25.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8391ac31-a4f9-4ed0-b258-0e6db4324673")
+		)
+		(pin "PWM_W_H" input
+			(at 195.58 58.42 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "245b1d3b-6c21-45e1-bf74-4935e56805b5")
+		)
+		(pin "PWM_U_L" input
+			(at 198.12 58.42 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d5465001-f551-4d8b-a908-5a3962e29291")
+		)
+		(pin "PWM_V_H" input
+			(at 200.66 58.42 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9295498e-a92c-417a-b2a7-89099af3ac30")
+		)
+		(pin "PWM_V_L" input
+			(at 203.2 58.42 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "057d6bd1-e860-446e-a322-a0ba088bdd9f")
+		)
+		(pin "PWM_U_H" input
+			(at 205.74 58.42 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c4121d17-1fca-40f3-8065-46817e742cb9")
+		)
+		(pin "UART_TX" input
+			(at 209.55 58.42 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "63d6e36e-a5e5-4dec-9a3d-36df77bba0e8")
+		)
+		(pin "STATUS" input
+			(at 212.09 58.42 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "85a1a4ff-17d6-4761-ab60-eec3b8081902")
+		)
+		(pin "UART_RX" input
+			(at 214.63 58.42 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1ea56bbd-1dd8-415c-b895-026bf084d358")
+		)
+		(pin "SPI_CS" input
+			(at 217.17 58.42 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "75eea456-84d2-4397-9e4a-a037abeec666")
 		)
 		(instances
 			(project "motordriver"

@@ -1,21 +1,40 @@
-#include <avr/io.h>
-#include <util/delay.h>
+#include "definitions.h"
 
-#define LED_PIN PB5  // Pin 13 corresponds to PB5 on the ATmega328P
 
-int main(void)
+enum states
 {
-    // Set PB5 (Pin 13) as output
-    DDRB |= (1 << LED_PIN);
+	INIT,
+	IDLE,
+	FLIP,
+	BALANCE,
+	ERROR
+};
 
-    while (1)
-    {
-        // Set PB5 high to turn on the LED
-        PORTB |= (1 << LED_PIN);
-        _delay_ms(1000.0);
-        PORTB &= ~(1 << LED_PIN);
-        _delay_ms(1000.0);
-    }
 
-    return 0;
+int state_machine()
+{
+	enum states state = INIT;
+
+	switch (state) 
+	{
+		case INIT:
+			init_motor();
+			init_imus()
+			init_display();
+			break;
+
+		case IDLE:
+			break;
+
+		case FLIP:
+			break;
+
+		case BALANCE:
+			break;
+
+		case ERROR:
+			break;
+	}
+
+	return KUBE_ERROR;
 }
