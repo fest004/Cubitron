@@ -5112,7 +5112,7 @@
 		(dnp no)
 		(uuid "282a98e0-8a6a-4c7f-a437-d4d62452cfa6")
 		(property "Reference" "C75"
-			(at 180.34 51.816 0)
+			(at 179.832 51.816 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5121,7 +5121,7 @@
 			)
 		)
 		(property "Value" "4.7µF"
-			(at 180.34 54.102 0)
+			(at 179.832 54.102 0)
 			(effects
 				(font
 					(size 1.27 1.27)

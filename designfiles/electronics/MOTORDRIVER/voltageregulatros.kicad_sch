@@ -3978,6 +3978,12 @@
 		(uuid "25acf73b-dcb4-4791-b1f9-8dacf88fcb0d")
 	)
 	(junction
+		(at 219.71 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2d0adb3b-fe6d-43f4-ac1e-c2f4fb9fff4b")
+	)
+	(junction
 		(at 165.1 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4036,12 +4042,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "42034546-bb68-4952-b97e-2a912456ba22")
-	)
-	(junction
-		(at 22.86 69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "46634788-ac6e-49f9-8224-25e7cb875dfb")
 	)
 	(junction
 		(at 187.96 100.33)
@@ -4254,10 +4254,10 @@
 		(uuid "f899f31d-216c-4cb9-890f-6aa8378c8681")
 	)
 	(junction
-		(at 219.71 90.17)
+		(at 22.86 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "fc075fc1-5790-4725-bce0-d541ffb67a4d")
+		(uuid "f9e33116-83e8-46fd-8c5f-4d6ecf606999")
 	)
 	(junction
 		(at 124.46 63.5)
@@ -4350,16 +4350,6 @@
 			(type default)
 		)
 		(uuid "05bd60de-a18c-4776-a9d9-7a68109c30a6")
-	)
-	(wire
-		(pts
-			(xy 219.71 90.17) (xy 222.25 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "07fc3a3a-23e0-47bc-8566-ad36a655b122")
 	)
 	(wire
 		(pts
@@ -5440,6 +5430,16 @@
 			(type default)
 		)
 		(uuid "80ec1f90-59e3-4ae0-bd67-f8e028f80784")
+	)
+	(wire
+		(pts
+			(xy 219.71 90.17) (xy 222.25 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8271c2af-37c8-4e83-b8f0-3a11412e6f6b")
 	)
 	(wire
 		(pts
@@ -7748,6 +7748,244 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 143.51 43.18 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "28cf7781-cec7-4205-9855-b77eb0410271")
+		(property "Reference" "D8"
+			(at 145.0976 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7Vf 0.5A"
+			(at 147.574 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "kuben-footprints:DIOC1709X85N"
+			(at 143.51 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 143.51 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky diode"
+			(at 143.51 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.85"
+			(at 130.81 -350.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "750-CDBU0520"
+			(at 130.81 -450.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Comchip-Technology/CDBU0520?qs=QrYNfmA0esYvGSGDalbccA%3D%3D"
+			(at 130.81 -550.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Comchip Technology"
+			(at 130.81 -650.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CDBU0520"
+			(at 130.81 -750.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bf2d099b-8f59-452f-bf9a-4e86cf67e82c")
+		)
+		(pin "2"
+			(uuid "ae41a8d5-286e-4e89-97c4-2067c035ec23")
+		)
+		(instances
+			(project "motordriver"
+				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/40fe2217-7020-4fd5-b361-1423767f0697"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 219.71 86.36 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2e1de975-3c6d-44f8-b00b-345929dd470b")
+		(property "Reference" "D10"
+			(at 222.25 84.7724 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7Vf 0.5A"
+			(at 210.82 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "kuben-footprints:DIOC1709X85N"
+			(at 219.71 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 219.71 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky diode"
+			(at 219.71 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.85"
+			(at -173.94 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "750-CDBU0520"
+			(at -273.94 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Comchip-Technology/CDBU0520?qs=QrYNfmA0esYvGSGDalbccA%3D%3D"
+			(at -373.94 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Comchip Technology"
+			(at -473.94 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CDBU0520"
+			(at -573.94 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bd221b42-be6c-4290-95e8-2cf8a0641cc9")
+		)
+		(pin "2"
+			(uuid "0173a337-5447-4ced-8d3a-ae8167eca6ac")
+		)
+		(instances
+			(project "motordriver"
+				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/40fe2217-7020-4fd5-b361-1423767f0697"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 81.28 110.49 270)
 		(unit 1)
@@ -7809,73 +8047,6 @@
 			(project "motordriver"
 				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/40fe2217-7020-4fd5-b361-1423767f0697"
 					(reference "R25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Schottky")
-		(at 15.24 66.04 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3161d0c2-d19d-4239-ad18-583f59c25094")
-		(property "Reference" "D5"
-			(at 13.716 63.5 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "470mVf 500mA"
-			(at 18.288 61.722 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
-			(at 15.24 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 15.24 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Schottky diode"
-			(at 15.24 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "38c785c3-c3c7-483d-96a2-479855d32cfd")
-		)
-		(pin "2"
-			(uuid "9c7b4357-33df-44d0-9632-178d134ae67e")
-		)
-		(instances
-			(project "motordriver"
-				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/40fe2217-7020-4fd5-b361-1423767f0697"
-					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -8414,73 +8585,6 @@
 			(project "motordriver"
 				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/40fe2217-7020-4fd5-b361-1423767f0697"
 					(reference "C31")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Schottky")
-		(at 22.86 66.04 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3bf2b632-9d76-4912-92ed-4183a670f6ac")
-		(property "Reference" "D6"
-			(at 21.59 63.754 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "470mVf 500mA"
-			(at 26.162 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
-			(at 22.86 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 22.86 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Schottky diode"
-			(at 22.86 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "498495d0-816c-4f36-8f98-de765bc645ef")
-		)
-		(pin "2"
-			(uuid "2f1c18ef-a90a-4fd8-95f2-6642f4d9c45d")
-		)
-		(instances
-			(project "motordriver"
-				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/40fe2217-7020-4fd5-b361-1423767f0697"
-					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -9883,6 +9987,125 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 226.06 86.36 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6a589157-f9f9-4ba0-b339-3ccc22edb52d")
+		(property "Reference" "D11"
+			(at 228.6 84.7724 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7Vf 0.5A"
+			(at 224.536 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "kuben-footprints:DIOC1709X85N"
+			(at 226.06 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 226.06 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky diode"
+			(at 226.06 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.85"
+			(at -167.59 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "750-CDBU0520"
+			(at -267.59 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Comchip-Technology/CDBU0520?qs=QrYNfmA0esYvGSGDalbccA%3D%3D"
+			(at -367.59 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Comchip Technology"
+			(at -467.59 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CDBU0520"
+			(at -567.59 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8081508c-e11e-4a60-a8e4-0784ce8b3b95")
+		)
+		(pin "2"
+			(uuid "a9877b6d-e787-4c40-bb9c-dc9997b254b3")
+		)
+		(instances
+			(project "motordriver"
+				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/40fe2217-7020-4fd5-b361-1423767f0697"
+					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "IPD047N03LF2SATMA1:IPD047N03LF2SATMA1")
 		(at 266.7 60.96 0)
 		(mirror y)
@@ -10829,76 +11052,6 @@
 			(project "motordriver"
 				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/40fe2217-7020-4fd5-b361-1423767f0697"
 					(reference "R42")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Schottky")
-		(at 226.06 86.36 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "84afba2e-6aaa-42eb-a4cc-f81f9b07fe0a")
-		(property "Reference" "D11"
-			(at 228.6 84.7724 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "470mVf 500mA"
-			(at 228.6 87.3124 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
-			(at 226.06 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 226.06 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Schottky diode"
-			(at 226.06 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "229d3ac8-1697-40ad-a920-e806ea790161")
-		)
-		(pin "1"
-			(uuid "9e611349-06bc-468a-9ece-dbb4d0f7cbee")
-		)
-		(instances
-			(project ""
-				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/40fe2217-7020-4fd5-b361-1423767f0697"
-					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -12607,75 +12760,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Schottky")
-		(at 219.71 86.36 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bc157ec2-0f7d-46a9-bb07-8fafaafcbb59")
-		(property "Reference" "D10"
-			(at 217.424 91.948 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "385mVf 500mA"
-			(at 212.598 93.98 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
-			(at 219.71 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 219.71 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Schottky diode"
-			(at 219.71 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "914c4ae0-0af8-4db7-83bc-92e684669743")
-		)
-		(pin "1"
-			(uuid "f61c9ccd-5916-42a7-b49e-8c102dd72f1b")
-		)
-		(instances
-			(project "motordriver"
-				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/40fe2217-7020-4fd5-b361-1423767f0697"
-					(reference "D10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "IPD047N03LF2SATMA1:IPD047N03LF2SATMA1")
 		(at 233.68 60.96 0)
 		(unit 1)
@@ -13009,6 +13093,125 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 22.86 66.04 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c1f1bb23-c532-4460-9bcd-73f407038ef8")
+		(property "Reference" "D6"
+			(at 20.32 67.6276 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7Vf 0.5A"
+			(at 25.4 70.104 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "kuben-footprints:DIOC1709X85N"
+			(at 22.86 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 22.86 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky diode"
+			(at 22.86 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.85"
+			(at 416.51 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "750-CDBU0520"
+			(at 516.51 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Comchip-Technology/CDBU0520?qs=QrYNfmA0esYvGSGDalbccA%3D%3D"
+			(at 616.51 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Comchip Technology"
+			(at 716.51 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CDBU0520"
+			(at 816.51 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e4bc8437-d474-4167-b57b-bc6c49588ccc")
+		)
+		(pin "2"
+			(uuid "b043f045-e048-433f-817f-6932df8372ba")
+		)
+		(instances
+			(project "motordriver"
+				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/40fe2217-7020-4fd5-b361-1423767f0697"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 90.17 168.91 0)
 		(unit 1)
@@ -13141,73 +13344,6 @@
 			(project ""
 				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/40fe2217-7020-4fd5-b361-1423767f0697"
 					(reference "C15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Schottky")
-		(at 143.51 43.18 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c7c549cb-9945-4214-9913-aebb1142b17d")
-		(property "Reference" "D8"
-			(at 143.256 45.974 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "470mVf 500mA"
-			(at 142.748 39.116 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
-			(at 143.51 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 143.51 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Schottky diode"
-			(at 143.51 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "73bc12ca-dc82-4727-bc14-083c77b165de")
-		)
-		(pin "2"
-			(uuid "a7930960-5355-4f54-b88f-6be47bffcc91")
-		)
-		(instances
-			(project ""
-				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/40fe2217-7020-4fd5-b361-1423767f0697"
-					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -13890,6 +14026,125 @@
 			(project "motordriver"
 				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/40fe2217-7020-4fd5-b361-1423767f0697"
 					(reference "C26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 15.24 66.04 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d6f02245-ebbf-4919-8495-0fb1b5adff0c")
+		(property "Reference" "D5"
+			(at 12.7 67.6276 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7Vf 0.5A"
+			(at 17.78 68.326 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "kuben-footprints:DIOC1709X85N"
+			(at 15.24 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 15.24 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky diode"
+			(at 15.24 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.85"
+			(at 408.89 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "750-CDBU0520"
+			(at 508.89 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Comchip-Technology/CDBU0520?qs=QrYNfmA0esYvGSGDalbccA%3D%3D"
+			(at 608.89 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Comchip Technology"
+			(at 708.89 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CDBU0520"
+			(at 808.89 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a34980a8-264f-4ee5-b5d3-ae823a011dfe")
+		)
+		(pin "2"
+			(uuid "199b2d60-fa16-4c7f-a253-0cecf12765ea")
+		)
+		(instances
+			(project "motordriver"
+				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/40fe2217-7020-4fd5-b361-1423767f0697"
+					(reference "D5")
 					(unit 1)
 				)
 			)
