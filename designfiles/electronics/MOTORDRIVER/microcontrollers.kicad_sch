@@ -4294,7 +4294,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "08ed0867-ca2f-4d27-bca3-5b99caa1e634")
-		(property "Reference" "R60"
+		(property "Reference" "R61"
 			(at 71.12 118.1099 0)
 			(effects
 				(font
@@ -4348,7 +4348,7 @@
 		(instances
 			(project "motordriver"
 				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/9ebbb593-eaf1-4a56-ba2a-164e20b1d55e"
-					(reference "R60")
+					(reference "R61")
 					(unit 1)
 				)
 			)
@@ -5525,7 +5525,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "51fcc843-60d2-4fc8-8581-b8edc3a62721")
-		(property "Reference" "R59"
+		(property "Reference" "R60"
 			(at 57.15 118.1099 0)
 			(effects
 				(font
@@ -5579,7 +5579,7 @@
 		(instances
 			(project "motordriver"
 				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/9ebbb593-eaf1-4a56-ba2a-164e20b1d55e"
-					(reference "R59")
+					(reference "R60")
 					(unit 1)
 				)
 			)
@@ -5595,7 +5595,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6c4fbcba-5af4-4ec8-9821-f3f6109e8608")
-		(property "Reference" "R61"
+		(property "Reference" "R62"
 			(at 86.36 118.1099 0)
 			(effects
 				(font
@@ -5649,7 +5649,7 @@
 		(instances
 			(project "motordriver"
 				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/9ebbb593-eaf1-4a56-ba2a-164e20b1d55e"
-					(reference "R61")
+					(reference "R62")
 					(unit 1)
 				)
 			)
@@ -6325,7 +6325,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "acc49505-c6d3-4708-801f-3a346329b94d")
-		(property "Reference" "R57"
+		(property "Reference" "R58"
 			(at 29.21 118.1099 0)
 			(effects
 				(font
@@ -6379,7 +6379,7 @@
 		(instances
 			(project "motordriver"
 				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/9ebbb593-eaf1-4a56-ba2a-164e20b1d55e"
-					(reference "R57")
+					(reference "R58")
 					(unit 1)
 				)
 			)
@@ -6395,7 +6395,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b72d5f74-52dc-466b-9bbd-6b7b84a0468c")
-		(property "Reference" "R58"
+		(property "Reference" "R59"
 			(at 43.18 118.1099 0)
 			(effects
 				(font
@@ -6449,7 +6449,7 @@
 		(instances
 			(project "motordriver"
 				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/9ebbb593-eaf1-4a56-ba2a-164e20b1d55e"
-					(reference "R58")
+					(reference "R59")
 					(unit 1)
 				)
 			)
@@ -7138,7 +7138,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c8b7320e-cac8-4079-99ae-e662f1d59112")
-		(property "Reference" "R62"
+		(property "Reference" "R63"
 			(at 270.51 83.8199 0)
 			(effects
 				(font
@@ -7192,7 +7192,7 @@
 		(instances
 			(project "motordriver"
 				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/9ebbb593-eaf1-4a56-ba2a-164e20b1d55e"
-					(reference "R62")
+					(reference "R63")
 					(unit 1)
 				)
 			)

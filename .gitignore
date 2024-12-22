@@ -1,5 +1,6 @@
 *.zip
 *.FCBak
+*.kicad_sch-bak
 *.gltf
 *.bin
 *.lck

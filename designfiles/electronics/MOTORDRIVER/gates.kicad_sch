@@ -1674,6 +1674,158 @@
 				)
 			)
 		)
+		(symbol "RCL122510R0FKEG:RCL122510R0FKEG"
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 13.97 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "RCL122510R0FKEG"
+				(at 13.97 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "RESC3263X80N"
+				(at 13.97 -96.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.vishay.com/docs/20046/rcle3.pdf"
+				(at 13.97 -196.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Thick Film Resistors - SMD 2watt 10ohm 1% 100ppm 1225"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.8"
+				(at 13.97 -396.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "71-RCL122510R0FKEG"
+				(at 13.97 -496.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Draloric/RCL122510R0FKEG?qs=QwB9ozptyc3uL4Q2bD20CQ%3D%3D"
+				(at 13.97 -596.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Vishay"
+				(at 13.97 -696.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "RCL122510R0FKEG"
+				(at 13.97 -796.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "RCL122510R0FKEG_1_1"
+				(rectangle
+					(start 5.08 1.27)
+					(end 12.7 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:+12V"
 			(power)
 			(pin_numbers hide)
@@ -2138,6 +2290,12 @@
 		(uuid "0449dbbb-4475-4e01-a562-9243a905c463")
 	)
 	(junction
+		(at 167.64 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "09607f7a-a802-426b-aa63-4ca4afa77dcf")
+	)
+	(junction
 		(at 133.35 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2168,12 +2326,6 @@
 		(uuid "5d56e66f-7c46-41bd-b9dd-48073b2bb70d")
 	)
 	(junction
-		(at 148.59 153.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5e03bbac-67e7-4652-b723-1174c19e31ed")
-	)
-	(junction
 		(at 97.79 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2202,6 +2354,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "716ce2f0-2886-4c19-856a-5440196870b9")
+	)
+	(junction
+		(at 146.05 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "80ebb0fa-ffac-4825-a6f9-bf5f3760b130")
 	)
 	(junction
 		(at 45.72 123.19)
@@ -2238,6 +2396,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bafb45a4-6130-4e30-9d58-460aea301d7a")
+	)
+	(junction
+		(at 149.86 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ca0be8b7-9568-4fe3-8b92-4161e0370957")
 	)
 	(junction
 		(at 172.72 78.74)
@@ -2278,16 +2442,6 @@
 	(no_connect
 		(at 119.38 168.91)
 		(uuid "891ffa8f-8248-45e7-99f5-bede0584b0ca")
-	)
-	(wire
-		(pts
-			(xy 156.21 163.83) (xy 156.21 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "01a30be2-f950-4819-84db-3859576a1de2")
 	)
 	(wire
 		(pts
@@ -2451,23 +2605,13 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 140.97) (xy 34.29 135.89)
+			(xy 34.29 137.16) (xy 34.29 140.97)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "22e59b70-7c68-426b-b786-f40553f25204")
-	)
-	(wire
-		(pts
-			(xy 148.59 153.67) (xy 156.21 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "243e81ce-ec5e-4891-b70f-ea18fce354a1")
+		(uuid "1f3a0fc8-69b0-4fa5-958f-f2455541de61")
 	)
 	(wire
 		(pts
@@ -2658,6 +2802,16 @@
 			(type default)
 		)
 		(uuid "53afcb46-e8fd-4c9a-a192-377218c4a865")
+	)
+	(wire
+		(pts
+			(xy 149.86 153.67) (xy 149.86 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "550507f2-a152-4741-bfe1-c0ff44022550")
 	)
 	(wire
 		(pts
@@ -2931,6 +3085,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 163.83) (xy 167.64 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9601c4ff-fc6b-4309-a7c0-fd3f8b0e3713")
+	)
+	(wire
+		(pts
 			(xy 90.17 125.73) (xy 81.28 125.73)
 		)
 		(stroke
@@ -2998,6 +3162,16 @@
 			(type default)
 		)
 		(uuid "a30ae241-c955-466b-9820-e84f86b2be50")
+	)
+	(wire
+		(pts
+			(xy 146.05 153.67) (xy 146.05 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a65b1578-b784-4c82-a231-9eac4551eb78")
 	)
 	(wire
 		(pts
@@ -3121,16 +3295,6 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 153.67) (xy 156.21 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb5b693c-75d7-4f8f-9f36-1cd5a32e62fd")
-	)
-	(wire
-		(pts
 			(xy 41.91 38.1) (xy 41.91 95.25)
 		)
 		(stroke
@@ -3191,7 +3355,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 163.83) (xy 156.21 163.83)
+			(xy 148.59 163.83) (xy 167.64 163.83)
 		)
 		(stroke
 			(width 0)
@@ -3231,16 +3395,6 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 123.19) (xy 34.29 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d05a2634-e628-49ab-b4aa-ed5e9e8d17fe")
-	)
-	(wire
-		(pts
 			(xy 148.59 179.07) (xy 148.59 185.42)
 		)
 		(stroke
@@ -3268,6 +3422,16 @@
 			(type default)
 		)
 		(uuid "d1ed549f-a8b7-41a1-bee5-537d03ef7acc")
+	)
+	(wire
+		(pts
+			(xy 34.29 123.19) (xy 34.29 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d30609c9-18bc-4ea8-a432-0d44ea07da7c")
 	)
 	(wire
 		(pts
@@ -3311,6 +3475,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 153.67) (xy 167.64 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5c68602-02b7-4a3c-a604-4c4e16626b3b")
+	)
+	(wire
+		(pts
 			(xy 119.38 173.99) (xy 127 173.99)
 		)
 		(stroke
@@ -3338,6 +3512,16 @@
 			(type default)
 		)
 		(uuid "de22ffde-dc34-43b5-b792-8a0d0448401c")
+	)
+	(wire
+		(pts
+			(xy 146.05 153.67) (xy 143.51 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfc2ab9d-f55b-43a0-a40a-c3afc418eb35")
 	)
 	(wire
 		(pts
@@ -3401,7 +3585,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 153.67) (xy 143.51 153.67)
+			(xy 146.05 153.67) (xy 149.86 153.67)
 		)
 		(stroke
 			(width 0)
@@ -3479,9 +3663,9 @@
 		)
 		(uuid "0f9e1c2b-2d46-4074-8cd0-63d4f91b7cfe")
 	)
-	(text "Brake resistor, must\nhandle large power disipation"
+	(text "Brake resistor,\nmust handle large \npower disipation"
 		(exclude_from_sim no)
-		(at 173.99 159.004 0)
+		(at 179.832 154.94 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3499,9 +3683,9 @@
 		)
 		(uuid "6c38d2e4-35a8-4eb0-812e-5d89eeda986d")
 	)
-	(text "Regen brake circuit to protect\nagainst voltage spikes"
+	(text "Brake chopper circuit to protect\nagainst voltage spikes"
 		(exclude_from_sim no)
-		(at 112.522 191.516 0)
+		(at 115.062 190.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3811,7 +3995,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0e0112ae-5383-4a69-af5b-3d804d6e0122")
-		(property "Reference" "R103"
+		(property "Reference" "R105"
 			(at 37.084 99.822 90)
 			(effects
 				(font
@@ -3863,7 +4047,7 @@
 		(instances
 			(project "motordriver"
 				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/4adc8e75-6797-461c-8ad6-e6b779b2e551"
-					(reference "R103")
+					(reference "R105")
 					(unit 1)
 				)
 				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/b5eb0271-9027-4941-b236-8f001fce8a08"
@@ -3871,7 +4055,7 @@
 					(unit 1)
 				)
 				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/d2c99155-6dc4-4cef-b7d8-f7ba5e4118d0"
-					(reference "R77")
+					(reference "R78")
 					(unit 1)
 				)
 			)
@@ -4020,6 +4204,133 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 34.29 133.35 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1ee6d95d-7301-49e4-ab79-1b187cf59c52")
+		(property "Reference" "D1"
+			(at 28.194 131.826 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4A 40V"
+			(at 25.654 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "kuben-footprints:DIOM7959X262N"
+			(at 34.29 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 34.29 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky diode"
+			(at 34.29 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "2.62"
+			(at -359.36 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "78-SL44HE3_B/I"
+			(at -459.36 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=78-SL44HE3_B%2FI"
+			(at -559.36 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay"
+			(at -659.36 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SL44HE3_B/I"
+			(at -759.36 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d240f670-5349-4d1d-ac6f-6ea872122480")
+		)
+		(pin "2"
+			(uuid "e7ca72d9-c490-4523-8a6d-a3a12fc14e3e")
+		)
+		(instances
+			(project ""
+				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/4adc8e75-6797-461c-8ad6-e6b779b2e551"
+					(reference "D78")
+					(unit 1)
+				)
+				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/b5eb0271-9027-4941-b236-8f001fce8a08"
+					(reference "D1")
+					(unit 1)
+				)
+				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/d2c99155-6dc4-4cef-b7d8-f7ba5e4118d0"
+					(reference "D55")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+12V")
 		(at 228.6 116.84 0)
 		(unit 1)
@@ -4102,7 +4413,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "236d9fdf-b974-4928-ba86-b91d023cf7e0")
-		(property "Reference" "R102"
+		(property "Reference" "R104"
 			(at 29.21 143.764 0)
 			(effects
 				(font
@@ -4156,7 +4467,7 @@
 		(instances
 			(project "motordriver"
 				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/4adc8e75-6797-461c-8ad6-e6b779b2e551"
-					(reference "R102")
+					(reference "R104")
 					(unit 1)
 				)
 				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/b5eb0271-9027-4941-b236-8f001fce8a08"
@@ -4164,7 +4475,7 @@
 					(unit 1)
 				)
 				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/d2c99155-6dc4-4cef-b7d8-f7ba5e4118d0"
-					(reference "R76")
+					(reference "R77")
 					(unit 1)
 				)
 			)
@@ -4253,7 +4564,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2658f115-7fdd-4fb7-bd97-be8105066357")
-		(property "Reference" "R106"
+		(property "Reference" "R108"
 			(at 81.534 78.232 90)
 			(effects
 				(font
@@ -4305,7 +4616,7 @@
 		(instances
 			(project "motordriver"
 				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/4adc8e75-6797-461c-8ad6-e6b779b2e551"
-					(reference "R106")
+					(reference "R108")
 					(unit 1)
 				)
 				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/b5eb0271-9027-4941-b236-8f001fce8a08"
@@ -4313,7 +4624,134 @@
 					(unit 1)
 				)
 				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/d2c99155-6dc4-4cef-b7d8-f7ba5e4118d0"
-					(reference "R80")
+					(reference "R81")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 78.74 101.6 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "272b3e43-55d2-4b2e-b714-57cd2a63bc6b")
+		(property "Reference" "D2"
+			(at 72.644 100.076 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4A 40V"
+			(at 70.104 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "kuben-footprints:DIOM7959X262N"
+			(at 78.74 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 78.74 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky diode"
+			(at 78.74 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "2.62"
+			(at -314.91 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "78-SL44HE3_B/I"
+			(at -414.91 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=78-SL44HE3_B%2FI"
+			(at -514.91 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay"
+			(at -614.91 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SL44HE3_B/I"
+			(at -714.91 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7b7805f6-c7cf-4631-9276-707be33335aa")
+		)
+		(pin "2"
+			(uuid "a342a7d1-2f04-4f41-99fe-b1fdcd4ee3a3")
+		)
+		(instances
+			(project "motordriver"
+				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/4adc8e75-6797-461c-8ad6-e6b779b2e551"
+					(reference "D79")
+					(unit 1)
+				)
+				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/b5eb0271-9027-4941-b236-8f001fce8a08"
+					(reference "D2")
+					(unit 1)
+				)
+				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/d2c99155-6dc4-4cef-b7d8-f7ba5e4118d0"
+					(reference "D56")
 					(unit 1)
 				)
 			)
@@ -4618,7 +5056,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "34447f46-afd9-4f76-9567-905bca3827a7")
-		(property "Reference" "R114"
+		(property "Reference" "R117"
 			(at 263.144 91.44 90)
 			(effects
 				(font
@@ -4676,15 +5114,15 @@
 		(instances
 			(project "motordriver"
 				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/4adc8e75-6797-461c-8ad6-e6b779b2e551"
-					(reference "R114")
+					(reference "R117")
 					(unit 1)
 				)
 				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/b5eb0271-9027-4941-b236-8f001fce8a08"
-					(reference "R13")
+					(reference "R14")
 					(unit 1)
 				)
 				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/d2c99155-6dc4-4cef-b7d8-f7ba5e4118d0"
-					(reference "R88")
+					(reference "R90")
 					(unit 1)
 				)
 			)
@@ -5215,156 +5653,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 156.21 158.75 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4c5b3840-5704-4d8d-be27-01cfe8e0cdae")
-		(property "Reference" "R112"
-			(at 160.782 156.718 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4.7Ω 80W"
-			(at 161.544 154.432 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 154.432 158.75 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 156.21 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 156.21 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4e3224b3-002b-459d-addd-ae282b3e8a7b")
-		)
-		(pin "1"
-			(uuid "f2a5a3d7-82a2-4a55-9c21-1911c650e5ea")
-		)
-		(instances
-			(project "motordriver"
-				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/4adc8e75-6797-461c-8ad6-e6b779b2e551"
-					(reference "R112")
-					(unit 1)
-				)
-				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/b5eb0271-9027-4941-b236-8f001fce8a08"
-					(reference "R11")
-					(unit 1)
-				)
-				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/d2c99155-6dc4-4cef-b7d8-f7ba5e4118d0"
-					(reference "R86")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Schottky")
-		(at 143.51 158.75 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "510d954e-3758-4907-ba01-191d6b1bc0ea")
-		(property "Reference" "D81"
-			(at 146.304 159.004 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "35Vr 5A"
-			(at 139.954 158.496 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
-			(at 143.51 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 143.51 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Schottky diode"
-			(at 143.51 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dac63fa6-4567-413c-9ac0-6b54487c2c65")
-		)
-		(pin "2"
-			(uuid "7b466c71-3836-4305-a699-eaf361d0e748")
-		)
-		(instances
-			(project "motordriver"
-				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/4adc8e75-6797-461c-8ad6-e6b779b2e551"
-					(reference "D81")
-					(unit 1)
-				)
-				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/b5eb0271-9027-4941-b236-8f001fce8a08"
-					(reference "D4")
-					(unit 1)
-				)
-				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/d2c99155-6dc4-4cef-b7d8-f7ba5e4118d0"
-					(reference "D58")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 148.59 185.42 0)
 		(unit 1)
@@ -5447,7 +5735,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5505c7b3-8a20-4183-93e2-ec9ed3dde2b0")
-		(property "Reference" "R113"
+		(property "Reference" "R116"
 			(at 223.266 81.28 90)
 			(effects
 				(font
@@ -5505,11 +5793,138 @@
 		(instances
 			(project "motordriver"
 				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/4adc8e75-6797-461c-8ad6-e6b779b2e551"
-					(reference "R113")
+					(reference "R116")
 					(unit 1)
 				)
 				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/b5eb0271-9027-4941-b236-8f001fce8a08"
-					(reference "R12")
+					(reference "R13")
+					(unit 1)
+				)
+				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/d2c99155-6dc4-4cef-b7d8-f7ba5e4118d0"
+					(reference "R89")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "RCL122510R0FKEG:RCL122510R0FKEG")
+		(at 149.86 153.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5718470e-554e-4e18-860c-67551d412176")
+		(property "Reference" "R11"
+			(at 158.75 148.082 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10Ω 2W"
+			(at 165.354 147.828 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "kuben-footprints:RESC3263X80N"
+			(at 163.83 249.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/20046/rcle3.pdf"
+			(at 163.83 349.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Thick Film Resistors - SMD 2watt 10ohm 1% 100ppm 1225"
+			(at 149.86 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.8"
+			(at 163.83 549.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "71-RCL122510R0FKEG"
+			(at 163.83 649.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Draloric/RCL122510R0FKEG?qs=QwB9ozptyc3uL4Q2bD20CQ%3D%3D"
+			(at 163.83 749.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay"
+			(at 163.83 849.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RCL122510R0FKEG"
+			(at 163.83 949.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "de07a656-bdb7-4379-b428-f126a65653e1")
+		)
+		(pin "2"
+			(uuid "446fb3b7-73da-4287-9f9e-e6be6e97330f")
+		)
+		(instances
+			(project ""
+				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/4adc8e75-6797-461c-8ad6-e6b779b2e551"
+					(reference "R114")
+					(unit 1)
+				)
+				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/b5eb0271-9027-4941-b236-8f001fce8a08"
+					(reference "R11")
 					(unit 1)
 				)
 				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/d2c99155-6dc4-4cef-b7d8-f7ba5e4118d0"
@@ -5732,7 +6147,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5d4982bb-15c8-4102-b362-b15762dd0c24")
-		(property "Reference" "R110"
+		(property "Reference" "R112"
 			(at 130.81 169.672 90)
 			(effects
 				(font
@@ -5784,7 +6199,7 @@
 		(instances
 			(project "motordriver"
 				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/4adc8e75-6797-461c-8ad6-e6b779b2e551"
-					(reference "R110")
+					(reference "R112")
 					(unit 1)
 				)
 				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/b5eb0271-9027-4941-b236-8f001fce8a08"
@@ -5792,7 +6207,7 @@
 					(unit 1)
 				)
 				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/d2c99155-6dc4-4cef-b7d8-f7ba5e4118d0"
-					(reference "R84")
+					(reference "R85")
 					(unit 1)
 				)
 			)
@@ -5807,7 +6222,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6050e7da-b9dd-4490-8dd3-0376ea82218f")
-		(property "Reference" "R108"
+		(property "Reference" "R110"
 			(at 118.872 88.646 0)
 			(effects
 				(font
@@ -5859,7 +6274,7 @@
 		(instances
 			(project "motordriver"
 				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/4adc8e75-6797-461c-8ad6-e6b779b2e551"
-					(reference "R108")
+					(reference "R110")
 					(unit 1)
 				)
 				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/b5eb0271-9027-4941-b236-8f001fce8a08"
@@ -5867,7 +6282,7 @@
 					(unit 1)
 				)
 				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/d2c99155-6dc4-4cef-b7d8-f7ba5e4118d0"
-					(reference "R82")
+					(reference "R83")
 					(unit 1)
 				)
 			)
@@ -6760,81 +7175,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Schottky")
-		(at 78.74 101.6 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8adfda57-dfe6-4aa5-9e03-852ad89be6a2")
-		(property "Reference" "D79"
-			(at 81.534 101.854 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "20Vr 5A"
-			(at 75.184 101.346 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
-			(at 78.74 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 78.74 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Schottky diode"
-			(at 78.74 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "70c95a55-c045-49c2-a4e6-9ddafcbbee38")
-		)
-		(pin "2"
-			(uuid "108e151e-76dc-4ce9-afaf-59ef6eaa60ec")
-		)
-		(instances
-			(project "motordriver"
-				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/4adc8e75-6797-461c-8ad6-e6b779b2e551"
-					(reference "D79")
-					(unit 1)
-				)
-				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/b5eb0271-9027-4941-b236-8f001fce8a08"
-					(reference "D2")
-					(unit 1)
-				)
-				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/d2c99155-6dc4-4cef-b7d8-f7ba5e4118d0"
-					(reference "D56")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+12V")
 		(at 93.98 165.1 0)
 		(unit 1)
@@ -7136,7 +7476,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "985d0de5-467e-4530-bb15-81ed1e2e71d2")
-		(property "Reference" "R109"
+		(property "Reference" "R111"
 			(at 124.714 62.992 90)
 			(effects
 				(font
@@ -7188,7 +7528,7 @@
 		(instances
 			(project "motordriver"
 				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/4adc8e75-6797-461c-8ad6-e6b779b2e551"
-					(reference "R109")
+					(reference "R111")
 					(unit 1)
 				)
 				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/b5eb0271-9027-4941-b236-8f001fce8a08"
@@ -7196,7 +7536,7 @@
 					(unit 1)
 				)
 				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/d2c99155-6dc4-4cef-b7d8-f7ba5e4118d0"
-					(reference "R83")
+					(reference "R84")
 					(unit 1)
 				)
 			)
@@ -7288,7 +7628,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9a42896c-ef6b-4ce7-9cc9-899f1726384d")
-		(property "Reference" "R104"
+		(property "Reference" "R106"
 			(at 62.23 118.872 90)
 			(effects
 				(font
@@ -7340,7 +7680,7 @@
 		(instances
 			(project "motordriver"
 				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/4adc8e75-6797-461c-8ad6-e6b779b2e551"
-					(reference "R104")
+					(reference "R106")
 					(unit 1)
 				)
 				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/b5eb0271-9027-4941-b236-8f001fce8a08"
@@ -7348,7 +7688,7 @@
 					(unit 1)
 				)
 				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/d2c99155-6dc4-4cef-b7d8-f7ba5e4118d0"
-					(reference "R78")
+					(reference "R79")
 					(unit 1)
 				)
 			)
@@ -8345,7 +8685,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 148.59 153.67 0)
+		(at 146.05 152.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8353,7 +8693,7 @@
 		(dnp no)
 		(uuid "bd96627a-bc5c-4a11-9815-3fc82daec7fc")
 		(property "Reference" "#PWR0261"
-			(at 148.59 157.48 0)
+			(at 146.05 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8362,7 +8702,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 142.748 149.352 0)
+			(at 140.208 150.622 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8371,7 +8711,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 148.59 153.67 0)
+			(at 146.05 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8380,7 +8720,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 148.59 153.67 0)
+			(at 146.05 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8389,7 +8729,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 148.59 153.67 0)
+			(at 146.05 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8412,6 +8752,133 @@
 				)
 				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/d2c99155-6dc4-4cef-b7d8-f7ba5e4118d0"
 					(reference "#PWR0196")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "RCL122510R0FKEG:RCL122510R0FKEG")
+		(at 149.86 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c6a87bcb-977f-41e8-a5d1-d0233e7ea5e6")
+		(property "Reference" "R12"
+			(at 158.242 150.368 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10Ω 2W"
+			(at 165.354 150.368 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "kuben-footprints:RESC3263X80N"
+			(at 163.83 252.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/20046/rcle3.pdf"
+			(at 163.83 352.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Thick Film Resistors - SMD 2watt 10ohm 1% 100ppm 1225"
+			(at 149.86 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.8"
+			(at 163.83 552.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "71-RCL122510R0FKEG"
+			(at 163.83 652.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Draloric/RCL122510R0FKEG?qs=QwB9ozptyc3uL4Q2bD20CQ%3D%3D"
+			(at 163.83 752.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay"
+			(at 163.83 852.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RCL122510R0FKEG"
+			(at 163.83 952.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8167a21d-aafa-41d9-8e94-06eec06253d4")
+		)
+		(pin "2"
+			(uuid "b2c2550b-b374-4fb7-b48b-e18f2f6f8ffa")
+		)
+		(instances
+			(project "motordriver"
+				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/4adc8e75-6797-461c-8ad6-e6b779b2e551"
+					(reference "R115")
+					(unit 1)
+				)
+				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/b5eb0271-9027-4941-b236-8f001fce8a08"
+					(reference "R12")
+					(unit 1)
+				)
+				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/d2c99155-6dc4-4cef-b7d8-f7ba5e4118d0"
+					(reference "R88")
 					(unit 1)
 				)
 			)
@@ -8494,31 +8961,33 @@
 	)
 	(symbol
 		(lib_id "Device:D_Schottky")
-		(at 121.92 76.2 270)
+		(at 143.51 158.75 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "d5636d58-3cb4-485c-b7e1-a579f608a2d8")
-		(property "Reference" "D80"
-			(at 124.714 76.454 0)
+		(uuid "d619ce64-7ef5-4940-bb98-68e4bf1e6b09")
+		(property "Reference" "D4"
+			(at 137.414 157.226 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "20Vr 5A"
-			(at 118.364 75.946 0)
+		(property "Value" "4A 40V"
+			(at 134.874 160.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
-			(at 121.92 76.2 0)
+		(property "Footprint" "kuben-footprints:DIOM7959X262N"
+			(at 143.51 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8527,7 +8996,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 121.92 76.2 0)
+			(at 143.51 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8536,7 +9005,7 @@
 			)
 		)
 		(property "Description" "Schottky diode"
-			(at 121.92 76.2 0)
+			(at 143.51 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8544,24 +9013,74 @@
 				(hide yes)
 			)
 		)
+		(property "Height" "2.62"
+			(at -250.14 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "78-SL44HE3_B/I"
+			(at -350.14 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=78-SL44HE3_B%2FI"
+			(at -450.14 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay"
+			(at -550.14 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SL44HE3_B/I"
+			(at -650.14 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
 		(pin "1"
-			(uuid "c4222ad5-cf32-4ed8-8708-28d58048dbba")
+			(uuid "a635d3b5-317f-40a1-94bc-e40f5925d5a8")
 		)
 		(pin "2"
-			(uuid "e003f2d2-52cb-42ae-93de-8c566628c483")
+			(uuid "5bb46064-87ba-4022-b5e5-201ac1cbae2c")
 		)
 		(instances
 			(project "motordriver"
 				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/4adc8e75-6797-461c-8ad6-e6b779b2e551"
-					(reference "D80")
+					(reference "D81")
 					(unit 1)
 				)
 				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/b5eb0271-9027-4941-b236-8f001fce8a08"
-					(reference "D3")
+					(reference "D4")
 					(unit 1)
 				)
 				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/d2c99155-6dc4-4cef-b7d8-f7ba5e4118d0"
-					(reference "D57")
+					(reference "D58")
 					(unit 1)
 				)
 			)
@@ -8717,81 +9236,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Schottky")
-		(at 34.29 132.08 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "df5e1040-1724-43fe-abb1-c7a72934368a")
-		(property "Reference" "D78"
-			(at 37.084 132.334 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "20Vr 5A"
-			(at 30.734 131.826 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
-			(at 34.29 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 34.29 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Schottky diode"
-			(at 34.29 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c4db8125-0bb1-4150-b2a6-1cadfa460fa2")
-		)
-		(pin "2"
-			(uuid "e768b750-fa13-4311-9c6d-fc874e0d1079")
-		)
-		(instances
-			(project "motordriver"
-				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/4adc8e75-6797-461c-8ad6-e6b779b2e551"
-					(reference "D78")
-					(unit 1)
-				)
-				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/b5eb0271-9027-4941-b236-8f001fce8a08"
-					(reference "D1")
-					(unit 1)
-				)
-				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/d2c99155-6dc4-4cef-b7d8-f7ba5e4118d0"
-					(reference "D55")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 106.68 93.98 270)
 		(unit 1)
@@ -8800,7 +9244,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e29bf1de-0427-486e-ba44-184e9b290407")
-		(property "Reference" "R107"
+		(property "Reference" "R109"
 			(at 106.68 89.408 90)
 			(effects
 				(font
@@ -8852,7 +9296,7 @@
 		(instances
 			(project "motordriver"
 				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/4adc8e75-6797-461c-8ad6-e6b779b2e551"
-					(reference "R107")
+					(reference "R109")
 					(unit 1)
 				)
 				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/b5eb0271-9027-4941-b236-8f001fce8a08"
@@ -8860,7 +9304,134 @@
 					(unit 1)
 				)
 				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/d2c99155-6dc4-4cef-b7d8-f7ba5e4118d0"
-					(reference "R81")
+					(reference "R82")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 121.92 76.2 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ea6187ce-3ccd-4ad7-a2a6-cb39e7b9432b")
+		(property "Reference" "D3"
+			(at 115.824 74.676 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4A 40V"
+			(at 113.284 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "kuben-footprints:DIOM7959X262N"
+			(at 121.92 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 121.92 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky diode"
+			(at 121.92 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "2.62"
+			(at -271.73 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "78-SL44HE3_B/I"
+			(at -371.73 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=78-SL44HE3_B%2FI"
+			(at -471.73 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay"
+			(at -571.73 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SL44HE3_B/I"
+			(at -671.73 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4c74b9dc-6441-4559-8418-e956697f9c7b")
+		)
+		(pin "2"
+			(uuid "89e7ba40-3daa-4417-af71-0e6298a5dc3a")
+		)
+		(instances
+			(project "motordriver"
+				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/4adc8e75-6797-461c-8ad6-e6b779b2e551"
+					(reference "D80")
+					(unit 1)
+				)
+				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/b5eb0271-9027-4941-b236-8f001fce8a08"
+					(reference "D3")
+					(unit 1)
+				)
+				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/d2c99155-6dc4-4cef-b7d8-f7ba5e4118d0"
+					(reference "D57")
 					(unit 1)
 				)
 			)
@@ -9017,7 +9588,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f3ee9b2b-d77f-416f-88b0-3544d2b223d5")
-		(property "Reference" "R111"
+		(property "Reference" "R113"
 			(at 148.59 68.072 90)
 			(effects
 				(font
@@ -9069,7 +9640,7 @@
 		(instances
 			(project "motordriver"
 				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/4adc8e75-6797-461c-8ad6-e6b779b2e551"
-					(reference "R111")
+					(reference "R113")
 					(unit 1)
 				)
 				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/b5eb0271-9027-4941-b236-8f001fce8a08"
@@ -9077,7 +9648,7 @@
 					(unit 1)
 				)
 				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/d2c99155-6dc4-4cef-b7d8-f7ba5e4118d0"
-					(reference "R85")
+					(reference "R86")
 					(unit 1)
 				)
 			)
@@ -9092,7 +9663,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fc61c50d-14c7-4b39-9461-d82619e847e7")
-		(property "Reference" "R105"
+		(property "Reference" "R107"
 			(at 75.184 110.998 0)
 			(effects
 				(font
@@ -9144,7 +9715,7 @@
 		(instances
 			(project "motordriver"
 				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/4adc8e75-6797-461c-8ad6-e6b779b2e551"
-					(reference "R105")
+					(reference "R107")
 					(unit 1)
 				)
 				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/b5eb0271-9027-4941-b236-8f001fce8a08"
@@ -9152,7 +9723,7 @@
 					(unit 1)
 				)
 				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/d2c99155-6dc4-4cef-b7d8-f7ba5e4118d0"
-					(reference "R79")
+					(reference "R80")
 					(unit 1)
 				)
 			)

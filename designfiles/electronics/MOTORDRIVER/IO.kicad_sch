@@ -4204,7 +4204,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "84895e71-ec36-4122-bbce-4e4d6b42b816")
-		(property "Reference" "R43"
+		(property "Reference" "R44"
 			(at 76.2 83.82 90)
 			(effects
 				(font
@@ -4256,7 +4256,7 @@
 		(instances
 			(project "motordriver"
 				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/38bc72d2-c2f6-4538-9c33-e1ab2a8ac987"
-					(reference "R43")
+					(reference "R44")
 					(unit 1)
 				)
 			)
@@ -4964,7 +4964,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d05be5b8-bf9c-4147-9390-c25488b11075")
-		(property "Reference" "R42"
+		(property "Reference" "R43"
 			(at 27.94 88.9 90)
 			(effects
 				(font
@@ -5016,7 +5016,7 @@
 		(instances
 			(project "motordriver"
 				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/38bc72d2-c2f6-4538-9c33-e1ab2a8ac987"
-					(reference "R42")
+					(reference "R43")
 					(unit 1)
 				)
 			)
