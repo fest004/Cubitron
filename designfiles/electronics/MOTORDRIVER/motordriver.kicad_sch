@@ -1085,6 +1085,16 @@
 		)
 		(uuid "fff65142-ffd5-4018-95b7-6036532bdb69")
 	)
+	(text "shouldnt rx be connected to tx\nand vice versa?"
+		(exclude_from_sim no)
+		(at 52.07 112.776 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "03b4752c-745a-4a5a-93d6-6b8c0167e30f")
+	)
 	(text "1.0"
 		(exclude_from_sim no)
 		(at 270.764 193.548 0)
@@ -1197,7 +1207,7 @@
 	)
 	(text "The circuit is designed around the\nTMC4671 chip which acts as a servocontroller.\nWe use three of theese as we are going to controll\nthree separate motors for x,y and z actuation.\nThe main microcontroller is responsible for calculating\na set-tourque for each motor, the TMC4671 servocontroller\nis responsoble for taking this tourqe target and commuting\nthe motors. In order for the microcontroller to find the\nset-torque it reads inertial measurements from external sensors\nand finds the attitude of the cube. A controll algorithm running\non the microcontroller spits out the torque for the three motors\nin order for the cube to balance."
 		(exclude_from_sim no)
-		(at 15.24 176.784 0)
+		(at 13.97 177.8 0)
 		(effects
 			(font
 				(size 1.8 1.8)

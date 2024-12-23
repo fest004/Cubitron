@@ -2667,6 +2667,10 @@
 		(uuid "30d613eb-2e1b-4394-98cf-872a0c8d7138")
 	)
 	(no_connect
+		(at 118.11 120.65)
+		(uuid "399653cc-ab8a-4402-a995-c4d8cfb11b97")
+	)
+	(no_connect
 		(at 265.43 102.87)
 		(uuid "45b27ad8-333f-4ab7-bdbd-e14b0309dc16")
 	)
@@ -2675,12 +2679,24 @@
 		(uuid "45d5e7c3-f2da-4cad-a832-0f0e50043b4d")
 	)
 	(no_connect
+		(at 118.11 125.73)
+		(uuid "4825e1e7-134a-4b2f-902a-e301e7b1e096")
+	)
+	(no_connect
 		(at 151.13 69.85)
 		(uuid "4f0cda24-6eaa-4705-9883-f39b03c1bdc2")
 	)
 	(no_connect
 		(at 224.79 95.25)
 		(uuid "59263dad-c6ec-45b6-9155-6864cfb0fbf9")
+	)
+	(no_connect
+		(at 118.11 95.25)
+		(uuid "76b7b4ee-ac77-48c1-a023-a73d27a02204")
+	)
+	(no_connect
+		(at 118.11 128.27)
+		(uuid "7b717a30-80fe-495c-93a2-5aca649d0f66")
 	)
 	(no_connect
 		(at 224.79 102.87)
@@ -2707,12 +2723,24 @@
 		(uuid "aff66741-7451-432a-aca6-af92bdae2bdb")
 	)
 	(no_connect
+		(at 118.11 118.11)
+		(uuid "c37504af-825a-4574-bb91-1a72aafc2fa8")
+	)
+	(no_connect
 		(at 224.79 100.33)
 		(uuid "cde87e54-fcaf-4f39-a2e7-c70e6f671a21")
 	)
 	(no_connect
+		(at 118.11 115.57)
+		(uuid "cf1e2000-32b3-4e4d-bd1f-0c03334c18f1")
+	)
+	(no_connect
 		(at 224.79 92.71)
 		(uuid "d076f687-44ee-4eef-a4f5-c197307677a0")
+	)
+	(no_connect
+		(at 118.11 123.19)
+		(uuid "d7b51ee5-52ff-489f-bbab-f16b40570eb9")
 	)
 	(no_connect
 		(at 237.49 118.11)
@@ -3361,8 +3389,8 @@
 	)
 	(text_box "SERCOM4"
 		(exclude_from_sim no)
-		(at 157.48 157.48 90)
-		(size 5.08 10.16)
+		(at 144.78 160.02 90)
+		(size 7.62 10.16)
 		(stroke
 			(width 0)
 			(type default)
@@ -3378,10 +3406,10 @@
 		)
 		(uuid "31111e0f-6a0c-4915-b1a9-4632db2edd6c")
 	)
-	(text_box "SERCOM3"
+	(text_box "SERCOM5"
 		(exclude_from_sim no)
 		(at 189.23 93.98 0)
-		(size 10.16 5.08)
+		(size 10.16 7.62)
 		(stroke
 			(width 0)
 			(type default)
@@ -3416,10 +3444,10 @@
 		)
 		(uuid "493750a7-fb66-4cc9-bebc-99a22a7a1316")
 	)
-	(text_box "SERCOM2"
+	(text_box "SERCOM2\n"
 		(exclude_from_sim no)
-		(at 189.23 99.06 0)
-		(size 10.16 5.08)
+		(at 154.94 156.21 90)
+		(size 5.08 10.16)
 		(stroke
 			(width 0)
 			(type default)
@@ -3433,12 +3461,12 @@
 			)
 			(justify left top)
 		)
-		(uuid "84c48926-6ed5-4f8f-9845-502a09d2cd7c")
+		(uuid "8692c31f-b548-448b-9254-a2cba3379b43")
 	)
-	(text_box "SERCOM5"
+	(text_box "SERCOM3\n"
 		(exclude_from_sim no)
-		(at 189.23 109.22 0)
-		(size 10.16 5.08)
+		(at 189.23 114.935 0)
+		(size 10.16 4.445)
 		(stroke
 			(width 0)
 			(type default)
@@ -3452,26 +3480,7 @@
 			)
 			(justify left top)
 		)
-		(uuid "ceef1297-0586-479a-a4e5-d00b4959b2fc")
-	)
-	(text_box "SERCOM3"
-		(exclude_from_sim no)
-		(at 189.23 104.14 0)
-		(size 10.16 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "e26ef529-32ec-4235-b2c5-623f30f23e8a")
+		(uuid "e19b0060-ea56-4451-b521-92ecbf922dba")
 	)
 	(text "Main microcontroller"
 		(exclude_from_sim no)
@@ -3542,26 +3551,6 @@
 			)
 		)
 		(uuid "9ed87a4c-0f3f-4e57-a55f-72bdc72f5850")
-	)
-	(text "Enable\nservocontrollers"
-		(exclude_from_sim no)
-		(at 141.732 163.83 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "a28a9ae3-d67f-4fd2-bf60-3b39b6992168")
-	)
-	(text "25MHz CLK\nfor servocontroller"
-		(exclude_from_sim no)
-		(at 141.732 168.91 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "b50fb5a6-3204-4777-a099-48b881b13d3b")
 	)
 	(text "Programmer"
 		(exclude_from_sim no)
@@ -3717,7 +3706,7 @@
 	)
 	(global_label "SPI_SCK"
 		(shape input)
-		(at 173.99 105.41 0)
+		(at 173.99 100.33 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3727,7 +3716,7 @@
 		)
 		(uuid "7e59dec9-da3d-4621-bdac-e3b1582db8b1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 184.2221 105.41 0)
+			(at 184.2221 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3739,22 +3728,22 @@
 	)
 	(global_label "TMC_DB_SCK"
 		(shape input)
-		(at 173.99 107.95 0)
+		(at 151.13 146.05 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "828a7c31-6631-417e-81e3-e95c5205cd40")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 187.4232 107.95 0)
+			(at 151.13 159.4832 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -3783,22 +3772,22 @@
 	)
 	(global_label "TMC_DB_MISO"
 		(shape input)
-		(at 173.99 113.03 0)
+		(at 146.05 146.05 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "9afef76f-1e26-45fd-aef2-401e65d06734")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 188.4903 113.03 0)
+			(at 146.05 160.5503 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -3849,22 +3838,22 @@
 	)
 	(global_label "TMC_DB_MOSI"
 		(shape input)
-		(at 173.99 110.49 0)
+		(at 148.59 146.05 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "dab8126c-a3d9-4e06-a26c-1d38cd92ee85")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 188.4903 110.49 0)
+			(at 148.59 160.5503 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -3943,13 +3932,13 @@
 	)
 	(hierarchical_label "BRAKE2"
 		(shape input)
-		(at 156.21 146.05 270)
+		(at 173.99 110.49 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "30e89d8d-ba97-4212-ab78-3af169b88d22")
 	)
@@ -3967,25 +3956,25 @@
 	)
 	(hierarchical_label "RX"
 		(shape input)
-		(at 158.75 146.05 270)
+		(at 173.99 118.11 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "45d1714a-6a32-4bb3-bef4-e94d9cdc3c70")
 	)
 	(hierarchical_label "TX"
 		(shape input)
-		(at 161.29 146.05 270)
+		(at 173.99 115.57 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "58ca23ec-c20b-405b-84ae-ca219cfec15d")
 	)
@@ -4063,13 +4052,13 @@
 	)
 	(hierarchical_label "BRAKE1"
 		(shape input)
-		(at 153.67 146.05 270)
+		(at 173.99 113.03 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "84173203-b6b0-4d56-8f7d-b3e08794bd21")
 	)
@@ -4111,13 +4100,13 @@
 	)
 	(hierarchical_label "SERVO2_PWM_I"
 		(shape input)
-		(at 148.59 146.05 270)
+		(at 173.99 105.41 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "a000eb07-02eb-4872-96d5-a1b6efff4d83")
 	)
@@ -4159,13 +4148,13 @@
 	)
 	(hierarchical_label "OLED_SCL"
 		(shape input)
-		(at 173.99 100.33 0)
+		(at 158.75 146.05 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "c32ac3b2-ff37-4f8f-9488-2a62b7f83d46")
 	)
@@ -4183,29 +4172,17 @@
 	)
 	(hierarchical_label "SERVO1_PWM_I"
 		(shape input)
-		(at 146.05 146.05 270)
+		(at 173.99 107.95 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "f5be73ee-aebd-4129-ba73-1c79fda72192")
 	)
 	(hierarchical_label "SERVO3_PWM_I"
-		(shape input)
-		(at 151.13 146.05 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f72d8ca0-c475-46e3-bc1d-859aff170fb6")
-	)
-	(hierarchical_label "OLED_SDA"
 		(shape input)
 		(at 173.99 102.87 0)
 		(fields_autoplaced yes)
@@ -4214,6 +4191,18 @@
 				(size 1.27 1.27)
 			)
 			(justify left)
+		)
+		(uuid "f72d8ca0-c475-46e3-bc1d-859aff170fb6")
+	)
+	(hierarchical_label "OLED_SDA"
+		(shape input)
+		(at 156.21 146.05 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
 		)
 		(uuid "f840d548-7df9-4a7d-9e76-316d40b34955")
 	)
@@ -6144,7 +6133,7 @@
 		(dnp no)
 		(uuid "9a92208c-4746-428c-8ca0-ad75550f5982")
 		(property "Reference" "U5"
-			(at 260.604 70.866 0)
+			(at 260.096 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6152,7 +6141,7 @@
 			)
 		)
 		(property "Value" "ATSAMD11D14A-M"
-			(at 261.112 73.406 0)
+			(at 260.858 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
