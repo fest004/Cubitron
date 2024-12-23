@@ -3544,18 +3544,18 @@
 		(uuid "f2272187-c641-4724-b36d-35e145998dfd")
 	)
 	(label "STATUS2"
-		(at 55.88 158.75 180)
+		(at 163.83 69.85 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "340e547a-eef6-4db0-a0ad-e632fa90456d")
 	)
 	(label "PROCLED"
-		(at 80.01 154.94 180)
+		(at 118.11 90.17 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3599,7 +3599,7 @@
 		(uuid "80b3de91-7560-41af-9fe6-a0576553cd51")
 	)
 	(label "ERRLED"
-		(at 80.01 157.48 180)
+		(at 118.11 92.71 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3610,24 +3610,24 @@
 		(uuid "c5da587e-fea4-4fcf-8b71-eee4cc8648e7")
 	)
 	(label "STATUS1"
-		(at 55.88 156.21 180)
+		(at 166.37 69.85 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "ca5d4785-87b3-4181-8531-408674c9333f")
 	)
 	(label "STATUS3"
-		(at 55.88 161.29 180)
+		(at 161.29 69.85 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "e32d171c-bc25-4003-9db0-158a9b641d35")
 	)
@@ -3829,45 +3829,9 @@
 			)
 		)
 	)
-	(hierarchical_label "SERVO3_GPIO2"
-		(shape input)
-		(at 77.47 175.26 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "007ab0fc-563b-4ffe-a53e-628e2ce42d95")
-	)
-	(hierarchical_label "SERVO2_GPIO2"
-		(shape input)
-		(at 92.71 156.21 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "044eae05-998b-43de-9c82-3a2eb6f235fc")
-	)
-	(hierarchical_label "SERVO1_GPIO2"
-		(shape input)
-		(at 76.2 185.42 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "07992e7d-6d75-49d3-81a1-c806afd49f8b")
-	)
 	(hierarchical_label "SERVO3_CS"
 		(shape input)
-		(at 90.17 191.77 0)
+		(at 133.35 69.85 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3891,7 +3855,7 @@
 	)
 	(hierarchical_label "SERVO2_CS"
 		(shape input)
-		(at 90.17 189.23 0)
+		(at 130.81 69.85 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3925,15 +3889,27 @@
 		)
 		(uuid "224417d2-f6f0-4f79-972c-a0a9435e5f67")
 	)
-	(hierarchical_label "BRAKE2"
+	(hierarchical_label "SERVO2_DB_CS"
 		(shape input)
-		(at 90.17 179.07 0)
+		(at 138.43 69.85 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
+		)
+		(uuid "2aad2a05-3c93-4ecf-aad2-682b02f772e7")
+	)
+	(hierarchical_label "BRAKE2"
+		(shape input)
+		(at 156.21 146.05 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
 		)
 		(uuid "30e89d8d-ba97-4212-ab78-3af169b88d22")
 	)
@@ -3948,18 +3924,6 @@
 			(justify left)
 		)
 		(uuid "35dd2c1e-416a-4168-874a-f0df7dd63940")
-	)
-	(hierarchical_label "SERVO1_GPIO1"
-		(shape input)
-		(at 76.2 187.96 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3cb0ef20-e690-4dd6-b6ba-d6a0e89e81f7")
 	)
 	(hierarchical_label "RX"
 		(shape input)
@@ -3985,27 +3949,15 @@
 		)
 		(uuid "58ca23ec-c20b-405b-84ae-ca219cfec15d")
 	)
-	(hierarchical_label "SERVO2_GPIO1"
-		(shape input)
-		(at 92.71 153.67 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5bf8fabd-1958-4885-a378-e0a452faa51f")
-	)
 	(hierarchical_label "BRAKE3"
 		(shape input)
-		(at 90.17 181.61 0)
+		(at 163.83 146.05 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "644fd87d-71ae-470e-919d-8fbd29afa97d")
 	)
@@ -4021,18 +3973,6 @@
 		)
 		(uuid "67198325-2086-49e1-9393-4198df42f048")
 	)
-	(hierarchical_label "SERVO3_GPIO1"
-		(shape input)
-		(at 109.22 186.69 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "749a2c19-be89-4030-9807-b3681d5b997c")
-	)
 	(hierarchical_label "SWDIO"
 		(shape input)
 		(at 194.31 50.8 270)
@@ -4044,6 +3984,18 @@
 			(justify right)
 		)
 		(uuid "7cf87ba6-e01b-4876-8741-47dc13abe413")
+	)
+	(hierarchical_label "SERVO1_DB_CS"
+		(shape input)
+		(at 140.97 69.85 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7fe73cbe-81bc-4e86-adfd-078568d9bdc7")
 	)
 	(hierarchical_label "SCL_IMU2"
 		(shape input)
@@ -4071,13 +4023,13 @@
 	)
 	(hierarchical_label "BRAKE1"
 		(shape input)
-		(at 90.17 176.53 0)
+		(at 153.67 146.05 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "84173203-b6b0-4d56-8f7d-b3e08794bd21")
 	)
@@ -4105,6 +4057,18 @@
 		)
 		(uuid "8bb72ff3-f679-435b-ad02-5fe9955faf88")
 	)
+	(hierarchical_label "SERVO3_DB_CS"
+		(shape input)
+		(at 135.89 69.85 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9ea16b4e-9479-43c9-b323-944176aef332")
+	)
 	(hierarchical_label "SERVO2_PWM_I"
 		(shape input)
 		(at 148.59 146.05 270)
@@ -4117,18 +4081,6 @@
 		)
 		(uuid "a000eb07-02eb-4872-96d5-a1b6efff4d83")
 	)
-	(hierarchical_label "SERVO2_GPIO0"
-		(shape input)
-		(at 92.71 151.13 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a74a1c1b-36d2-4497-8359-165d600e146c")
-	)
 	(hierarchical_label "SERVO3_STATUS"
 		(shape input)
 		(at 118.11 102.87 180)
@@ -4140,18 +4092,6 @@
 			(justify right)
 		)
 		(uuid "b584c87e-c23d-44e6-afa6-74e52fcc97ee")
-	)
-	(hierarchical_label "SERVO1_GPIO0"
-		(shape input)
-		(at 76.2 190.5 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ba87021e-9c74-4a78-981f-05fcca685a9f")
 	)
 	(hierarchical_label "D-"
 		(shape input)
@@ -4191,7 +4131,7 @@
 	)
 	(hierarchical_label "SERVO1_CS"
 		(shape input)
-		(at 90.17 186.69 0)
+		(at 128.27 69.85 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4200,18 +4140,6 @@
 			(justify left)
 		)
 		(uuid "d0fc18a1-1149-460c-a56d-435b10114249")
-	)
-	(hierarchical_label "SERVO3_GPIO0"
-		(shape input)
-		(at 109.22 184.15 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d6c5ab77-ad95-4ea2-ad55-0d43eb262af1")
 	)
 	(hierarchical_label "SERVO1_PWM_I"
 		(shape input)
