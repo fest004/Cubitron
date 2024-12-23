@@ -3364,6 +3364,16 @@
 		)
 		(uuid "7c7d05cf-a13d-4653-b8b8-1ce64206fcdb")
 	)
+	(text "servo int pins\n"
+		(exclude_from_sim no)
+		(at 96.012 100.838 0)
+		(effects
+			(font
+				(size 0.9652 0.9652)
+			)
+		)
+		(uuid "89502d46-9e9c-4c02-9fb7-fd2c096c31da")
+	)
 	(text "We need to interface\nwith SWD in order to\nprogram the programmer\ninitially"
 		(exclude_from_sim no)
 		(at 210.312 37.846 0)
@@ -3455,7 +3465,7 @@
 		(uuid "f2272187-c641-4724-b36d-35e145998dfd")
 	)
 	(label "STATUS2"
-		(at 68.58 157.48 180)
+		(at 55.88 158.75 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3521,7 +3531,7 @@
 		(uuid "c5da587e-fea4-4fcf-8b71-eee4cc8648e7")
 	)
 	(label "STATUS1"
-		(at 68.58 154.94 180)
+		(at 55.88 156.21 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3532,7 +3542,7 @@
 		(uuid "ca5d4785-87b3-4181-8531-408674c9333f")
 	)
 	(label "STATUS3"
-		(at 68.58 160.02 180)
+		(at 55.88 161.29 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3814,7 +3824,7 @@
 	)
 	(hierarchical_label "SERVO1_STATUS"
 		(shape input)
-		(at 34.29 166.37 180)
+		(at 118.11 97.79 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3970,7 +3980,7 @@
 	)
 	(hierarchical_label "SERVO2_STATUS"
 		(shape input)
-		(at 34.29 168.91 180)
+		(at 118.11 100.33 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4018,13 +4028,13 @@
 	)
 	(hierarchical_label "SERVO2_PWM_I"
 		(shape input)
-		(at 105.41 168.91 0)
+		(at 148.59 146.05 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "a000eb07-02eb-4872-96d5-a1b6efff4d83")
 	)
@@ -4042,7 +4052,7 @@
 	)
 	(hierarchical_label "SERVO3_STATUS"
 		(shape input)
-		(at 34.29 171.45 180)
+		(at 118.11 102.87 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4078,7 +4088,7 @@
 	)
 	(hierarchical_label "INT1_IMU2"
 		(shape input)
-		(at 77.47 177.8 180)
+		(at 118.11 110.49 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4126,25 +4136,25 @@
 	)
 	(hierarchical_label "SERVO1_PWM_I"
 		(shape input)
-		(at 105.41 166.37 0)
+		(at 146.05 146.05 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "f5be73ee-aebd-4129-ba73-1c79fda72192")
 	)
 	(hierarchical_label "SERVO3_PWM_I"
 		(shape input)
-		(at 105.41 171.45 0)
+		(at 151.13 146.05 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "f72d8ca0-c475-46e3-bc1d-859aff170fb6")
 	)
@@ -4162,7 +4172,7 @@
 	)
 	(hierarchical_label "INT1_IMU1"
 		(shape input)
-		(at 77.47 180.34 180)
+		(at 118.11 113.03 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
