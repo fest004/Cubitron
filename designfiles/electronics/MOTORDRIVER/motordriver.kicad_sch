@@ -767,6 +767,16 @@
 	)
 	(wire
 		(pts
+			(xy 33.02 83.82) (xy 72.39 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a88ef65b-dd37-4566-a079-8513f802a924")
+	)
+	(wire
+		(pts
 			(xy 143.51 81.28) (xy 166.37 81.28)
 		)
 		(stroke
@@ -1105,16 +1115,6 @@
 		)
 		(uuid "5a172e0c-d619-4f79-9eb7-9481ed0ea30d")
 	)
-	(text "why is gpio from \ntmc -> mc?\n"
-		(exclude_from_sim no)
-		(at 155.194 93.98 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "7b20e06e-ee18-4a0d-ac10-af3b550d544b")
-	)
 	(text "Main\nMotors IO"
 		(exclude_from_sim no)
 		(at 274.066 83.058 0)
@@ -1207,7 +1207,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "driverIC.kicad_sch"
+		(property "Sheetfile" "servocontroller.kicad_sch"
 			(at 167.64 159.5084 0)
 			(effects
 				(font
@@ -1664,6 +1664,16 @@
 			)
 			(uuid "23b0c68f-b587-431c-90cd-3f6cb0469ed2")
 		)
+		(pin "RESETN" input
+			(at 33.02 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "451d54cf-daf7-4f44-9760-6d5a92502b8f")
+		)
 		(instances
 			(project "motordriver"
 				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d"
@@ -1693,7 +1703,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "driverIC.kicad_sch"
+		(property "Sheetfile" "servocontroller.kicad_sch"
 			(at 166.37 59.1784 0)
 			(effects
 				(font
@@ -2414,12 +2424,12 @@
 			)
 		)
 		(pin "RESETN" input
-			(at 88.9 57.15 90)
+			(at 72.39 83.82 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 			(uuid "6bd3f699-6b72-44cc-b469-12147d793cd3")
 		)
@@ -2802,7 +2812,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "driverIC.kicad_sch"
+		(property "Sheetfile" "servocontroller.kicad_sch"
 			(at 166.37 106.1684 0)
 			(effects
 				(font

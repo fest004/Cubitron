@@ -2638,6 +2638,18 @@
 		)
 		(uuid "4f03490b-21a3-4916-9f6b-f19e92979cff")
 	)
+	(hierarchical_label "RESETN"
+		(shape input)
+		(at 172.72 53.34 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6586f002-3523-4459-bfbd-c310d7aa6863")
+	)
 	(hierarchical_label "OLED_SCL"
 		(shape input)
 		(at 190.5 85.09 180)
@@ -3126,6 +3138,80 @@
 			(project "motordriver"
 				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/38bc72d2-c2f6-4538-9c33-e1ab2a8ac987"
 					(reference "#PWR062")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_DPST_x2")
+		(at 177.8 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2e7c4060-b9a1-43d4-ba9b-35e423af58e5")
+		(property "Reference" "SW1"
+			(at 177.8 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_DPST_x2"
+			(at 177.8 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_CK_JS202011AQN_DPDT_Angled"
+			(at 177.8 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 177.8 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch, separate symbol"
+			(at 177.8 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "af0717f4-1f4b-417f-98bc-feef391170f3")
+		)
+		(pin "1"
+			(uuid "4c55ef57-37bf-4bcf-a00a-23eacdfbe0e2")
+		)
+		(pin "4"
+			(uuid "6c7acc4c-4d33-47ee-840f-8bbd205bbfe4")
+		)
+		(pin "2"
+			(uuid "a25e598e-4d39-4621-95ac-7e7e800fd356")
+		)
+		(instances
+			(project "motordriver"
+				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/38bc72d2-c2f6-4538-9c33-e1ab2a8ac987"
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -4824,7 +4910,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ce09acd5-aa19-4dca-82f5-ff065cd040f6")
-		(property "Reference" "SW1"
+		(property "Reference" "SW2"
 			(at 237.49 81.28 0)
 			(effects
 				(font
@@ -4868,13 +4954,13 @@
 			)
 		)
 		(pin "3"
-			(uuid "af0717f4-1f4b-417f-98bc-feef391170f3")
+			(uuid "af0717f4-1f4b-417f-98bc-feef391170f4")
 		)
 		(pin "1"
 			(uuid "50a11f98-ef0a-46af-8323-655cc3ded8c6")
 		)
 		(pin "4"
-			(uuid "6c7acc4c-4d33-47ee-840f-8bbd205bbfe4")
+			(uuid "6c7acc4c-4d33-47ee-840f-8bbd205bbfe5")
 		)
 		(pin "2"
 			(uuid "32917404-b61d-4a5e-9b56-21735c544096")
@@ -4882,7 +4968,7 @@
 		(instances
 			(project ""
 				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/38bc72d2-c2f6-4538-9c33-e1ab2a8ac987"
-					(reference "SW1")
+					(reference "SW2")
 					(unit 1)
 				)
 			)
