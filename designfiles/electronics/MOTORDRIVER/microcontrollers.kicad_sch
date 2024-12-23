@@ -2804,16 +2804,6 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 163.83) (xy 161.29 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c6ee21d-ecc4-490c-9fd9-4e40d2c8a0b3")
-	)
-	(wire
-		(pts
 			(xy 55.88 80.01) (xy 68.58 80.01)
 		)
 		(stroke
@@ -2961,16 +2951,6 @@
 			(type default)
 		)
 		(uuid "703a30f6-d28d-4f35-b8f0-07cc1af0361f")
-	)
-	(wire
-		(pts
-			(xy 143.51 146.05) (xy 143.51 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b31472b-6c4e-4f2c-ae3d-bd7dd144992d")
 	)
 	(wire
 		(pts
@@ -3154,16 +3134,6 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 163.83) (xy 161.29 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d1e66023-52e6-4dc0-a530-04fc8d160f12")
-	)
-	(wire
-		(pts
 			(xy 68.58 113.03) (xy 68.58 115.57)
 		)
 		(stroke
@@ -3261,16 +3231,6 @@
 			(type default)
 		)
 		(uuid "f2938cd7-ba21-487b-bf2d-3eba137b904f")
-	)
-	(wire
-		(pts
-			(xy 140.97 146.05) (xy 140.97 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f29e2896-424c-4ea2-acbc-be4611aebed5")
 	)
 	(wire
 		(pts
@@ -3422,9 +3382,9 @@
 		)
 		(uuid "9ed87a4c-0f3f-4e57-a55f-72bdc72f5850")
 	)
-	(text "Enable\nservocontroller"
+	(text "Enable\nservocontrollers"
 		(exclude_from_sim no)
-		(at 167.132 177.546 0)
+		(at 143.256 169.164 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3434,7 +3394,7 @@
 	)
 	(text "25MHz CLK\nfor servocontroller"
 		(exclude_from_sim no)
-		(at 144.526 177.292 0)
+		(at 143.764 174.752 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3638,6 +3598,50 @@
 			)
 		)
 	)
+	(global_label "SERVO_CLK"
+		(shape input)
+		(at 140.97 146.05 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a9c26ee3-278f-4654-b3d2-8eca8f4d5b07")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 140.97 158.4162 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SERVO_ENI"
+		(shape input)
+		(at 143.51 146.05 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b419cf27-320c-4b22-a9dd-a0276785168c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 143.51 158.4162 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(hierarchical_label "SERVO3_GPIO2"
 		(shape input)
 		(at 158.75 146.05 270)
@@ -3734,18 +3738,6 @@
 		)
 		(uuid "1614cfeb-854e-4f80-9f6f-df5d6b1536a8")
 	)
-	(hierarchical_label "SERVO1_CLK"
-		(shape input)
-		(at 140.97 170.18 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "21a47b90-41a0-425e-9aca-1397b61eed6b")
-	)
 	(hierarchical_label "SERVO1_STATUS"
 		(shape input)
 		(at 118.11 95.25 180)
@@ -3793,18 +3785,6 @@
 			(justify left)
 		)
 		(uuid "35dd2c1e-416a-4168-874a-f0df7dd63940")
-	)
-	(hierarchical_label "SERVO1_CLK"
-		(shape input)
-		(at 140.97 167.64 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "39e93712-e8fa-4cfd-bc5d-24ef5bb62ba7")
 	)
 	(hierarchical_label "SERVO1_GPIO1"
 		(shape input)
@@ -3890,18 +3870,6 @@
 		)
 		(uuid "6b3bb89c-9370-428e-87ee-688b27f39e6f")
 	)
-	(hierarchical_label "SERVO3_CLK"
-		(shape input)
-		(at 140.97 172.72 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6e766761-ab64-4b0d-825b-76c487201abd")
-	)
 	(hierarchical_label "SERVO2_TX"
 		(shape input)
 		(at 130.81 146.05 270)
@@ -3962,18 +3930,6 @@
 		)
 		(uuid "7cf87ba6-e01b-4876-8741-47dc13abe413")
 	)
-	(hierarchical_label "SERVO3_ENI"
-		(shape input)
-		(at 161.29 172.72 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "8050f525-14fe-4f8a-8fc8-c5b6d1eab5cc")
-	)
 	(hierarchical_label "SCL_IMU2"
 		(shape input)
 		(at 118.11 118.11 180)
@@ -4010,18 +3966,6 @@
 		)
 		(uuid "84173203-b6b0-4d56-8f7d-b3e08794bd21")
 	)
-	(hierarchical_label "SERVO2_ENI"
-		(shape input)
-		(at 161.29 170.18 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "8a304a01-7bf1-4c38-b639-341f440e74cf")
-	)
 	(hierarchical_label "SCL_IMU1"
 		(shape input)
 		(at 118.11 92.71 180)
@@ -4046,19 +3990,7 @@
 		)
 		(uuid "8bb72ff3-f679-435b-ad02-5fe9955faf88")
 	)
-	(hierarchical_label "SERVO1_ENI"
-		(shape input)
-		(at 161.29 167.64 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9d4d9b20-d88a-4700-96bd-3e85732c632a")
-	)
-	(hierarchical_label "SERVO2_PWM"
+	(hierarchical_label "SERVO2_PWM_I"
 		(shape input)
 		(at 156.21 146.05 270)
 		(fields_autoplaced yes)
@@ -4166,7 +4098,7 @@
 		)
 		(uuid "d6c5ab77-ad95-4ea2-ad55-0d43eb262af1")
 	)
-	(hierarchical_label "SERVO1_PWM"
+	(hierarchical_label "SERVO1_PWM_I"
 		(shape input)
 		(at 133.35 146.05 270)
 		(fields_autoplaced yes)

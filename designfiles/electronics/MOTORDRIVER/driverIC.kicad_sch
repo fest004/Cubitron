@@ -4572,7 +4572,7 @@
 		)
 		(uuid "5d6463cb-709e-477a-906d-e88703eed5b1")
 	)
-	(text "Decoulpling capacitors\n"
+	(text "Decoupling capacitors\n"
 		(exclude_from_sim no)
 		(at 140.208 16.764 0)
 		(effects
@@ -4818,6 +4818,28 @@
 			)
 		)
 	)
+	(global_label "SERVO_CLK"
+		(shape input)
+		(at 172.72 50.8 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "40910d5f-1b3c-4675-b8e8-53fa3315730c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 172.72 38.4338 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SPI_MISO"
 		(shape input)
 		(at 190.5 127 270)
@@ -4858,6 +4880,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SERVO_ENI"
+		(shape input)
+		(at 96.52 62.23 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b421ea64-e37b-4441-aac0-53429e6f9eaa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 96.52 49.8638 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -4969,18 +5013,6 @@
 			(justify left)
 		)
 		(uuid "52867638-66c2-44e0-b129-0a1d8b6d5442")
-	)
-	(hierarchical_label "ENI"
-		(shape input)
-		(at 96.52 62.23 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5a920c96-6f7e-4bdd-8dc7-07109be593c8")
 	)
 	(hierarchical_label "PWM_I"
 		(shape input)
@@ -5101,18 +5133,6 @@
 			(justify right)
 		)
 		(uuid "e49c1748-a8cf-45ae-8892-2d1566a5a16b")
-	)
-	(hierarchical_label "CLK"
-		(shape input)
-		(at 172.72 50.8 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e8903858-4a35-472d-8782-e25b112bf8a3")
 	)
 	(hierarchical_label "PWM_U_H"
 		(shape input)
@@ -11958,7 +11978,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 168.656 41.91 0)
+			(at 172.466 37.846 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -716,7 +716,7 @@
     ],
     [
       "b5eb0271-9027-4941-b236-8f001fce8a08",
-      "drivergates"
+      "drivergates1"
     ],
     [
       "40fe2217-7020-4fd5-b361-1423767f0697",
@@ -728,7 +728,7 @@
     ],
     [
       "095cf403-627e-473d-974a-cb1fe8ca8b1f",
-      "driverIC"
+      "servo1"
     ],
     [
       "9ebbb593-eaf1-4a56-ba2a-164e20b1d55e",
@@ -736,19 +736,19 @@
     ],
     [
       "acd3f6cb-f2e2-4fe4-b3cb-86a86a6f231d",
-      "driverIC1"
+      "servo2"
     ],
     [
       "d2c99155-6dc4-4cef-b7d8-f7ba5e4118d0",
-      "drivergates1"
+      "drivergates2"
     ],
     [
       "3a57148f-9ebd-4906-ad6b-7dbf7876a4a8",
-      "driverIC2"
+      "servo3"
     ],
     [
       "4adc8e75-6797-461c-8ad6-e6b779b2e551",
-      "drivergates2"
+      "drivergates3"
     ],
     [
       "5d8f5153-26a2-4903-a925-dc0c63f77bf7",
