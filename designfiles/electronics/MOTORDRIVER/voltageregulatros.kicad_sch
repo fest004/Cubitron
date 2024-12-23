@@ -7070,74 +7070,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:L")
-		(at 250.19 50.8 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "057c705e-44ec-424f-b590-16c889e8be95")
-		(property "Reference" "L2"
-			(at 250.19 45.72 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1µH 420µΩ"
-			(at 250.19 48.26 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_12x12mm_H8mm"
-			(at 250.19 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 250.19 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Inductor"
-			(at 250.19 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "521d1e3c-1717-47c9-990c-bca95a0d3048")
-		)
-		(pin "1"
-			(uuid "16e5c485-f5bb-498f-a349-94babf0941f2")
-		)
-		(instances
-			(project "motordriver"
-				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/40fe2217-7020-4fd5-b361-1423767f0697"
-					(reference "L2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 52.07 111.76 180)
 		(unit 1)
@@ -7570,7 +7502,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "kuben-footprints:IPD047N03LF2SATMA1"
+		(property "Footprint" "IPD047N03LF2SATMA1"
 			(at 57.15 39.37 0)
 			(effects
 				(font
@@ -8349,7 +8281,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "kuben-footprints:IPD047N03LF2SATMA1"
+		(property "Footprint" "IPD047N03LF2SATMA1"
 			(at 245.11 44.45 0)
 			(effects
 				(font
@@ -8754,7 +8686,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "kuben-footprints:CAPAE1050X1050N"
+		(property "Footprint" "CAPAE1050X1050N"
 			(at 174.32 29.21 0)
 			(effects
 				(font
@@ -9250,6 +9182,124 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:L")
+		(at 250.19 50.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4b82a720-ad9a-4747-82d2-fd385b9af95b")
+		(property "Reference" "L2"
+			(at 250.19 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1µH 22A"
+			(at 250.19 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "kuben-footprints:INDPM6965X300N"
+			(at 250.19 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 250.19 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Inductor"
+			(at 250.19 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "3"
+			(at 646.38 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "70-IHLP2525CZR1R0M06"
+			(at 746.38 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/IHLP2525CZER1R0M06?qs=gMuw6kkpPFiOvUjVH4k3sQ%3D%3D"
+			(at 846.38 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay"
+			(at 946.38 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "IHLP2525CZER1R0M06"
+			(at 1046.38 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ab19b523-fe39-424e-8715-a99ce2ed4d5c")
+		)
+		(pin "1"
+			(uuid "1dd2bc69-23e8-4b61-8c2c-348018af513c")
+		)
+		(instances
+			(project ""
+				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/40fe2217-7020-4fd5-b361-1423767f0697"
+					(reference "L2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 77.47 120.65 0)
 		(unit 1)
@@ -9546,7 +9596,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "kuben-footprints:BQ24133RGYR"
+		(property "Footprint" "BQ24133RGYR"
 			(at 0.33 102.87 0)
 			(effects
 				(font
@@ -10133,7 +10183,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "kuben-footprints:IPD047N03LF2SATMA1"
+		(property "Footprint" "IPD047N03LF2SATMA1"
 			(at 255.27 62.23 0)
 			(effects
 				(font
@@ -10740,7 +10790,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "kuben-footprints:IPD047N03LF2SATMA1"
+		(property "Footprint" "IPD047N03LF2SATMA1"
 			(at 255.27 44.45 0)
 			(effects
 				(font
@@ -11487,7 +11537,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kuben-footprints:SOP65P640X120-29N"
+		(property "Footprint" "SOP65P640X120-29N"
 			(at 209.55 135.56 0)
 			(effects
 				(font
@@ -12691,6 +12741,124 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:L")
+		(at 114.3 63.5 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b7b8df42-733b-42b4-9828-a3a32fcc2567")
+		(property "Reference" "L1"
+			(at 114.3 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3.3µH"
+			(at 114.3 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "kuben-footprints:INDPM6965X300N"
+			(at 114.3 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 114.3 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Inductor"
+			(at 114.3 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "3"
+			(at 510.49 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "70-IHLP2525CZER3R3M0"
+			(at 610.49 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/IHLP2525CZER3R3M01?qs=PA%252BPfIdQ8xlEO%252B8WW0W2Xw%3D%3D"
+			(at 710.49 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay"
+			(at 810.49 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "IHLP2525CZER3R3M01"
+			(at 910.49 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e7f611f8-2005-46fb-9b94-10b624ccdfa4")
+		)
+		(pin "1"
+			(uuid "c5fc5a2e-04a1-4ab7-a7e1-068dd918c225")
+		)
+		(instances
+			(project ""
+				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/40fe2217-7020-4fd5-b361-1423767f0697"
+					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 27.94 167.64 0)
 		(unit 1)
@@ -12786,7 +12954,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "kuben-footprints:IPD047N03LF2SATMA1"
+		(property "Footprint" "IPD047N03LF2SATMA1"
 			(at 245.11 62.23 0)
 			(effects
 				(font
@@ -13378,7 +13546,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "kuben-footprints:IPD70P04P4L08ATMA2"
+		(property "Footprint" "IPD70P04P4L08ATMA2"
 			(at 138.43 46.99 0)
 			(effects
 				(font
@@ -14041,7 +14209,7 @@
 		(dnp no)
 		(uuid "d6f02245-ebbf-4919-8495-0fb1b5adff0c")
 		(property "Reference" "D5"
-			(at 12.7 67.6276 0)
+			(at 14.224 64.262 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14145,74 +14313,6 @@
 			(project "motordriver"
 				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/40fe2217-7020-4fd5-b361-1423767f0697"
 					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:L")
-		(at 114.3 63.5 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d6fe3857-ffce-4aad-a64c-55a9809d1dd5")
-		(property "Reference" "L1"
-			(at 114.3 58.42 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "3.3µH"
-			(at 114.3 60.96 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_10.4x10.4_H4.8"
-			(at 114.3 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 114.3 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Inductor"
-			(at 114.3 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c259a97a-f385-4337-a847-ed30924b6479")
-		)
-		(pin "1"
-			(uuid "cbd0cd1b-4974-46a6-9c0a-120547637c8d")
-		)
-		(instances
-			(project ""
-				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/40fe2217-7020-4fd5-b361-1423767f0697"
-					(reference "L1")
 					(unit 1)
 				)
 			)
@@ -14447,7 +14547,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "kuben-footprints:IPD047N03LF2SATMA1"
+		(property "Footprint" "IPD047N03LF2SATMA1"
 			(at 139.37 39.37 0)
 			(effects
 				(font
