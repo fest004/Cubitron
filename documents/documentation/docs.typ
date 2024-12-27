@@ -18,25 +18,22 @@
   strong(it)
 }
 
-#text(font:"TeX Gyre Bonum",weight: "black", size: 35pt,
-smallcaps("Kuben")
-)
-#set par(justify: true)
+
+#set page(numbering: "1")
+#set align(center)
+#text(font:"TeX Gyre Bonum",weight: "black", size: 35pt, smallcaps("KUBEN"))
+
 #text(font: "TeX Gyre Bonum", weight: "bold",
   [Felix Strand #h(1cm) Brage Wiseth]
 )
 
-#set page(numbering: "1")
-#set align(center)
-#text(font:"TeX Gyre Bonum",weight: "black", size: 35pt, smallcaps("KUBEN") )
 
-
+#set par(justify: true)
 #datetime.today().display()
 #set align(left)
 #set par(justify: true)
 
 #v(1cm)
-#outline()
 
 = Introduction
 In this project, we aim to design and build a self-balancing cube using reaction wheels, a type
