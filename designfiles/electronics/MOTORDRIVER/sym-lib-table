@@ -18,4 +18,5 @@
   (lib (name "CDBU0520")(type "KiCad")(uri "/home/brage/kuben/designfiles/electronics/components/kuben-symbols/CDBU0520.kicad_sym")(options "")(descr ""))
   (lib (name "IHLP2525CZER3R3M01")(type "KiCad")(uri "/home/brage/kuben/designfiles/electronics/components/kuben-symbols/IHLP2525CZER3R3M01.kicad_sym")(options "")(descr ""))
   (lib (name "IHLP2525CZER1R0M06")(type "KiCad")(uri "/home/brage/kuben/designfiles/electronics/components/kuben-symbols/IHLP2525CZER1R0M06.kicad_sym")(options "")(descr ""))
+  (lib (name "XT60-M")(type "KiCad")(uri "/home/brage/kuben/designfiles/electronics/components/kuben-symbols/XT60-M.kicad_sym")(options "")(descr ""))
 )

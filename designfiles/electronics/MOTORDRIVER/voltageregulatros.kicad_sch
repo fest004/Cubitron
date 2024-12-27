@@ -7502,7 +7502,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "IPD047N03LF2SATMA1"
+		(property "Footprint" "kuben-footprints:IPD047N03LF2SATMA1"
 			(at 57.15 39.37 0)
 			(effects
 				(font
@@ -8281,7 +8281,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "IPD047N03LF2SATMA1"
+		(property "Footprint" "kuben-footprints:IPD047N03LF2SATMA1"
 			(at 245.11 44.45 0)
 			(effects
 				(font
@@ -8686,7 +8686,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAPAE1050X1050N"
+		(property "Footprint" "kuben-footprints:CAPAE1050X1050N"
 			(at 174.32 29.21 0)
 			(effects
 				(font
@@ -9596,7 +9596,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "BQ24133RGYR"
+		(property "Footprint" "kuben-footprints:BQ24133RGYR"
 			(at 0.33 102.87 0)
 			(effects
 				(font
@@ -10183,7 +10183,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "IPD047N03LF2SATMA1"
+		(property "Footprint" "kuben-footprints:IPD047N03LF2SATMA1"
 			(at 255.27 62.23 0)
 			(effects
 				(font
@@ -10790,7 +10790,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "IPD047N03LF2SATMA1"
+		(property "Footprint" "kuben-footprints:IPD047N03LF2SATMA1"
 			(at 255.27 44.45 0)
 			(effects
 				(font
@@ -11537,7 +11537,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOP65P640X120-29N"
+		(property "Footprint" "kuben-footprints:SOP65P640X120-29N"
 			(at 209.55 135.56 0)
 			(effects
 				(font
@@ -12954,7 +12954,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "IPD047N03LF2SATMA1"
+		(property "Footprint" "kuben-footprints:IPD047N03LF2SATMA1"
 			(at 245.11 62.23 0)
 			(effects
 				(font
@@ -13546,7 +13546,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "IPD70P04P4L08ATMA2"
+		(property "Footprint" "kuben-footprints:IPD70P04P4L08ATMA2"
 			(at 138.43 46.99 0)
 			(effects
 				(font
@@ -14547,7 +14547,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "IPD047N03LF2SATMA1"
+		(property "Footprint" "kuben-footprints:IPD047N03LF2SATMA1"
 			(at 139.37 39.37 0)
 			(effects
 				(font

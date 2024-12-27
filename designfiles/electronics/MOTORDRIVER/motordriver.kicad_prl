@@ -1,10 +1,21 @@
 {
   "board": {
-    "active_layer": 36,
-    "active_layer_preset": "All Layers",
+    "active_layer": 0,
+    "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
-    "hidden_nets": [],
+    "hidden_nets": [
+      "+2.5V",
+      "+3.3V",
+      "SPI_SCK",
+      "SPI_MISO",
+      "SPI_MOSI",
+      "TMC_DB_MOSI",
+      "TMC_DB_SCK",
+      "TMC_DB_MISO",
+      "+12V",
+      "+5V"
+    ],
     "high_contrast_mode": 0,
     "net_color_mode": 1,
     "opacity": {
@@ -19,7 +30,7 @@
       "footprints": true,
       "graphics": true,
       "keepouts": true,
-      "lockedItems": true,
+      "lockedItems": false,
       "otherItems": true,
       "pads": true,
       "text": true,
@@ -64,7 +75,7 @@
       39,
       40
     ],
-    "visible_layers": "fffffff_ffffffff",
+    "visible_layers": "fffffdf_ffffffff",
     "zone_display_mode": 0
   },
   "git": {

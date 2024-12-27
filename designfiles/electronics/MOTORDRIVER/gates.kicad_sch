@@ -4088,7 +4088,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "IPD047N03LF2SATMA1"
+		(property "Footprint" "kuben-footprints:IPD047N03LF2SATMA1"
 			(at 176.53 119.38 0)
 			(effects
 				(font
@@ -4858,7 +4858,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "IPD047N03LF2SATMA1"
+		(property "Footprint" "kuben-footprints:IPD047N03LF2SATMA1"
 			(at 195.58 52.07 0)
 			(effects
 				(font
@@ -5154,7 +5154,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SON80P400X400X80-9N"
+		(property "Footprint" "kuben-footprints:SON80P400X400X80-9N"
 			(at 185.09 97.79 0)
 			(effects
 				(font
@@ -5378,7 +5378,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SON80P400X400X80-9N"
+		(property "Footprint" "kuben-footprints:SON80P400X400X80-9N"
 			(at 228.27 76.2 0)
 			(effects
 				(font
@@ -5832,7 +5832,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RESC3263X80N"
+		(property "Footprint" "kuben-footprints:RESC3263X80N"
 			(at 163.83 249.86 0)
 			(effects
 				(font
@@ -5962,7 +5962,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAPAE1050X1050N"
+		(property "Footprint" "kuben-footprints:CAPAE1050X1050N"
 			(at 132.41 125.73 0)
 			(effects
 				(font
@@ -6315,7 +6315,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "IPD047N03LF2SATMA1"
+		(property "Footprint" "kuben-footprints:IPD047N03LF2SATMA1"
 			(at 176.53 64.77 0)
 			(effects
 				(font
@@ -6534,7 +6534,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "IPD047N03LF2SATMA1"
+		(property "Footprint" "kuben-footprints:IPD047N03LF2SATMA1"
 			(at 214.63 39.37 0)
 			(effects
 				(font
@@ -7352,7 +7352,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "IPD047N03LF2SATMA1"
+		(property "Footprint" "kuben-footprints:IPD047N03LF2SATMA1"
 			(at 195.58 132.08 0)
 			(effects
 				(font
@@ -7870,7 +7870,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "IPD047N03LF2SATMA1"
+		(property "Footprint" "kuben-footprints:IPD047N03LF2SATMA1"
 			(at 214.63 144.78 0)
 			(effects
 				(font
@@ -8011,7 +8011,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SON80P400X400X80-9N"
+		(property "Footprint" "kuben-footprints:SON80P400X400X80-9N"
 			(at 140.64 127 0)
 			(effects
 				(font
@@ -8463,7 +8463,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOP50P490X110-10N"
+		(property "Footprint" "kuben-footprints:SOP50P490X110-10N"
 			(at 254 143.18 0)
 			(effects
 				(font
@@ -8782,7 +8782,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RESC3263X80N"
+		(property "Footprint" "kuben-footprints:RESC3263X80N"
 			(at 163.83 252.4 0)
 			(effects
 				(font
@@ -9112,7 +9112,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SON80P400X400X80-9N"
+		(property "Footprint" "kuben-footprints:SON80P400X400X80-9N"
 			(at 115.57 261.29 0)
 			(effects
 				(font
@@ -9464,7 +9464,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "IPD047N03LF2SATMA1"
+		(property "Footprint" "kuben-footprints:IPD047N03LF2SATMA1"
 			(at 152.4 175.26 0)
 			(effects
 				(font

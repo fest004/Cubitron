@@ -11410,7 +11410,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "QFN40P1050X650X90-77N"
+		(property "Footprint" "kuben-footprints:QFN40P1050X650X90-77N"
 			(at 221.92 54.61 0)
 			(effects
 				(font

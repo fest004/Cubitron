@@ -3370,7 +3370,7 @@
 	)
 	(text_box "SERCOM0"
 		(exclude_from_sim no)
-		(at 124.46 157.48 90)
+		(at 124.46 160.02 90)
 		(size 5.08 10.16)
 		(stroke
 			(width 0)
@@ -3446,7 +3446,7 @@
 	)
 	(text_box "SERCOM2\n"
 		(exclude_from_sim no)
-		(at 154.94 156.21 90)
+		(at 154.94 160.02 90)
 		(size 5.08 10.16)
 		(stroke
 			(width 0)
@@ -6148,7 +6148,7 @@
 				)
 			)
 		)
-		(property "Footprint" "QFN50P400X400X90-25N-D"
+		(property "Footprint" "kuben-footprints:QFN50P400X400X90-25N-D"
 			(at 261.62 174.93 0)
 			(effects
 				(font
@@ -6811,7 +6811,7 @@
 				)
 			)
 		)
-		(property "Footprint" "QFN50P900X900X100-65N-D"
+		(property "Footprint" "kuben-footprints:QFN50P900X900X100-65N-D"
 			(at 170.18 172.39 0)
 			(effects
 				(font
