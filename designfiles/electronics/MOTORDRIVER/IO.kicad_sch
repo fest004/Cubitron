@@ -916,6 +916,88 @@
 				)
 			)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
 		(symbol "Switch:SW_Push"
 			(pin_numbers hide)
 			(pin_names
@@ -2252,7 +2334,7 @@
 		(uuid "db2c5e3a-603d-4893-a558-2874f03a7147")
 	)
 	(no_connect
-		(at 92.71 113.03)
+		(at 91.44 95.25)
 		(uuid "054e7af9-f60b-4021-bd50-014840114d09")
 	)
 	(no_connect
@@ -2260,11 +2342,15 @@
 		(uuid "05985914-9f9d-4129-9e10-9af2055c0125")
 	)
 	(no_connect
+		(at 91.44 123.19)
+		(uuid "0d087db3-290b-4dce-8c69-16b156d11ab2")
+	)
+	(no_connect
 		(at 66.04 105.41)
 		(uuid "4ba90b90-ed82-4211-bcd9-b2a3fdc784f7")
 	)
 	(no_connect
-		(at 92.71 115.57)
+		(at 91.44 97.79)
 		(uuid "665732a5-052c-4264-92cf-a201e424f970")
 	)
 	(no_connect
@@ -2272,7 +2358,7 @@
 		(uuid "7ede5114-c6c1-4395-86bb-922f61a7a3b2")
 	)
 	(no_connect
-		(at 92.71 88.9)
+		(at 91.44 71.12)
 		(uuid "888aeb38-e4c1-4042-815c-9e652ca19345")
 	)
 	(no_connect
@@ -2280,7 +2366,7 @@
 		(uuid "93abbe71-01f0-4d42-825c-4f2a5c6df985")
 	)
 	(no_connect
-		(at 92.71 86.36)
+		(at 91.44 68.58)
 		(uuid "cc51afa8-3cda-4cf6-b760-7f185e7c4bb5")
 	)
 	(no_connect
@@ -2290,6 +2376,10 @@
 	(no_connect
 		(at 66.04 107.95)
 		(uuid "e33227fa-979c-45ab-80d7-dda36ebdf662")
+	)
+	(no_connect
+		(at 91.44 125.73)
+		(uuid "fc8f0d93-8e72-4b26-8994-1a712299d2c1")
 	)
 	(wire
 		(pts
@@ -2643,7 +2733,7 @@
 	)
 	(text "Dont need SAO pin, because \nwe have 2 sep i2c lines"
 		(exclude_from_sim no)
-		(at 105.41 74.676 0)
+		(at 104.14 56.896 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2663,7 +2753,7 @@
 	)
 	(text "FFC (Flat Flexible Connector) to IMU"
 		(exclude_from_sim no)
-		(at 104.902 70.358 0)
+		(at 103.632 52.578 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2745,9 +2835,9 @@
 		)
 		(uuid "07e3a102-a3cd-4c99-ab21-86baf733ec3f")
 	)
-	(hierarchical_label "SDA IMU2"
+	(hierarchical_label "SDA_IMU2"
 		(shape input)
-		(at 115.57 118.11 0)
+		(at 114.3 100.33 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2757,9 +2847,9 @@
 		)
 		(uuid "0f32cf87-973d-4240-85ed-5df77c067135")
 	)
-	(hierarchical_label "SCL IMU2"
+	(hierarchical_label "SCL_IMU2"
 		(shape input)
-		(at 115.57 120.65 0)
+		(at 114.3 102.87 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2780,6 +2870,18 @@
 			(justify left)
 		)
 		(uuid "2ee6b369-c6ed-4e15-b4f3-eaf09dcd05a0")
+	)
+	(hierarchical_label "SDA_IMU3"
+		(shape input)
+		(at 114.3 128.27 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "45c7b4c3-e279-45c9-a6c7-f05bff2fd1d7")
 	)
 	(hierarchical_label "D+"
 		(shape input)
@@ -2817,9 +2919,9 @@
 		)
 		(uuid "70858545-c92e-4b68-b1b0-7920544598d0")
 	)
-	(hierarchical_label "INT1 IMU2"
+	(hierarchical_label "INT_IMU2"
 		(shape input)
-		(at 115.57 123.19 0)
+		(at 114.3 105.41 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2877,9 +2979,9 @@
 		)
 		(uuid "aa153f05-6ad4-4914-9fc1-456a9e89e1d1")
 	)
-	(hierarchical_label "SCL IMU1"
+	(hierarchical_label "SCL_IMU1"
 		(shape input)
-		(at 115.57 93.98 0)
+		(at 114.3 76.2 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2913,6 +3015,18 @@
 		)
 		(uuid "bb444600-9115-4b9d-b0a5-d7649a395ed6")
 	)
+	(hierarchical_label "SCL_IMU3"
+		(shape input)
+		(at 114.3 130.81 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "deac391d-d3d0-4dd6-9034-31d1b1b665a1")
+	)
 	(hierarchical_label "BRAKE3"
 		(shape input)
 		(at 143.51 123.19 0)
@@ -2924,6 +3038,18 @@
 			(justify left)
 		)
 		(uuid "e12c5e16-aad6-41a3-ad35-742e0aff40f0")
+	)
+	(hierarchical_label "INT_IMU3"
+		(shape input)
+		(at 114.3 133.35 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e6136a39-d05e-48c7-af12-ba1b99790fd4")
 	)
 	(hierarchical_label "USBVIN"
 		(shape input)
@@ -2937,9 +3063,9 @@
 		)
 		(uuid "eb091347-2277-41fe-aa1b-bd66c0a0161a")
 	)
-	(hierarchical_label "SDA IMU1"
+	(hierarchical_label "SDA_IMU1"
 		(shape input)
-		(at 115.57 91.44 0)
+		(at 114.3 73.66 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2949,9 +3075,9 @@
 		)
 		(uuid "f88b0beb-d403-4e02-8879-8895d88d2852")
 	)
-	(hierarchical_label "INT1 IMU1"
+	(hierarchical_label "INT_IMU1"
 		(shape input)
-		(at 115.57 96.52 0)
+		(at 114.3 78.74 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3027,6 +3153,70 @@
 			(project "motordriver"
 				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/38bc72d2-c2f6-4538-9c33-e1ab2a8ac987"
 					(reference "S3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 54.61 57.15 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0e19a481-09b3-4f28-897f-5c9a23d7fa7d")
+		(property "Reference" "H3"
+			(at 57.15 55.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 57.15 58.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+			(at 54.61 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 54.61 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 54.61 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "motordriver"
+				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/38bc72d2-c2f6-4538-9c33-e1ab2a8ac987"
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -3501,6 +3691,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 54.61 38.1 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3ae8e700-0e66-4be3-8fde-1691ab38008a")
+		(property "Reference" "H4"
+			(at 57.15 36.8299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 57.15 39.3699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+			(at 54.61 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 54.61 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 54.61 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "motordriver"
+				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/38bc72d2-c2f6-4538-9c33-e1ab2a8ac987"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 193.04 121.92 90)
 		(mirror x)
@@ -3567,7 +3821,7 @@
 	)
 	(symbol
 		(lib_id "59453-052110ECHLF:59453-052110ECHLF")
-		(at 92.71 113.03 0)
+		(at 91.44 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3576,7 +3830,7 @@
 		(fields_autoplaced yes)
 		(uuid "43515c71-634b-44ae-9d95-ce4e79ff75a4")
 		(property "Reference" "J2"
-			(at 104.14 105.41 0)
+			(at 102.87 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3584,7 +3838,7 @@
 			)
 		)
 		(property "Value" "IMU2"
-			(at 104.14 107.95 0)
+			(at 102.87 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3592,7 +3846,7 @@
 			)
 		)
 		(property "Footprint" "kuben-footprints:59453052110ECHLF"
-			(at 111.76 207.95 0)
+			(at 110.49 190.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3602,7 +3856,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/59453-0_2110echlf.pdf"
-			(at 111.76 307.95 0)
+			(at 110.49 290.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3612,7 +3866,7 @@
 			)
 		)
 		(property "Description" "0.50mm Flex Connectors, FPC/FFC Side Entry ZIF Connector, Surface Mount, 5 Positions, Top Contact, 0.50mm (0.020in) Pitch."
-			(at 92.71 113.03 0)
+			(at 91.44 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3621,7 +3875,7 @@
 			)
 		)
 		(property "Height" "1"
-			(at 111.76 507.95 0)
+			(at 110.49 490.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3631,7 +3885,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Amphenol Communications Solutions"
-			(at 111.76 607.95 0)
+			(at 110.49 590.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3641,7 +3895,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "59453-052110ECHLF"
-			(at 111.76 707.95 0)
+			(at 110.49 690.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3651,7 +3905,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 111.76 807.95 0)
+			(at 110.49 790.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3661,7 +3915,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 111.76 907.95 0)
+			(at 110.49 890.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3671,7 +3925,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 111.76 607.95 0)
+			(at 110.49 590.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3681,7 +3935,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 111.76 707.95 0)
+			(at 110.49 690.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4100,15 +4354,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 115.57 113.03 90)
+		(at 114.3 123.19 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "58ec1cbe-54a0-4f1b-8ef5-ff745bee2200")
-		(property "Reference" "#PWR066"
-			(at 121.92 113.03 0)
+		(uuid "58d15f06-ffe8-4715-a7c4-8abf9226576b")
+		(property "Reference" "#PWR0318"
+			(at 120.65 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4117,7 +4371,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 119.38 113.0299 90)
+			(at 118.11 123.1899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4126,7 +4380,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 115.57 113.03 0)
+			(at 114.3 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4135,7 +4389,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 115.57 113.03 0)
+			(at 114.3 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4144,7 +4398,73 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 115.57 113.03 0)
+			(at 114.3 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "58b1f15f-3173-4284-be05-bacd3b44c11b")
+		)
+		(instances
+			(project "motordriver"
+				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/38bc72d2-c2f6-4538-9c33-e1ab2a8ac987"
+					(reference "#PWR0318")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 114.3 95.25 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "58ec1cbe-54a0-4f1b-8ef5-ff745bee2200")
+		(property "Reference" "#PWR066"
+			(at 120.65 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 118.11 95.2499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 114.3 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4431,6 +4751,161 @@
 		)
 	)
 	(symbol
+		(lib_id "59453-052110ECHLF:59453-052110ECHLF")
+		(at 91.44 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "79211266-ce9f-4961-8634-8b47bdca2ce9")
+		(property "Reference" "J8"
+			(at 102.87 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "IMU2"
+			(at 102.87 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "kuben-footprints:59453052110ECHLF"
+			(at 110.49 218.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/59453-0_2110echlf.pdf"
+			(at 110.49 318.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.50mm Flex Connectors, FPC/FFC Side Entry ZIF Connector, Surface Mount, 5 Positions, Top Contact, 0.50mm (0.020in) Pitch."
+			(at 91.44 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1"
+			(at 110.49 518.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Amphenol Communications Solutions"
+			(at 110.49 618.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "59453-052110ECHLF"
+			(at 110.49 718.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 110.49 818.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 110.49 918.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 110.49 618.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 110.49 718.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "dfbfe91c-b750-45f3-9fa5-4e2f3c9aaee8")
+		)
+		(pin "5"
+			(uuid "b3d29424-c15a-49b2-92c6-592b8e9198c0")
+		)
+		(pin "4"
+			(uuid "08d53c54-5c34-4626-aa7f-a03e3f78ff45")
+		)
+		(pin "7"
+			(uuid "533405a8-cc19-4af1-8f63-fe23ce7c14cd")
+		)
+		(pin "3"
+			(uuid "8085b004-6c7a-417c-8de2-ccc3cf260716")
+		)
+		(pin "1"
+			(uuid "50247aa8-139a-48fa-9346-100eb92959fc")
+		)
+		(pin "2"
+			(uuid "0dffa5bc-69de-499b-9d31-0b9363af3ae1")
+		)
+		(instances
+			(project "motordriver"
+				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/38bc72d2-c2f6-4538-9c33-e1ab2a8ac987"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 143.51 104.14 90)
 		(unit 1)
@@ -4560,6 +5035,72 @@
 			(project "motordriver"
 				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/38bc72d2-c2f6-4538-9c33-e1ab2a8ac987"
 					(reference "R44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 114.3 125.73 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8c029317-a99b-41b4-a568-3cff96d0cede")
+		(property "Reference" "#PWR0319"
+			(at 110.49 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 118.11 125.7299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 114.3 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3d1180de-7690-45bd-b25b-fad08fe39083")
+		)
+		(instances
+			(project "motordriver"
+				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/38bc72d2-c2f6-4538-9c33-e1ab2a8ac987"
+					(reference "#PWR0319")
 					(unit 1)
 				)
 			)
@@ -4899,7 +5440,7 @@
 	)
 	(symbol
 		(lib_id "59453-052110ECHLF:59453-052110ECHLF")
-		(at 92.71 86.36 0)
+		(at 91.44 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4908,7 +5449,7 @@
 		(fields_autoplaced yes)
 		(uuid "afa8153b-9e13-4231-be06-835f6a3f1f17")
 		(property "Reference" "J1"
-			(at 104.14 78.74 0)
+			(at 102.87 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4916,7 +5457,7 @@
 			)
 		)
 		(property "Value" "IMU1"
-			(at 104.14 81.28 0)
+			(at 102.87 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4924,7 +5465,7 @@
 			)
 		)
 		(property "Footprint" "kuben-footprints:59453052110ECHLF"
-			(at 111.76 181.28 0)
+			(at 110.49 163.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4934,7 +5475,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/59453-0_2110echlf.pdf"
-			(at 111.76 281.28 0)
+			(at 110.49 263.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4944,7 +5485,7 @@
 			)
 		)
 		(property "Description" "0.50mm Flex Connectors, FPC/FFC Side Entry ZIF Connector, Surface Mount, 5 Positions, Top Contact, 0.50mm (0.020in) Pitch."
-			(at 92.71 86.36 0)
+			(at 91.44 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4953,7 +5494,7 @@
 			)
 		)
 		(property "Height" "1"
-			(at 111.76 481.28 0)
+			(at 110.49 463.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4963,7 +5504,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Amphenol Communications Solutions"
-			(at 111.76 581.28 0)
+			(at 110.49 563.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4973,7 +5514,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "59453-052110ECHLF"
-			(at 111.76 681.28 0)
+			(at 110.49 663.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4983,7 +5524,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 111.76 781.28 0)
+			(at 110.49 763.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4993,7 +5534,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 111.76 881.28 0)
+			(at 110.49 863.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5003,7 +5544,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 111.76 581.28 0)
+			(at 110.49 563.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5013,7 +5554,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 111.76 681.28 0)
+			(at 110.49 663.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5118,6 +5659,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 54.61 44.45 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b636ce3f-8e90-4587-9a78-263bb6154c85")
+		(property "Reference" "H1"
+			(at 57.15 43.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 57.15 45.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+			(at 54.61 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 54.61 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 54.61 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "motordriver"
+				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/38bc72d2-c2f6-4538-9c33-e1ab2a8ac987"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 189.23 62.23 0)
 		(unit 1)
@@ -5185,7 +5790,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 115.57 115.57 270)
+		(at 114.3 97.79 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5193,7 +5798,7 @@
 		(dnp no)
 		(uuid "d040e90f-534e-4ed6-bad8-7b32610d5525")
 		(property "Reference" "#PWR067"
-			(at 111.76 115.57 0)
+			(at 110.49 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5202,7 +5807,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 119.38 115.5699 90)
+			(at 118.11 97.7899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5211,7 +5816,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 115.57 115.57 0)
+			(at 114.3 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5220,7 +5825,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 115.57 115.57 0)
+			(at 114.3 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5229,7 +5834,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 115.57 115.57 0)
+			(at 114.3 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5390,7 +5995,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 115.57 86.36 90)
+		(at 114.3 68.58 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5398,7 +6003,7 @@
 		(dnp no)
 		(uuid "d6ff8c63-e220-4bfd-b867-2ba071ecd63c")
 		(property "Reference" "#PWR064"
-			(at 121.92 86.36 0)
+			(at 120.65 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5407,7 +6012,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 119.38 86.3599 90)
+			(at 118.11 68.5799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5416,7 +6021,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 115.57 86.36 0)
+			(at 114.3 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5425,7 +6030,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 115.57 86.36 0)
+			(at 114.3 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5434,7 +6039,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 115.57 86.36 0)
+			(at 114.3 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5922,6 +6527,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 54.61 50.8 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eace396e-882d-47a3-81af-84b27652581d")
+		(property "Reference" "H2"
+			(at 57.15 49.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 57.15 52.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+			(at 54.61 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 54.61 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 54.61 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "motordriver"
+				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/38bc72d2-c2f6-4538-9c33-e1ab2a8ac987"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 193.04 116.84 90)
 		(unit 1)
@@ -6053,7 +6722,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 115.57 88.9 270)
+		(at 114.3 71.12 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6061,7 +6730,7 @@
 		(dnp no)
 		(uuid "f1beb5e7-b450-462a-a6b7-2a93db6871be")
 		(property "Reference" "#PWR065"
-			(at 111.76 88.9 0)
+			(at 110.49 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6070,7 +6739,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 119.38 88.8999 90)
+			(at 118.11 71.1199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6079,7 +6748,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 115.57 88.9 0)
+			(at 114.3 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6088,7 +6757,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 115.57 88.9 0)
+			(at 114.3 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6097,7 +6766,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 115.57 88.9 0)
+			(at 114.3 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)

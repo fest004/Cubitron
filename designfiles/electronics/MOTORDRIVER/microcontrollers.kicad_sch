@@ -2731,10 +2731,6 @@
 		(uuid "cde87e54-fcaf-4f39-a2e7-c70e6f671a21")
 	)
 	(no_connect
-		(at 118.11 115.57)
-		(uuid "cf1e2000-32b3-4e4d-bd1f-0c03334c18f1")
-	)
-	(no_connect
 		(at 224.79 92.71)
 		(uuid "d076f687-44ee-4eef-a4f5-c197307677a0")
 	)
@@ -3990,6 +3986,18 @@
 		)
 		(uuid "644fd87d-71ae-470e-919d-8fbd29afa97d")
 	)
+	(hierarchical_label "SDA_IMU3"
+		(shape input)
+		(at 114.3 147.32 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "664ac078-6dc1-44c2-b511-fc3c6af77c91")
+	)
 	(hierarchical_label "SDA_IMU2"
 		(shape input)
 		(at 173.99 123.19 0)
@@ -4001,6 +4009,18 @@
 			(justify left)
 		)
 		(uuid "67198325-2086-49e1-9393-4198df42f048")
+	)
+	(hierarchical_label "INT_IMU3"
+		(shape input)
+		(at 118.11 115.57 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "726f07fd-1195-4b27-9574-4b07eefd9205")
 	)
 	(hierarchical_label "SWDIO"
 		(shape input)
@@ -4134,9 +4154,9 @@
 		)
 		(uuid "bc093a8b-2d05-4804-bc2b-d6cf253550e1")
 	)
-	(hierarchical_label "INT1_IMU2"
+	(hierarchical_label "INT_IMU2"
 		(shape input)
-		(at 118.11 110.49 180)
+		(at 118.11 113.03 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4169,6 +4189,18 @@
 			(justify left)
 		)
 		(uuid "d0fc18a1-1149-460c-a56d-435b10114249")
+	)
+	(hierarchical_label "SCL_IMU3"
+		(shape input)
+		(at 116.84 147.32 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e1ae52c7-3c04-4756-b44f-e4e417c269b2")
 	)
 	(hierarchical_label "SERVO1_PWM_I"
 		(shape input)
@@ -4206,9 +4238,9 @@
 		)
 		(uuid "f840d548-7df9-4a7d-9e76-316d40b34955")
 	)
-	(hierarchical_label "INT1_IMU1"
+	(hierarchical_label "INT_IMU1"
 		(shape input)
-		(at 118.11 113.03 180)
+		(at 118.11 110.49 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
