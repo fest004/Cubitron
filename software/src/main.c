@@ -1,42 +1,52 @@
 #include "definitions.h"
+#include <stddef.h>
 
+#include "drivers/atsam/sercom.h"
 
-
-
-int state_machine()
+// Main application entry point
+int main(void)
 {
-	enum states state = INIT;
-
-	while (1)
-	{
-		switch (state) 
-		{
-			case INIT:
-				//init_motor();
-				//init_imus()
-				//init_display();
-				state = ERROR;
-				break;
-
-			case IDLE:
-				break;
-
-			case FLIP:
-				break;
-
-			case BALANCE:
-				break;
-
-			case ERROR:
-				return KUBE_ERROR;
-				break;
-		}
-	}
-
-	return KUBE_ERROR;
+    enable_sercom_instances();
+    while (1)
+    {
+        // Application code
+    }
 }
 
-int main()
+// Function prototypes
+void SystemInit(void);
+
+// Reset handler
+void Reset_Handler(void)
 {
-	state_machine();
+    SystemInit(); // Perform necessary system initialization
+    main();       // Jump to main function
+}
+
+void SystemInit(void)
+{
+    // Initialize clocks, peripherals, etc.
+}
+
+
+
+// Vector table
+__attribute__((section(".isr_vector"))) void (*vector_table[])(void) = {
+    (void (*)(void))(0x20020000),  // Initial stack pointer
+    Reset_Handler                 // Reset handler
+};
+
+
+void *_sbrk(ptrdiff_t incr) {
+    extern char _end; // Defined in your linker script
+    static char *heap_end;
+    char *prev_heap_end;
+
+    if (heap_end == 0) {
+        heap_end = &_end;
+    }
+    prev_heap_end = heap_end;
+    heap_end += incr;
+
+    return (void *)prev_heap_end;
 }

@@ -1,4 +1,7 @@
 
+//#include "../sam-stuff/sam.h"
+#include "../sam-core/sam.h"
+
 /* return values of functions*/
 
 #define KUBE_SUCCESS 1

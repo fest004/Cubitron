@@ -12,3 +12,6 @@ SERCOM4 = USART for general debug
 SERCOM5 = SPI for TMC4671 debug pins
 */
 
+
+
+void enable_sercom_instances(void);
