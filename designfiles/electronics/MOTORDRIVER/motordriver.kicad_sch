@@ -307,16 +307,6 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 76.2) (xy 72.39 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "48e09258-38cb-4dc4-bc52-02c20d4cf2bc")
-	)
-	(wire
-		(pts
 			(xy 236.22 142.24) (xy 242.57 142.24)
 		)
 		(stroke
@@ -584,16 +574,6 @@
 			(type default)
 		)
 		(uuid "80ff231d-c9d8-4963-bb8f-fc450952195f")
-	)
-	(wire
-		(pts
-			(xy 33.02 78.74) (xy 72.39 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "813e91bd-519a-4a05-bd79-e67ded347c26")
 	)
 	(wire
 		(pts
@@ -874,16 +854,6 @@
 			(type default)
 		)
 		(uuid "c823a1f1-ff98-459b-a585-16381cb9ff4a")
-	)
-	(wire
-		(pts
-			(xy 33.02 73.66) (xy 72.39 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cbd2a95a-e153-4a88-8cb9-51f11ea56ec3")
 	)
 	(wire
 		(pts
@@ -1623,36 +1593,6 @@
 				(justify right)
 			)
 			(uuid "451d54cf-daf7-4f44-9760-6d5a92502b8f")
-		)
-		(pin "SDA_IMU3" input
-			(at 33.02 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "96989572-164f-460b-af81-bda16addec5b")
-		)
-		(pin "SCL_IMU3" input
-			(at 33.02 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "1a7ae2dd-4c5e-458a-acb5-33a5495ed766")
-		)
-		(pin "INT_IMU3" input
-			(at 33.02 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "ce8c9f39-4db1-4346-bd57-e3093d70d066")
 		)
 		(pin "SCL_IMU2" input
 			(at 33.02 66.04 0)
@@ -2703,16 +2643,6 @@
 			)
 			(uuid "bd044bb4-688c-4480-8b11-d31e09616242")
 		)
-		(pin "INT_IMU3" input
-			(at 72.39 78.74 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "c4b6bc3f-5fb8-4a0c-a3f8-86d9d9feed67")
-		)
 		(pin "INT_IMU2" input
 			(at 72.39 71.12 180)
 			(effects
@@ -2732,26 +2662,6 @@
 				(justify left)
 			)
 			(uuid "329c810e-611e-4d5c-856c-a7ac4198c9f4")
-		)
-		(pin "SDA_IMU3" input
-			(at 72.39 76.2 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "3146d218-40c8-4a4a-8a04-0961e1cf23c0")
-		)
-		(pin "SCL_IMU3" input
-			(at 72.39 73.66 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "0b5541ea-1bfe-4803-a1c1-39ae61fa5281")
 		)
 		(instances
 			(project "motordriver"
