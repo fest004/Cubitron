@@ -1,5 +1,5 @@
 # Directories
-TOOLCHAIN_ROOT = /usr/arm-none-eabi
+TOOLCHAIN_ROOT = /usr
 TOOLCHAIN_BIN = $(TOOLCHAIN_ROOT)/bin
 BUILD_DIR = build
 OBJ_DIR = $(BUILD_DIR)/obj
@@ -15,17 +15,18 @@ RM = rm -rf
 MCU = cortex-m4
 F_CPU = 48000000
 TARGET = $(BIN_DIR)/blink
-LINKER_SCRIPT = linker_script.ld
+LINKER_SCRIPT = ATSAME53J18A.ld
 
 # Source Files
-SOURCES = src/main.c 
+SOURCES = src/main.c src/drivers/atsam/sercom.c
 
 OBJECT_NAMES = $(SOURCES:src/%.c=%.o)
 OBJECTS = $(patsubst %, $(OBJ_DIR)/%, $(OBJECT_NAMES))
 
 # Flags
-CFLAGS = -mcpu=$(MCU) -mthumb -DF_CPU=$(F_CPU) -Wall -O2 -g
-LDFLAGS = -mcpu=$(MCU) -mthumb -T $(LINKER_SCRIPT) -lc -lm -lgcc
+CFLAGS = -mcpu=$(MCU) -mthumb -DF_CPU=$(F_CPU) -Wall -O2 -g 
+
+LDFLAGS = -mcpu=$(MCU) -mthumb -T $(LINKER_SCRIPT) -lc -lm -lgcc --specs=nosys.specs -e Reset_Handler
 
 # Build Rules
 ## Linking
