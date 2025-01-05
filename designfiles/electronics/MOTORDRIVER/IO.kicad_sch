@@ -3259,7 +3259,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1a371246-680b-44a7-805d-8f0f8eec9aaa")
-		(property "Reference" "TP2"
+		(property "Reference" "TP6"
 			(at 226.06 123.444 90)
 			(effects
 				(font
@@ -3308,7 +3308,7 @@
 		(instances
 			(project "motordriver"
 				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/38bc72d2-c2f6-4538-9c33-e1ab2a8ac987"
-					(reference "TP2")
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -3660,7 +3660,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3f594971-cb96-4f54-8267-333a1e110bd0")
-		(property "Reference" "TP4"
+		(property "Reference" "TP3"
 			(at 180.594 122.174 90)
 			(effects
 				(font
@@ -3709,7 +3709,7 @@
 		(instances
 			(project "motordriver"
 				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/38bc72d2-c2f6-4538-9c33-e1ab2a8ac987"
-					(reference "TP4")
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -3725,7 +3725,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "43515c71-634b-44ae-9d95-ce4e79ff75a4")
-		(property "Reference" "J4"
+		(property "Reference" "J2"
 			(at 102.87 101.6 0)
 			(effects
 				(font
@@ -3864,7 +3864,7 @@
 		(instances
 			(project "motordriver"
 				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/38bc72d2-c2f6-4538-9c33-e1ab2a8ac987"
-					(reference "J4")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -4147,7 +4147,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4e4cd77d-fe87-492c-af0c-fba8ed2d881c")
-		(property "Reference" "R5"
+		(property "Reference" "R45"
 			(at 191.77 40.6399 0)
 			(effects
 				(font
@@ -4201,7 +4201,7 @@
 		(instances
 			(project ""
 				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/38bc72d2-c2f6-4538-9c33-e1ab2a8ac987"
-					(reference "R5")
+					(reference "R45")
 					(unit 1)
 				)
 			)
@@ -4857,7 +4857,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "84895e71-ec36-4122-bbce-4e4d6b42b816")
-		(property "Reference" "R72"
+		(property "Reference" "R44"
 			(at 76.2 83.82 90)
 			(effects
 				(font
@@ -4909,7 +4909,7 @@
 		(instances
 			(project "motordriver"
 				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/38bc72d2-c2f6-4538-9c33-e1ab2a8ac987"
-					(reference "R72")
+					(reference "R44")
 					(unit 1)
 				)
 			)
@@ -4990,7 +4990,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9c466502-06b6-4b17-8067-3695b600cb3b")
-		(property "Reference" "TP6"
+		(property "Reference" "TP4"
 			(at 225.806 117.856 90)
 			(effects
 				(font
@@ -5039,7 +5039,7 @@
 		(instances
 			(project "motordriver"
 				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/38bc72d2-c2f6-4538-9c33-e1ab2a8ac987"
-					(reference "TP6")
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -5324,7 +5324,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "afa8153b-9e13-4231-be06-835f6a3f1f17")
-		(property "Reference" "J3"
+		(property "Reference" "J1"
 			(at 102.87 74.93 0)
 			(effects
 				(font
@@ -5463,7 +5463,7 @@
 		(instances
 			(project "motordriver"
 				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/38bc72d2-c2f6-4538-9c33-e1ab2a8ac987"
-					(reference "J3")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -5479,7 +5479,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b5ae960c-92ea-4c15-859f-96478581b769")
-		(property "Reference" "TP3"
+		(property "Reference" "TP2"
 			(at 180.594 119.38 90)
 			(effects
 				(font
@@ -5528,7 +5528,7 @@
 		(instances
 			(project "motordriver"
 				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/38bc72d2-c2f6-4538-9c33-e1ab2a8ac987"
-					(reference "TP3")
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -5743,7 +5743,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d05be5b8-bf9c-4147-9390-c25488b11075")
-		(property "Reference" "R73"
+		(property "Reference" "R43"
 			(at 27.94 88.9 90)
 			(effects
 				(font
@@ -5795,7 +5795,7 @@
 		(instances
 			(project "motordriver"
 				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/38bc72d2-c2f6-4538-9c33-e1ab2a8ac987"
-					(reference "R73")
+					(reference "R43")
 					(unit 1)
 				)
 			)
@@ -6015,7 +6015,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d77ce136-b6f7-4d57-8f5d-c52dcdde23b2")
-		(property "Reference" "J6"
+		(property "Reference" "J4"
 			(at 246.38 87.6299 0)
 			(effects
 				(font
@@ -6190,7 +6190,7 @@
 		(instances
 			(project ""
 				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/38bc72d2-c2f6-4538-9c33-e1ab2a8ac987"
-					(reference "J6")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -6339,7 +6339,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "eaab4b05-4169-4c6f-92e0-0d9fdb119343")
-		(property "Reference" "J1"
+		(property "Reference" "J3"
 			(at 196.85 90.1701 0)
 			(effects
 				(font
@@ -6399,7 +6399,7 @@
 		(instances
 			(project ""
 				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/38bc72d2-c2f6-4538-9c33-e1ab2a8ac987"
-					(reference "J1")
+					(reference "J3")
 					(unit 1)
 				)
 			)
