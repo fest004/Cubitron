@@ -14,7 +14,7 @@ RM = rm -rf
 # MCU and Target Settings
 MCU = cortex-m4
 F_CPU = 48000000
-TARGET = $(BIN_DIR)/blink
+TARGET = $(BIN_DIR)/kuben
 LINKER_SCRIPT = ATSAME53J18A.ld
 
 # Source Files
