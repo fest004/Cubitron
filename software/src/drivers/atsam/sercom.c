@@ -1,42 +1,14 @@
 #include "sercom.h"
 
 
-#include "../../definitions.h"
-
-/*
-This function configures a clock for each sercom instance. sercom 0, 1 and 2 all run on the same clock
-for I2C comms. GLCK1 for USART will be 115200 baud rate for external communication. last clock for 
-general spi to tmc4671 and the debug spi for tmc4671
-*/
-
-/*
-void sercom_cfg_clocks(void) 
-{
-    // Configure GCLK0 for I2C (48 MHz)
-    GCLK->PCHCTRL[24].reg = GCLK_PCHCTRL_GEN(0) | GCLK_PCHCTRL_CHEN;  // 48 MHz GCLK for SERCOM0 (I2C)
-    while (!(GCLK->PCHCTRL[24].bit.CHEN));
-
-    // Configure GCLK1 for USART (48 MHz)
-    GCLK->PCHCTRL[25].reg = GCLK_PCHCTRL_GEN(0) | GCLK_PCHCTRL_CHEN;  // 48 MHz GCLK for SERCOM1 (USART)
-    while (!(GCLK->PCHCTRL[25].bit.CHEN));
-
-    // Configure GCLK2 for SPI (48 MHz / 2 = 25 MHz)
-    GCLK->PCHCTRL[26].reg = GCLK_PCHCTRL_GEN(0) | GCLK_PCHCTRL_CHEN;  // 48 MHz GCLK for SERCOM2 (SPI)
-    while (!(GCLK->PCHCTRL[26].bit.CHEN));
-}
-
-
-This functions flips bit indicating that SERCOM[0, 5] are enabled. 
-*/
 void enable_sercom_instances(void)
 {
     //MCLK->APBAMASK.bit.SERCOM0_ = 1;
     //MCLK->APBBMASK.bit.SERCOM1_ = 1;
     //MCLK->APBCMASK.bit.SERCOM2_ = 1;
     //MCLK->APBCMASK.bit.SERCOM3_ = 1;
-   // MCLK->APBCMASK.bit.SERCOM4_ = 1;
-   // MCLK->APBCMASK.bit.SERCOM5_ = 1;
-    MCLK_REGS->MCLK_APBBMASK |= MCLK_APBAMASK_SERCOM0_Msk;
+    // MCLK->APBCMASK.bit.SERCOM4_ = 1;
+    // MCLK->APBCMASK.bit.SERCOM5_ = 1;
 }
 
 /*
