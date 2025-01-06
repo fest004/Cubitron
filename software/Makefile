@@ -18,10 +18,10 @@ TARGET = $(BIN_DIR)/kuben
 LINKER_SCRIPT = ATSAME53J18A.ld
 
 # Source Files
-SOURCES = src/main.c src/drivers/atsam/sercom.c
+SRC = src
+SOURCES = $(shell find $(SRC_DIR) -type f -name "*.c")
 
-OBJECT_NAMES = $(SOURCES:src/%.c=%.o)
-OBJECTS = $(patsubst %, $(OBJ_DIR)/%, $(OBJECT_NAMES))
+OBJECTS = $(patsubst $(SRC_DIR)/%.c,$(OBJ_DIR)/%.o,$(SOURCES))
 
 # Flags
 CFLAGS = -mcpu=$(MCU) -mthumb -DF_CPU=$(F_CPU) -Wall -O2 -g 

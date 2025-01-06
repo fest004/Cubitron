@@ -1,3 +1,6 @@
+#ifndef DEFINITIONS_H
+#define DEFINITIONS_H
+
 
 //#include "../sam-stuff/sam.h"
 #include "../sam-core/sam.h"
@@ -21,3 +24,5 @@ enum states
 
 
 
+
+#endif

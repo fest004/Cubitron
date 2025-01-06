@@ -1,6 +1,6 @@
+#include "../../definitions.h"
 
 
-
-
-void configure_gclk_sources(void);
+void sys_clk_init(void);
+void peripheral_clks_init(void);
 
