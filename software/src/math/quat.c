@@ -17,6 +17,8 @@
  * @brief   A basic quaternion library written in C
  * @date    2022-05-16
  */
+
+#if 0
 #include "quat.h"
 
 #ifndef M_PI
@@ -268,3 +270,5 @@ void Quaternion_slerp(Quaternion* q1, Quaternion* q2, double t, Quaternion* outp
     }
     *output = result;
 }
+
+#endif

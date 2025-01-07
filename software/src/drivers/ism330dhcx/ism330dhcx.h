@@ -1,3 +1,5 @@
+#if 0
+
 #pragma once
 
 
@@ -103,3 +105,4 @@ void imu_get_gyro_rps(Vec3* res);
 
 void imu_get_magnet_uT(Vec3* res);
 
+#endif
