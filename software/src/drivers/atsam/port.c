@@ -18,7 +18,6 @@ void ports_init(void)
     PORT_REGS->GROUP[0].PORT_OUTCLR = (1 << 27); /* set it to 0 */
 
     /* error led, process led */
-
     PORT_REGS->GROUP[0].PORT_DIRSET = (1 << 0); /* Set direction to output for PA00 */
     PORT_REGS->GROUP[0].PORT_OUTCLR = (1 << 0); /* Set it to zero */
 
@@ -82,6 +81,32 @@ void ports_init(void)
     configure_pin(0, 20, 0x5);
     configure_pin(0, 21, 0x5);
     configure_pin(0, 22, 0x5);
+
+
+    /*******************/
+    /*INTERRUPT SECTION*/
+    /*******************/
+    /* EIC for interrupt, which is group A -> 0x0 */
+
+
+    /* interrupt for servo controller status pins */
+    configure_pin(0, 3, 0x0);
+    PORT_REGS->GROUP[0].PORT_PINCFG[3] |= PORT_PINCFG_INEN_Msk;
+
+    configure_pin(1, 4, 0x0);
+    PORT_REGS->GROUP[1].PORT_PINCFG[4] |= PORT_PINCFG_INEN_Msk;
+
+    configure_pin(1, 5, 0x0);
+    PORT_REGS->GROUP[1].PORT_PINCFG[5] |= PORT_PINCFG_INEN_Msk;
+
+
+    /* interrupt from imu data rdy */
+    configure_pin(1, 6, 0x0);
+    PORT_REGS->GROUP[1].PORT_PINCFG[6] |= PORT_PINCFG_INEN_Msk;
+
+    configure_pin(1, 7, 0x0);
+    PORT_REGS->GROUP[1].PORT_PINCFG[7] |= PORT_PINCFG_INEN_Msk;
+
 }
 
 
@@ -90,6 +115,11 @@ group = 0 -> Port Group A
 group = 1 -> Port Group B
 pin = x -> pin x in group chosen 
 pmux_function = x -> pmux table function offset by x, refer to datasheet port multiplexing 
+
+popular options: 
+A = External Interrupt Controller -> 0x0 (offset 0)
+C/D = SERCOM -> 0x2/0x3 (both C and D are SERCOM)
+F = TCC/PWM -> 0x5 
 */
 void configure_pin(uint8_t group, uint8_t pin, uint8_t pmux_function) 
 {
@@ -106,3 +136,4 @@ void configure_pin(uint8_t group, uint8_t pin, uint8_t pmux_function)
 												PORT_PMUX_PMUXO(pmux_function);
     }
 }
+

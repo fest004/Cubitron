@@ -51,6 +51,7 @@ void sys_clk_init(void)
 All I2C sercom peripherals can be on the same clock
 All SPI sercom peripherals can be on the same clock
 All UART sercom peripherals can be on the same clock
+Enables EIC clock
 */
 void peripheral_clks_init(void)
 {
@@ -137,6 +138,13 @@ void peripheral_clks_init(void)
     }
 
     /* END OF SECTION UART CLOCK CONFIGURATION */
+
+
+
+    /******************************************************/
+    /* External Interrupt Controller Enable Clock         */
+    /******************************************************/
+    MCLK_REGS->MCLK_APBAMASK |= MCLK_APBAMASK_EIC_Msk;
 }
 
 
