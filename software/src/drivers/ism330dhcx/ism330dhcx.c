@@ -1,3 +1,5 @@
+#if 0
+
 #include "imu.h"
 #include "datastructures.h"
 #include <definitions.h>
@@ -236,3 +238,4 @@ void imu_get_gyro_rps(Vec3* res)
 /* *****************************************************************************
  End of File
 */
+#endif

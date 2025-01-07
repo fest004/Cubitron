@@ -6,6 +6,8 @@
 * This software is proprietary to Analog Devices, Inc. and its licensors.
 *******************************************************************************/
 
+#if 0
+
 #include "TMC4671.h"
 
 #define TMC4671_WRITE_BIT 0x80
@@ -508,3 +510,5 @@ int32_t tmc4671_readFieldWithDependency(uint16_t icID, RegisterField field, uint
 	tmc4671_writeRegister(icID, dependsReg, lastDependsValue);
 	return value;
 }
+
+#endif
