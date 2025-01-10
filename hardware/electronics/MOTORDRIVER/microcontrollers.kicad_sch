@@ -2468,6 +2468,151 @@
 				)
 			)
 		)
+		(symbol "Jumper:Jumper_2_Bridged"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim yes)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Jumper_2_Bridged"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Jumper, 2-pole, closed/bridged"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Jumper SPST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Jumper_2_Bridged_0_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Bridged_0_1"
+				(arc
+					(start 1.524 0.254)
+					(mid 0 0.762)
+					(end -1.524 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Bridged_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:+3.3V"
 			(power)
 			(pin_numbers hide)
@@ -2868,10 +3013,6 @@
 		(uuid "399653cc-ab8a-4402-a995-c4d8cfb11b97")
 	)
 	(no_connect
-		(at 265.43 102.87)
-		(uuid "45b27ad8-333f-4ab7-bdbd-e14b0309dc16")
-	)
-	(no_connect
 		(at 224.79 97.79)
 		(uuid "45d5e7c3-f2da-4cad-a832-0f0e50043b4d")
 	)
@@ -2979,6 +3120,16 @@
 	)
 	(wire
 		(pts
+			(xy 267.97 129.54) (xy 267.97 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "056e8bf4-fcc4-4666-8b93-40ed321e0177")
+	)
+	(wire
+		(pts
 			(xy 265.43 90.17) (xy 267.97 90.17)
 		)
 		(stroke
@@ -3029,6 +3180,16 @@
 	)
 	(wire
 		(pts
+			(xy 187.96 46.99) (xy 194.31 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "307b0add-b96b-47e8-83b4-b5ffdbb1e41c")
+	)
+	(wire
+		(pts
 			(xy 74.93 33.02) (xy 85.09 33.02)
 		)
 		(stroke
@@ -3066,6 +3227,16 @@
 			(type default)
 		)
 		(uuid "49668e10-05c0-4498-9565-bc9079f8069b")
+	)
+	(wire
+		(pts
+			(xy 267.97 102.87) (xy 267.97 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e770ba9-0068-4526-86e0-9b4c8b72087e")
 	)
 	(wire
 		(pts
@@ -3276,6 +3447,16 @@
 			(type default)
 		)
 		(uuid "86568661-0afa-4d22-b886-21feee8bea43")
+	)
+	(wire
+		(pts
+			(xy 265.43 102.87) (xy 267.97 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9342d6d2-e9a7-43ad-b60f-16e446d14769")
 	)
 	(wire
 		(pts
@@ -3499,6 +3680,16 @@
 	)
 	(wire
 		(pts
+			(xy 187.96 44.45) (xy 194.31 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1a109a2-906c-4dd9-b9b9-7c6dda31e654")
+	)
+	(wire
+		(pts
 			(xy 156.21 62.23) (xy 156.21 69.85)
 		)
 		(stroke
@@ -3539,7 +3730,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 44.45) (xy 194.31 44.45)
+			(xy 143.51 44.45) (xy 177.8 44.45)
 		)
 		(stroke
 			(width 0)
@@ -3609,7 +3800,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 46.99) (xy 194.31 46.99)
+			(xy 146.05 46.99) (xy 177.8 46.99)
 		)
 		(stroke
 			(width 0)
@@ -4478,6 +4669,73 @@
 		(uuid "fcdc36fc-e50f-4be9-8c6f-555fdc111129")
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 267.97 118.11 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00f7e8c1-79a7-45db-a577-9253c21ab166")
+		(property "Reference" "D35"
+			(at 263.2075 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 263.2075 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
+			(at 267.97 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 267.97 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 267.97 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "77c64ef0-7166-45d5-a1a7-7aa26ecb86eb")
+		)
+		(pin "2"
+			(uuid "c51c9bdc-aaa4-4203-9434-f44f5fd96568")
+		)
+		(instances
+			(project "motordriver"
+				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/9ebbb593-eaf1-4a56-ba2a-164e20b1d55e"
+					(reference "D35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 34.29 181.61 0)
 		(unit 1)
@@ -4741,6 +4999,73 @@
 			(project "motordriver"
 				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/9ebbb593-eaf1-4a56-ba2a-164e20b1d55e"
 					(reference "#PWR0163")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Bridged")
+		(at 182.88 44.45 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "12c5c24b-8861-47d5-ae73-c8c8e45f427a")
+		(property "Reference" "JP1"
+			(at 182.88 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Jumper_2_Bridged"
+			(at 182.88 33.782 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+			(at 182.88 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 182.88 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, closed/bridged"
+			(at 182.88 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8f7167b5-884f-4874-b7e9-48f73fd897bc")
+		)
+		(pin "2"
+			(uuid "24d6439d-a696-4546-8c8a-6798355f91e1")
+		)
+		(instances
+			(project ""
+				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/9ebbb593-eaf1-4a56-ba2a-164e20b1d55e"
+					(reference "JP1")
 					(unit 1)
 				)
 			)
@@ -5773,6 +6098,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 267.97 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3fc89555-24af-46d2-8168-f78f6fbf6b43")
+		(property "Reference" "#PWR0171"
+			(at 267.97 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 270.51 130.8099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 267.97 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 267.97 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 267.97 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "227ba3c5-03d9-4c07-8329-cc2d5aacb41a")
+		)
+		(instances
+			(project "motordriver"
+				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/9ebbb593-eaf1-4a56-ba2a-164e20b1d55e"
+					(reference "#PWR0171")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 54.61 119.38 180)
 		(unit 1)
@@ -5986,7 +6378,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "60f6e4ac-5289-4b70-9763-a6609c80b1a3")
-		(property "Reference" "#PWR0171"
+		(property "Reference" "#PWR0172"
 			(at 278.13 86.36 0)
 			(effects
 				(font
@@ -6036,7 +6428,74 @@
 		(instances
 			(project "motordriver"
 				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/9ebbb593-eaf1-4a56-ba2a-164e20b1d55e"
-					(reference "#PWR0171")
+					(reference "#PWR0172")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Bridged")
+		(at 182.88 46.99 180)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6881f409-472b-43ac-a42a-a16a18c0fc4b")
+		(property "Reference" "JP2"
+			(at 182.88 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Jumper_2_Bridged"
+			(at 182.88 36.068 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+			(at 182.88 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 182.88 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, closed/bridged"
+			(at 182.88 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f621d834-c702-49f7-82e6-1207d6767769")
+		)
+		(pin "2"
+			(uuid "a0d31663-2432-4034-875a-b2633b393968")
+		)
+		(instances
+			(project "motordriver"
+				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/9ebbb593-eaf1-4a56-ba2a-164e20b1d55e"
+					(reference "JP2")
 					(unit 1)
 				)
 			)
@@ -8188,6 +8647,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 267.97 110.49 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e4a00512-02c3-400e-acaf-c39fb0b19b61")
+		(property "Reference" "R64"
+			(at 270.51 109.2199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1kΩ"
+			(at 270.51 111.7599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 269.748 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 267.97 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 267.97 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fbf6f953-3aff-4e5e-a2fe-eea5de01c910")
+		)
+		(pin "2"
+			(uuid "273becc9-23ae-40a2-afc4-82db7ce1887b")
+		)
+		(instances
+			(project "motordriver"
+				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/9ebbb593-eaf1-4a56-ba2a-164e20b1d55e"
+					(reference "R64")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 40.64 127 90)
 		(unit 1)
@@ -8745,7 +9274,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DSC6001CI2B0250000T"
+		(property "Footprint" "kuben-footprints:DSC6001CI2B0250000T"
 			(at 62.23 267.64 0)
 			(effects
 				(font
