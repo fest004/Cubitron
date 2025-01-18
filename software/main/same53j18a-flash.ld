@@ -139,15 +139,17 @@ SECTIONS
     .bss (NOLOAD) :
     {
         . = ALIGN(4);
-        __bss_start__ = . ;
+        _sbss = . ;
+        __bss_start__ = _sbss;
         _szero = .;
-        *(.bss )
+        *(.bss .bss.*)
         *(COMMON)
         . = ALIGN(4);
-        __bss_end__ = . ;
+        _ebss = . ;
+        __bss_end__ = _ebss;
         _ezero = .;
     } > ram
-
+      
     /* stack section */
     .stack (NOLOAD):
     {

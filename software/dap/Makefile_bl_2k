@@ -25,26 +25,26 @@ CFLAGS += -flto
 
 LDFLAGS += -mcpu=cortex-m0plus -mthumb
 LDFLAGS += -Wl,--gc-sections
-LDFLAGS += -Wl,--script=../linker/samd11d14_bl_2k.ld
+LDFLAGS += -Wl,--script=samd11d14_bl_2k.ld
 LDFLAGS += -flto
 
 INCLUDES += \
-  -I../include \
-  -I../usb \
-  -I../../.. \
-  -I..
+  -Isrc/samd11/include \
+  -Isrc/samd11/usb \
+  -Isrc/samd11/ \
+  -Isrc/
 
 SRCS += \
-  ../main.c \
-  ../uart.c \
-  ../usb/usb_samd11.c \
-  ../usb/usb_std.c \
-  ../usb/usb_cdc.c \
-  ../usb/usb_hid.c \
-  ../usb/usb_winusb.c \
-  ../usb_descriptors.c \
-  ../startup_samd11.c \
-  ../../../dap.c \
+  src/samd11/main.c \
+  src/samd11/uart.c \
+  src/samd11/usb/usb_samd11.c \
+  src/samd11/usb/usb_std.c \
+  src/samd11/usb/usb_cdc.c \
+  src/samd11/usb/usb_hid.c \
+  src/samd11/usb/usb_winusb.c \
+  src/samd11/usb_descriptors.c \
+  src/samd11/startup_samd11.c \
+  src/dap.c \
 
 DEFINES += \
   -D__SAMD11C14A__ \
