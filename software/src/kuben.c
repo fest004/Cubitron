@@ -1,34 +1,3 @@
-#include "kuben.h"
-
-
-void test();
-
-void run(void)
-{
-    init();
-    loop();
-}
-
-void init(void)
-{
-    sys_clk_init();
-    peripheral_clks_init();
-    ports_init();
-    configure_eic();
-}
-
-void loop(void)
-{
-    test(); /* should turn an LED on the Nav V2 board on. */
-
-    while (1)
-    {
-
-    }
-}
-
-
-
 
 /* test function before infinite while loop */
 void test()

@@ -1,9 +1,9 @@
 /* Configurations */
-#set text(font: "TeX Gyre Schola")
-#show math.equation : set text(font:"TeX Gyre Schola Math")
+#set text(font: "Source Serif 4")
+#show math.equation : set text(font:"STIX Two Math")
 #show heading: h => {
   set align(center)
-  set text(font:"TeX Gyre Bonum",weight: "bold")
+  set text(font:"Source Serif 4",weight: "black")
   set block(above: 2em, below: 1em)
   grid(columns:3,align: center + horizon,
     line(length: 80%), h , line(length: 80%)
@@ -21,9 +21,9 @@
 
 #set page(numbering: "1")
 #set align(center)
-#text(font:"TeX Gyre Bonum",weight: "black", size: 35pt, smallcaps("KUBEN"))
+#text(font:"Source Serif 4",weight: "black", size: 35pt, smallcaps("KUBEN"))
 
-#text(font: "TeX Gyre Bonum", weight: "bold",
+#text(font: "Source Serif 4", weight: "bold",
   [Felix Strand #h(1cm) Brage Wiseth]
 )
 
