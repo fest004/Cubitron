@@ -184,7 +184,3 @@ void Dummy_Handler(void)
         while (1) {
         }
 }
-
-// char *_sbrk(int incr) {
-//     return (char *)-1;  // Indicate an error (heap allocation not supported)
-// }
