@@ -15,22 +15,34 @@ DEBUG = arm-none-eabi-gdb
 RM = rm -rf
 
 # MCU and Target Settings
-MCU = cortex-m4
+MCU = cortex-m0plus
 STACK_SIZE=0x8000
+F_CPU=48000000
 TARGET = $(BIN_DIR)/debugunit
 LINKER_SCRIPT = samd11d14am-flash.ld
 
 # Source Files
 SRC_DIR = src
 
-SOURCES = $(shell find $(SRC_DIR) -type f -name "*.c" \
-  ! -path "$(SRC_DIR)/CMSIS-DAP/*"\
-  ! -path "$(SRC_DIR)/drivers/tmp/*")
+SOURCES = $(shell find $(SRC_DIR) -type f -name "*.c")
 OBJECTS = $(patsubst $(SRC_DIR)/%.c,$(OBJ_DIR)/%.o,$(SOURCES))
 
+DEFINES += \
+  -DDONT_USE_CMSIS_INIT \
+  -DF_CPU=48000000 \
+  -DSTACK_SIZE=$(STACK_SIZE)
+
 # Flags
-CFLAGS = -mcpu=$(MCU) -DSTACK_SIZE=$(STACK_SIZE) -DUSE_CMSIS_INIT -Wall -O2 -g 
-LDFLAGS = -T $(LINKER_SCRIPT) --specs=nosys.specs --specs=nano.specs -e Reset_Handler
+CFLAGS += -mcpu=$(MCU) $(DEFINES) -mthumb 
+CFLAGS += -W -Wall --std=gnu11 -Os
+CFLAGS += -fno-diagnostics-show-caret
+CFLAGS += -fdata-sections -ffunction-sections
+CFLAGS += -funsigned-char -funsigned-bitfields
+CFLAGS += -flto
+
+LDFLAGS += -mcpu=$(MCU) -T $(LINKER_SCRIPT) --specs=nosys.specs --specs=nano.specs -e Reset_Handler
+LDFLAGS += -Wl,--gc-sections -mthumb
+LDFLAGS += -flto
 
 # Build Rules
 $(OBJ_DIR)/%.o: $(SRC_DIR)/%.c

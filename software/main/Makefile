@@ -25,7 +25,8 @@ SRC_DIR = src
 
 SOURCES = $(shell find $(SRC_DIR) -type f -name "*.c" \
   ! -path "$(SRC_DIR)/kuben.c" \
-  ! -path "$(SRC_DIR)/drivers/*"\
+  ! -path "$(SRC_DIR)/drivers-external/*"\
+  ! -path "$(SRC_DIR)/platform/drivers/*"\
   ! -path "$(SRC_DIR)/RTOS2/*")
 OBJECTS = $(patsubst $(SRC_DIR)/%.c,$(OBJ_DIR)/%.o,$(SOURCES))
 
