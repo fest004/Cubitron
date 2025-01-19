@@ -4,4 +4,6 @@
 *.gltf
 *.bin
 *.lck
+.clangd
+.cache
 notes/

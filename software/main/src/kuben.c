@@ -1,4 +1,4 @@
-#include "host/same53j18a.h"
+#include "target/same53j18a.h"
 /* test function before infinite while loop */
 void test()
 {

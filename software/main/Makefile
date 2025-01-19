@@ -24,9 +24,9 @@ LINKER_SCRIPT = same53j18a-flash.ld
 SRC_DIR = src
 
 SOURCES = $(shell find $(SRC_DIR) -type f -name "*.c" \
-  ! -path "$(SRC_DIR)/CMSIS/*" \
   ! -path "$(SRC_DIR)/kuben.c" \
-  ! -path "$(SRC_DIR)/drivers/*")
+  ! -path "$(SRC_DIR)/drivers/*"\
+  ! -path "$(SRC_DIR)/RTOS2/*")
 OBJECTS = $(patsubst $(SRC_DIR)/%.c,$(OBJ_DIR)/%.o,$(SOURCES))
 
 # Flags

@@ -957,6 +957,16 @@
 	)
 	(wire
 		(pts
+			(xy 33.02 80.01) (xy 72.39 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6ee4765-1db1-4682-8c89-671b5160958d")
+	)
+	(wire
+		(pts
 			(xy 236.22 93.98) (xy 242.57 93.98)
 		)
 		(stroke
@@ -1524,26 +1534,6 @@
 			)
 			(uuid "4f41ca5e-6699-4a0f-a11c-7bd3aa6e1281")
 		)
-		(pin "SWCLK" input
-			(at 33.02 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "09387c50-a214-4565-b15e-b2ee78f197d2")
-		)
-		(pin "SWDIO" input
-			(at 33.02 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "666b1c0b-67fb-4782-bee3-4015bb488043")
-		)
 		(pin "BATTVIN" input
 			(at 33.02 25.4 0)
 			(effects
@@ -1653,6 +1643,36 @@
 				(justify right)
 			)
 			(uuid "c993159d-e60c-4ae4-98b2-af8c966f8024")
+		)
+		(pin "DBG_SWCLK" input
+			(at 33.02 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2e2ab090-7af4-47b0-9d1f-03beae41fcb3")
+		)
+		(pin "DBG_RESETN" input
+			(at 33.02 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f0aa3750-53c4-47f2-953e-8e26a545f117")
+		)
+		(pin "DBG_SWDIO" input
+			(at 33.02 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d94a7b46-fa97-43a0-ba96-3393bfac5d98")
 		)
 		(instances
 			(project "motordriver"
@@ -2662,6 +2682,16 @@
 				(justify left)
 			)
 			(uuid "329c810e-611e-4d5c-856c-a7ac4198c9f4")
+		)
+		(pin "DBG_RESETN" input
+			(at 72.39 80.01 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6282f7d0-0702-4e27-9f96-8e85735c4e94")
 		)
 		(instances
 			(project "motordriver"

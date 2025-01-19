@@ -36,8 +36,20 @@
 #v(1cm)
 
 = Introduction
-In this project, we aim to design and build a self-balancing cube using reaction wheels, a type
-of control mechanism commonly used in spacecraft for attitude control. The goal is to create a compact,
+
+This project is about building a 15cm cube that can balance on one of its edges—or even on
+one of its corners. The cube is equipped with reaction wheels that it uses to fight off any forces
+trying to bring it down, the same way Philippe Petit used his stick.
+The reaction wheels have a significant moment of inertia, enough so that the universe wants to cancle
+any change in angular momentum, by rotating the cube in the oposite way.
+that help keep the cube balanced. By adjusting the wheel speeds in real time, the cube can stay
+upright and stable, no matter how much it’s disturbed. It’s a little like watching a gymnast keep
+perfect form mid-air, but in 3D. Throughout the project, we’ll design and build the cube, choose
+the right wheels, add sensors to track its orientation, and write the control algorithms to keep
+everything in balance. In the end, we’ll have a self-balancing cube that shows how reaction wheels
+can be used to control even the most unpredictable systems.
+
+It’s a perfect mix of mechanical design, control theory, and a bit of physics, all wrapped up in a cube that refuses to fall.
 dynamically stable system capable of maintaining its equilibrium in three-dimensional space without external support.
 The cube, with its simple geometric structure, presents unique challenges in terms of balance and orientation control,
 making it an excellent platform for exploring the principles of feedback control systems and mechanical design.
