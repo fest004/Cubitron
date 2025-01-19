@@ -9,9 +9,9 @@
   ███   ▀█▀ ████████▀  ▄█████████▀    ██████████  ▀█   █▀  
   ▀                                                        
 ```
-# You can read about it here [Link to documentation](https://fest004.github.io/Cubitron/)
+#### You can read about it here [Link to documentation](https://fest004.github.io/Cubitron/)
 
-# Folder structure
+#### Folder structure
 
 ```
 .
