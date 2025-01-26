@@ -5,6 +5,18 @@
 	(uuid "c7634e88-16d1-45ec-9aac-9c841e03cf6d")
 	(paper "A4")
 	(lib_symbols)
+	(junction
+		(at 161.29 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "878bb2be-8754-41c6-bb95-32d874f78f58")
+	)
+	(junction
+		(at 161.29 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d6814173-ad70-498e-8804-47340ca5ea43")
+	)
 	(wire
 		(pts
 			(xy 262.89 44.45) (xy 267.97 44.45)
@@ -84,16 +96,6 @@
 			(type default)
 		)
 		(uuid "12d442b4-6b9d-4dd9-b2fa-9377566c556b")
-	)
-	(wire
-		(pts
-			(xy 236.22 152.4) (xy 242.57 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15beb2be-4553-42b4-a30b-a24371527c6a")
 	)
 	(wire
 		(pts
@@ -194,6 +196,26 @@
 			(type default)
 		)
 		(uuid "30ff744e-6916-41db-8a6b-bbed495f2ae5")
+	)
+	(wire
+		(pts
+			(xy 161.29 100.33) (xy 166.37 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "340b758d-a03c-482f-9bc2-886f2e4dc190")
+	)
+	(wire
+		(pts
+			(xy 161.29 52.07) (xy 161.29 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "356c84f1-b07a-4b33-a8d9-d4ca26207956")
 	)
 	(wire
 		(pts
@@ -607,6 +629,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 152.4) (xy 161.29 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87804ed6-36af-40a5-af66-bd90b09fe42a")
+	)
+	(wire
+		(pts
 			(xy 156.21 101.6) (xy 156.21 139.7)
 		)
 		(stroke
@@ -664,6 +696,16 @@
 			(type default)
 		)
 		(uuid "91ec5358-01de-42ac-80a7-a4700a4359fe")
+	)
+	(wire
+		(pts
+			(xy 161.29 100.33) (xy 161.29 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "994ea4b3-e79b-4ac0-9827-7a43bf1e38ad")
 	)
 	(wire
 		(pts
@@ -774,16 +816,6 @@
 			(type default)
 		)
 		(uuid "a9de6539-bb76-4a12-86c0-5cfc3c39c839")
-	)
-	(wire
-		(pts
-			(xy 236.22 99.06) (xy 242.57 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab613de3-b807-45ee-b1f7-e9172205718f")
 	)
 	(wire
 		(pts
@@ -907,16 +939,6 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 52.07) (xy 242.57 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d8268c05-fe34-491e-9e09-a7591d162fa3")
-	)
-	(wire
-		(pts
 			(xy 262.89 92.71) (xy 267.97 92.71)
 		)
 		(stroke
@@ -967,6 +989,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 152.4) (xy 167.64 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e88a3d88-92dc-47b6-a4e5-4756030afe55")
+	)
+	(wire
+		(pts
 			(xy 236.22 93.98) (xy 242.57 93.98)
 		)
 		(stroke
@@ -974,6 +1006,16 @@
 			(type default)
 		)
 		(uuid "eabc745e-32ea-45c6-b6ff-c3ee8b6c769a")
+	)
+	(wire
+		(pts
+			(xy 166.37 52.07) (xy 161.29 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb30a0f9-cb32-4b3c-b002-1681e3691d2f")
 	)
 	(wire
 		(pts
@@ -1210,7 +1252,7 @@
 		(at 13.97 177.8 0)
 		(effects
 			(font
-				(size 2 2)
+				(size 1.5 1.5)
 			)
 			(justify left)
 		)
@@ -1297,12 +1339,12 @@
 			(uuid "e44574c7-1e29-4dcd-9449-77a15eb55848")
 		)
 		(pin "BRAKE" input
-			(at 236.22 152.4 0)
+			(at 167.64 152.4 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 			(uuid "c662a571-4b51-4562-9824-6a6db232e156")
 		)
@@ -1763,12 +1805,12 @@
 			(uuid "2ab22c68-c98e-46a1-9abe-e1943a1c4dc9")
 		)
 		(pin "BRAKE" input
-			(at 236.22 52.07 0)
+			(at 166.37 52.07 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 			(uuid "2cf21a64-5d9f-4d91-98d8-46fda6964c4c")
 		)
@@ -2117,16 +2159,6 @@
 				(justify left)
 			)
 			(uuid "d86fbb32-76d7-4f2c-a830-dab07426fc21")
-		)
-		(pin "BRAKE" input
-			(at 242.57 52.07 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "32f50cb9-89e3-4b50-917b-2b9784660196")
 		)
 		(instances
 			(project "motordriver"
@@ -2782,12 +2814,12 @@
 			(uuid "b64b7284-e8ae-484f-ae52-f59a0e17df1e")
 		)
 		(pin "BRAKE" input
-			(at 236.22 99.06 0)
+			(at 166.37 100.33 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 			(uuid "aec41dce-fc57-4bb8-9897-037ce5218902")
 		)
@@ -3079,20 +3111,58 @@
 			)
 			(uuid "2568a384-b7ce-4ea6-9e1c-4623f1cf785a")
 		)
-		(pin "BRAKE" input
-			(at 242.57 152.4 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "205f511a-55dc-421c-a947-4de8289e463c")
-		)
 		(instances
 			(project "motordriver"
 				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d"
 					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 93.98 134.62)
+		(size 38.1 22.86)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b977032d-c198-45ad-beed-28303ac860a9")
+		(property "Sheetname" "brake"
+			(at 93.98 133.9084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "brake.kicad_sch"
+			(at 93.98 158.0646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "BRAKE" input
+			(at 132.08 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "052ebdbf-f8a2-4aee-b273-0b290386e381")
+		)
+		(instances
+			(project "motordriver"
+				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d"
+					(page "12")
 				)
 			)
 		)
@@ -3256,16 +3326,6 @@
 				(justify left)
 			)
 			(uuid "71d4b407-1e7c-4be9-b158-87bda8852328")
-		)
-		(pin "BRAKE" input
-			(at 242.57 99.06 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "9f1813f9-2fc5-4c91-8a1c-d2027707e1f7")
 		)
 		(instances
 			(project "motordriver"
