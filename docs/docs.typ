@@ -1,14 +1,15 @@
 /* Configurations */
 #set text(font: "Source Serif 4")
 #show math.equation : set text(font:"STIX Two Math")
-#show heading: h => {
+#show heading.where(level:1): h => {
   set align(center)
   set text(font:"Source Serif 4",weight: "black")
   set block(above: 2em, below: 1em)
   grid(columns:3,align: center + horizon,
-    line(length: 80%), h , line(length: 80%)
+  line(length: 80%), h , line(length: 80%)
   )
 }
+
 
 /* table of contents, enable indents and subsections*/
 #show outline.entry.where(
@@ -18,21 +19,19 @@
   strong(it)
 }
 
-
 #set page(numbering: "1")
-#align(center, text(font:"Young Serif", weight: "black", size: 35pt, smallcaps("KUBEN")))
+#align(center + horizon, text(weight: "black", size: 35pt, smallcaps("KUBEN")))
+#align(center, [
+#text(font: "Source Serif 4", weight: "bold", [Felix Strand #h(1cm) Brage Wiseth])
 
-#align(center,
-  [
-    #text(font: "Source Serif 4", weight: "bold", [Felix Strand #h(1cm) Brage Wiseth])
+#datetime.today().display()
+])
 
-    #datetime.today().display()
-  ]
-)
 
+
+
+#pagebreak()
 #set par(justify: true)
-#v(1cm)
-
 = Introduction
 
 This project is about building a 15cm cube that can balance on one of its edges—or even on
@@ -42,27 +41,85 @@ The reaction wheels have a significant moment of inertia, enough so that the uni
 any change in angular momentum, by rotating the cube in the oposite way...
 
 
-#pagebreak()
 
 #outline(indent: auto)
 #pagebreak()
 
+#let mbf(input) = {$upright(bold(#input))$}
 
-#align(center,text(font:"Young Serif",weight: "black", size: 35pt, smallcaps("CONCEPT")))
+
+#align(center,text(weight: "black", size: 35pt, smallcaps("CONCEPT")))
 
 = Principles
 
+The basic concept is that we place three motors with large heavy flywheels attaced to them on
+three orthogonal sides of a cube. If we apply a torque to the flywheels we induce a reaction torque
+(hence the name reaction wheels) on the motors in the oposite direction.
+Since the motors are bolted to the cube chasis this reaction torque will accelerate the cube.
+Placing the flywheels orthogonal to eachother we can control roll pitch and yaw. We
+also need some sensors that is able to detect the orientation the cube is in
+and feed that back into the computer that is controlling everything.
+
+What does _induced torque_ mean?
+Any local change in momentum requires a torque $ mbf(tau) = (dif mbf(L))/(dif t) $
+However, in any closed system momentum must be conserved. For our case, our little cube can be approximated as a
+mechanically closed system. Now if we change the momentum of our flywheels, there needs to be an oposite change
+in momentum somewhere else in the system for the total momentum to be conserved. This is why the cube will experience
+an induced reaction torque.
+
+Why do we want a large heavy flywheel?
+We want a high torque cacapiblty so we need a large change in momentum $mbf(L) = I mbf(omega)$,
+moment of inerta doesn't change so the only way to get torque is to generate large angular acceleration $mbf(alpha)$.
+Due to limitations of motors, generating a large acceleration can be tricky, instead we can rely on slower acceleration
+if we increase our inertia. Big heavy flywheels with most of their mass at the perimiter have a high inerta.
+
+It really is that simple, as with many things, the devil is in the details.
+An important question to ask is how exactly does the torque the cube experiences translate to motion?
+If we were in space we could integrate the torque applied over time and divide by
+the inerta to get velocity, if we integrate once more
+we get the angle of the cube. Down on earth it is not so simple, and it is because of the fact that
+the cube is touching the ground! 
+
+ 
+
+#align(center,box(stroke: 1pt,inset:10pt, radius: 4pt,
+[
+$ mbf(p) = m mbf(v) $
+$ mbf(L) = mbf(r) times mbf(p) $
+$ mbf(F) = m mbf(a) = (dif mbf(p))/(dif t) $
+$ bold(tau) = mbf(r) times mbf(F) = I mbf(alpha) = (dif mbf(L))/(dif t) $
+$ E = 1/2 m v^2 $
+$ P = m g h $
+$ I = mbf(L)/bold(omega) $
+$ mbf(I) = mat(delim:"(",
+  I_(x x),I_(x y),I_(x z);
+  I_(y x),I_(y y),I_(y z);
+  I_(z x),I_(z y),I_(z z)) $
+]
+))
+
+
+
 = Dynamics
 
-= Actuation
+Lagrange and Hamiltonian
 
 = Algorithms
 
+MPC
 
-#align(center,text(font:"Young Serif",weight: "black", size: 35pt, smallcaps("IMPLEMENTATION")))
+PID
+
+
+#align(center,text(font:"Source Serif 4",weight: "black", size: 35pt, smallcaps("IMPLEMENTATION")))
 
 
 = Electronics
+
+-- we need a diagram here, maybe bake in the schematics and the pcb --
+
+// #image("../hardware/electronics/main-pcb/prints/motordriver.svg",width: 110%)
+// #image("../hardware/electronics/main-pcb/prints/motordriver-servo1.svg",width: 110%)
 
 The internal logic and the physical output of our system needs to be joined together by circuitry;
 a way to translate our calculations for balance onto the motors themselves. Our circuitry has
@@ -115,8 +172,9 @@ pin type it is connected to, and a short description of its purpose:
 // TODO please note that if no connections to the individual motordriver ICs we have not connected those yet. Top priority!
 
 // Table is a bit large as well
-#set text(size:8pt)
+#show table: set text(font: "RobotoMono Nerd Font",size:8pt)
 #table(
+
   columns: (1fr, 1fr, auto, auto, 2fr),
   inset: 10pt,
   align: horizon,
@@ -141,7 +199,6 @@ pin type it is connected to, and a short description of its purpose:
   "DB_TX", "DB_HEADER", "PA22", "Digital", "UART TX for debug purposes",
   "DB_RX", "DB_HEADER", "PA22", "Digital", "UART RX for debug purposes",
 )
-#set text(size:12pt)
 
 
 We actually have two individual microcontrollers on this board, but the second one is intended for
@@ -160,7 +217,6 @@ flashing our controller. We can program the flash memory through our USB interfa
 https://arm-software.github.io/CMSIS_5/DAP/html/index.html
 
 
-#set text(size:8pt)
 #table(
   columns: (1fr, 1fr, auto, auto, 2fr),
   inset: 10pt,
@@ -173,7 +229,6 @@ https://arm-software.github.io/CMSIS_5/DAP/html/index.html
   "D+", "Microcontroller", "PA25", "Digital", "USB Interface",
   "D-", "Microcontroller", "PA24", "Digital", "USB Interface",
 )
-#set text(size:12pt)
 
 
 The TMC4671 allows for control of a BLDC motor, and will be tripled up for the control of three BLDC
@@ -225,7 +280,6 @@ a straight line. We can then deduce the orientation and angle of the cube, in su
 know our cube is balancing straight if $theta = pi / 2$ with respect to the ground, and $Delta theta
 approx 0$.
 
-#set text(size:8pt)
 #figure(
   image("illustrations/imu_pos_fig.png", width: 50%),
   caption: [
@@ -233,7 +287,6 @@ approx 0$.
       Blue highlights the angle of our IMU-line with respect to the ground.
   ],
 )
-#set text(size:12pt)
 
 The specific IC we will move forward is the ISM330DHXC, it hoists two separate sensors; a 3D
 gyroscope and 3D accelerometer. The sensors are high accuracy and high performance, comfortable
@@ -248,7 +301,6 @@ lines.  Because the IMU itself has such few pins, we can include the whole table
 pin connections:
 
 
-#set text(size:8pt)
 #table(
   columns: (1fr, 1fr, auto, auto, 2fr),
   inset: 10pt,
@@ -270,13 +322,11 @@ pin connections:
   "OCS_AUX", "X", "X", "X", "Disconnected",
   "SDO_AUX", "X", "X", "X", "Disconnected",
 )
-#set text(size:12pt)
 
 The braking system requires one micro-servo for each flywheel to be able to stop their momentum as close to instant as possible. The micro-servos are a part of a
 larger mechanical brake functioning closely to a the way a bike-brake works. From a circuitry perspective, the braking system is quite simple, and only requires pins on
 the MCU for control, and headers to connect the motors themselves to. /* Find specific model */ 
 
-#set text(size:8pt)
 #table(
   columns: (1fr, 1fr, auto, auto, 2fr),
   inset: 10pt,
@@ -288,7 +338,6 @@ the MCU for control, and headers to connect the motors themselves to. /* Find sp
   "GND", "Ground", "GND", "For Power", "",
   "Signal", "MCU", "Signal Pin", "Steer the controller",
 )
-#set text(size:12pt)
 
 
 Our OLED screen is added for personalization and options for communicating interesting internal
@@ -297,7 +346,6 @@ addition to our circuit, and requires only I2C pins for communication. We will b
 library for displaying and communicating easily through I2C.
 
 
-#set text(size:8pt)
 #table(
   columns: (1fr, 1fr, auto, auto, 2fr),
   inset: 10pt,
@@ -310,7 +358,15 @@ library for displaying and communicating easily through I2C.
   "SCL", "MCU", "SCL", "Signal", "Serial Clock for I2C",
   "SDA", "MCU", "SDA", "Signal", "Serial data for I2C",
 )
-#set text(size:12pt)
+
+
+
+PCB
+design considerations
+gnd and pwr planes
+signal integrity
+
+
 
 
 

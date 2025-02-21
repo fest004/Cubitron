@@ -750,7 +750,7 @@
       "workbook_filename": ""
     },
     "page_layout_descr_file": "",
-    "plot_directory": "./",
+    "plot_directory": "prints/",
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,
@@ -792,6 +792,10 @@
     [
       "d2c99155-6dc4-4cef-b7d8-f7ba5e4118d0",
       "gates2"
+    ],
+    [
+      "b977032d-c198-45ad-beed-28303ac860a9",
+      "brake"
     ],
     [
       "3a57148f-9ebd-4906-ad6b-7dbf7876a4a8",
