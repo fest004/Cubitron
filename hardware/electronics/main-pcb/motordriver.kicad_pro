@@ -517,7 +517,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "/home/wone/devel/Cubitron/documents/references/kuben_bom.csv",
+    "bom_export_filename": "/home/wone/bom.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
