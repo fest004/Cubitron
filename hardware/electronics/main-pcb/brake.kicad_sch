@@ -986,193 +986,6 @@
 				)
 			)
 		)
-		(symbol "PWR263S-20-10R0F:PWR263S-20-10R0F"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 16.51 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "PWR263S-20-10R0F"
-				(at 16.51 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "PWR263S2010R0F"
-				(at 16.51 -94.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/PWR263S-20-10R0F.pdf"
-				(at 16.51 -194.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "Thick Film Resistors - SMD 10ohms 1% 20watts"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "4.5"
-				(at 16.51 -394.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "652-PWR263S-20-10R0F"
-				(at 16.51 -494.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/PWR263S-20-10R0F?qs=A6MsUmktA0yuMadtNl1geg%3D%3D"
-				(at 16.51 -594.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "Bourns"
-				(at 16.51 -694.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "PWR263S-20-10R0F"
-				(at 16.51 -794.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "PWR263S-20-10R0F_1_1"
-				(rectangle
-					(start 5.08 2.54)
-					(end 15.24 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 20.32 0 180)
-					(length 5.08)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 20.32 -2.54 180)
-					(length 5.08)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:+12V"
 			(power)
 			(pin_numbers hide)
@@ -1391,16 +1204,16 @@
 		)
 	)
 	(junction
-		(at 198.12 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4527a119-349a-48cc-9f17-5096c1abaf46")
-	)
-	(junction
 		(at 170.18 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "82935808-6648-433d-a27e-bd53e594fe9a")
+		(uuid "3dfbc036-d7e3-4711-9ecd-bfa37b1184ce")
+	)
+	(junction
+		(at 187.96 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7f6a3281-53a3-4f2f-99cd-3e89586f8188")
 	)
 	(junction
 		(at 115.57 115.57)
@@ -1409,10 +1222,10 @@
 		(uuid "94acaa23-5253-4647-9c3f-535fcd1ce2b0")
 	)
 	(junction
-		(at 167.64 93.98)
+		(at 170.18 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9d3a222d-f543-48ab-b44f-bf3df0733fc3")
+		(uuid "c9ee5610-5403-4764-9325-1f7818f7e4f5")
 	)
 	(junction
 		(at 115.57 106.68)
@@ -1442,26 +1255,6 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 96.52) (xy 173.99 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c85cf0b-c1b6-4d46-8e0f-45c93a169929")
-	)
-	(wire
-		(pts
-			(xy 194.31 96.52) (xy 198.12 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "146008f4-96ec-442c-9927-d44503ecae58")
-	)
-	(wire
-		(pts
 			(xy 113.03 111.76) (xy 115.57 111.76)
 		)
 		(stroke
@@ -1482,7 +1275,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 96.52) (xy 198.12 99.06)
+			(xy 187.96 93.98) (xy 187.96 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1492,13 +1285,23 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 93.98) (xy 165.1 95.25)
+			(xy 170.18 93.98) (xy 170.18 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "487fc09e-641e-412b-a863-4d88ffbe22db")
+	)
+	(wire
+		(pts
+			(xy 184.15 93.98) (xy 187.96 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5366d80f-3e10-4b0f-85f5-22fc24afb503")
 	)
 	(wire
 		(pts
@@ -1512,23 +1315,13 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 93.98) (xy 173.99 93.98)
+			(xy 187.96 104.14) (xy 187.96 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5a449757-41e4-45db-a7c6-34429e09994e")
-	)
-	(wire
-		(pts
-			(xy 170.18 96.52) (xy 170.18 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "61bdfe0a-b620-4901-8611-4d1d53dd2165")
+		(uuid "7f329f6d-dd7f-4a09-81fc-4d34420f683d")
 	)
 	(wire
 		(pts
@@ -1539,6 +1332,16 @@
 			(type default)
 		)
 		(uuid "7fbc9e54-3861-48ba-bd5b-389bfd6b0924")
+	)
+	(wire
+		(pts
+			(xy 170.18 104.14) (xy 187.96 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83815bb4-0898-4d5b-b05f-0f89637c562a")
 	)
 	(wire
 		(pts
@@ -1562,16 +1365,6 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 93.98) (xy 165.1 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a7dfe0f9-5ae4-401b-9eec-725ab456def7")
-	)
-	(wire
-		(pts
 			(xy 156.21 114.3) (xy 162.56 114.3)
 		)
 		(stroke
@@ -1582,23 +1375,13 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 93.98) (xy 198.12 96.52)
+			(xy 170.18 93.98) (xy 176.53 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c8d40450-64d4-4ab2-b343-cebd777de8a4")
-	)
-	(wire
-		(pts
-			(xy 165.1 104.14) (xy 170.18 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ccb61a9c-a6f2-45d8-95f6-0dfd777fd0c5")
+		(uuid "c1da8066-fc4a-47a8-918e-d2e4462afc98")
 	)
 	(wire
 		(pts
@@ -1612,33 +1395,13 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 93.98) (xy 167.64 92.71)
+			(xy 170.18 93.98) (xy 170.18 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d2841910-3658-4640-90a3-4e237eb1f7c4")
-	)
-	(wire
-		(pts
-			(xy 194.31 93.98) (xy 198.12 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e7ed978c-43be-4600-b201-d0bc4330bd9e")
-	)
-	(wire
-		(pts
-			(xy 165.1 102.87) (xy 165.1 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eda8b1bf-b38d-4f04-9d8c-2b1f0979b1e6")
 	)
 	(wire
 		(pts
@@ -1673,7 +1436,6 @@
 	(hierarchical_label "BRAKE"
 		(shape input)
 		(at 113.03 111.76 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1691,7 +1453,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "01768afb-62b1-4cff-bbdf-4e08e0fd0958")
-		(property "Reference" "#PWR0243"
+		(property "Reference" "#PWR0242"
 			(at 115.57 109.22 0)
 			(effects
 				(font
@@ -1742,7 +1504,7 @@
 		(instances
 			(project "motordriver"
 				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/b977032d-c198-45ad-beed-28303ac860a9"
-					(reference "#PWR0243")
+					(reference "#PWR0242")
 					(unit 1)
 				)
 			)
@@ -1757,7 +1519,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0505b8f6-3b86-4bab-b016-bc4dbda2ee85")
-		(property "Reference" "#PWR0244"
+		(property "Reference" "#PWR0243"
 			(at 115.57 123.19 0)
 			(effects
 				(font
@@ -1808,7 +1570,7 @@
 		(instances
 			(project "motordriver"
 				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/b977032d-c198-45ad-beed-28303ac860a9"
-					(reference "#PWR0244")
+					(reference "#PWR0243")
 					(unit 1)
 				)
 			)
@@ -1816,7 +1578,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Schottky")
-		(at 165.1 99.06 270)
+		(at 170.18 100.33 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1824,7 +1586,7 @@
 		(dnp no)
 		(uuid "2124dca0-e43a-4244-ba64-29d282fa6512")
 		(property "Reference" "D57"
-			(at 159.004 97.536 90)
+			(at 164.084 98.806 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1833,7 +1595,7 @@
 			)
 		)
 		(property "Value" "4A 40V"
-			(at 156.464 100.33 90)
+			(at 161.544 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1842,7 +1604,7 @@
 			)
 		)
 		(property "Footprint" "kuben-footprints:DIOM7959X262N"
-			(at 165.1 99.06 0)
+			(at 170.18 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1851,7 +1613,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 165.1 99.06 0)
+			(at 170.18 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1860,7 +1622,7 @@
 			)
 		)
 		(property "Description" "Schottky diode"
-			(at 165.1 99.06 0)
+			(at 170.18 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1869,7 +1631,7 @@
 			)
 		)
 		(property "Height" "2.62"
-			(at -228.55 111.76 0)
+			(at -223.47 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1879,7 +1641,7 @@
 			)
 		)
 		(property "Mouser Part Number" "78-SL44HE3_B/I"
-			(at -328.55 111.76 0)
+			(at -323.47 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1889,7 +1651,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=78-SL44HE3_B%2FI"
-			(at -428.55 111.76 0)
+			(at -423.47 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1899,7 +1661,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Vishay"
-			(at -528.55 111.76 0)
+			(at -523.47 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1909,7 +1671,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "SL44HE3_B/I"
-			(at -628.55 111.76 0)
+			(at -623.47 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1934,8 +1696,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 180.34 93.98 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "314428d5-6389-4f85-8e7e-81da186279da")
+		(property "Reference" "R88"
+			(at 180.086 88.138 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "20Ω 50W"
+			(at 180.34 90.932 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 180.34 95.758 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 180.34 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 180.34 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "03b1a81c-db53-40f4-98a1-4d2a615d5c56")
+		)
+		(pin "1"
+			(uuid "246db806-a670-403c-b7ac-48c06b7a0a3d")
+		)
+		(instances
+			(project ""
+				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/b977032d-c198-45ad-beed-28303ac860a9"
+					(reference "R88")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 198.12 99.06 0)
+		(at 187.96 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1943,8 +1772,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "772c7bb9-7c6c-4fcc-b834-7e78947950d8")
-		(property "Reference" "#PWR0247"
-			(at 198.12 105.41 0)
+		(property "Reference" "#PWR0246"
+			(at 187.96 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1953,7 +1782,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 198.12 104.14 0)
+			(at 187.96 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1961,7 +1790,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 198.12 99.06 0)
+			(at 187.96 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1970,7 +1799,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 198.12 99.06 0)
+			(at 187.96 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1979,7 +1808,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 198.12 99.06 0)
+			(at 187.96 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1993,133 +1822,7 @@
 		(instances
 			(project "motordriver"
 				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/b977032d-c198-45ad-beed-28303ac860a9"
-					(reference "#PWR0247")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PWR263S-20-10R0F:PWR263S-20-10R0F")
-		(at 173.99 93.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "81288bb4-6d3c-4b82-b0bc-e78e3871a9f2")
-		(property "Reference" "R88"
-			(at 184.15 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10Ω 20W"
-			(at 184.15 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PWR263S2010R0F"
-			(at 190.5 188.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/PWR263S-20-10R0F.pdf"
-			(at 190.5 288.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Thick Film Resistors - SMD 10ohms 1% 20watts"
-			(at 173.99 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "4.5"
-			(at 190.5 488.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "652-PWR263S-20-10R0F"
-			(at 190.5 588.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/PWR263S-20-10R0F?qs=A6MsUmktA0yuMadtNl1geg%3D%3D"
-			(at 190.5 688.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Bourns"
-			(at 190.5 788.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "PWR263S-20-10R0F"
-			(at 190.5 888.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "5df3f431-5e13-4662-92c8-7dca70b9a2ad")
-		)
-		(pin "1"
-			(uuid "d6972e04-da2c-479a-afad-1978e2ce980d")
-		)
-		(pin "4"
-			(uuid "fc35c0b6-0b7b-42ec-bb80-7f314af46106")
-		)
-		(pin "2"
-			(uuid "46b65422-1a06-48eb-ac4f-38bb0afe053d")
-		)
-		(instances
-			(project "motordriver"
-				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/b977032d-c198-45ad-beed-28303ac860a9"
-					(reference "R88")
+					(reference "#PWR0246")
 					(unit 1)
 				)
 			)
@@ -2127,15 +1830,15 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 167.64 92.71 0)
+		(at 170.18 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "8da0919e-13fb-4c26-9ead-a52429259ac5")
-		(property "Reference" "#PWR0245"
-			(at 167.64 96.52 0)
+		(property "Reference" "#PWR0244"
+			(at 170.18 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2144,7 +1847,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 161.798 90.932 0)
+			(at 164.338 89.662 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2153,7 +1856,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 167.64 92.71 0)
+			(at 170.18 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2162,7 +1865,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 92.71 0)
+			(at 170.18 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2171,7 +1874,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 167.64 92.71 0)
+			(at 170.18 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2185,7 +1888,7 @@
 		(instances
 			(project "motordriver"
 				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/b977032d-c198-45ad-beed-28303ac860a9"
-					(reference "#PWR0245")
+					(reference "#PWR0244")
 					(unit 1)
 				)
 			)
@@ -2478,7 +2181,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e5a6a024-ce86-4513-b98a-6ffa30153e4d")
-		(property "Reference" "#PWR0246"
+		(property "Reference" "#PWR0245"
 			(at 170.18 132.08 0)
 			(effects
 				(font
@@ -2528,7 +2231,7 @@
 		(instances
 			(project "motordriver"
 				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/b977032d-c198-45ad-beed-28303ac860a9"
-					(reference "#PWR0246")
+					(reference "#PWR0245")
 					(unit 1)
 				)
 			)

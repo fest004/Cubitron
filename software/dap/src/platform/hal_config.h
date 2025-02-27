@@ -11,7 +11,7 @@
 /*- Definitions -------------------------------------------------------------*/
 #define HAL_BOARD_STD
 //#define HAL_BOARD_VCP_V1
-//#define HAL_BOARD_VCP_V3
+// #define HAL_BOARD_VCP_V3
 //#define HAL_BOARD_OBD
 
 #if defined(HAL_BOARD_CUSTOM)
@@ -23,12 +23,8 @@
 
   HAL_GPIO_PIN(SWCLK_TCK,          A, 8)
   HAL_GPIO_PIN(SWDIO_TMS,          A, 4)
-  // HAL_GPIO_PIN(TDO,                A, 9)
-  // HAL_GPIO_PIN(TDI,                A, 8)
   HAL_GPIO_PIN(nRESET,             A, 5)
-
   HAL_GPIO_PIN(DAP_STATUS,         A, 16);
-  HAL_GPIO_PIN(BOOT_ENTER,         A, 31);
 
 #elif defined(HAL_BOARD_VCP_V1)
   #define HAL_CONFIG_ENABLE_VCP
@@ -55,18 +51,13 @@
 
 #elif defined(HAL_BOARD_VCP_V3)
   #define HAL_CONFIG_ENABLE_VCP
-  #define DAP_CONFIG_ENABLE_JTAG
+  // #define DAP_CONFIG_ENABLE_JTAG
 
-  HAL_GPIO_PIN(SWCLK_TCK,          A, 9)
-  HAL_GPIO_PIN(SWDIO_TMS,          A, 8)
-  HAL_GPIO_PIN(TDI,                A, 14)
-  HAL_GPIO_PIN(TDO,                A, 10)
-  HAL_GPIO_PIN(nRESET,             A, 15)
-
+  HAL_GPIO_PIN(SWCLK_TCK,          A, 8)
+  HAL_GPIO_PIN(SWDIO_TMS,          A, 4)
+  HAL_GPIO_PIN(nRESET,             A, 5)
+  HAL_GPIO_PIN(DAP_STATUS,         A, 16);
   HAL_GPIO_PIN(VCP_STATUS,         A, 3);
-  HAL_GPIO_PIN(DAP_STATUS,         A, 6);
-  HAL_GPIO_PIN(BOOT_ENTER,         A, 31);
-
   HAL_GPIO_PIN(UART_TX,            A, 16);
   HAL_GPIO_PIN(UART_RX,            A, 17);
 
