@@ -1,17 +1,17 @@
-/* Configurations */
-#set text(font: "Source Serif 4")
-#show math.equation : set text(font:"STIX Two Math")
+#set text(font:"Source Serif 4 18pt", size: 11pt)
+#show heading: set text(font:"Source Serif 4", style: "italic", weight: "black")
+// #show math.equation : set text(font:"TeX Gyre Schola Math",size: 10.5pt)
+#show math.equation : set text(font:"STIX Two Math",size: 11pt)
+// #show math.equation : set text(font:"Erewhon Math",size: 11pt)
 #show heading.where(level:1): h => {
   set align(center)
-  set text(font:"Source Serif 4",weight: "black")
+  set text(font:"Source Serif 4",weight: "bold", style: "italic")
   set block(above: 2em, below: 1em)
   grid(columns:3,align: center + horizon,
   line(length: 80%), h , line(length: 80%)
   )
 }
 
-
-/* table of contents, enable indents and subsections*/
 #show outline.entry.where(
   level: 2
 ): it => {
@@ -20,11 +20,14 @@
 }
 
 #set page(numbering: "1")
-#align(center + horizon, text(weight: "black", size: 35pt, smallcaps("KUBEN")))
-#align(center, [
-#text(font: "Source Serif 4", weight: "bold", [Felix Strand #h(1cm) Brage Wiseth])
+#align(center + horizon, text(font: "Source Serif 4 48pt", weight: "black", size: 35pt,style: "italic",
+  smallcaps("Kuben")
+))
 
-#datetime.today().display()
+
+#align(center, [
+  #text(font: "RobotoMono Nerd Font",[Felix Strand #h(1cm) Brage Wiseth\
+  #datetime.today().display()])
 ])
 
 
@@ -34,26 +37,24 @@
 #set par(justify: true)
 = Introduction
 
-This project is about building a 15cm cube that can balance on one of its edges—or even on
-one of its corners. The cube is equipped with reaction wheels that it uses to fight off any forces
-trying to bring it down, the same way Philippe Petit used his stick.
-The reaction wheels have a significant moment of inertia, enough so that the universe wants to cancle
-any change in angular momentum, by rotating the cube in the oposite way...
-
+This project is about building a 15 cm cube that can balance on one of its edges—or even on
+one of its corners. The cube is equipped with reaction wheels
 
 
 #outline(indent: auto)
 #pagebreak()
 
 #let mbf(input) = {$upright(bold(#input))$}
+#let bf(input) = {$bold(#input)$}
+#let e = $upright(e)$
 
 
-#align(center,text(weight: "black", size: 35pt, smallcaps("CONCEPT")))
+#align(center,text(font: "Source Serif 4",weight: "black", size: 35pt,style: "italic", "Concept"))
 
 = Principles
 
 The basic concept is that we place three motors with large heavy flywheels attaced to them on
-three orthogonal sides of a cube. If we apply a torque to the flywheels we induce a reaction torque
+three orthogonal sides of a cube #sym.hexa.filled. If we apply a torque to the flywheels we induce a reaction torque
 (hence the name reaction wheels) on the motors in the oposite direction.
 Since the motors are bolted to the cube chasis this reaction torque will accelerate the cube.
 Placing the flywheels orthogonal to eachother we can control roll pitch and yaw. We
@@ -61,17 +62,33 @@ also need some sensors that is able to detect the orientation the cube is in
 and feed that back into the computer that is controlling everything.
 
 What does _induced torque_ mean?
-Any local change in momentum requires a torque $ mbf(tau) = (dif mbf(L))/(dif t) $
+Any local change in momentum requires a torque $ bf(tau) = (dif bf(L))/(dif t) $
 However, in any closed system momentum must be conserved. For our case, our little cube can be approximated as a
 mechanically closed system. Now if we change the momentum of our flywheels, there needs to be an oposite change
 in momentum somewhere else in the system for the total momentum to be conserved. This is why the cube will experience
 an induced reaction torque.
 
 Why do we want a large heavy flywheel?
-We want a high torque cacapiblty so we need a large change in momentum $mbf(L) = I mbf(omega)$,
+We want a high torque cacapiblty so we need a large change in momentum $bf(L) = I bf(omega)$,
 moment of inerta doesn't change so the only way to get torque is to generate large angular acceleration $mbf(alpha)$.
 Due to limitations of motors, generating a large acceleration can be tricky, instead we can rely on slower acceleration
 if we increase our inertia. Big heavy flywheels with most of their mass at the perimiter have a high inerta.
+
+#align(center,box(stroke: 1pt,inset:10pt, radius: 4pt,
+[
+$ bf(p) = m bf(v) $
+$ bf(L) = bf(r) times bf(p) $
+$ bf(F) = m bf(a) = (dif bf(p))/(dif t) $
+$ bf(tau) = bf(r) times bf(F) = I bf(alpha) = (dif bf(L))/(dif t) $
+$ E = 1/2 m v^2 $
+$ P = m g h $
+$ I = bf(L)/bf(omega) $
+$ bf(I) = mat(delim:"(",
+  I_(x x),I_(x y),I_(x z);
+  I_(y x),I_(y y),I_(y z);
+  I_(z x),I_(z y),I_(z z)) $
+]
+))
 
 It really is that simple, as with many things, the devil is in the details.
 An important question to ask is how exactly does the torque the cube experiences translate to motion?
@@ -82,21 +99,6 @@ the cube is touching the ground!
 
  
 
-#align(center,box(stroke: 1pt,inset:10pt, radius: 4pt,
-[
-$ mbf(p) = m mbf(v) $
-$ mbf(L) = mbf(r) times mbf(p) $
-$ mbf(F) = m mbf(a) = (dif mbf(p))/(dif t) $
-$ bold(tau) = mbf(r) times mbf(F) = I mbf(alpha) = (dif mbf(L))/(dif t) $
-$ E = 1/2 m v^2 $
-$ P = m g h $
-$ I = mbf(L)/bold(omega) $
-$ mbf(I) = mat(delim:"(",
-  I_(x x),I_(x y),I_(x z);
-  I_(y x),I_(y y),I_(y z);
-  I_(z x),I_(z y),I_(z z)) $
-]
-))
 
 
 
@@ -111,19 +113,18 @@ MPC
 PID
 
 
-#align(center,text(font:"Source Serif 4",weight: "black", size: 35pt, smallcaps("IMPLEMENTATION")))
+#align(center,text(font: "Source Serif 4",weight: "black",style: "italic", size: 35pt, smallcaps("Implementation")))
 
 
 = Electronics
 
--- we need a diagram here, maybe bake in the schematics and the pcb --
-
-// #image("../hardware/electronics/main-pcb/prints/motordriver.svg",width: 110%)
-// #image("../hardware/electronics/main-pcb/prints/motordriver-servo1.svg",width: 110%)
-
 The internal logic and the physical output of our system needs to be joined together by circuitry;
 a way to translate our calculations for balance onto the motors themselves. Our circuitry has
-three main responsibilites; input -> calculate -> output. Our input will be in form of sensordata
+three main responsibilites:
+$
+"input" -> "calculate" -> "output"
+$
+Our input will be in form of sensordata
 indicating our cubes current angle, and a wanted state (do we want to balance? on which edge? so
 on). Our calculations will be about transforming our current input angles into a quantative action
 for the motors to perform. The output will in turn be the adjustment of our motors to achieve
