@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "c7634e88-16d1-45ec-9aac-9c841e03cf6d")
 	(paper "A4")
 	(lib_symbols
@@ -119,6 +119,24 @@
 					)
 				)
 				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
 					(at 0 -2.54 0)
 					(length 5.08)
 					(name "OE"
@@ -129,24 +147,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 25.4 -2.54 180)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -173,16 +173,16 @@
 					)
 				)
 				(pin passive line
-					(at 0 0 0)
+					(at 25.4 -2.54 180)
 					(length 5.08)
-					(name "VDD"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "4"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -191,9 +191,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:C"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.254)
 			)
@@ -266,7 +269,7 @@
 			(symbol "C_0_1"
 				(polyline
 					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
+						(xy -2.032 0.762) (xy 2.032 0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -278,7 +281,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -327,12 +330,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+3.3V"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -404,7 +412,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -416,7 +424,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -447,12 +455,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -543,7 +556,130 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(text "1.0"
+		(exclude_from_sim no)
+		(at 270.764 193.548 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "04dce7d2-da14-4217-8b0f-534ca4f4e847")
+	)
+	(text "voltage regulation and \nbattery charger"
+		(exclude_from_sim no)
+		(at 64.516 28.956 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0963e335-0d34-4661-980a-535308754f05")
+	)
+	(text "motor driver, takes \nhall sensors, current\nmeasurement and SPI \nsignal. Outputs low-power\nPWM for drivergates"
+		(exclude_from_sim no)
+		(at 200.152 41.402 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "11a1d79c-bc6a-46ea-bb9b-c2db6e257a8b")
+	)
+	(text "motor driver, takes \nhall sensors, current\nmeasurement and SPI \nsignal. Outputs low-power\nPWM for drivergates"
+		(exclude_from_sim no)
+		(at 198.12 90.424 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "423222a3-dd2a-4d18-a15a-4b7ed528e0f5")
+	)
+	(text "root\n"
+		(exclude_from_sim no)
+		(at 191.008 189.992 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5a172e0c-d619-4f79-9eb7-9481ed0ea30d")
+	)
+	(text "Main\nMotors IO"
+		(exclude_from_sim no)
+		(at 274.066 83.058 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7dcb2856-0af9-420c-aa92-55f5120b2d30")
+	)
+	(text "KUBEN\n"
+		(exclude_from_sim no)
+		(at 229.108 175.514 0)
+		(effects
+			(font
+				(size 4 4)
+			)
+		)
+		(uuid "7f15f5c0-f8a5-492e-8a7b-011217d89751")
+	)
+	(text "2024-12-14"
+		(exclude_from_sim no)
+		(at 212.344 193.548 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8f62eab0-86c0-44b2-8320-8730018509b3")
+	)
+	(text "main microcontroller for \ncompute and general control as well\nas programmer for easy programming\nand debugging"
+		(exclude_from_sim no)
+		(at 107.696 84.328 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a8869fcc-a438-4063-b6bf-5496d88a9ef9")
+	)
+	(text "Utillity IO"
+		(exclude_from_sim no)
+		(at 23.622 53.594 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c3e3f7f2-335c-405d-9483-2a11adf9bf05")
+	)
+	(text "motor driver, takes \nhall sensors, current\nmeasurement and SPI \nsignal. Outputs low-power\nPWM for drivergates"
+		(exclude_from_sim no)
+		(at 200.66 145.034 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e6dda58c-7d5a-4494-96ea-ef00098d5e3a")
+	)
+	(text "The circuit is designed around the\nTMC4671 chip which acts as a servocontroller.\nWe use three of theese as we are going to controll\nthree separate motors for x,y and z actuation.\nThe main microcontroller is responsible for calculating\na set-tourque for each motor, the TMC4671 servocontroller\nis responsoble for taking this tourqe target and commuting\nthe motors. In order for the microcontroller to find the\nset-torque it reads inertial measurements from external sensors\nand finds the attitude of the cube. A controll algorithm running\non the microcontroller spits out the torque for the three motors\nin order for the cube to balance."
+		(exclude_from_sim no)
+		(at 13.97 177.8 0)
+		(effects
+			(font
+				(face "Source Serif 4")
+				(size 1.5 1.5)
+			)
+			(justify left)
+		)
+		(uuid "ea3d13d9-e996-483f-9592-4354493bfddb")
 	)
 	(junction
 		(at 39.37 135.89)
@@ -1733,127 +1869,6 @@
 		)
 		(uuid "fec43c4f-fb74-4b34-8d74-188b36681a16")
 	)
-	(text "1.0"
-		(exclude_from_sim no)
-		(at 270.764 193.548 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "04dce7d2-da14-4217-8b0f-534ca4f4e847")
-	)
-	(text "voltage regulation and \nbattery charger"
-		(exclude_from_sim no)
-		(at 64.516 28.956 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "0963e335-0d34-4661-980a-535308754f05")
-	)
-	(text "motor driver, takes \nhall sensors, current\nmeasurement and SPI \nsignal. Outputs low-power\nPWM for drivergates"
-		(exclude_from_sim no)
-		(at 200.152 41.402 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "11a1d79c-bc6a-46ea-bb9b-c2db6e257a8b")
-	)
-	(text "motor driver, takes \nhall sensors, current\nmeasurement and SPI \nsignal. Outputs low-power\nPWM for drivergates"
-		(exclude_from_sim no)
-		(at 198.12 90.424 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "423222a3-dd2a-4d18-a15a-4b7ed528e0f5")
-	)
-	(text "root\n"
-		(exclude_from_sim no)
-		(at 191.008 189.992 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "5a172e0c-d619-4f79-9eb7-9481ed0ea30d")
-	)
-	(text "Main\nMotors IO"
-		(exclude_from_sim no)
-		(at 274.066 83.058 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "7dcb2856-0af9-420c-aa92-55f5120b2d30")
-	)
-	(text "KUBEN\n"
-		(exclude_from_sim no)
-		(at 229.108 175.514 0)
-		(effects
-			(font
-				(size 4 4)
-			)
-		)
-		(uuid "7f15f5c0-f8a5-492e-8a7b-011217d89751")
-	)
-	(text "2024-12-14"
-		(exclude_from_sim no)
-		(at 212.344 193.548 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "8f62eab0-86c0-44b2-8320-8730018509b3")
-	)
-	(text "main microcontroller for \ncompute and general control as well\nas programmer for easy programming\nand debugging"
-		(exclude_from_sim no)
-		(at 107.696 84.328 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "a8869fcc-a438-4063-b6bf-5496d88a9ef9")
-	)
-	(text "Utillity IO"
-		(exclude_from_sim no)
-		(at 23.622 53.594 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "c3e3f7f2-335c-405d-9483-2a11adf9bf05")
-	)
-	(text "motor driver, takes \nhall sensors, current\nmeasurement and SPI \nsignal. Outputs low-power\nPWM for drivergates"
-		(exclude_from_sim no)
-		(at 200.66 145.034 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "e6dda58c-7d5a-4494-96ea-ef00098d5e3a")
-	)
-	(text "The circuit is designed around the\nTMC4671 chip which acts as a servocontroller.\nWe use three of theese as we are going to controll\nthree separate motors for x,y and z actuation.\nThe main microcontroller is responsible for calculating\na set-tourque for each motor, the TMC4671 servocontroller\nis responsoble for taking this tourqe target and commuting\nthe motors. In order for the microcontroller to find the\nset-torque it reads inertial measurements from external sensors\nand finds the attitude of the cube. A controll algorithm running\non the microcontroller spits out the torque for the three motors\nin order for the cube to balance."
-		(exclude_from_sim no)
-		(at 13.97 177.8 0)
-		(effects
-			(font
-				(size 1.5 1.5)
-			)
-			(justify left)
-		)
-		(uuid "ea3d13d9-e996-483f-9592-4354493bfddb")
-	)
 	(global_label "SERVO_CLK"
 		(shape input)
 		(at 71.12 135.89 0)
@@ -2336,6 +2351,10 @@
 	(sheet
 		(at 167.64 125.73)
 		(size 68.58 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.5)
@@ -2365,183 +2384,183 @@
 		)
 		(pin "ADC_I0_POS" input
 			(at 236.22 127 0)
+			(uuid "eaab5396-5c05-499b-8ec0-5bebda9f086d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "eaab5396-5c05-499b-8ec0-5bebda9f086d")
 		)
 		(pin "ADC_I1_POS" input
 			(at 236.22 132.08 0)
+			(uuid "ff856901-0f4c-4e4e-8706-3bee54526503")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "ff856901-0f4c-4e4e-8706-3bee54526503")
 		)
 		(pin "ADC_I1_NEG" input
 			(at 236.22 134.62 0)
+			(uuid "2362607f-1c8d-44d9-9958-e838465c2ba8")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "2362607f-1c8d-44d9-9958-e838465c2ba8")
 		)
 		(pin "ADC_I0_NEG" input
 			(at 236.22 129.54 0)
+			(uuid "9d641fea-047b-4ab4-a18c-6b72b073da9d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "9d641fea-047b-4ab4-a18c-6b72b073da9d")
 		)
 		(pin "HALL_V" input
 			(at 208.28 125.73 90)
+			(uuid "e44574c7-1e29-4dcd-9449-77a15eb55848")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "e44574c7-1e29-4dcd-9449-77a15eb55848")
 		)
 		(pin "BRAKE" input
 			(at 167.64 152.4 180)
+			(uuid "c662a571-4b51-4562-9824-6a6db232e156")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "c662a571-4b51-4562-9824-6a6db232e156")
 		)
 		(pin "PWM_I" input
 			(at 167.64 142.24 180)
+			(uuid "fd4be752-ec8c-4a54-87fc-f86cc031282b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "fd4be752-ec8c-4a54-87fc-f86cc031282b")
 		)
 		(pin "SPI_CS" input
 			(at 167.64 137.16 180)
+			(uuid "df7c813e-1f12-4fb6-acd7-f40def3b0af8")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "df7c813e-1f12-4fb6-acd7-f40def3b0af8")
 		)
 		(pin "HALL_U" input
 			(at 210.82 125.73 90)
+			(uuid "aaecc63f-3e80-4360-8005-1858ec09e1fc")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "aaecc63f-3e80-4360-8005-1858ec09e1fc")
 		)
 		(pin "HALL_W" input
 			(at 213.36 125.73 90)
+			(uuid "0f10260a-484f-4a3f-91f6-cd3f140fa344")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "0f10260a-484f-4a3f-91f6-cd3f140fa344")
 		)
 		(pin "PWM_W_H" input
 			(at 236.22 147.32 0)
+			(uuid "4b48cf1a-0607-47ac-b0d1-cec979deef3d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "4b48cf1a-0607-47ac-b0d1-cec979deef3d")
 		)
 		(pin "PWM_W_L" input
 			(at 236.22 149.86 0)
+			(uuid "0c904567-aa6b-460f-ab3e-80e6f7bcd7b7")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "0c904567-aa6b-460f-ab3e-80e6f7bcd7b7")
 		)
 		(pin "PWM_U_L" input
 			(at 236.22 139.7 0)
+			(uuid "079c83ef-fdfd-4cd6-8f28-b4e07b53e37a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "079c83ef-fdfd-4cd6-8f28-b4e07b53e37a")
 		)
 		(pin "PWM_V_H" input
 			(at 236.22 142.24 0)
+			(uuid "851cbcf6-b916-487e-a67d-f55fe28925d3")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "851cbcf6-b916-487e-a67d-f55fe28925d3")
 		)
 		(pin "PWM_V_L" input
 			(at 236.22 144.78 0)
+			(uuid "efe4d71a-3248-4cf3-982b-59753487533e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "efe4d71a-3248-4cf3-982b-59753487533e")
 		)
 		(pin "PWM_U_H" input
 			(at 236.22 137.16 0)
+			(uuid "e4413858-ff89-4347-b2a2-7532f931f63f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "e4413858-ff89-4347-b2a2-7532f931f63f")
 		)
 		(pin "STATUS" input
 			(at 167.64 144.78 180)
+			(uuid "b0b9c0d3-09f3-45f4-9690-a024646f7805")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "b0b9c0d3-09f3-45f4-9690-a024646f7805")
 		)
 		(pin "TMC_DB_CS" input
 			(at 167.64 139.7 180)
+			(uuid "0bd81ac8-58b9-485e-a36c-ed5426538fcb")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "0bd81ac8-58b9-485e-a36c-ed5426538fcb")
 		)
 		(instances
 			(project "motordriver"
@@ -2554,6 +2573,10 @@
 	(sheet
 		(at 15.24 20.32)
 		(size 17.78 92.71)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.5)
@@ -2583,213 +2606,213 @@
 		)
 		(pin "D+" input
 			(at 33.02 90.17 0)
+			(uuid "a574579f-8e83-4b56-866e-ddcee05b0ebc")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "a574579f-8e83-4b56-866e-ddcee05b0ebc")
 		)
 		(pin "D-" input
 			(at 33.02 92.71 0)
+			(uuid "5fbe2461-66f9-456b-acbd-91ef64f92fbf")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "5fbe2461-66f9-456b-acbd-91ef64f92fbf")
 		)
 		(pin "USBVIN" input
 			(at 33.02 30.48 0)
+			(uuid "c9af36b6-4adc-4bfd-921c-ed293a75d4ef")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "c9af36b6-4adc-4bfd-921c-ed293a75d4ef")
 		)
 		(pin "OLED_SDA" input
 			(at 33.02 105.41 0)
+			(uuid "6725442a-c385-4e68-b468-8eddf4adf183")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "6725442a-c385-4e68-b468-8eddf4adf183")
 		)
 		(pin "OLED_SCL" input
 			(at 33.02 102.87 0)
+			(uuid "134ae1fa-3858-4223-9d94-b5b19aa45fe7")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "134ae1fa-3858-4223-9d94-b5b19aa45fe7")
 		)
 		(pin "TX" input
 			(at 33.02 110.49 0)
+			(uuid "794afb89-7a2e-4385-907e-3e7408d7f155")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "794afb89-7a2e-4385-907e-3e7408d7f155")
 		)
 		(pin "RX" input
 			(at 33.02 107.95 0)
+			(uuid "4f41ca5e-6699-4a0f-a11c-7bd3aa6e1281")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "4f41ca5e-6699-4a0f-a11c-7bd3aa6e1281")
 		)
 		(pin "BATTVIN" input
 			(at 33.02 25.4 0)
+			(uuid "eef83232-0b50-4bad-974c-967476fdf2fd")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "eef83232-0b50-4bad-974c-967476fdf2fd")
 		)
 		(pin "BRAKE1" input
 			(at 33.02 95.25 0)
+			(uuid "c1cc1c62-9ef6-4521-a0cb-389c289e820e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "c1cc1c62-9ef6-4521-a0cb-389c289e820e")
 		)
 		(pin "BRAKE2" input
 			(at 33.02 97.79 0)
+			(uuid "6c0fdd40-c992-4ae8-8d2a-cf4df38f6298")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "6c0fdd40-c992-4ae8-8d2a-cf4df38f6298")
 		)
 		(pin "BRAKE3" input
 			(at 33.02 100.33 0)
+			(uuid "23b0c68f-b587-431c-90cd-3f6cb0469ed2")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "23b0c68f-b587-431c-90cd-3f6cb0469ed2")
 		)
 		(pin "RESETN" input
 			(at 33.02 87.63 0)
+			(uuid "451d54cf-daf7-4f44-9760-6d5a92502b8f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "451d54cf-daf7-4f44-9760-6d5a92502b8f")
 		)
 		(pin "SCL_IMU2" input
 			(at 33.02 66.04 0)
+			(uuid "7994af2e-50f6-4fd2-a5bc-f4ab0178dd48")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "7994af2e-50f6-4fd2-a5bc-f4ab0178dd48")
 		)
 		(pin "INT_IMU2" input
 			(at 33.02 71.12 0)
+			(uuid "6d752661-031a-448c-8af2-f499f52a00ef")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "6d752661-031a-448c-8af2-f499f52a00ef")
 		)
 		(pin "SDA_IMU2" input
 			(at 33.02 68.58 0)
+			(uuid "addeb525-fefd-444f-920b-01f6ec1e3060")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "addeb525-fefd-444f-920b-01f6ec1e3060")
 		)
 		(pin "SDA_IMU1" input
 			(at 33.02 60.96 0)
+			(uuid "e4b6d090-c287-46d5-a55c-bd070a0594d5")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "e4b6d090-c287-46d5-a55c-bd070a0594d5")
 		)
 		(pin "INT_IMU1" input
 			(at 33.02 63.5 0)
+			(uuid "182fc926-7305-42b3-9eac-f03524478aaf")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "182fc926-7305-42b3-9eac-f03524478aaf")
 		)
 		(pin "SCL_IMU1" input
 			(at 33.02 58.42 0)
+			(uuid "c993159d-e60c-4ae4-98b2-af8c966f8024")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "c993159d-e60c-4ae4-98b2-af8c966f8024")
 		)
 		(pin "DBG_SWCLK" input
 			(at 33.02 85.09 0)
+			(uuid "2e2ab090-7af4-47b0-9d1f-03beae41fcb3")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "2e2ab090-7af4-47b0-9d1f-03beae41fcb3")
 		)
 		(pin "DBG_RESETN" input
 			(at 33.02 80.01 0)
+			(uuid "f0aa3750-53c4-47f2-953e-8e26a545f117")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "f0aa3750-53c4-47f2-953e-8e26a545f117")
 		)
 		(pin "DBG_SWDIO" input
 			(at 33.02 82.55 0)
+			(uuid "d94a7b46-fa97-43a0-ba96-3393bfac5d98")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "d94a7b46-fa97-43a0-ba96-3393bfac5d98")
 		)
 		(instances
 			(project "motordriver"
@@ -2802,6 +2825,10 @@
 	(sheet
 		(at 166.37 25.4)
 		(size 69.85 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.5)
@@ -2831,183 +2858,183 @@
 		)
 		(pin "ADC_I1_POS" input
 			(at 236.22 31.75 0)
+			(uuid "ef5cad3f-2458-41c0-a9b2-88c141f2c30b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "ef5cad3f-2458-41c0-a9b2-88c141f2c30b")
 		)
 		(pin "ADC_I1_NEG" input
 			(at 236.22 34.29 0)
+			(uuid "5bd085b3-6688-462b-83ce-99792619f5ec")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "5bd085b3-6688-462b-83ce-99792619f5ec")
 		)
 		(pin "ADC_I0_NEG" input
 			(at 236.22 29.21 0)
+			(uuid "75aef437-50cb-44d7-8e63-b53f45919969")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "75aef437-50cb-44d7-8e63-b53f45919969")
 		)
 		(pin "ADC_I0_POS" input
 			(at 236.22 26.67 0)
+			(uuid "a0b08dbe-4bdf-44bb-88aa-81a0a79633b0")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "a0b08dbe-4bdf-44bb-88aa-81a0a79633b0")
 		)
 		(pin "HALL_V" input
 			(at 205.74 25.4 90)
+			(uuid "2ab22c68-c98e-46a1-9abe-e1943a1c4dc9")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "2ab22c68-c98e-46a1-9abe-e1943a1c4dc9")
 		)
 		(pin "BRAKE" input
 			(at 166.37 52.07 180)
+			(uuid "2cf21a64-5d9f-4d91-98d8-46fda6964c4c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "2cf21a64-5d9f-4d91-98d8-46fda6964c4c")
 		)
 		(pin "PWM_I" input
 			(at 166.37 40.64 180)
+			(uuid "b5286910-3bf1-4d6d-8768-c0bc250fb73d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "b5286910-3bf1-4d6d-8768-c0bc250fb73d")
 		)
 		(pin "HALL_U" input
 			(at 208.28 25.4 90)
+			(uuid "fcd72e61-94c3-47d4-90c0-08cc4ec487cb")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "fcd72e61-94c3-47d4-90c0-08cc4ec487cb")
 		)
 		(pin "HALL_W" input
 			(at 210.82 25.4 90)
+			(uuid "e0c26922-3c07-43a8-8a95-7fd15d566b2b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "e0c26922-3c07-43a8-8a95-7fd15d566b2b")
 		)
 		(pin "PWM_W_L" input
 			(at 236.22 49.53 0)
+			(uuid "8391ac31-a4f9-4ed0-b258-0e6db4324673")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "8391ac31-a4f9-4ed0-b258-0e6db4324673")
 		)
 		(pin "PWM_W_H" input
 			(at 236.22 46.99 0)
+			(uuid "245b1d3b-6c21-45e1-bf74-4935e56805b5")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "245b1d3b-6c21-45e1-bf74-4935e56805b5")
 		)
 		(pin "PWM_U_L" input
 			(at 236.22 39.37 0)
+			(uuid "d5465001-f551-4d8b-a908-5a3962e29291")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "d5465001-f551-4d8b-a908-5a3962e29291")
 		)
 		(pin "PWM_V_H" input
 			(at 236.22 41.91 0)
+			(uuid "9295498e-a92c-417a-b2a7-89099af3ac30")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "9295498e-a92c-417a-b2a7-89099af3ac30")
 		)
 		(pin "PWM_V_L" input
 			(at 236.22 44.45 0)
+			(uuid "057d6bd1-e860-446e-a322-a0ba088bdd9f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "057d6bd1-e860-446e-a322-a0ba088bdd9f")
 		)
 		(pin "PWM_U_H" input
 			(at 236.22 36.83 0)
+			(uuid "c4121d17-1fca-40f3-8065-46817e742cb9")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "c4121d17-1fca-40f3-8065-46817e742cb9")
 		)
 		(pin "STATUS" input
 			(at 166.37 43.18 180)
+			(uuid "85a1a4ff-17d6-4761-ab60-eec3b8081902")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "85a1a4ff-17d6-4761-ab60-eec3b8081902")
 		)
 		(pin "SPI_CS" input
 			(at 166.37 35.56 180)
+			(uuid "75eea456-84d2-4397-9e4a-a037abeec666")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "75eea456-84d2-4397-9e4a-a037abeec666")
 		)
 		(pin "TMC_DB_CS" input
 			(at 166.37 38.1 180)
+			(uuid "d187049c-6050-4d33-8f79-5e56fa0eee0b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "d187049c-6050-4d33-8f79-5e56fa0eee0b")
 		)
 		(instances
 			(project "motordriver"
@@ -3020,6 +3047,10 @@
 	(sheet
 		(at 39.37 19.05)
 		(size 44.45 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.5)
@@ -3049,23 +3080,23 @@
 		)
 		(pin "BATTVIN" input
 			(at 39.37 25.4 180)
+			(uuid "dae15151-5f70-4fe7-bc26-67eb336206a3")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "dae15151-5f70-4fe7-bc26-67eb336206a3")
 		)
 		(pin "USBVIN" input
 			(at 39.37 30.48 180)
+			(uuid "c9814b6c-f6ed-41a5-be2a-97fd38f3bbcb")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "c9814b6c-f6ed-41a5-be2a-97fd38f3bbcb")
 		)
 		(instances
 			(project "motordriver"
@@ -3078,6 +3109,10 @@
 	(sheet
 		(at 242.57 25.4)
 		(size 20.32 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.5)
@@ -3107,133 +3142,133 @@
 		)
 		(pin "PHASE_U" input
 			(at 262.89 39.37 0)
+			(uuid "372e9d36-d7b2-43ae-97c3-f07fd7bbdba0")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "372e9d36-d7b2-43ae-97c3-f07fd7bbdba0")
 		)
 		(pin "PHASE_V" input
 			(at 262.89 41.91 0)
+			(uuid "b153355e-faf9-4a88-b1e4-d6351f0ea759")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "b153355e-faf9-4a88-b1e4-d6351f0ea759")
 		)
 		(pin "PHASE_W" input
 			(at 262.89 44.45 0)
+			(uuid "34f6c248-07cc-4b94-ba93-11527d61560d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "34f6c248-07cc-4b94-ba93-11527d61560d")
 		)
 		(pin "PWM_W_H" input
 			(at 242.57 46.99 180)
+			(uuid "6757ecc7-87dc-4d82-8404-f817b68da212")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "6757ecc7-87dc-4d82-8404-f817b68da212")
 		)
 		(pin "PWM_W_L" input
 			(at 242.57 49.53 180)
+			(uuid "df221f92-ff45-4fe8-9281-276759469d11")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "df221f92-ff45-4fe8-9281-276759469d11")
 		)
 		(pin "PWM_U_H" input
 			(at 242.57 36.83 180)
+			(uuid "5f090b4c-6896-4910-90ca-ce4833732f1a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "5f090b4c-6896-4910-90ca-ce4833732f1a")
 		)
 		(pin "PWM_U_L" input
 			(at 242.57 39.37 180)
+			(uuid "0ef6b1c2-64a0-4ede-bd93-a893ceba9e81")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "0ef6b1c2-64a0-4ede-bd93-a893ceba9e81")
 		)
 		(pin "PWM_V_L" input
 			(at 242.57 44.45 180)
+			(uuid "7cbe6236-6cb8-4669-b9e4-7065cd0ed5a8")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "7cbe6236-6cb8-4669-b9e4-7065cd0ed5a8")
 		)
 		(pin "PWM_V_H" input
 			(at 242.57 41.91 180)
+			(uuid "422fdf2c-7dad-49a2-add8-1bf7876598fa")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "422fdf2c-7dad-49a2-add8-1bf7876598fa")
 		)
 		(pin "I1_NEG" input
 			(at 242.57 34.29 180)
+			(uuid "abb3387d-869e-4081-8d55-10b67ac5a79d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "abb3387d-869e-4081-8d55-10b67ac5a79d")
 		)
 		(pin "I0_NEG" input
 			(at 242.57 29.21 180)
+			(uuid "90457db3-7988-4a81-83c4-a263fd8825fc")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "90457db3-7988-4a81-83c4-a263fd8825fc")
 		)
 		(pin "I0_POS" input
 			(at 242.57 26.67 180)
+			(uuid "18700dac-a922-46ca-a200-6e63610edb8f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "18700dac-a922-46ca-a200-6e63610edb8f")
 		)
 		(pin "I1_POS" input
 			(at 242.57 31.75 180)
+			(uuid "d86fbb32-76d7-4f2c-a830-dab07426fc21")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "d86fbb32-76d7-4f2c-a830-dab07426fc21")
 		)
 		(instances
 			(project "motordriver"
@@ -3246,6 +3281,10 @@
 	(sheet
 		(at 267.97 15.24)
 		(size 12.7 144.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.5)
 			(type solid)
@@ -3274,183 +3313,183 @@
 		)
 		(pin "HALL_B1" input
 			(at 267.97 16.51 180)
+			(uuid "304e57f1-c2e8-493a-a94c-095bd30f88f4")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "304e57f1-c2e8-493a-a94c-095bd30f88f4")
 		)
 		(pin "HALL_A1" input
 			(at 267.97 19.05 180)
+			(uuid "ee60aad6-12be-48a3-9e83-ad69d2221ded")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "ee60aad6-12be-48a3-9e83-ad69d2221ded")
 		)
 		(pin "HALL_C1" input
 			(at 267.97 21.59 180)
+			(uuid "080958d4-2f9d-4c39-b17e-066e8ad223c0")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "080958d4-2f9d-4c39-b17e-066e8ad223c0")
 		)
 		(pin "PHASE_U2" input
 			(at 267.97 87.63 180)
+			(uuid "d0b4ef47-5d1b-4dbc-adb3-c502b9fd65be")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "d0b4ef47-5d1b-4dbc-adb3-c502b9fd65be")
 		)
 		(pin "PHASE_V1" input
 			(at 267.97 41.91 180)
+			(uuid "193e800c-8bb8-4130-bef6-1852498dbb79")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "193e800c-8bb8-4130-bef6-1852498dbb79")
 		)
 		(pin "PHASE_U1" input
 			(at 267.97 39.37 180)
+			(uuid "042ae849-f79e-4863-b0a8-63f497846b2d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "042ae849-f79e-4863-b0a8-63f497846b2d")
 		)
 		(pin "PHASE_W1" input
 			(at 267.97 44.45 180)
+			(uuid "0d84d9f5-5667-4a6f-9dcf-7b1ae32c97e2")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "0d84d9f5-5667-4a6f-9dcf-7b1ae32c97e2")
 		)
 		(pin "PHASE_U3" input
 			(at 267.97 139.7 180)
+			(uuid "be6c98f2-b077-4ff0-9882-98985be2e05f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "be6c98f2-b077-4ff0-9882-98985be2e05f")
 		)
 		(pin "PHASE_V3" input
 			(at 267.97 142.24 180)
+			(uuid "d3006608-aa8d-45e9-b7b7-92c932518f0d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "d3006608-aa8d-45e9-b7b7-92c932518f0d")
 		)
 		(pin "PHASE_W3" input
 			(at 267.97 144.78 180)
+			(uuid "0ee22d8f-b8a8-457b-81f8-4ee53c08f169")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "0ee22d8f-b8a8-457b-81f8-4ee53c08f169")
 		)
 		(pin "HALL_C2" input
 			(at 267.97 69.85 180)
+			(uuid "11bdc71a-cbea-459a-bd7a-7d0d23273efa")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "11bdc71a-cbea-459a-bd7a-7d0d23273efa")
 		)
 		(pin "HALL_A2" input
 			(at 267.97 67.31 180)
+			(uuid "5f21d7df-80ea-43dd-adf1-35eb8424f0e7")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "5f21d7df-80ea-43dd-adf1-35eb8424f0e7")
 		)
 		(pin "HALL_B2" input
 			(at 267.97 64.77 180)
+			(uuid "350ffe5f-ea9f-4536-96fc-2d5b347cdfa4")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "350ffe5f-ea9f-4536-96fc-2d5b347cdfa4")
 		)
 		(pin "PHASE_V2" input
 			(at 267.97 90.17 180)
+			(uuid "aefedaeb-ae89-4f87-a389-db7a5e2e23f3")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "aefedaeb-ae89-4f87-a389-db7a5e2e23f3")
 		)
 		(pin "PHASE_W2" input
 			(at 267.97 92.71 180)
+			(uuid "f412664d-8a85-401a-a6fb-0fa6a7d4e8c4")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "f412664d-8a85-401a-a6fb-0fa6a7d4e8c4")
 		)
 		(pin "HALL_B3" input
 			(at 267.97 116.84 180)
+			(uuid "bba4f4f8-3765-45de-a7f2-3dc9169e012d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "bba4f4f8-3765-45de-a7f2-3dc9169e012d")
 		)
 		(pin "HALL_A3" input
 			(at 267.97 119.38 180)
+			(uuid "fe2fb522-7cd2-4694-8c98-2940480b7074")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "fe2fb522-7cd2-4694-8c98-2940480b7074")
 		)
 		(pin "HALL_C3" input
 			(at 267.97 121.92 180)
+			(uuid "221aaeb8-bb99-4164-aee3-f9f8dbafdca7")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "221aaeb8-bb99-4164-aee3-f9f8dbafdca7")
 		)
 		(instances
 			(project "motordriver"
@@ -3463,6 +3502,10 @@
 	(sheet
 		(at 72.39 57.15)
 		(size 71.12 54.61)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.5)
@@ -3492,313 +3535,313 @@
 		)
 		(pin "RESETN" input
 			(at 72.39 87.63 180)
+			(uuid "6bd3f699-6b72-44cc-b469-12147d793cd3")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "6bd3f699-6b72-44cc-b469-12147d793cd3")
 		)
 		(pin "OLED_SCL" input
 			(at 72.39 102.87 180)
+			(uuid "d21bc31c-450b-4869-b3a4-96aa55879b7b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "d21bc31c-450b-4869-b3a4-96aa55879b7b")
 		)
 		(pin "OLED_SDA" input
 			(at 72.39 105.41 180)
+			(uuid "d2496a03-1ab2-49fe-a387-cc4c3f81a72d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "d2496a03-1ab2-49fe-a387-cc4c3f81a72d")
 		)
 		(pin "D+" input
 			(at 72.39 90.17 180)
+			(uuid "6e713f96-7414-4b7a-bd55-68ed37e27a4b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "6e713f96-7414-4b7a-bd55-68ed37e27a4b")
 		)
 		(pin "D-" input
 			(at 72.39 92.71 180)
+			(uuid "f57b0676-619b-4cbe-9140-ab90d842a894")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "f57b0676-619b-4cbe-9140-ab90d842a894")
 		)
 		(pin "SWDIO" input
 			(at 72.39 82.55 180)
+			(uuid "d2cea5c9-4455-42de-9d41-33515e247596")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "d2cea5c9-4455-42de-9d41-33515e247596")
 		)
 		(pin "SWCLK" input
 			(at 72.39 85.09 180)
+			(uuid "313219d8-566b-43cb-91c8-d476fa7c0796")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "313219d8-566b-43cb-91c8-d476fa7c0796")
 		)
 		(pin "RX" input
 			(at 72.39 107.95 180)
+			(uuid "1fcf2a10-0470-477c-af75-f7274f3765dc")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "1fcf2a10-0470-477c-af75-f7274f3765dc")
 		)
 		(pin "TX" input
 			(at 72.39 110.49 180)
+			(uuid "5f213802-b0b9-4da4-a69f-692d20e9e267")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "5f213802-b0b9-4da4-a69f-692d20e9e267")
 		)
 		(pin "SDA_IMU2" input
 			(at 72.39 68.58 180)
+			(uuid "bdd84e26-ed91-4cea-bc9b-2bfbd3a0fd33")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "bdd84e26-ed91-4cea-bc9b-2bfbd3a0fd33")
 		)
 		(pin "SCL_IMU2" input
 			(at 72.39 66.04 180)
+			(uuid "879c6fc4-2070-428b-b249-6af92826502d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "879c6fc4-2070-428b-b249-6af92826502d")
 		)
 		(pin "SERVO2_STATUS" input
 			(at 143.51 87.63 0)
+			(uuid "5cf4178d-7e20-442b-a6b7-95357f09a349")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "5cf4178d-7e20-442b-a6b7-95357f09a349")
 		)
 		(pin "SCL_IMU1" input
 			(at 72.39 58.42 180)
+			(uuid "22791d9f-4d63-4e6f-b607-5986c5fdc52d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "22791d9f-4d63-4e6f-b607-5986c5fdc52d")
 		)
 		(pin "SERVO2_CS" input
 			(at 143.51 80.01 0)
+			(uuid "3f955230-4b15-4531-b579-b158e13b3bee")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "3f955230-4b15-4531-b579-b158e13b3bee")
 		)
 		(pin "SDA_IMU1" input
 			(at 72.39 60.96 180)
+			(uuid "6b5dd091-d5c3-4561-b4ef-167aaa20a08a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "6b5dd091-d5c3-4561-b4ef-167aaa20a08a")
 		)
 		(pin "SERVO1_CS" input
 			(at 143.51 99.06 0)
+			(uuid "8d12128b-d57d-49a6-884a-60f6d261219e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "8d12128b-d57d-49a6-884a-60f6d261219e")
 		)
 		(pin "SERVO3_STATUS" input
 			(at 143.51 71.12 0)
+			(uuid "c557d7b2-e1c7-4725-a19d-b28933913ae7")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "c557d7b2-e1c7-4725-a19d-b28933913ae7")
 		)
 		(pin "SERVO3_CS" input
 			(at 143.51 63.5 0)
+			(uuid "c77e5cdb-1d72-4111-93ab-6a2ab4176582")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "c77e5cdb-1d72-4111-93ab-6a2ab4176582")
 		)
 		(pin "SERVO1_STATUS" input
 			(at 143.51 106.68 0)
+			(uuid "cf9905e7-0127-41c5-9ae9-6279dfc744df")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "cf9905e7-0127-41c5-9ae9-6279dfc744df")
 		)
 		(pin "SERVO3_PWM_I" input
 			(at 143.51 68.58 0)
+			(uuid "193a2177-70c5-42f0-b9cf-3447c569de4f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "193a2177-70c5-42f0-b9cf-3447c569de4f")
 		)
 		(pin "SERVO2_PWM_I" input
 			(at 143.51 85.09 0)
+			(uuid "7acc541d-23eb-4bda-88e7-92f084e8a820")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "7acc541d-23eb-4bda-88e7-92f084e8a820")
 		)
 		(pin "SERVO1_PWM_I" input
 			(at 143.51 104.14 0)
+			(uuid "25fc4226-117d-4a99-83fd-42daa2301dd3")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "25fc4226-117d-4a99-83fd-42daa2301dd3")
 		)
 		(pin "BRAKE2" input
 			(at 72.39 97.79 180)
+			(uuid "70d7be5f-ae23-49f8-8837-fdf32cb0392a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "70d7be5f-ae23-49f8-8837-fdf32cb0392a")
 		)
 		(pin "BRAKE3" input
 			(at 72.39 100.33 180)
+			(uuid "af4eaeb9-168e-45d2-8deb-904074cb6adc")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "af4eaeb9-168e-45d2-8deb-904074cb6adc")
 		)
 		(pin "BRAKE1" input
 			(at 72.39 95.25 180)
+			(uuid "5d33e2ae-1937-4a40-abf3-b504a76a855d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "5d33e2ae-1937-4a40-abf3-b504a76a855d")
 		)
 		(pin "SERVO1_DB_CS" input
 			(at 143.51 101.6 0)
+			(uuid "cf30e800-af62-46f7-a5a8-43b0dd1ec912")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "cf30e800-af62-46f7-a5a8-43b0dd1ec912")
 		)
 		(pin "SERVO2_DB_CS" input
 			(at 143.51 82.55 0)
+			(uuid "b0c323a0-c0f6-480e-80e4-7552c1f6d4d7")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "b0c323a0-c0f6-480e-80e4-7552c1f6d4d7")
 		)
 		(pin "SERVO3_DB_CS" input
 			(at 143.51 66.04 0)
+			(uuid "bd044bb4-688c-4480-8b11-d31e09616242")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "bd044bb4-688c-4480-8b11-d31e09616242")
 		)
 		(pin "INT_IMU2" input
 			(at 72.39 71.12 180)
+			(uuid "06ca0f10-a3e1-4bc7-ab81-051fa68e3362")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "06ca0f10-a3e1-4bc7-ab81-051fa68e3362")
 		)
 		(pin "INT_IMU1" input
 			(at 72.39 63.5 180)
+			(uuid "329c810e-611e-4d5c-856c-a7ac4198c9f4")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "329c810e-611e-4d5c-856c-a7ac4198c9f4")
 		)
 		(pin "DBG_RESETN" input
 			(at 72.39 80.01 180)
+			(uuid "6282f7d0-0702-4e27-9f96-8e85735c4e94")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "6282f7d0-0702-4e27-9f96-8e85735c4e94")
 		)
 		(instances
 			(project "motordriver"
@@ -3811,6 +3854,10 @@
 	(sheet
 		(at 166.37 72.39)
 		(size 69.85 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.5)
@@ -3840,183 +3887,183 @@
 		)
 		(pin "ADC_I0_POS" input
 			(at 236.22 73.66 0)
+			(uuid "78f1d8e1-c156-49a2-8cbc-e7976eacfac1")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "78f1d8e1-c156-49a2-8cbc-e7976eacfac1")
 		)
 		(pin "ADC_I1_POS" input
 			(at 236.22 78.74 0)
+			(uuid "e5fdf7e7-b202-4688-b402-2b87e8bd101a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "e5fdf7e7-b202-4688-b402-2b87e8bd101a")
 		)
 		(pin "ADC_I1_NEG" input
 			(at 236.22 81.28 0)
+			(uuid "2666fad3-93a0-43b6-a91b-0efbff88763f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "2666fad3-93a0-43b6-a91b-0efbff88763f")
 		)
 		(pin "ADC_I0_NEG" input
 			(at 236.22 76.2 0)
+			(uuid "263779fa-54cb-4a13-8d4f-bf30a6ebff24")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "263779fa-54cb-4a13-8d4f-bf30a6ebff24")
 		)
 		(pin "HALL_V" input
 			(at 203.2 72.39 90)
+			(uuid "b64b7284-e8ae-484f-ae52-f59a0e17df1e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "b64b7284-e8ae-484f-ae52-f59a0e17df1e")
 		)
 		(pin "BRAKE" input
 			(at 166.37 100.33 180)
+			(uuid "aec41dce-fc57-4bb8-9897-037ce5218902")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "aec41dce-fc57-4bb8-9897-037ce5218902")
 		)
 		(pin "PWM_I" input
 			(at 166.37 85.09 180)
+			(uuid "5dec41e9-70bc-4ae1-91f2-96dbc3ce8dfb")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "5dec41e9-70bc-4ae1-91f2-96dbc3ce8dfb")
 		)
 		(pin "SPI_CS" input
 			(at 166.37 80.01 180)
+			(uuid "5dd227e6-d6ae-4a22-83df-8a2b8f95eb36")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "5dd227e6-d6ae-4a22-83df-8a2b8f95eb36")
 		)
 		(pin "HALL_U" input
 			(at 205.74 72.39 90)
+			(uuid "af7b1621-495a-4b38-85a1-58186aeba5e2")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "af7b1621-495a-4b38-85a1-58186aeba5e2")
 		)
 		(pin "HALL_W" input
 			(at 208.28 72.39 90)
+			(uuid "0ba179dc-ca06-4623-92cb-98dc497742a9")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "0ba179dc-ca06-4623-92cb-98dc497742a9")
 		)
 		(pin "PWM_W_H" input
 			(at 236.22 93.98 0)
+			(uuid "cdf96185-51a8-470a-9ba9-a3088c9b1600")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "cdf96185-51a8-470a-9ba9-a3088c9b1600")
 		)
 		(pin "PWM_W_L" input
 			(at 236.22 96.52 0)
+			(uuid "9e1ca523-1c50-4f8f-96bb-dcdb3a43c3f1")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "9e1ca523-1c50-4f8f-96bb-dcdb3a43c3f1")
 		)
 		(pin "PWM_U_L" input
 			(at 236.22 86.36 0)
+			(uuid "d8bde10f-8bba-4a06-b18f-fa0589b2aec8")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "d8bde10f-8bba-4a06-b18f-fa0589b2aec8")
 		)
 		(pin "PWM_V_H" input
 			(at 236.22 88.9 0)
+			(uuid "fc7f6cbd-bf98-4bfd-8a30-42da47d5b851")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "fc7f6cbd-bf98-4bfd-8a30-42da47d5b851")
 		)
 		(pin "PWM_V_L" input
 			(at 236.22 91.44 0)
+			(uuid "45a44cb3-f76c-44bc-b573-080dcc6ad8e8")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "45a44cb3-f76c-44bc-b573-080dcc6ad8e8")
 		)
 		(pin "PWM_U_H" input
 			(at 236.22 83.82 0)
+			(uuid "cc57e4fd-0617-4430-b9b9-4600cc0b22cb")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "cc57e4fd-0617-4430-b9b9-4600cc0b22cb")
 		)
 		(pin "STATUS" input
 			(at 166.37 87.63 180)
+			(uuid "5ab8ad7e-a77d-48b8-95f0-173d55ad2dbd")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "5ab8ad7e-a77d-48b8-95f0-173d55ad2dbd")
 		)
 		(pin "TMC_DB_CS" input
 			(at 166.37 82.55 180)
+			(uuid "97638eef-c353-45e9-9b84-99a625612bab")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "97638eef-c353-45e9-9b84-99a625612bab")
 		)
 		(instances
 			(project "motordriver"
@@ -4029,6 +4076,10 @@
 	(sheet
 		(at 242.57 125.73)
 		(size 19.05 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.5)
@@ -4058,133 +4109,133 @@
 		)
 		(pin "PHASE_U" input
 			(at 261.62 139.7 0)
+			(uuid "ae6a6be0-2d5c-49df-9eac-9af7ea45479f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "ae6a6be0-2d5c-49df-9eac-9af7ea45479f")
 		)
 		(pin "PHASE_V" input
 			(at 261.62 142.24 0)
+			(uuid "e26375be-117e-419e-b8de-2181fb632073")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "e26375be-117e-419e-b8de-2181fb632073")
 		)
 		(pin "PHASE_W" input
 			(at 261.62 144.78 0)
+			(uuid "ae5094c4-5757-4f5f-b23b-f78ae76c0b93")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "ae5094c4-5757-4f5f-b23b-f78ae76c0b93")
 		)
 		(pin "PWM_U_H" input
 			(at 242.57 137.16 180)
+			(uuid "0215fc9f-786d-4c63-9dce-7766f92f61de")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "0215fc9f-786d-4c63-9dce-7766f92f61de")
 		)
 		(pin "PWM_U_L" input
 			(at 242.57 139.7 180)
+			(uuid "47dfcb38-144a-434e-a5d1-61ff3bc65632")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "47dfcb38-144a-434e-a5d1-61ff3bc65632")
 		)
 		(pin "PWM_V_H" input
 			(at 242.57 142.24 180)
+			(uuid "284efa57-23cb-429e-9ab8-6d381000cf80")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "284efa57-23cb-429e-9ab8-6d381000cf80")
 		)
 		(pin "PWM_V_L" input
 			(at 242.57 144.78 180)
+			(uuid "86ee5879-afca-4615-910c-c5c5ab96f0b3")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "86ee5879-afca-4615-910c-c5c5ab96f0b3")
 		)
 		(pin "PWM_W_L" input
 			(at 242.57 149.86 180)
+			(uuid "7e466e67-a8ca-4f27-9c83-31f094e9d97a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "7e466e67-a8ca-4f27-9c83-31f094e9d97a")
 		)
 		(pin "PWM_W_H" input
 			(at 242.57 147.32 180)
+			(uuid "4ac334c7-2a0c-4a8d-9b69-45e2514ba4c4")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "4ac334c7-2a0c-4a8d-9b69-45e2514ba4c4")
 		)
 		(pin "I1_NEG" input
 			(at 242.57 134.62 180)
+			(uuid "ba05857c-7b5e-4906-ba08-717848c3f668")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "ba05857c-7b5e-4906-ba08-717848c3f668")
 		)
 		(pin "I0_NEG" input
 			(at 242.57 129.54 180)
+			(uuid "28eba995-e9ab-4faa-92b0-8e5b26fad217")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "28eba995-e9ab-4faa-92b0-8e5b26fad217")
 		)
 		(pin "I0_POS" input
 			(at 242.57 127 180)
+			(uuid "459f3128-89a7-408d-93c3-0b112bd7a50e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "459f3128-89a7-408d-93c3-0b112bd7a50e")
 		)
 		(pin "I1_POS" input
 			(at 242.57 132.08 180)
+			(uuid "2568a384-b7ce-4ea6-9e1c-4623f1cf785a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "2568a384-b7ce-4ea6-9e1c-4623f1cf785a")
 		)
 		(instances
 			(project "motordriver"
@@ -4197,6 +4248,10 @@
 	(sheet
 		(at 93.98 134.62)
 		(size 38.1 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -4226,13 +4281,13 @@
 		)
 		(pin "BRAKE" input
 			(at 132.08 152.4 0)
+			(uuid "052ebdbf-f8a2-4aee-b273-0b290386e381")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "052ebdbf-f8a2-4aee-b273-0b290386e381")
 		)
 		(instances
 			(project "motordriver"
@@ -4245,6 +4300,10 @@
 	(sheet
 		(at 242.57 72.39)
 		(size 20.32 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.5)
@@ -4274,133 +4333,133 @@
 		)
 		(pin "PHASE_U" input
 			(at 262.89 87.63 0)
+			(uuid "9097c7e4-71e5-4c10-ba8d-90ff8028d468")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "9097c7e4-71e5-4c10-ba8d-90ff8028d468")
 		)
 		(pin "PHASE_V" input
 			(at 262.89 90.17 0)
+			(uuid "1dd5e70e-bf68-47a1-a8c3-2ec98881ab11")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "1dd5e70e-bf68-47a1-a8c3-2ec98881ab11")
 		)
 		(pin "PHASE_W" input
 			(at 262.89 92.71 0)
+			(uuid "6fe2e3c0-756b-4153-ad48-3e7c96fec402")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "6fe2e3c0-756b-4153-ad48-3e7c96fec402")
 		)
 		(pin "PWM_U_H" input
 			(at 242.57 83.82 180)
+			(uuid "7597eb3f-c97c-452e-a474-ace558a1824a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "7597eb3f-c97c-452e-a474-ace558a1824a")
 		)
 		(pin "PWM_U_L" input
 			(at 242.57 86.36 180)
+			(uuid "7a42f97c-d975-4a50-bf47-90a3d92138c1")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "7a42f97c-d975-4a50-bf47-90a3d92138c1")
 		)
 		(pin "PWM_V_H" input
 			(at 242.57 88.9 180)
+			(uuid "f24fe960-d531-4a96-adc9-00b4143eb27d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "f24fe960-d531-4a96-adc9-00b4143eb27d")
 		)
 		(pin "PWM_V_L" input
 			(at 242.57 91.44 180)
+			(uuid "fb82aa76-24c0-41c8-9f94-6b11e8030449")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "fb82aa76-24c0-41c8-9f94-6b11e8030449")
 		)
 		(pin "PWM_W_L" input
 			(at 242.57 96.52 180)
+			(uuid "33c8d698-74ce-4449-8fbf-058137c6dea0")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "33c8d698-74ce-4449-8fbf-058137c6dea0")
 		)
 		(pin "PWM_W_H" input
 			(at 242.57 93.98 180)
+			(uuid "580c15bd-8bc3-4a06-b8a5-37b86d236d67")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "580c15bd-8bc3-4a06-b8a5-37b86d236d67")
 		)
 		(pin "I1_POS" input
 			(at 242.57 78.74 180)
+			(uuid "d3b1fd41-c616-4ea2-81c9-afedadbfbf5e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "d3b1fd41-c616-4ea2-81c9-afedadbfbf5e")
 		)
 		(pin "I1_NEG" input
 			(at 242.57 81.28 180)
+			(uuid "c3f5cdf6-9b2a-4945-94b3-624b91000e88")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "c3f5cdf6-9b2a-4945-94b3-624b91000e88")
 		)
 		(pin "I0_NEG" input
 			(at 242.57 76.2 180)
+			(uuid "60145237-9765-4732-88c1-47a2a676fe3c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "60145237-9765-4732-88c1-47a2a676fe3c")
 		)
 		(pin "I0_POS" input
 			(at 242.57 73.66 180)
+			(uuid "71d4b407-1e7c-4be9-b158-87bda8852328")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "71d4b407-1e7c-4be9-b158-87bda8852328")
 		)
 		(instances
 			(project "motordriver"
@@ -4415,4 +4474,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )
