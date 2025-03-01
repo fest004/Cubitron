@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "42c9b1dd-e5d1-401c-895f-a6af588b84f6")
 	(paper "A4")
 	(lib_symbols
@@ -119,6 +119,42 @@
 					)
 				)
 				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "MP1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "MP2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
 					(at 25.4 0 180)
 					(length 5.08)
 					(name "1"
@@ -129,42 +165,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 25.4 -22.86 180)
-					(length 5.08)
-					(name "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 25.4 -25.4 180)
-					(length 5.08)
-					(name "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -317,16 +317,16 @@
 					)
 				)
 				(pin passive line
-					(at 0 0 0)
+					(at 25.4 -22.86 180)
 					(length 5.08)
-					(name "MP1"
+					(name "10"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "MP1"
+					(number "10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -335,16 +335,16 @@
 					)
 				)
 				(pin passive line
-					(at 0 -2.54 0)
+					(at 25.4 -25.4 180)
 					(length 5.08)
-					(name "MP2"
+					(name "11"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "MP2"
+					(number "11"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -353,12 +353,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+12V"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -430,7 +435,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -442,7 +447,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -473,12 +478,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -569,7 +579,58 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(text "1.0"
+		(exclude_from_sim no)
+		(at 271.018 193.802 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3f836362-9af6-4e78-8455-cd7e0a12185e")
+	)
+	(text "MP1 & MP2 are mounting pins"
+		(exclude_from_sim no)
+		(at 74.168 82.296 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4e4ca62d-ed1f-41a8-ad2c-8be9d2173a2a")
+	)
+	(text "Motor Headers"
+		(exclude_from_sim no)
+		(at 220.98 174.498 0)
+		(effects
+			(font
+				(size 4 4)
+			)
+		)
+		(uuid "823f52fc-6c4c-45db-8288-98b9469818e8")
+	)
+	(text "2024-12-14"
+		(exclude_from_sim no)
+		(at 212.852 193.802 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b010bed3-496a-4e8e-8e32-5ed2e9f1c320")
+	)
+	(text "hall & phases\n"
+		(exclude_from_sim no)
+		(at 196.596 190.246 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f296cb1f-e58a-4be9-8dc2-dee2d1cc9b48")
 	)
 	(junction
 		(at 156.21 88.9)
@@ -1069,60 +1130,9 @@
 		)
 		(uuid "fae807bb-004e-4d24-89b8-0f4200668139")
 	)
-	(text "1.0"
-		(exclude_from_sim no)
-		(at 271.018 193.802 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "3f836362-9af6-4e78-8455-cd7e0a12185e")
-	)
-	(text "MP1 & MP2 are mounting pins"
-		(exclude_from_sim no)
-		(at 74.168 82.296 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "4e4ca62d-ed1f-41a8-ad2c-8be9d2173a2a")
-	)
-	(text "Motor Headers"
-		(exclude_from_sim no)
-		(at 220.98 174.498 0)
-		(effects
-			(font
-				(size 4 4)
-			)
-		)
-		(uuid "823f52fc-6c4c-45db-8288-98b9469818e8")
-	)
-	(text "2024-12-14"
-		(exclude_from_sim no)
-		(at 212.852 193.802 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "b010bed3-496a-4e8e-8e32-5ed2e9f1c320")
-	)
-	(text "hall & phases\n"
-		(exclude_from_sim no)
-		(at 196.596 190.246 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "f296cb1f-e58a-4be9-8dc2-dee2d1cc9b48")
-	)
 	(hierarchical_label "HALL_C3"
 		(shape input)
 		(at 229.87 109.22 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1134,7 +1144,6 @@
 	(hierarchical_label "PHASE_V1"
 		(shape input)
 		(at 86.36 93.98 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1146,7 +1155,6 @@
 	(hierarchical_label "HALL_A3"
 		(shape input)
 		(at 229.87 106.68 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1158,7 +1166,6 @@
 	(hierarchical_label "PHASE_W1"
 		(shape input)
 		(at 86.36 99.06 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1170,7 +1177,6 @@
 	(hierarchical_label "HALL_A1"
 		(shape input)
 		(at 82.55 107.95 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1182,7 +1188,6 @@
 	(hierarchical_label "PHASE_U2"
 		(shape input)
 		(at 161.29 88.9 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1194,7 +1199,6 @@
 	(hierarchical_label "HALL_A2"
 		(shape input)
 		(at 157.48 107.95 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1206,7 +1210,6 @@
 	(hierarchical_label "PHASE_V3"
 		(shape input)
 		(at 233.68 92.71 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1218,7 +1221,6 @@
 	(hierarchical_label "HALL_B2"
 		(shape input)
 		(at 157.48 105.41 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1230,7 +1232,6 @@
 	(hierarchical_label "PHASE_U3"
 		(shape input)
 		(at 233.68 87.63 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1242,7 +1243,6 @@
 	(hierarchical_label "HALL_B1"
 		(shape input)
 		(at 82.55 105.41 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1254,7 +1254,6 @@
 	(hierarchical_label "PHASE_W2"
 		(shape input)
 		(at 161.29 99.06 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1266,7 +1265,6 @@
 	(hierarchical_label "PHASE_V2"
 		(shape input)
 		(at 161.29 93.98 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1278,7 +1276,6 @@
 	(hierarchical_label "HALL_B3"
 		(shape input)
 		(at 229.87 104.14 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1290,7 +1287,6 @@
 	(hierarchical_label "HALL_C1"
 		(shape input)
 		(at 82.55 110.49 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1302,7 +1298,6 @@
 	(hierarchical_label "PHASE_U1"
 		(shape input)
 		(at 86.36 88.9 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1314,7 +1309,6 @@
 	(hierarchical_label "HALL_C2"
 		(shape input)
 		(at 157.48 110.49 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1326,7 +1320,6 @@
 	(hierarchical_label "PHASE_W3"
 		(shape input)
 		(at 233.68 97.79 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
