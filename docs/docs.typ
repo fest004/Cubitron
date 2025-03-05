@@ -1,8 +1,6 @@
 #set text(font:"Source Serif 4 18pt", size: 11pt)
 #show heading: set text(font:"Source Serif 4", style: "italic", weight: "black")
-// #show math.equation : set text(font:"TeX Gyre Schola Math",size: 10.5pt)
-#show math.equation : set text(font:"STIX Two Math",size: 11pt)
-// #show math.equation : set text(font:"Erewhon Math",size: 11pt)
+#show math.equation : set text(font:"TeX Gyre Schola Math",size: 10.5pt)
 #show heading.where(level:1): h => {
   set align(center)
   set text(font:"Source Serif 4",weight: "bold", style: "italic")
