@@ -294,6 +294,295 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:Q_NMOS"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q16"
+				(at 6.35 1.2701 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "NMOS 30V 70A"
+				(at 6.096 -1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "footprints:IPD047N03LF2SATMA1"
+				(at 5.08 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "N-MOSFET transistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "NMOS N-MOS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Q_NMOS_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.921 0.381) (xy 3.683 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Q_NMOS_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -408,311 +697,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "IPD047N03LF2SATMA1:IPD047N03LF2SATMA1"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 11.43 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "IPD047N03LF2SATMA1"
-				(at 11.43 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "IPD047N03LF2SATMA1"
-				(at 11.43 -98.73 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-IPD047N03LF2S-DataSheet-v01_00-EN.pdf?fileId=8ac78c8c92416ca50192b89c5f296484"
-				(at 11.43 -198.73 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "N-Channel 30 V 71A (Tc) 65W (Tc) Surface Mount PG-TO252-3"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "2.52"
-				(at 11.43 -398.73 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" ""
-				(at 11.43 -498.73 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" ""
-				(at 11.43 -598.73 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "Infineon"
-				(at 11.43 -698.73 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "IPD047N03LF2SATMA1"
-				(at 11.43 -798.73 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "IPD047N03LF2SATMA1_1_1"
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 5.08) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.842 5.588) (xy 5.842 4.572)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.842 2.54) (xy 6.858 3.048) (xy 6.858 2.032) (xy 5.842 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.842 2.032) (xy 5.842 3.048)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.842 0) (xy 7.62 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.842 -0.508) (xy 5.842 0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 6.35 2.54)
-					(radius 3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 5.08) (xy 5.842 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 5.08) (xy 7.62 7.62)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 2.54) (xy 5.842 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 2.54) (xy 7.62 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 10.16 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1230,10 +1214,11 @@
 	)
 	(text "Brake chopper circuit to protect\nagainst voltage spikes"
 		(exclude_from_sim no)
-		(at 111.252 92.456 0)
+		(at 127.508 92.964 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(face "Source Serif 4")
+				(size 1.524 1.524)
 			)
 		)
 		(uuid "5fdc7625-320c-4d38-9d68-800de51a5214")
@@ -1242,13 +1227,7 @@
 		(at 170.18 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3dfbc036-d7e3-4711-9ecd-bfa37b1184ce")
-	)
-	(junction
-		(at 187.96 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7f6a3281-53a3-4f2f-99cd-3e89586f8188")
+		(uuid "22fa329e-9f63-42f4-a851-599ad71bd13b")
 	)
 	(junction
 		(at 115.57 115.57)
@@ -1293,7 +1272,7 @@
 			(xy 113.03 111.76) (xy 115.57 111.76)
 		)
 		(stroke
-			(width 0)
+			(width 0.1524)
 			(type default)
 		)
 		(uuid "151122d9-ebdf-49bd-bca9-dc965a42cc1a")
@@ -1303,17 +1282,27 @@
 			(xy 140.97 114.3) (xy 148.59 114.3)
 		)
 		(stroke
-			(width 0)
+			(width 0.1524)
 			(type default)
 		)
 		(uuid "1de633b4-71ce-459d-bca0-557ef1d442ca")
 	)
 	(wire
 		(pts
+			(xy 170.18 104.14) (xy 170.18 109.22)
+		)
+		(stroke
+			(width 0.1524)
+			(type default)
+		)
+		(uuid "1e23a90d-d1f5-42c3-91a8-6bcc10c13644")
+	)
+	(wire
+		(pts
 			(xy 187.96 93.98) (xy 187.96 104.14)
 		)
 		(stroke
-			(width 0)
+			(width 0.1524)
 			(type default)
 		)
 		(uuid "2f3cf509-3de9-4441-96d8-e58237e993fe")
@@ -1323,7 +1312,7 @@
 			(xy 170.18 93.98) (xy 170.18 96.52)
 		)
 		(stroke
-			(width 0)
+			(width 0.1524)
 			(type default)
 		)
 		(uuid "487fc09e-641e-412b-a863-4d88ffbe22db")
@@ -1333,7 +1322,7 @@
 			(xy 184.15 93.98) (xy 187.96 93.98)
 		)
 		(stroke
-			(width 0)
+			(width 0.1524)
 			(type default)
 		)
 		(uuid "5366d80f-3e10-4b0f-85f5-22fc24afb503")
@@ -1343,27 +1332,17 @@
 			(xy 115.57 105.41) (xy 115.57 106.68)
 		)
 		(stroke
-			(width 0)
+			(width 0.1524)
 			(type default)
 		)
 		(uuid "576b58c3-b04d-4318-82f4-3e37a5c41a93")
 	)
 	(wire
 		(pts
-			(xy 187.96 104.14) (xy 187.96 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7f329f6d-dd7f-4a09-81fc-4d34420f683d")
-	)
-	(wire
-		(pts
 			(xy 101.6 106.68) (xy 115.57 106.68)
 		)
 		(stroke
-			(width 0)
+			(width 0.1524)
 			(type default)
 		)
 		(uuid "7fbc9e54-3861-48ba-bd5b-389bfd6b0924")
@@ -1373,7 +1352,7 @@
 			(xy 170.18 104.14) (xy 187.96 104.14)
 		)
 		(stroke
-			(width 0)
+			(width 0.1524)
 			(type default)
 		)
 		(uuid "83815bb4-0898-4d5b-b05f-0f89637c562a")
@@ -1383,7 +1362,7 @@
 			(xy 170.18 119.38) (xy 170.18 125.73)
 		)
 		(stroke
-			(width 0)
+			(width 0.1524)
 			(type default)
 		)
 		(uuid "9255434d-4e49-422b-b502-87b3f803e91f")
@@ -1393,7 +1372,7 @@
 			(xy 101.6 107.95) (xy 101.6 106.68)
 		)
 		(stroke
-			(width 0)
+			(width 0.1524)
 			(type default)
 		)
 		(uuid "92a16fe5-d2b5-4f98-b4e7-611da9d11397")
@@ -1403,7 +1382,7 @@
 			(xy 156.21 114.3) (xy 162.56 114.3)
 		)
 		(stroke
-			(width 0)
+			(width 0.1524)
 			(type default)
 		)
 		(uuid "bd266109-91ae-4223-8997-48e45320800b")
@@ -1413,7 +1392,7 @@
 			(xy 170.18 93.98) (xy 176.53 93.98)
 		)
 		(stroke
-			(width 0)
+			(width 0.1524)
 			(type default)
 		)
 		(uuid "c1da8066-fc4a-47a8-918e-d2e4462afc98")
@@ -1423,7 +1402,7 @@
 			(xy 115.57 115.57) (xy 115.57 114.3)
 		)
 		(stroke
-			(width 0)
+			(width 0.1524)
 			(type default)
 		)
 		(uuid "ce31cb1d-1bfd-490d-874d-fbcd60459054")
@@ -1433,7 +1412,7 @@
 			(xy 170.18 93.98) (xy 170.18 91.44)
 		)
 		(stroke
-			(width 0)
+			(width 0.1524)
 			(type default)
 		)
 		(uuid "d2841910-3658-4640-90a3-4e237eb1f7c4")
@@ -1443,7 +1422,7 @@
 			(xy 115.57 116.84) (xy 115.57 115.57)
 		)
 		(stroke
-			(width 0)
+			(width 0.1524)
 			(type default)
 		)
 		(uuid "f6781aae-db78-4f4a-91f4-882969972cb6")
@@ -1453,7 +1432,7 @@
 			(xy 101.6 115.57) (xy 115.57 115.57)
 		)
 		(stroke
-			(width 0)
+			(width 0.1524)
 			(type default)
 		)
 		(uuid "fd6c62a9-3082-4f2f-9ccd-1c2bc1eef302")
@@ -1478,7 +1457,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "01768afb-62b1-4cff-bbdf-4e08e0fd0958")
-		(property "Reference" "#PWR0237"
+		(property "Reference" "#PWR0190"
 			(at 115.57 109.22 0)
 			(effects
 				(font
@@ -1488,7 +1467,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 109.728 101.092 0)
+			(at 113.538 100.076 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1529,7 +1508,7 @@
 		(instances
 			(project "motordriver"
 				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/b977032d-c198-45ad-beed-28303ac860a9"
-					(reference "#PWR0237")
+					(reference "#PWR0190")
 					(unit 1)
 				)
 			)
@@ -1544,7 +1523,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0505b8f6-3b86-4bab-b016-bc4dbda2ee85")
-		(property "Reference" "#PWR0238"
+		(property "Reference" "#PWR0191"
 			(at 115.57 123.19 0)
 			(effects
 				(font
@@ -1554,12 +1533,13 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 110.744 117.094 0)
+			(at 114.3 121.412 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -1595,7 +1575,7 @@
 		(instances
 			(project "motordriver"
 				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/b977032d-c198-45ad-beed-28303ac860a9"
-					(reference "#PWR0238")
+					(reference "#PWR0191")
 					(unit 1)
 				)
 			)
@@ -1610,7 +1590,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2124dca0-e43a-4244-ba64-29d282fa6512")
-		(property "Reference" "D57"
+		(property "Reference" "D54"
 			(at 164.084 98.806 90)
 			(effects
 				(font
@@ -1714,7 +1694,7 @@
 		(instances
 			(project "motordriver"
 				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/b977032d-c198-45ad-beed-28303ac860a9"
-					(reference "D57")
+					(reference "D54")
 					(unit 1)
 				)
 			)
@@ -1729,7 +1709,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "314428d5-6389-4f85-8e7e-81da186279da")
-		(property "Reference" "R88"
+		(property "Reference" "R76"
 			(at 180.086 88.138 90)
 			(effects
 				(font
@@ -1781,73 +1761,7 @@
 		(instances
 			(project ""
 				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/b977032d-c198-45ad-beed-28303ac860a9"
-					(reference "R88")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 187.96 106.68 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "772c7bb9-7c6c-4fcc-b834-7e78947950d8")
-		(property "Reference" "#PWR0241"
-			(at 187.96 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 187.96 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 187.96 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 187.96 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 187.96 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c597fe7f-7a6d-43a3-944a-ecb8d2e9a469")
-		)
-		(instances
-			(project "motordriver"
-				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/b977032d-c198-45ad-beed-28303ac860a9"
-					(reference "#PWR0241")
+					(reference "R76")
 					(unit 1)
 				)
 			)
@@ -1862,7 +1776,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8da0919e-13fb-4c26-9ead-a52429259ac5")
-		(property "Reference" "#PWR0239"
+		(property "Reference" "#PWR0192"
 			(at 170.18 95.25 0)
 			(effects
 				(font
@@ -1872,7 +1786,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 164.338 89.662 0)
+			(at 167.894 86.614 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1913,7 +1827,79 @@
 		(instances
 			(project "motordriver"
 				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/b977032d-c198-45ad-beed-28303ac860a9"
-					(reference "#PWR0239")
+					(reference "#PWR0192")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Q_NMOS")
+		(at 167.64 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ae26fa0e-dcce-4aa4-b433-4d35870fa490")
+		(property "Reference" "Q16"
+			(at 173.99 113.0299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NMOS 30V 70A"
+			(at 173.736 115.824 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "footprints:IPD047N03LF2SATMA1"
+			(at 172.72 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-MOSFET transistor"
+			(at 167.64 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "20dd88d4-cccf-42c2-af36-268154fa882b")
+		)
+		(pin "3"
+			(uuid "7d38a174-11d7-444a-b9f3-aeb1cc9ab4ac")
+		)
+		(pin "2"
+			(uuid "2e50279a-a8f0-422d-8e9c-577abd480b48")
+		)
+		(instances
+			(project ""
+				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/b977032d-c198-45ad-beed-28303ac860a9"
+					(reference "Q16")
 					(unit 1)
 				)
 			)
@@ -1928,7 +1914,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c0644f05-498d-467d-b68a-cce665ae2fc9")
-		(property "Reference" "R87"
+		(property "Reference" "R75"
 			(at 152.4 109.982 90)
 			(effects
 				(font
@@ -1980,7 +1966,7 @@
 		(instances
 			(project "motordriver"
 				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/b977032d-c198-45ad-beed-28303ac860a9"
-					(reference "R87")
+					(reference "R75")
 					(unit 1)
 				)
 			)
@@ -1996,7 +1982,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c7e967ab-663a-49a6-b579-87eb86a6e720")
-		(property "Reference" "IC12"
+		(property "Reference" "IC11"
 			(at 128.27 99.06 0)
 			(effects
 				(font
@@ -2121,7 +2107,7 @@
 		(instances
 			(project "motordriver"
 				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/b977032d-c198-45ad-beed-28303ac860a9"
-					(reference "IC12")
+					(reference "IC11")
 					(unit 1)
 				)
 			)
@@ -2136,7 +2122,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dbd2d51e-4ba9-4d24-944c-62a5c774c474")
-		(property "Reference" "C119"
+		(property "Reference" "C110"
 			(at 94.488 113.538 0)
 			(effects
 				(font
@@ -2190,7 +2176,7 @@
 		(instances
 			(project "motordriver"
 				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/b977032d-c198-45ad-beed-28303ac860a9"
-					(reference "C119")
+					(reference "C110")
 					(unit 1)
 				)
 			)
@@ -2206,7 +2192,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e5a6a024-ce86-4513-b98a-6ffa30153e4d")
-		(property "Reference" "#PWR0240"
+		(property "Reference" "#PWR0193"
 			(at 170.18 132.08 0)
 			(effects
 				(font
@@ -2221,6 +2207,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -2256,141 +2243,7 @@
 		(instances
 			(project "motordriver"
 				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/b977032d-c198-45ad-beed-28303ac860a9"
-					(reference "#PWR0240")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "IPD047N03LF2SATMA1:IPD047N03LF2SATMA1")
-		(at 162.56 114.3 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e632e614-d509-4075-8caa-ce08ab086a5f")
-		(property "Reference" "Q20"
-			(at 170.942 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "30V 71A"
-			(at 171.704 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "kuben-footprints:IPD047N03LF2SATMA1"
-			(at 173.99 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-IPD047N03LF2S-DataSheet-v01_00-EN.pdf?fileId=8ac78c8c92416ca50192b89c5f296484"
-			(at 173.99 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "N-Channel 30 V 71A (Tc) 65W (Tc) Surface Mount PG-TO252-3"
-			(at 162.56 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "N-Channel 30 V 71A (Tc) 65W (Tc) Surface Mount PG-TO252-3"
-			(at 173.99 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Height" "2.52"
-			(at 173.99 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 173.99 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 173.99 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Infineon"
-			(at 173.99 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "IPD047N03LF2SATMA1"
-			(at 173.99 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "72262dde-d931-4e8f-9a50-2e8bafc0b13d")
-		)
-		(pin "2"
-			(uuid "a6f95c58-2b95-430a-8899-5ee980349c72")
-		)
-		(pin "1"
-			(uuid "2e491efd-a9b9-4ab7-9210-50adecfec46a")
-		)
-		(instances
-			(project "motordriver"
-				(path "/c7634e88-16d1-45ec-9aac-9c841e03cf6d/b977032d-c198-45ad-beed-28303ac860a9"
-					(reference "Q20")
+					(reference "#PWR0193")
 					(unit 1)
 				)
 			)
