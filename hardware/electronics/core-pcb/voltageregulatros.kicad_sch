@@ -6755,7 +6755,7 @@
 			)
 		)
 		(property "Value" "220µF 35V"
-			(at 229.108 48.514 90)
+			(at 227.33 49.276 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9293,7 +9293,7 @@
 			)
 		)
 		(property "Value" "4.7Vf 0.5A"
-			(at 52.578 93.218 90)
+			(at 55.118 93.472 90)
 			(effects
 				(font
 					(size 1.27 1.27)
