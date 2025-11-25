@@ -3,23 +3,32 @@
 #show: style
 
 // Title Block
-#text(size: 24pt, weight: "bold")[Design Specification]\
+#text(size: 24pt, weight: "bold")[KUBEN]\
 #text(size: 18pt, weight: "semibold")[3-Axis Balancing Cube]\
-#text(size: 12pt)[Hardware Revision 1.0] \
+Hardware Revision 1.0 \
 #line(length: 100%)
 
 = About The Project
 This document outlines the electrical and mechanical architecture for a 15cm³ self-balancing reaction wheel robot. The system utilizes Model Predictive Control (MPC) or Linear Quadratic Regulation (LQR) to handle the coupled dynamics of three orthogonal axes.
 
 #box-text()[
-*Key Design Desicions*
-- *Dimensions:* 15cm × 15cm × 15cm
-- *Power Source:* 4S LiPo (16.8V Peak)
-- *Compute:* ESP32-S3 (Dual Core)
-- *Motor Drivers:* TI DRV8316
+*Specs*
+- *Dimensions*: 15cm × 15cm × 15cm
+- *Power Source*: 4S LiPo (16.8V Peak)
+- *Peak Current*: 12A (4A per motor) 
 ]
 
-#figure(include "figures/block.typ", caption:[block diagram])
+#box-text()[
+*Key Components*
+- *Compute*: ESP32
+- *Motor Driver*: DRV
+- *Sensor*: IMU
+]
+
+#v(1cm)
+#figure(include "figures/rigsketch.typ", caption:[sketch])
+#v(2cm)
+#figure(include "figures/block.typ", caption:[block diagram of the controll circuit])
 
 #pagebreak()
 
