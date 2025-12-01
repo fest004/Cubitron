@@ -27,8 +27,6 @@ This document outlines the electrical and mechanical architecture for a 15cm³ s
 
 #v(1cm)
 #figure(include "figures/rigsketch.typ", caption:[sketch])
-#v(2cm)
-#figure(include "figures/block.typ", caption:[block diagram of the controll circuit])
 
 #pagebreak()
 
@@ -36,10 +34,6 @@ This document outlines the electrical and mechanical architecture for a 15cm³ s
   set text(font: "Geist", weight: "medium", size: 10pt)
   outline(depth:3, indent: auto)
 }
-
-#v(.5em)
-#text(size: 9pt, weight: "medium")[
-]
 
 #pagebreak()
 
@@ -52,6 +46,8 @@ The system is designed around a centralized controller (ESP32-S3) that manages t
 - *Processing:* ESP32-S3-WROOM-1 Module.
 - *Outputs:* 3x PWM signals (U, V, W) to Gate Drivers.
 - *Actuation:* 3x BLDC Motors (Gimbal Type) via DRV8316.
+
+#figure(include "figures/block.typ", caption:[block diagram of the controll circuit])
 
 = Electronics Design
 The PCB is a custom 4-layer board designed for high vibration resistance and thermal dissipation.
